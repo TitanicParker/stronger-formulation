@@ -1,878 +1,624 @@
-# Expert Brief — Segregation, Duty, Breach, Harm, Causation and Questions for Opinion
+# Expert Brief — Founding Segregation, Duty, Breach, Harm and Causation
 
-**Status:** REVISED EXPERT-FACING WORKING BRIEF  
-**Core issue:** Whether an unresolved neurological–foot relationship was prematurely converted into a separate clinical and documentary pathway, and what consequences followed.  
-**Purpose:** To obtain a threshold-specific expert opinion on whether the segregation of the painful feet from the neurological formulation was clinically justified, whether later evidence required reintegration, and whether any failure materially worsened outcome.
+**Status:** AUDITED EXPERT-FACING WORKING BRIEF  
+**Purpose:** Obtain independent neurological opinion on whether the painful feet were permitted to proceed as a separate clinical problem before their relationship to the detected movement disorder had been adequately investigated; whether later evidence required reintegration; and what incremental harm, if any, probably followed.
+
+**Controlling source rule:** This brief is subordinate to `SRC_COMPLETE_RECORD_FORENSIC.md` and `FACTUAL_SPINE.md`. It does not convert documentary gaps into findings of non-performance, negligence or causation.
 
 ---
 
-# 1. Central proposition
+# 1. The narrow question
 
-The central problem is **not unresolvedness**.
+The case is not that uncertainty was impermissible.
 
-Clinical uncertainty is permissible.
+The case is not that Podiatry was inappropriate.
 
-The question is what happened **because the relationship remained unresolved**.
+The case is not that every foot lesion was neurological.
 
-The working proposition is:
-
-> **The founding neurological record did not resolve the relationship between the abnormal lower-limb movement disorder and the painful abnormal feet. Instead, while the neurological syndrome was progressively resolved, the unresolved foot relationship was given a separate documentary and operational disposition. A neurological–foot boundary was therefore placed into the record before the underlying relationship had been adequately determined. Later evidence repeatedly crossed that boundary, but was largely handled within the compartments the record had created rather than used to reconstruct the original integrated problem.**
-
-Shortest form:
-
-> **The relationship was unresolved.  
-> The segregation was imposed.  
-> Later evidence crossed it.  
-> The segregation survived.**
-
-The expert is therefore not asked:
-
-> **Was all the foot pain Parkinsonian?**
+The case is not that Parkinsonism was wrongly diagnosed.
 
 The expert is asked:
 
-> **Was there a sound neurological basis for segregating the disabling feet from the movement-disorder formulation before their relationship had been adequately investigated; and, once later evidence repeatedly crossed that segregation, what should reasonable neurological practice have done?**
+> **What clinical work justified permitting the painful structural feet to proceed separately from a detected dystonic-looking lower-limb motor disorder before the relationship between them had been adequately determined?**
+
+Shortest formulation:
+
+> **The relationship was unresolved. The separation was permitted. What work earned it?**
 
 ---
 
-# 2. Why segregation matters clinically
+# 2. What entered Neurology
 
-The GP sent an integrated clinical problem into Neurology:
+The 2017 primary-care record already contained genuine structural foot disease and a Podiatry pathway.
 
-> **painful abnormal feet + abnormal gait + pathological tone / movement disorder → determine their relationship.**
+On 10 April 2017 primary care documented abnormal gait, bilateral foot pain, marked mallet toes, callus / pressure areas and difficulty working on the feet, with Podiatry planned.
 
-Neurology then identified:
+By 29 June the urgent referral combined:
 
-- severe young-onset Parkinsonism;
-- marked rigidity / bradykinesia;
-- a strikingly abnormal gait;
-- a lower-limb / foot-drop-like phenomenon considered dystonic rather than true foot drop;
-- toe deformity / clawing;
-- pes planus / hammertoes;
-- and genuine structural foot pathology.
+- bilateral foot problems;
+- unusual stiff / festinant gait;
+- difficulty initiating movement;
+- marked increased tone / stiffness;
+- brisk reflexes;
+- toe clawing in bed;
+- inability to relax;
+- worsening dexterity;
+- deteriorating function.
 
-The neurological syndrome became highly formulated.
+The feet therefore did **not** arrive as a problem already proven neurologically independent.
 
-The foot relationship did not.
+At the same time, Podiatry was not a new pathway created by Neurology. On 6 July the GP recorded:
 
-The central concern is therefore not simply that the feet were left uncertain. It is that the unresolved relationship may have been **converted into segregation**:
+> **“Phoned podiatry to discuss case - will mark as priority case and as Parkinson's - should be called mid September.”**
 
-> **Neurological syndrome → Neurology**  
-> **Painful structural feet → Podiatry / separate pain pathway**  
-> **Relationship between them → “Not Clear”**
+The expert should therefore distinguish:
 
-If that segregation was clinically unearned, it had two potentially harmful effects.
+> **appropriate parallel structural care**
 
-## 2.1 Direct clinical effect
+from
 
-Segregation can remove the **relationship itself** from active clinical ownership.
-
-The patient may remain fully visible to multiple services while the integrated problem disappears as an object of inquiry.
-
-Possible consequence:
-
-> **motor state, gait, loading, structural pathology and pain are each treated locally while no clinician owns what they mean together.**
-
-## 2.2 Downstream information effect
-
-The specialist discharge account can also alter what primary care reasonably understands.
-
-The GP had sent in the integrated question.
-
-The specialist record returned:
-
-- a strongly resolved neurological syndrome;
-- a separate podiatric pathway;
-- and the residual relationship as “Not Clear.”
-
-The GP cannot necessarily distinguish:
-
-> **we investigated this relationship adequately and separation is clinically justified**
-
-from:
-
-> **we never adequately resolved the relationship before allowing the problems to proceed separately.**
-
-If the latter is what occurred, then the segregation is not merely organisational.
-
-> **It changes the future information environment and may reduce primary care’s ability to recognise that the original neurological question remains clinically open.**
+> **clinical segregation of the unresolved neurological relationship.**
 
 ---
 
-# 3. Duty
+# 3. What Neurology actually detected
 
-The ordinary doctor–patient duty is not the contested issue.
+The July neurological record documents:
 
-The expert must define what **reasonable neurological practice required in the actual circumstances**.
+- markedly increased tone;
+- brisk reflexes;
+- lead-pipe / axial rigidity;
+- gross bradykinesia;
+- absent arm swing;
+- a **“strikingly abnormal”** gait;
+- a foot-drop-like appearance described as suggestive of dystonic posture and expressly **“NOT FOOT DROP”**;
+- pes planus;
+- hammertoes;
+- mild / minimal oedema;
+- a videoed examination.
 
-The working duty formulation is:
+Physiotherapy and Occupational Therapy are also listed as consulted.
 
-> **Neurology did not have to own every structural foot lesion. It may nevertheless have had to retain ownership of the unresolved neurological relationship and avoid treating the feet as clinically separate until there was a reasonable basis for doing so.**
+The lower-limb sign was therefore not missed.
 
-The expert should therefore address whether reasonable neurological practice required Neurology to:
+The expert question is narrower:
 
-1. investigate the relationship between abnormal motor state and painful feet proportionately;
-2. avoid premature or unsupported segregation of the feet from the neurological formulation;
-3. preserve the relationship as an **active unresolved neurological question** if it could not yet be answered;
-4. obtain or deploy movement-disorders / relevant expertise where reasonably indicated;
-5. ensure that Podiatry was asked a clinically meaningful integrative question where neurological influence remained possible;
-6. establish a return / feedback mechanism where separate specialty treatment was used;
-7. communicate the true state of uncertainty to primary care without making incomplete investigation appear to be settled specialist uncertainty;
-8. reconsider the segregation when later evidence materially crossed it.
+> **What work connected that neurological sign to, or excluded it from, the painful structural feet?**
 
-The essential duty question is:
-
-> **What level of clinical work was required before reasonable Neurology could permit the feet to proceed as a separate problem?**
-
----
-
-# 4. Breach
-
-Uncertainty itself is not breach.
-
-Podiatry referral itself is not breach.
-
-Structural foot pathology itself is not proof of breach.
-
-The core potential breach is:
-
-> **segregation before the clinical relationship had been adequately investigated or before reasonable grounds for separate management had been established.**
-
-The central breach test is therefore:
-
-> **What clinical work justified the separation?**
-
-The expert should distinguish:
-
-> **appropriate decomposition after adequate assessment**
-
-from:
-
-> **premature segregation of an unresolved integrated problem.**
-
-The potential breaches must remain date-specific.
+Do not infer that no relationship-directed work occurred merely because the surviving text does not demonstrate it. The 2017 video and any original Physio / OT notes are potentially important additional sources.
 
 ---
 
-# 5. Harm
+# 4. The final specialist foot proposition
 
-The harm theory is no longer simply:
+The final synthesis states that the leg / foot symptoms including corns, callouses and burning:
 
-> **the feet remained unresolved.**
+> **“may have been completely separate”**
 
-Unresolvedness alone causes no compensable injury.
+or perhaps represented secondary peripheral neuropathy, and concludes:
 
-The potentially harmful event is:
+> **“Not clear.”**
 
-> **an unnecessary or premature segregation of the painful feet from the neurological problem, if expert evidence so finds.**
+It then records that the patient had:
 
-That creates two causation pathways.
+> **“in his own mind - markedly divorced”**
 
-## 5.1 Direct patient-harm pathway
+his feelings of leg / bodily tension from corns, callouses and foot pains.
 
-> **integrated problem  
-> → unresolved relationship  
-> → premature segregation  
-> → loss of integrative ownership  
-> → neurological and mechanical information held in separate streams  
-> → delayed recognition / treatment of a neurologically modifiable or mixed component  
-> → additional pain, abnormal loading, structural morbidity, mobility restriction or functional loss.**
+The underlying history was that foot pain reduced with reduced standing exposure while bodily tension persisted.
 
-Potential harms for expert assessment include:
+The expert must distinguish:
 
-- additional duration or severity of foot pain;
-- additional gait / standing disability;
-- prolonged abnormal loading;
-- delayed recognition of dystonia, OFF-state phenomena or another neurologically modifiable component;
-- delayed alteration of posture / gait / medication / orthotic or multidisciplinary management;
-- additional recurrence or progression of structural lesions where abnormal neurological loading probably contributed;
-- additional restriction of work, walking, exercise and ordinary life;
-- later psychological distress attributable to prolonged severe pain, if separately established.
+> **phenomenological non-identity**
 
-## 5.2 Primary-care / information-harm pathway
+from
 
-> **integrated GP referral  
-> → specialist segregation  
-> → authoritative discharge state  
-> → GP reasonably understands the integrated question to have been investigated and left residually uncertain / separate  
-> → reduced reason or ability to reopen the neurological relationship  
-> → fragmented longitudinal management persists.**
+> **mechanistic independence.**
 
-This does **not** assume that the GP was incapable of independent thought.
+The central question is:
 
-The question is whether the specialist information state materially altered the clinical environment in which primary care interpreted later evidence.
-
-The expert should therefore consider:
-
-> **Did the specialist segregation deprive primary care of information that would reasonably have caused the GP to seek earlier neurological reintegration?**
+> **Did the clinical work actually performed justify moving from different symptom behaviour to possible complete separation, peripheral neuropathy and a separate practical pathway?**
 
 ---
 
-# 6. Causation
+# 5. Conservative complete-record examination audit
 
-For every breach found, breach and causation must remain separate.
+A record-wide audit identifies twenty examination / question domains for which no adequate documentary counterpart has presently been found anywhere in the complete reviewed record:
 
-The causation chain should be expressed as:
+1. foot pain specifically characterised at rest;
+2. great-toe extension as dystonic posture;
+3. directed ankle twisting / dystonic torsion assessment;
+4. foot posture while sitting;
+5. backward walking;
+6. heel walking;
+7. toe walking;
+8. tandem walking;
+9. heel strike;
+10. Achilles reflex;
+11. a true ankle-clonus test;
+12. plantar response / Babinski;
+13. formal light-touch foot sensory testing;
+14. formal pinprick foot sensory testing;
+15. vibration at the great toe;
+16. joint-position / proprioception testing;
+17. capillary refill / foot temperature / colour examination;
+18. focal bony tenderness;
+19. plantar-fascia tenderness;
+20. Achilles-tendon tenderness.
 
-> **competent integrated assessment / reassessment  
-> → probable finding  
-> → probable avoidance or reversal of segregation  
-> → probable integrated management  
-> → probable change in motor state / gait / loading / pain / structural pathology  
-> → probable reduction in later morbidity.**
+This list is **not** a contention that all twenty manoeuvres were mandatory or that they were definitely not performed.
 
-The central causation question is:
+The expert should identify which of these, or what equivalent examination, reasonable neurological practice would actually have required in this presentation.
 
-> **If competent care had occurred using only the information available at that threshold, is it more likely than not that the unnecessary segregation would have been avoided or reversed, and that the duration or severity of pain, structural injury, functional limitation or psychological distress would have been materially reduced?**
-
-For every causal opinion the expert should identify:
-
-1. what competent care would probably have done;
-2. what it would probably have found;
-3. whether that finding would probably have prevented or reversed segregation;
-4. what integrated management would probably have followed;
-5. what outcome would probably have changed;
-6. what harm would probably have occurred anyway;
-7. and which propositions are probable, possible only, or indeterminate.
-
----
-
-# 7. Governing evidential disciplines
-
-## 7.1 Temporal firewall
-
-Later evidence may test an earlier formulation.
-
-It must not be used to make an earlier decision unreasonable unless the expert separately establishes what was actually knowable and required then.
-
-Keep separate:
-
-- July 2017 bedside state;
-- the Protest / decision-live state;
-- post-departure synthesis;
-- September–October 2017 treatment evidence;
-- April 2018 reopening evidence;
-- later longitudinal crossings;
-- 2023 reassessment / safeguarding;
-- later complaint / governance material;
-- 2026 genetic clarification.
-
-## 7.2 Relationship, uncertainty and segregation are different objects
-
-The expert should keep three things separate:
-
-### Relationship
-
-> **What is the connection, if any, between motor disorder, gait, loading, structural foot pathology and pain?**
-
-### Uncertainty
-
-> **The relationship has not yet been adequately determined.**
-
-### Segregation / boundary
-
-> **The record and care pathway nevertheless permit the feet to proceed as a separate clinical problem.**
-
-The case is concerned with whether **segregation was justified before the relationship was resolved**.
-
-## 7.3 Detection is not integration
-
-The lower-limb sign was seen and neurologically characterised.
-
-The question is whether it was adequately integrated with the painful feet.
-
-## 7.4 Capability is not bedside application
-
-Always distinguish:
-
-> **Capability → Participation → Bedside Application**
-
-Do not infer patient-specific bedside care from departmental expertise alone.
-
-## 7.5 Structural pathology is not structural independence
-
-The expert is not asked to dispute genuine podiatric disease.
-
-The question is whether the structural pathology was:
-
-- independent;
-- neurologically influenced;
-- or mixed.
-
-## 7.6 Updating is not rebuilding
-
-Later local recognition of OFF phenomena, dystonia, toe curling, pain modulation or mechanical lesions does not automatically establish that the **original segregation was reconsidered**.
+Do not count later-documented matters as absent from the complete record. In 2020, for example, Neurology expressly documents normal dorsiflexion, plantarflexion, inversion and eversion power.
 
 ---
 
-# 8. Full expert questions
+# 6. The peripheral-neuropathy branch
 
-# A. What entered Neurology?
+The final synthesis itself proposed peripheral neuropathy.
 
-1. What clinical problem did the GP actually refer in June/July 2017?
+The complete record does not preserve a formal foot sensory examination documenting light touch, pinprick, vibration or joint-position sense, nor a documented Achilles reflex, plantar response or true ankle-clonus test.
 
-2. Was it reasonable to understand that referral as one integrated clinical problem involving:
-   - painful feet;
-   - abnormal gait;
-   - pathological tone / stiffness;
-   - movement initiation difficulty;
-   - toe clawing / deformity;
-   - abnormal posture or loading;
-   - and deteriorating function?
+The expert should therefore answer:
 
-3. Did the referral itself provide any reasonable basis for treating the foot problem as neurologically independent before specialist assessment?
+> **What positive clinical evidence supported peripheral neuropathy as an explanatory branch?**
 
-4. What clinical task did that referral reasonably place before Neurology?
+and:
 
----
+> **What examination would reasonable practice ordinarily require before neuropathy could perform explanatory work in a case containing burning foot symptoms, structural pathology and a dystonic-looking gait?**
 
-# B. July 2017 bedside assessment
+The controlling distinction is:
 
-5. What is the significance of the July finding of a foot-drop-like lower-limb phenomenon considered dystonic rather than true foot drop?
+> **“Not clear” after adequate discrimination**
 
-6. In the setting of painful structurally abnormal feet, did that finding require examination of whether the motor disorder was contributing to:
-   - foot posture;
-   - toe posture;
-   - gait;
-   - loading;
-   - focal pressure;
-   - or pain?
+versus
 
-7. What examination would ordinarily have been expected of a reasonably competent neurologist?
-
-8. Where clinically appropriate, should that examination have addressed:
-   - dynamic gait;
-   - standing posture;
-   - fixed versus dynamic deformity;
-   - toe posture;
-   - painful sites;
-   - plantar / load-bearing findings;
-   - footwear;
-   - power;
-   - sensory findings;
-   - treatment-state variation;
-   - and the relationship between the painful sites and the abnormal gait?
-
-9. On the surviving record, is there evidence that this relationship was adequately assessed?
-
-10. If the record is insufficient to determine what examination occurred, please say so without assuming that absence of documentation proves absence of examination.
-
-11. Is the stronger clinical issue here:
-   - failure to detect the abnormal lower limb;
-   - or failure adequately to integrate a detected neurological sign with the painful feet?
+> **“Not clear” because the relationship remained insufficiently investigated.**
 
 ---
 
-# C. Was segregation clinically justified?
+# 7. Podiatry: appropriate pathway, unresolved ownership question
 
-12. At what point did the feet begin to be treated operationally as a separate problem?
+Podiatry was already in train before the final neurological synthesis and treated genuine structural disease.
 
-13. What contemporaneous clinical evidence justified that segregation?
+Later records document recurrent fifth-MTPJ pathology, clawing, tight gastroc / soleus, debridement, offloading, toe props and insoles.
 
-14. Had the neurological relationship been sufficiently investigated before the feet were permitted to proceed separately?
+A later GUH response states that Merlin Park Podiatry was part of **Community Healthcare West** and **“is not a hospital service.”**
 
-15. Did the presence of genuine structural pathology provide a sufficient basis for separate management?
+The systems model is therefore not simply two departments inside GUH. It is:
 
-16. What further work, if any, was required before a reasonable neurologist could conclude that separate management was clinically safe?
+> **primary care ↔ GUH Neurology ↔ Community Healthcare West Podiatry.**
 
-17. Was the correct course:
-   - separation;
-   - continued integrated neurological ownership with Podiatry input;
-   - or parallel management with an explicit reintegration mechanism?
+The expert should not criticise Podiatry merely for treating structural lesions.
 
-18. If the relationship remained genuinely uncertain, should that uncertainty have been preserved as an **active integrated problem** rather than converted into a separate pathway?
+The question is:
 
-19. Was there any sound neurological reason, on the information then available, to segregate the disabling feet from the movement-disorder formulation before the relationship had been adequately determined?
+> **Did reasonable Neurology have to retain or create ownership of the neurological relationship while Podiatry treated the local pathology?**
 
-20. If yes, identify that reason and the evidence supporting it.
+The record directly shows that the GP marked the Podiatry case **“as Parkinson's.”** Do not say no neurological information reached Podiatry.
 
-21. If no, explain why the segregation fell below reasonable neurological practice.
+Instead ask:
 
----
-
-# D. Timing and source of the sophisticated neurological / PRKN formulation
-
-22. When did the detailed recessive / PRKN/PARK2 reasoning enter the case?
-
-23. Can it be established whether that reasoning existed:
-   - while the patient remained physically available;
-   - only after departure;
-   - or at an uncertain point?
-
-24. If the reasoning existed while the patient remained present, should it have prompted a **return phenotype-directed examination** of the lower limbs and feet?
-
-25. If it emerged after departure, should the new clinical insight have triggered:
-   - recall;
-   - defined follow-up;
-   - movement-disorders review;
-   - or another mechanism for reintegrating the feet into the neurological formulation?
-
-26. What expertise merely existed in the department?
-
-27. What expertise actually entered this patient-specific case?
-
-28. What expertise actually returned to examine the unresolved phenotype?
-
-29. **Did the expertise that enriched the theory ever return to the body?**
+> **What exact question about dystonia, tone, posture, gait, loading or neurological contribution was transmitted, and what return mechanism existed?**
 
 ---
 
-# E. “Not Clear”
+# 8. The Protest
 
-30. What did “Not Clear” clinically mean?
-
-31. What examination, investigation or reasoning had earned that position?
-
-32. Was it:
-   - residual uncertainty after adequate assessment;
-   - uncertainty resulting from inadequate investigation;
-   - or impossible to determine?
-
-33. When did the operative “Not Clear” state crystallise?
-
-34. Was “Not Clear” compatible with maintaining the feet as an active integrated neurological question?
-
-35. Or did its practical use support / legitimise the segregation of the feet into a separate pathway?
-
-36. Does the sophistication of the surrounding specialist synthesis risk making the foot disposition appear more clinically earned than the documented foot-related work demonstrates?
-
-37. Did the final wording accurately communicate the difference between:
-   - **uncertain despite adequate work**
-   and
-   - **uncertain because the relationship had not been adequately resolved**?
-
----
-
-# F. The Protest
-
-For these questions, assume as fact that the patient said in substance:
+For purposes of this project, assume as fact that the patient said in substance before discharge:
 
 > **You have not dealt with my feet.**
 
-38. What clinical significance should reasonable Neurology have attached to that statement?
+The Protest does not create the possible founding omission.
 
-39. Did it amount to express notice that the original integrated problem remained unfinished?
+It changes the information state:
 
-40. At that point, was the segregation of the feet still clinically reversible?
+> **possible incompleteness → express notice while the patient remains available → maintenance of closure becomes a separate decision-after-notice question.**
 
-41. What would reasonable neurological practice have required before maintaining discharge?
-
-42. Should the feet–gait–tone relationship have been revisited?
-
-43. Was further movement-disorders input required?
-
-44. If immediate specialist review was not required, should a defined reintegration / follow-up pathway have been created?
-
-45. Should the Protest and the clinical response to it have been recorded?
-
-46. Should the GP have been told that closure of the foot question had been expressly contested by the patient?
-
-47. Is there a clinically material difference between:
-   - **feet remain unclear; Podiatry arranged**
-   and
-   - **feet remain unresolved; patient says the presenting problem has not been dealt with; Neurology will retain / revisit the relationship**?
-
-48. If so, what difference would that make to downstream care?
+The expert should address what reasonable practice required at that point.
 
 ---
 
-# G. Podiatry and the segregation mechanism
+# 9. PRKN / expertise timing must remain firewalled
 
-49. Was Podiatry referral itself appropriate?
+Do not project the completed PRKN-rich synthesis backwards into the bedside period.
 
-50. Did appropriate referral to Podiatry justify removing the feet from active neurological ownership?
+A contemporaneous referral to Prof Daniel Healy asks for genetics advice, possible Dublin review and advice on levodopa restraint. It states:
 
-51. What precise question was Podiatry being asked?
+> **“Myself and Tim are keen to hold back on Levodopa…”**
 
-52. Did the handoff ask Podiatry to consider:
-   - dystonia;
-   - tone;
-   - posture;
-   - gait;
-   - neurological loading;
-   - or interaction between motor state and structural pathology?
+The contemporaneous page itself does **not** identify “Tim.” Identification as Timothy Counihan comes from later material and must remain source-separated.
 
-53. Was Podiatry expected merely to treat local lesions?
+The expert should use the timing fork:
 
-54. Were its findings expected to return to Neurology for integrated interpretation?
+> **If recessive / PRKN-type Parkinsonism was already an operative theory while the patient remained available, should it have prompted a phenotype-directed return to the painful feet?**
 
-55. If no return mechanism existed, was this reasonable in a patient whose lower-limb movement had already been characterised neurologically?
+If that theory crystallised later:
 
-56. Did Neurology need to own every foot lesion?
+> **Should it have prompted recall, follow-up or another mechanism for testing the improved theory against the unresolved feet?**
 
-57. If not, did it nevertheless need to own the **relationship** among:
-   - motor state;
-   - gait;
-   - loading;
-   - structural lesion;
-   - pain;
-   - and treatment state?
-
-58. Did the system create competent local owners but no owner of the whole?
+> **Did the expertise that enriched the theory return to the body?**
 
 ---
 
-# H. Effect on primary care
+# 10. Treatment restraint and baseline value
 
-59. What would a reasonable GP understand on receiving the specialist discharge account after an inpatient Neurology admission?
+The expert is not asked to assume that levodopa had to be started in July 2017.
 
-60. Would “Not Clear” reasonably convey that Neurology had investigated the relationship and reached residual uncertainty?
+The record shows a reasoned strategy of caution in a very young patient.
 
-61. Would the discharge account allow the GP to distinguish that state from incomplete neurological investigation?
+The expert should instead address:
 
-62. If the feet had been segregated before the relationship was adequately investigated, should that limitation have been expressly communicated?
-
-63. Should the GP have been told:
-   - what remained unresolved;
-   - whether Neurology believed the feet were truly independent;
-   - what Podiatry was being asked to determine;
-   - what findings should trigger neurological return;
-   - and whether Neurology retained ownership of the relationship?
-
-64. Could failure to communicate those matters reasonably reduce primary care’s ability to recognise that the original neurological question remained open?
-
-65. When later treatment response or recurrence occurred, would a different specialist information state probably have caused a reasonable GP to seek neurological reintegration earlier?
-
-66. If so, when?
+> **If disease-modifying treatment was unavailable and phenotype-changing symptomatic treatment was deliberately deferred, did that increase the value of careful baseline documentation of gait, foot posture, toe posture, painful sites and loading?**
 
 ---
 
-# I. Treatment restraint and baseline preservation
+# 11. Later reopening thresholds: chronology must remain exact
 
-67. Was deliberate restraint with levodopa / dopamine agonists clinically reasonable in this young patient?
+Later evidence cannot make July unreasonable by hindsight. It can create new duties at later dates.
 
-68. If so, did preservation of a relatively untreated motor state increase the value of careful baseline observation?
+## September 2017
 
-69. Should baseline documentation have included:
-   - gait;
-   - foot posture;
-   - toe posture;
-   - painful sites;
-   - dynamic deformity;
-   - loading;
-   - and structural foot findings?
+Healy personally reviewed the patient and recorded probable **PARK II** and substantial response to procyclidine / rasagiline.
 
-70. Was sufficient baseline information preserved to compare later treatment states?
+This strengthens the later neurological phenotype but does not itself resolve the feet.
 
-71. If not, did that omission impair later ability to understand the neurological–foot relationship?
+## October 2017
 
----
+During a planned procyclidine break the contemporaneous patient account states:
 
-# J. September–October 2017 treatment-state crossings
+> **“I am feeling the tension building up, my feet are restless and my walk is falling apart....”**
 
-72. What significance should have been attached to major improvement on neurological medication?
+This is a later co-variation / treatment-state event involving tension, feet and gait.
 
-73. What significance should have been attached to deterioration during procyclidine withdrawal, including:
-   - tension building;
-   - restless feet;
-   - and walking deterioration?
+## April 2018
 
-74. Did these observations show that neurological treatment state was capable of altering phenomena on both sides of the segregation?
+The April 2018 neurological note records, retrospectively, that during the earlier procyclidine withdrawal the first rapidly changing feature involved the outside-left-foot / corn territory.
 
-75. Did they require the original relationship to be reconsidered?
+Do **not** describe this as a second April 2018 dechallenge.
 
-76. What examination or comparison should reasonably have followed?
+The correct question is:
+
+> **By April 2018, once the treating neurologist had himself documented a rapid focal foot-state change during the earlier neurological medication withdrawal, did reasonable care require the founding separation to be reopened?**
+
+Do not say a corn literally disappeared and reappeared pharmacologically.
 
 ---
 
-# K. April 2018 — independent reopening threshold
+# 12. March 2019 transition
 
-77. What significance should be attached to the treating neurologist’s April 2018 record that the first rapidly changing feature after procyclidine withdrawal involved the outside-left-foot / corn territory?
+The 2019 Podiatry referral explicitly links feet to increased tone, abnormal gait and Parkinson's disease and records **“clawing feet”** and pain.
 
-78. Do not assume a structural corn literally disappeared and reappeared pharmacologically.
+The Podiatry system identifies **25 March 2019** as the patient's last recorded attendance.
 
-79. What reasonable mechanisms could explain the observation:
-   - altered pain;
-   - pressure;
-   - loading;
-   - dystonic posture;
-   - tone;
-   - gait;
-   - awareness of an existing lesion;
-   - or mixed mechanism?
+The record supports:
 
-80. Did this observation materially cross the neurological / mechanical segregation created in 2017?
+> **no later active Podiatry attendance / treatment is shown in the available Podiatry record.**
 
-81. **Even if the July segregation or uncertainty had initially been reasonable, did the 2017–April 2018 treatment-state evidence require the original relationship to be reopened? If not, why not?**
+It does not prove an institutional absolute that every Podiatry allocation ceased.
 
-82. If reopening was required, what should competent care have done?
+The later expert question is therefore:
 
-83. What would reassessment probably have found?
-
-84. Would it probably have changed the clinical formulation?
-
-85. Would it probably have reversed or qualified the segregation?
-
-86. What management would probably have followed?
+> **Once the available record no longer shows an active Podiatry treatment stream and Neurology itself increasingly reacquires the feet, when, if ever, should the historical relationship have been reconstructed?**
 
 ---
 
-# L. Structural disease versus structural independence
+# 13. 2020–2025: direct neurological reacquisition and mixed evidence
 
-87. Does a corn, callus, hammertoe, clawed toe, pes planus or fifth-MTPJ lesion establish neurological independence?
+The later record includes:
 
-88. Can structural pathology coexist with or be materially influenced by:
-   - abnormal gait;
-   - dystonia;
-   - rigidity;
-   - abnormal posture;
-   - altered weight transfer;
-   - or treatment-state variation?
+- 2020 Parkinsonian foot throw after normal dorsiflexion / plantarflexion / inversion / eversion power;
+- excessive foot movement and exquisite sensitivity;
+- 2022 feet taking 20–25 minutes to “warm up” in the morning;
+- 2023 severe bilateral foot / lower-leg pain;
+- a neurology formulation raising possible OFF dystonia;
+- a later Movement Disorders contact stating that leg pain and shuffling appeared OFF-related and the patient appeared undertreated;
+- treatment change to Stalevo;
+- the contrary 2023 patient report that he stopped Parkinson medication for ten days and perceived no Parkinson difference, while believing the pain was not Parkinson-related;
+- pregabalin-related pain improvement;
+- persistent toe curling;
+- 2025 acknowledgement that the feet feel better from a pain perspective once Sinemet reaches the system;
+- clinician caution that such improvement may reflect pain modulation rather than direct Parkinsonian pain and that increasing Sinemet risks dyskinesia.
 
-89. Is a mixed neurological / mechanical mechanism clinically plausible here?
+This is mixed evidence and must remain so.
 
-90. What evidence supports or weakens that interpretation?
+The expert is not asked to infer that all pain was dystonia.
 
-91. Would reasonable practice have required investigation of the interaction rather than relying on the existence of structural pathology as a reason for separation?
+The question is:
 
----
-
-# M. Later evidence: did the segregation survive?
-
-92. What significance should be attached to the 2019 GP formulation re-linking feet, tone, abnormal gait and Parkinson’s disease?
-
-93. What significance should be attached to the 2020 Parkinsonian foot-throw / pseudo-footdrop-type finding?
-
-94. What significance should be attached to the 2022 report that the feet took approximately 20–25 minutes to become usable / “warm up” in the morning?
-
-95. What significance should be attached to later:
-   - OFF dystonia;
-   - OFF-related leg pain / shuffling;
-   - persistent toe curling;
-   - pregabalin-responsive pain;
-   - Sinemet-responsive foot pain?
-
-96. Did those observations cross the original segregation?
-
-97. Did they cause the underlying neurological–foot relationship to be reconstructed?
-
-98. Or were they absorbed locally as:
-   - Podiatry;
-   - pain;
-   - OFF;
-   - dystonia;
-   - medication response;
-   without rebuilding the original whole?
-
-99. At what date, if any, did cumulative evidence make continued segregation clinically unreasonable?
-
-100. If the expert believes the relationship was eventually reconstructed adequately, identify when and how.
+> **At what point, if any, did the cumulative crossings make continued reliance on the founding separation clinically unreasonable?**
 
 ---
 
-# N. 2023 reassessment and safeguarding
+# 14. 2023 reassessment and safety must be treated separately
 
-101. What significance should be attached to the 2023 severe foot/lower-leg pain associated with:
-   - a “death wish”;
-   - GP concern;
-   - debilitating pain;
-   - and “no quality of life”?
+The 2023 record contains genuine reassessment. Credit it.
 
-102. Did this increase the urgency of integrated neurological reassessment?
+It also contains severe pain, mobility restriction, high medication burden and major psychological-endurance language including a reported death wish / no quality of life.
 
-103. Did reasonable care require contemporaneous reconsideration of:
-   - pain;
-   - gait;
-   - OFF state;
-   - dystonia;
-   - structural pathology;
-   - and functional deterioration?
+The expert should address separately:
 
-104. Did the psychological-safety signal require a documented risk / safeguarding response?
+- whether the clinical reassessment was adequate at that time;
+- whether the psychological-safety signal required a documented response;
+- and whether any 2023 failing caused additional harm.
 
-105. Is the record sufficient to determine what response occurred?
-
-106. Please distinguish severe psychological distress secondary to persistent pain from any primary psychiatric explanation for the pain.
-
-107. Do not use the 2023 crisis to prove a 2017 breach by hindsight.
+Do not use 2023 distress to prove a 2017 breach by hindsight.
 
 ---
 
-# 9. Seven explicit breach questions
+# 15. Governance material is not clinical expert evidence, but it defines institutional notice
 
-The expert is asked to answer each separately.
+The March 2025 complaint expressly placed diagnostic framing / foot-pain reassessment before GUH governance.
 
-## Breach 1 — inadequate founding assessment before segregation
+On 30 May QPS escalated the matter into the Incident Management Framework, with a Preliminary Assessment Report for SIMT review.
 
-> **Did Neurology fail adequately to investigate the feet–gait–tone relationship before allowing the feet to proceed as a separate problem?**
+The SIMT outcome states that the PAR was presented on 27 August and records a conclusion that there was:
 
-## Breach 2 — premature / unsupported segregation
+> **“no deficit in the care provided.”**
 
-> **Was the operational separation of the painful feet from the neurological formulation premature, unsupported or otherwise below reasonable neurological practice?**
+The reproduced outcome does not contain the complete PAR evidence pack or a source-by-source reconstruction of the 2017 foot issue.
 
-## Breach 3 — maintenance and export of segregation after express notice
+Those remain evidential gaps.
 
-> **Once the patient expressly said that his feet had not been dealt with, was it substandard to maintain discharge / segregation without adequate reconsideration, a defined reintegration plan, and appropriate communication of the contested closure?**
+In January 2026 QPS maintained the validity of the completed governance processes despite a subsequently reported December 2025 dystonia diagnosis.
 
-## Breach 4 — inadequate Podiatry handoff / ownership architecture
+The clinical expert need not adjudicate governance legality. The relevant factual question is simply:
 
-> **Was the inter-specialty arrangement substandard because Podiatry received a local foot problem without a sufficiently defined neurological question, return mechanism or identifiable owner of the relationship?**
-
-## Breach 5 — failure to reopen after treatment-state crossings
-
-> **Did the 2017–April 2018 medication-response / dechallenge evidence require reversal or reconsideration of the segregation, and was failure to do so substandard?**
-
-## Breach 6 — later date-specific continuation of segregation
-
-> **At any later date did cumulative neurological, mechanical and treatment-state evidence make continued local compartmentalisation unreasonable, requiring reconstruction of the original integrated problem?**
-
-## Breach 7 — separate 2023 reassessment / safeguarding failure
-
-> **Was there any separate failure adequately to reassess or safeguard once severe persistent foot pain became associated with major psychological distress?**
+> **What clinical material was actually reviewed and did any later review independently reconstruct the founding clinical transition?**
 
 ---
 
-# 10. Required answer format for every breach found
+# 16. December 2025 and February 2026 must remain separate
 
-For every breach identified, state:
+The corpus records the patient's report of a specialist dystonia diagnosis in December 2025.
 
-1. **Earliest breach date**
-2. **Information actually available then**
-3. **Later information that must be excluded**
-4. **What reasonable neurological practice required**
-5. **Whether reasonable care required avoidance, reversal or qualification of segregation**
-6. **What was omitted**
-7. **Why the omission fell below the acceptable standard**
-8. **What competent care would probably have done**
-9. **What competent care would probably have found**
-10. **How the formulation would probably have changed**
-11. **Whether the feet would probably have remained separate, become integrated, or remained uncertain but under joint ownership**
-12. **What management would probably have followed**
-13. **What harm would probably have been reduced**
-14. **What harm would probably have occurred anyway**
-15. **Whether the causal proposition is probable, possible only, or indeterminate**
+The primary December specialist letter is not presently in the reviewed corpus. Its exact wording, author, institution and relationship to Parkinsonism should not be treated as independently established.
+
+The February 2026 St Vincent's genetic-results letter is direct evidence. It confirms two pathogenic Parkin variants and states that the patient's:
+
+> **“Parkinsonism and dystonia are due to compound heterozygous mutations in the Parkin gene.”**
+
+This is a later comparator only. It cannot create 2017 knowledge and does not prove the historic foot-pain mechanism.
 
 ---
 
-# 11. Causation questions
+# 17. Proposed duty
 
-For each breach found:
+The expert should define the standard, not accept counsel's formulation uncritically.
 
-1. Would competent assessment probably have prevented or reversed the segregation?
+The working duty proposition is:
 
-2. Would it probably have identified:
-   - neurological contribution;
-   - mechanically independent pathology;
-   - or mixed pathology?
+> **Reasonable Neurology did not have to own every structural foot lesion, but may have had to investigate and retain ownership of the unresolved neurological relationship sufficiently to avoid treating the disabling feet as independent before there was an adequate basis for doing so.**
 
-3. If the answer remained uncertain, would competent care nevertheless have preserved joint / integrated ownership rather than separation?
+Possible components include:
 
-4. What management would probably have followed?
-
-5. Would that management probably have altered:
-   - motor state;
-   - gait;
-   - loading;
-   - foot posture;
-   - pain;
-   - recurrent lesion formation;
-   - standing / walking capacity;
-   - or other function?
-
-6. Would earlier reintegration probably have caused Podiatry findings to be interpreted differently?
-
-7. Would a different discharge information state probably have caused the GP to seek neurological reintegration sooner?
-
-8. If so, at what stage and with what probable consequence?
-
-9. Would competent integrated care probably have reduced:
-   - duration of pain;
-   - severity of pain;
-   - structural injury / recurrence;
-   - mobility restriction;
-   - loss of work / recreation / ordinary activity;
-   - psychological distress?
-
-10. For each alleged harm, identify:
-   - probable mechanism;
-   - likely degree;
-   - likely duration;
-   - earliest avoidable date;
-   - and confidence level.
-
-11. What morbidity would probably have occurred anyway because of:
-   - Parkin disease;
-   - genuine independent structural pathology;
-   - unavoidable dystonia / gait disorder;
-   - treatment toxicity;
-   - dyskinesia;
-   - unrelated pain mechanisms;
-   - or other independent factors?
-
-12. What **incremental morbidity**, if any, is more likely than not attributable to the segregation or delayed reintegration?
-
-13. Is there any breach that can be supported while causation cannot be established on the balance of probabilities?
-
-14. Which outcomes are merely possible rather than probable?
+- proportionate relationship-directed examination;
+- preservation of the relationship as an active problem if unresolved;
+- appropriate use of movement-disorders / other expertise;
+- a meaningful cross-service handoff;
+- defined return / reintegration criteria;
+- accurate communication to primary care;
+- reopening when later evidence materially challenged the separation.
 
 ---
 
-# 12. The primary-care causation question
+# 18. Possible breach routes — keep them separate
 
-The expert should address this separately:
+## Route 1 — founding assessment
 
-> **If the founding specialist record had accurately preserved the foot–neurological relationship as an active unresolved problem rather than allowing it to appear clinically segregated, is it more likely than not that a reasonable GP would have sought neurological reintegration earlier when later foot, gait, tone or treatment-state evidence appeared?**
+> **Was the July relationship-directed assessment sufficient before separation was permitted?**
 
-If yes:
+## Route 2 — founding segregation
 
-1. when would that probably have occurred;
-2. what specialist review would probably have followed;
-3. what would probably have been found;
-4. what management would probably have changed;
-5. and what later morbidity would probably have been reduced?
+> **What clinical work justified “may have been completely separate” / neuropathy / “Not clear” as the disposition of the feet?**
 
-This is a separate causal pathway from direct bedside harm.
+## Route 3 — inferential use of “markedly divorced”
 
----
+> **Did a patient distinction between experiences become clinically overread as evidence of independent mechanisms?**
 
-# 13. The overarching expert question
+## Route 4 — decision after Protest
 
-The longitudinal question is no longer:
+> **What should express notice that the feet had not been dealt with have changed before closure?**
 
-> **Why was the boundary unresolved?**
+## Route 5 — handoff / ownership
 
-The relationship was unresolved.
+> **Was the cross-service pathway adequate if no explicit owner of the neurological relationship or return criterion is demonstrated?**
 
-The boundary was created.
+## Route 6 — 2017–April 2018 reopening
 
-The proper overarching expert question is:
+> **Did treatment-state evidence independently require reconsideration even if July care was reasonable?**
 
-> **At each material information threshold, was there a reasonable clinical basis for maintaining the segregation between the movement disorder and the painful feet; if not, what should competent Neurology have done to preserve or reconstruct the relationship, and what difference would that probably have made?**
+## Route 7 — later date-specific reopening
 
-And at the founding threshold:
+> **When did cumulative direct Neurology foot / dystonia / OFF / treatment evidence make reconstruction reasonably necessary, if ever?**
 
-> **What justified placing a neurological–foot boundary into the clinical record before the relationship that boundary separated had been adequately determined?**
+## Route 8 — 2023 reassessment / safety
+
+> **Was there a separate contemporary failure in reassessment or safeguarding?**
 
 ---
 
-# 14. The case the expert evidence must establish or reject
+# 19. Core expert questions
 
-If supported, the expert opinion should be capable of establishing:
+## A. Founding presentation and examination
 
-## Duty
+1. What clinical problem did the urgent referral actually place before Neurology?
+2. Did the referral itself establish neurological independence of the feet?
+3. What significance should attach to the dystonic-looking pseudo-footdrop finding?
+4. What examination would a reasonably competent neurologist ordinarily perform in this combination of painful structural feet and dystonic-looking gait?
+5. Which of the twenty explicitly undocumented examination domains, or what equivalent work, would actually have been clinically required?
+6. What does the surviving record demonstrate was done?
+7. What might reasonably be contained in the video or original Physio / OT notes, and should those sources be obtained before reaching a definitive documentary conclusion?
+8. Is the stronger issue failure of detection or failure of integration after detection?
 
-> **Reasonable neurological care required Neurology to investigate and retain ownership of the unresolved relationship sufficiently to avoid premature segregation of the disabling feet from the movement-disorder formulation.**
+## B. Separation / neuropathy / “Not clear”
 
-## Breach
+9. What positive evidence supported possible peripheral neuropathy?
+10. Was a formal sensory / reflex examination reasonably required to support that branch?
+11. What evidence justified “may have been completely separate”?
+12. Did structural pathology establish structural independence?
+13. Was “Not clear” earned residual uncertainty after adequate assessment, uncertainty from inadequate investigation, or impossible to determine?
+14. If the relationship remained unclear, should it have remained an active integrated neurological question?
+15. What level of work was required before separate management was clinically safe?
 
-> **The feet were segregated into a separate clinical/documentary pathway before that relationship had been adequately investigated or before reasonable grounds for independence had been established; alternatively or additionally, later cross-boundary evidence required reintegration which did not occur to a reasonable standard.**
+## C. “Markedly divorced”
 
-## Harm
+16. What did the patient's historical account actually establish?
+17. Could a mixed neurological / mechanical system produce foot pain that changed with standing while bodily tension persisted?
+18. Did “markedly divorced” validly support mechanistic independence?
 
-> **The segregation deprived the patient of integrated neurological ownership and may also have altered the specialist information state received by primary care, delaying recognition and management of a neurologically modifiable or mixed component and prolonging identifiable pain, mechanical stress, mobility restriction, structural morbidity or functional loss.**
+## D. Existing Podiatry pathway
 
-## Causation
+19. What is the significance of primary care already having initiated Podiatry before Neurology?
+20. What is the significance of the 6 July GP note saying the case would be prioritised **“as Parkinson's”**?
+21. What neurological relationship question would reasonable care have required beyond merely communicating the Parkinson's label?
+22. Given that the service was Community Healthcare West rather than a GUH hospital department, what handoff / feedback arrangements would reasonable care require, if any?
+23. Did Neurology need to own every lesion, or only the neurological relationship?
 
-> **On the balance of clinical probability, competent integrated care would have prevented or reversed the segregation at an identifiable threshold, produced materially different management, and reduced identifiable portions of the subsequent morbidity, while leaving separate those harms that would have occurred in any event.**
+## E. Expertise / PRKN timing
 
-The expert should reject, qualify or narrow any part that the clinical evidence cannot support.
+24. When did the detailed recessive / PRKN formulation become clinically operative?
+25. If it existed while the patient was present, should it have prompted a return phenotype examination?
+26. If it emerged later, should it have prompted recall / follow-up?
+27. What expertise actually participated in this patient-specific case?
+28. What expertise actually returned to the feet?
+29. Does the contemporaneous “Myself and Tim” wording permit identification of Timothy Counihan without later material?
+30. What did Healy's later PARK II review add, and was he asked the foot relationship question?
+
+## F. Protest
+
+31. What clinical significance should attach to **“You have not dealt with my feet”**?
+32. Did it amount to express notice of an unfinished presenting problem?
+33. What should reasonable practice have required before maintaining discharge?
+34. Should the response / contested closure have been documented or communicated to primary care?
+
+## G. Treatment restraint and later crossings
+
+35. Was levodopa restraint reasonable?
+36. Did restraint increase the value of a carefully preserved baseline phenotype?
+37. What significance should attach to the October 2017 co-variation of tension, restless feet and deteriorating walk on withdrawal?
+38. By April 2018, what significance should attach to the neurologist's own record of rapid focal outside-left-foot change during that earlier withdrawal?
+39. What mechanisms could explain that without assuming that a corn itself vanished?
+40. Did this require reopening even if July separation was initially reasonable?
+
+## H. March 2019 and later direct Neurology evidence
+
+41. What significance should attach to the March 2019 referral explicitly re-linking feet, tone, gait and Parkinson's?
+42. What significance should attach to 25 March 2019 being the last recorded Podiatry attendance?
+43. What significance should attach to the 2020 Parkinsonian foot throw and normal directional ankle power?
+44. What significance should attach to 2022 morning foot warm-up?
+45. What significance should attach to 2023 OFF-dystonia reasoning and OFF-related leg pain / shuffling?
+46. How should the contrary ten-day medication-stop report be weighed?
+47. What significance should attach to pregabalin response, persistent toe curling and later Sinemet-related pain improvement?
+48. At what date, if any, did cumulative evidence require reconstruction of the original relationship?
+49. If the expert believes adequate reconstruction did occur, identify when and how.
+
+## I. 2023 reassessment / safety
+
+50. Was the 2023 neurological reassessment clinically adequate?
+51. Did severe pain plus death-wish / no-quality-of-life language require a particular risk response?
+52. Is the surviving record sufficient to determine that response?
+53. Distinguish distress secondary to severe pain from any primary psychiatric explanation of the pain.
+54. Do not use the 2023 crisis to prove 2017 breach.
+
+## J. Primary-care information pathway
+
+55. What would a reasonable GP understand from the specialist discharge account?
+56. Would it distinguish adequately investigated uncertainty from uncertainty left after insufficient relationship work?
+57. Should Neurology have specified what Podiatry was being asked to determine and what should trigger neurological return?
+58. Could a different specialist information state probably have caused earlier re-referral / reintegration?
+59. If so, when and with what probable consequence?
+
+## K. Causation
+
+60. For each breach found, what would competent care probably have done?
+61. What would it probably have found?
+62. Would it probably have prevented or reversed the separation?
+63. Would the result probably have been neurological contribution, independent structural pathology, mixed pathology, or continuing uncertainty under shared ownership?
+64. What management would probably have changed?
+65. What effect would that probably have had on gait, posture, loading, pain or lesion recurrence?
+66. What morbidity would have occurred anyway because of Parkin disease, genuine structural pathology, treatment toxicity, dyskinesia or unrelated pain mechanisms?
+67. What **incremental morbidity**, if any, is more likely than not attributable to delayed integration?
+68. Which causal propositions are probable, merely possible or indeterminate?
 
 ---
 
-# 15. Final instruction
+# 20. Required answer format for every breach found
 
-> **The issue is not whether every foot lesion was neurological, and it is not whether uncertainty was permissible. The issue is whether an unresolved relationship was prematurely converted into segregation; whether that segregation deprived the patient of integrated clinical ownership and distorted the information available to primary care; whether later cross-boundary evidence required reintegration; and what difference competent integrated care would probably have made.**
+For each breach the expert should state:
+
+1. earliest breach date;
+2. information actually available at that date;
+3. later information that must be excluded;
+4. reasonable standard of care;
+5. what was omitted or inadequate;
+6. why that fell below standard;
+7. competent counterfactual care;
+8. probable finding;
+9. probable formulation change;
+10. probable management change;
+11. probable clinical consequence;
+12. harm that would have occurred anyway;
+13. incremental harm attributable to breach;
+14. whether each causal proposition is probable, possible only or indeterminate.
+
+---
+
+# 21. Harm
+
+The injury is not uncertainty and the documentary architecture is not itself compensable injury.
+
+Potential direct clinical harm is:
+
+> **loss of integrated ownership → delayed recognition / management of a neurologically modifiable or mixed component → additional pain, loading-related morbidity, mobility restriction or functional loss.**
+
+Potential information-pathway harm is:
+
+> **specialist disposition → primary care reasonably understands the integrated question to have been worked through → later neurological reintegration occurs later than it otherwise probably would have.**
+
+Both require expert causal proof.
+
+---
+
+# 22. Causation discipline
+
+For every proposed causal chain use:
+
+> **competent assessment / reassessment → probable finding → probable formulation change → probable management change → probable effect on motor state / gait / loading / pain / structural pathology → probable reduction in identifiable morbidity.**
+
+Do not attribute the entire Parkinsonian course or all later foot pain to the alleged breach.
+
+The damages case, if supported, is incremental.
+
+---
+
+# 23. Final controlling questions
+
+> **Leaving the Protest entirely aside, what clinical work during July 2017 was directed to determining whether the painful abnormal feet, toe deformity, dystonic-looking lower-limb posture and abnormal gait were related?**
+
+> **What positive clinical evidence supported the peripheral-neuropathy branch?**
+
+> **What clinical work earned “may have been completely separate”?**
+
+> **Did “markedly divorced” establish mechanistic independence or only phenomenological distinction?**
+
+> **What did the pre-existing Parkinson's-labelled Podiatry pathway actually resolve, and what neurological relationship remained for Neurology to own?**
+
+> **What should the Protest have changed?**
+
+> **By April 2018, did the clinician-authored record of withdrawal-linked focal foot change independently require reopening?**
+
+> **When later Neurology itself reacquired repeated foot / gait / dystonia / treatment-state evidence, when, if ever, should the founding relationship have been reconstructed?**
+
+> **What difference would competent integrated care probably have made?**
+
+---
+
+# 24. Final instruction to the expert
+
+> **Do not decide whether every foot lesion was neurological. Decide whether the separation was clinically earned; whether later information required it to be reconsidered; and what incremental difference competent integrated care would probably have made.**
 
 The opinion should remain:
 
-> **threshold-specific, temporally firewalled, mechanism-conscious, segregation-focused and causally explicit.**
+> **threshold-specific, temporally firewalled, source-conscious, mechanism-conscious and causally explicit.**
