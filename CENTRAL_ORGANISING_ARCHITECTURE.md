@@ -4,822 +4,618 @@
 
 **Function:** This file governs how the case is to be read, reconstructed, written and tested.
 
-The clean repository has four functions only:
+The clean repository remains four files only:
 
-1. **`CENTRAL_ORGANISING_ARCHITECTURE.md`** — how to think about the case;
-2. **`FACTUAL_SPINE.md`** — the compact factual sequence that carries the argument;
-3. **`meettheteam_replacement.md`** — who knew what, who decided what, and which information or behaviour state each actor occupied;
-4. **`SRC_COMPLETE_RECORD_FORENSIC.md`** — the canonical evidential backstop.
+1. `CENTRAL_ORGANISING_ARCHITECTURE.md` — how to think about the case;
+2. `FACTUAL_SPINE.md` — the compact factual sequence;
+3. `meettheteam_replacement.md` — actor expertise, information states and behaviour states;
+4. `SRC_COMPLETE_RECORD_FORENSIC.md` — canonical evidential backstop.
 
-Do not recreate the analytical sprawl of the predecessor repository here. New material should normally be polished into one of these three analytical files rather than creating another document.
+Do not create a new analytical file merely because the centre sharpens. Refine these controlling documents.
 
 ---
 
 # 1. The case in one sentence
 
-> **An integrated feet–gait–tone–movement problem was referred to Neurology; the neurological syndrome became highly formulated, but the relationship of the painful feet to that syndrome remained unresolved; the patient protested that his feet had not been dealt with; the post-Protest discharge process then converted that unresolved clinical problem into an authoritative specialist information state marked “Not Clear”; that state shaped downstream care, while later evidence repeatedly crossed the boundary without equivalent reconstruction of the original integrated clinical object.**
+> **Neurology received an integrated feet–gait–tone–movement problem and identified a severe movement disorder expressed through a dystonic-looking lower limb, but the surviving record does not demonstrate a directed investigation of the relationship between that motor disorder and the painful abnormal feet before the final synthesis stated that the foot symptoms “may have been completely separate,” reinforced that separation by recording that the patient had “markedly divorced” the foot pain from bodily tension, and operationalised the resulting allocation through Podiatry; thereafter the neurological patient could be elaborated as an increasingly sophisticated Parkinsonian / genetic phenotype while later foot, gait, dystonia, OFF-state and treatment-response evidence was repeatedly classified without necessarily reconstructing whether the founding separation had ever been clinically earned.**
 
-Everything else in the case should either establish, qualify, test or causally analyse one part of that proposition.
+Everything else should establish, qualify, test or causally analyse one part of that proposition.
 
 ---
 
-# 2. Chronology before argument
+# 2. The central correction: relationship, uncertainty and segregation are different things
 
-No later knowledge may be used to make an earlier decision look more informed, more complete or more unreasonable than it was at the time.
+Do not call the boundary “unresolved.”
+
+The **relationship** was unresolved.
+
+The **boundary / segregation** was placed into the record as the practical and documentary response to that unresolved relationship.
 
 The controlling sequence is:
 
-> **integrated GP referral → inpatient bedside work → Protest → professional closure / patient departure → post-Protest synthesis becomes the portable specialist state → treatment response and dechallenge → later neurological and mechanical crossings → later review and institutional reliance.**
+> **integrated clinical problem → components detected → relationship not demonstrably investigated to resolution → “may have been completely separate” → “markedly divorced” → Podiatry / separate disposition → authoritative specialist allocation → later evidence repeatedly crosses the allocation → local updating without necessary reconstruction of the founding relationship.**
 
-Keep the information states separate.
+Shortest form:
 
-## INPATIENT / PRE-PROTEST
-
-Only information demonstrably available while the patient remained in the bedside encounter.
-
-## PROTEST / DECISION-LIVE
-
-The patient says in substance:
-
-> **You have not dealt with my feet.**
-
-The Protest is an experiential challenge to the clinical work actually received. It is not an objection to PRKN, the final discharge wording or later treatment evidence.
-
-## POST-PROTEST / SYNTHESIS
-
-The final specialist account acquires a level of neurological and neurogenetic sophistication that must be compared with the work demonstrated at the bedside.
-
-This is where:
-
-> **“Not Clear”**
-
-must be located.
-
-## POST-DISCHARGE TREATMENT
-
-Treatment response and withdrawal create new evidence. They test the durability of the July boundary; they do not travel backwards into the July bedside state.
-
-## LATER REOPENING / REVIEW
-
-Later observations and later institutional reviews must be analysed at the information state in which they arose.
+> **The relationship was unresolved.  
+> The segregation was imposed.  
+> “Completely separate” supplied the partition.  
+> “Markedly divorced” supplied apparent patient-side support.  
+> The specialist synthesis supplied authority.  
+> Podiatry supplied the operational destination.**
 
 ---
 
-# 3. The Protest is the phase change
+# 3. The earliest centre is now pre-Protest
 
-Before the Protest, an incompletely resolved foot–neurology relationship remains part of an assessment still capable of extension or correction.
+The case does not depend on the Protest to create the first possible breach.
 
-At the Protest, the patient expressly identifies the feet as an unfinished part of the presenting problem.
+Before the Protest, the record already shows:
 
-After the Protest, closure occurs in a changed information environment.
+- an integrated GP referral involving feet, gait, tone, movement initiation, toe clawing and functional decline;
+- severe young-onset Parkinsonism;
+- a strikingly abnormal gait;
+- a foot-drop-like lower-limb phenomenon described as suggestive of dystonic posture rather than true foot drop;
+- pes planus and hammertoes;
+- a longstanding painful foot history.
 
-The central transition is:
+What the surviving neurological record does **not presently demonstrate** is a directed clinical bridge between those components: no clearly documented movement-disorders-level mapping of painful foot sites against the dystonic-looking gait, no clearly documented dynamic loading analysis, no clearly documented fixed-versus-dynamic foot/toe formulation, and no clearly defined neurological question to Podiatry.
 
-> **unfinished bedside problem → express notice → closure → authoritative specialist representation of the unresolved problem.**
+The strongest documentary proposition is therefore:
 
-The Protest is also **diagnostic feedback** in the ordinary clinical sense. The patient does not need to know the mechanism. He identifies a mismatch between the model being developed and the problem he actually presented with.
+> **The components were recorded. The relationship was not investigated in any demonstrated way proportionate to the problem. Separation followed anyway.**
 
-So the Protest does two things:
-
-- it converts omission into notice;
-- it tells the service where its model has not yet accounted for the lived clinical problem.
-
-That is why the post-Protest decision matters more than the mere fact that uncertainty existed.
+Do not convert lack of documentation into proof that no examination occurred. The expert question is whether the surviving record demonstrates work sufficient to justify the later allocation and, if not, whether reasonable practice required that work before separation.
 
 ---
 
-# 4. “Not Clear”: provenance, authority and contested closure
+# 4. “May have been completely separate” is not merely uncertainty
 
-“Not Clear” is not a neutral free-floating fact.
+The founding synthesis says the leg / foot symptoms including corns, callouses and burning:
+
+> **“may have been completely separate”**
+
+or perhaps represented secondary peripheral neuropathy, and concludes:
+
+> **“Not clear.”**
+
+The critical point is functional.
+
+“Not clear” is epistemic uncertainty.
+
+“May have been completely separate” gives that uncertainty an **operational direction**.
+
+It makes possible the transition:
+
+> **relationship not established → feet may sit outside the neurological formulation.**
+
+The expert must therefore ask:
+
+> **What clinical evidence justified moving from uncertainty about the relationship to an operationally separate foot problem?**
+
+That is now more important than asking merely whether uncertainty was reasonable.
+
+---
+
+# 5. “Markedly divorced”: not identical is not independent
+
+The final synthesis records that the patient had:
+
+> **“in his own mind - markedly divorced”**
+
+his bodily / leg tension from the corns, callouses and pains in the feet.
+
+The underlying history was that foot pain had changed with standing / occupational exposure while bodily tension persisted.
+
+That history may establish that two experiences were **phenomenologically distinguishable**.
+
+It does not by itself establish that their mechanisms were independent.
+
+A mixed system can contain:
+
+- structural lesions;
+- pain affected by pressure or loading;
+- dystonic or rigid posture;
+- abnormal gait;
+- motor-state fluctuation;
+- pain modulation;
+
+with different components changing at different rates.
+
+The expert question is therefore:
+
+> **Was the patient’s historical distinction between foot pain and bodily tension a sound clinical basis for treating the painful feet as neurologically independent, or did “markedly divorced” transform a distinction between experiences into apparent support for a distinction between mechanisms?**
+
+This question is central.
+
+---
+
+# 6. Detection versus relationship investigation
+
+The lower-limb abnormality was not missed.
+
+The record shows:
+
+- strikingly abnormal gait;
+- foot-drop-like appearance;
+- true foot drop rejected;
+- dystonic posture considered;
+- gait videoed;
+- structural foot abnormalities noted.
+
+The strongest criticism is therefore not failure to detect a sign.
 
 It is:
 
-> **the post-Protest voice of the department dealing with the residual foot question that entered Neurology through the GP referral.**
-
-The controlling question is:
-
-> **What clinical work earned “Not Clear”?**
-
-The crucial distinction is:
-
-> **residual uncertainty after adequate assessment**
-
-versus
-
-> **uncertainty produced by insufficient investigation.**
-
-If the second state is established, then:
-
-> **an insufficiency of examination was transmitted downstream as an insufficiency of medical knowledge.**
-
-There is a further documentary consequence. The final specialist account does not preserve the Protest. That changes the status of the uncertainty received downstream.
-
-There is a material difference between:
-
-> **feet remain unclear; Podiatry arranged**
-
-and:
-
-> **feet remain unclear; the patient expressly challenged before closure that this presenting problem had not been dealt with.**
-
-The first reads as **managed uncertainty**.
-
-The second reveals **contested closure**.
-
-The omission therefore matters not merely because a patient statement is missing, but because it changes the provenance of “Not Clear.”
-
-And because “Not Clear” sits inside an otherwise sophisticated specialist document, it may also borrow authority from work done in other domains. The evidential authority of investigated genetics, imaging and treatment planning must not automatically be transferred to the unresolved foot relationship.
-
----
-
-# 5. Detection is not integration
-
-The strongest formulation is not that Neurology simply failed to see an abnormal lower limb.
-
-The record shows that the sign was seen:
-
-- the gait was strikingly abnormal;
-- the foot-drop-like appearance was recognised;
-- true foot drop was rejected;
-- dystonic posture was expressly considered;
-- the gait was videoed;
-- structural foot abnormalities were noted.
-
-The problem is therefore potentially more specific:
-
-> **a neurological sign was seen, characterised and used diagnostically without the same sign being visibly carried through into the synthesis of the painful structural feet.**
-
-That is a failure-of-integration question, not merely a failure-of-detection question.
+> **a sign was detected, neurologically characterised and used diagnostically, but the surviving record does not demonstrate equivalent directed investigation of what that sign meant for the painful structural feet.**
 
 The expert question is:
 
-> **Having identified a dystonic-looking lower-limb phenomenon, what clinical work should reasonably have followed to determine whether it bore on the painful foot problem?**
+> **Having identified a dystonic-looking lower-limb phenomenon in a patient referred with painful abnormal feet, what clinical work should reasonably have followed before the feet could be allowed to proceed as a separate problem?**
 
 ---
 
-# 6. The synthesis–examination differential
+# 7. The Protest remains a phase change, but no longer the first centre
 
-The final discharge synthesis is an internal comparator.
+The Protest is fact in this project:
 
-The correct comparison is:
+> **You have not dealt with my feet.**
 
-> **what the department ultimately proved capable of constructing**
+Its function has sharpened.
 
-against
+It does not create the original omission.
 
-> **what the surviving record shows was actually tested while the patient remained available.**
+It supplies **express notice of an omission already capable of being tested from the bedside record**.
 
-The controlling formulations are:
+Thus:
+
+> **pre-Protest: possible founding assessment / integration breach**
+
+> **Protest: omission becomes express notice while correction remains physically possible**
+
+> **post-Protest: maintaining closure becomes a separate decision-after-notice question**
+
+The Protest therefore still matters enormously, but the July case no longer stands or falls on it.
+
+---
+
+# 8. The founding allocation rule
+
+The final specialist state performs three linked operations:
+
+1. it resolves the neurological syndrome at high resolution;
+2. it leaves the foot relationship epistemically “Not clear”;
+3. it nevertheless gives the feet a separate operational destination.
+
+The founding allocation can be represented as:
+
+> **Parkinsonian / recessive neurological phenotype → Neurology**
+
+> **corns / callouses / painful structural feet → Podiatry / possible neuropathy**
+
+> **relationship between them → “Not clear”**
+
+The important issue is not whether Podiatry was appropriate. It plainly may have been.
+
+The issue is whether separate Podiatry care was allowed to become **segregation of the relationship** before Neurology had completed, or established a mechanism capable of completing, its own integrative task.
+
+---
+
+# 9. The synthesis–examination differential
+
+The final document is unusually sophisticated in neurological and neurogenetic reasoning.
+
+Use that sophistication as an internal comparator, not as proof of timing.
+
+The controlling formulations remain:
 
 > **The synthesis may have outrun the examination.**
 
-and:
-
 > **Synthetic completeness is not evidential completeness.**
 
-The question is not whether sophisticated PRKN/PARK2 reasoning was wrong.
+But the question is now sharper:
 
-It is:
+> **How did the service reach a high-resolution Parkinsonian / genetic construction while the record does not demonstrate a correspondingly directed investigation of the painful appendage through which the abnormal lower-limb movement was being lived?**
 
-> **How did the service reach high-resolution neurological and neurogenetic construction while the disputed painful foot–lower-limb relationship remained documented at much lower resolution?**
+And:
 
-Or more simply:
-
-> **What work, and whose work, earned the sophistication of the final formulation — and what work earned “Not Clear”?**
+> **What work earned “may have been completely separate”?**
 
 ---
 
-# 7. Actor states
+# 10. Genetic phenotype and the resilience of the founding allocation
 
-The same discharge synopsis has different effects on different actors.
+Once the final synthesis establishes a strong neurological patient, later evidence can be absorbed inside the categories it created.
 
-## Aaron Brennan — input comparator + downstream information state
+The neurological patient can become increasingly legible as:
 
-Brennan knows the patient before specialist synthesis. He sends an integrated problem into Neurology:
-
-> **feet + gait + tone + movement + deteriorating function.**
-
-He does not witness the neurological bedside work.
-
-When he later receives “Not Clear,” he cannot tell from the specialist document whether the relationship was adequately investigated and remained uncertain, or remained uncertain because the relevant work had not been completed.
-
-He therefore demonstrates both the **input state** and the downstream informational effect of the specialist synthesis.
-
-## Thomas Monaghan — founding encounter + behaviour / commitment state
-
-Monaghan is categorically different.
-
-He does not learn the admission from his own summary. He possesses the underlying encounter and the Protest.
-
-For him the synthesis is therefore a:
-
-> **behaviour state**
-
-and a:
-
-> **commitment state.**
-
-He moves from knowing the patient in the encounter to choosing the representation of that patient that will become authoritative downstream.
-
-The controlling distinction is:
-
-> **The summary changes knowledge downstream; it changes commitment upstream.**
-
-### Commitment pressure
-
-As an admission approaches professional closure, reopening an omitted or insufficiently integrated problem becomes more disruptive than it was earlier in the admission. By then, intellectual work, consultation, investigation and treatment planning have accumulated around the emerging formulation.
-
-Call this **commitment pressure**.
-
-It is a structural proposition, not an allegation of pride, embarrassment, concealment or bad faith.
-
-The closer a formulation comes to closure, the more consequential it becomes to discover that a presenting problem remains insufficiently integrated.
-
-## Patrick Browne — movement-disorders expertise + downstream information state
-
-Browne possesses highly relevant movement-disorders expertise, but expertise does not create retrospective access to an encounter he did not witness.
-
-The July synthesis records Parkinson’s Disease ANP input as pending. His founding position is therefore downstream unless other patient-specific evidence proves earlier bedside involvement.
-
-His initial uncertainty may be inherited.
-
-The useful distinction is:
-
-> **An expert invited to examine a live unresolved phenotype is being invited to discover. An expert handed a completed specialist frame is initially being invited to manage inside that frame.**
-
-The question is therefore not “Why did Browne fail in July?”
-
-It is:
-
-> **When did Browne first acquire enough independent information to see beyond the inherited formulation, and what happened then?**
-
-## Timothy Counihan — internal expertise + patient-specific decision environment
-
-Counihan links the actual professional environment to PRKN/PARK2, dystonia, young-onset Parkinsonism and movement disorders.
-
-His patient-specific significance arises where the treatment correspondence identifies “Tim” in the collective levodopa-deferral position.
-
-The question is:
-
-> **When did his expertise enter this case, what information did he receive, and what bedside or later clinical work did that expertise generate?**
-
-## Daniel Healy — external specialist + independent post-discharge state
-
-Healy initially receives a referred information state. When he personally examines the patient in September 2017 he creates a new independent specialist state.
-
-His opinion that the patient was probably PARK II belongs there and must not be projected backwards into July.
-
----
-
-# 8. Expertise: capability → participation → bedside application
-
-The expertise argument must always be run through three levels.
-
-## 1. Capability
-
-What relevant expertise existed in or around Galway?
-
-Examples include:
-
-- PRKN/PARK2;
 - young-onset Parkinsonism;
+- probable recessive / PRKN-PARK2 disease;
+- later idiopathic Parkinson’s framing;
+- later genetically clarified Parkin disease.
+
+At the same time, foot phenomena can remain locally classifiable as:
+
+- Podiatry pathology;
+- neuropathic / burning pain;
 - dystonia;
-- abnormal gait;
-- movement disorders;
-- Parkinson genetics.
+- OFF-state pain;
+- toe curling;
+- treatment-state pain modulation.
 
-## 2. Participation
+This creates an important structural possibility:
 
-What expertise can be shown to have entered **this patient-specific case**?
+> **The patient can become more and more completely described as a neurological / genetic phenotype while the founding segregation of the feet remains untouched.**
 
-Examples may include:
+Later facts do not have to disappear.
 
-- Complex Case Meeting discussion;
-- senior / colleague treatment advice;
-- advanced genetics reasoning in the final synthesis;
-- Counihan’s treatment-strategy involvement;
-- later Healy review.
+They can be **classified**.
 
-## 3. Bedside application
-
-What relevant expertise can be shown to have returned to examine or test the unresolved feet–gait relationship while it was still clinically open?
-
-This is the key distinction.
-
-The case must never move directly from **capability** to **patient-specific application**.
-
-The central process question is the **return loop**:
-
-> **observe → formulate → consult expertise → return to patient → test improved formulation → revise**
-
-versus the possibility of:
-
-> **observe → formulate → consult expertise → improve theoretical synthesis → discharge.**
-
-The strongest neutral question is:
-
-> **Did the expertise that enriched the theory return to the body?**
+That is the lock-in mechanism.
 
 ---
 
-# 9. Treatment restraint and baseline preservation
+# 11. The evidential ratchet
 
-The July decision to defer levodopa / dopamine-agonist treatment must not be reframed as though immediate levodopa was obviously mandatory. The record contains legitimate reasons for caution in a very young patient.
+The founding synthesis does more than record evidence. It establishes categories into which later evidence is likely to fall.
 
-But the strategy has another consequence.
+Once the feet have been allocated as:
 
-If an obvious dopaminergic route is deliberately deferred, the untreated or minimally treated phenotype has increased observational value.
+> **separate / neuropathic / Podiatry / “Not clear”**
 
-That creates a separate expert question:
+later observations can be given local meanings:
 
-> **Did the decision to preserve a relatively untreated motor state increase the importance of carefully documenting the baseline gait, posture, feet and dynamic lower-limb findings before treatment altered them?**
+- recurrent corn → Podiatry;
+- burning → neuropathic pain;
+- foot throw → Parkinsonism;
+- toe curling → dystonia;
+- OFF deterioration → Parkinson fluctuation;
+- Sinemet-responsive pain → modulation of pain experience.
 
-This is a baseline-preservation question, not a claim that a particular drug had to be started.
+Each local interpretation may be individually reasonable.
 
----
+The audit question is different:
 
-# 10. The central asymmetry
+> **Did any of those observations force reconsideration of whether the original “completely separate” allocation had ever been clinically earned?**
 
-The case contains a major asymmetry:
+This is the evidential ratchet:
 
-> **the neurological and genetic formulation became highly resolved while the originating painful-foot relationship remained unresolved.**
-
-Or:
-
-> **high-resolution genetics travelled outward while the feet travelled outward as “Not Clear.”**
-
-That asymmetry is not itself proof of breach.
-
-It creates the question:
-
-> **What work earned the difference in resolution?**
+> **the founding allocation does not prevent new facts entering the record; it helps determine the compartments into which they are absorbed.**
 
 ---
 
-# 11. The integrated clinical object and ownership of the arrows
+# 12. Clinical lock-in
 
-The original referral object must never disappear:
+Clinical lock-in is structural, not psychological.
 
-> **painful abnormal feet + abnormal gait + abnormal tone / movement disorder → determine their relationship.**
+The revised model is:
 
-Later decomposition into Parkinsonism, dystonia, Podiatry pathology, neuropathic pain, OFF-state fluctuation and medication management may all be clinically legitimate.
+> **integrated clinical object → inadequate or insufficiently demonstrated relationship investigation → founding segregation → specialist authority → specialty-specific objects → local updating → no owner of the relationship → founding segregation becomes resilient.**
 
-But local decomposition does not automatically resolve the original relationship.
+No allegation of pride, concealment, conspiracy or bad faith is required.
 
-The controlling systems question is:
+The observable test is:
 
-> **Who owned the arrows?**
+> **Did later evidence cause the founding allocation to be reconsidered, or did the founding allocation principally govern how later evidence was interpreted?**
+
+---
+
+# 13. Primary care: information harm begins with the allocation
+
+Aaron Brennan sent an integrated problem into Neurology.
+
+He did not witness the neurological bedside work.
+
+When he received the specialist synthesis, he received not merely “uncertainty” but an authoritative allocation:
+
+- neurological disease strongly formulated;
+- feet potentially separate / neuropathic;
+- Podiatry as destination;
+- “Not clear” as specialist residue.
+
+He could not tell whether:
+
+> **the relationship had been adequately investigated and remained uncertain**
+
+or:
+
+> **the relationship had not been adequately investigated before the feet were separated.**
+
+If the second state is established, then:
+
+> **an insufficiency of investigation was transmitted as a specialist allocation.**
+
+That matters causally because primary care’s later ability to help depends partly on what the specialist record says has already been investigated, what remains open, and what should trigger return.
+
+---
+
+# 14. Podiatry: appropriate care can still become segregation
+
+Podiatry was appropriate for real structural pathology.
+
+That is not the allegation.
+
+The question is whether Podiatry was given:
+
+- a neurological question;
+- a defined relationship to dystonia / tone / gait / loading;
+- a feedback loop;
+- a return criterion;
+- or a clear statement that Neurology retained ownership of the relationship.
+
+The controlling proposition is:
+
+> **Neurology did not have to own every foot lesion. It may nevertheless have had to own the arrows.**
 
 Meaning:
 
 > **motor state ↔ gait ↔ loading ↔ structural lesion ↔ pain ↔ treatment state.**
 
-Neurology did not have to own every foot lesion. It may nevertheless have had to own the unresolved neurological relationship.
-
-And:
-
-> **A problem can have several competent service owners and still have no owner of the whole.**
-
-Fragmentation does not require facts to disappear.
-
-> **It can preserve every fact while allowing the relationship among the facts to lose an owner.**
-
-Neurology can hold the motor state. Podiatry can hold the lesion. Pain management can hold the burning. A movement-disorders clinic can hold OFF phenomena. Each local description may be accurate while the original integrated clinical object disappears as an object of inquiry.
+A system can contain competent local owners while the relationship itself has no owner.
 
 ---
 
-# 12. Later evidence is boundary testing, not hindsight
+# 15. Later evidence is not hindsight; it is a test of the segregation
 
-Later evidence must not be used to rewrite July.
+Later evidence must never be used to make July unreasonable by hindsight.
 
-Its proper function is to test the durability of the exported boundary.
+Its proper role is to identify later reopening thresholds.
 
-The key sequence is:
+The sequence includes:
 
-> **treatment response → withdrawal / dechallenge → rapid foot-state change → recurrent focal mechanical pathology → GP reintegration → Parkinsonian foot movement → OFF / dystonic phenomena → toe curling → dopaminergic pain response.**
+> **September response → October dechallenge: tension + restless feet + walk deterioration → recurrent fifth-MTPJ mechanical pathology → April 2018 focal foot-state change during neurological withdrawal → 2019 GP reintegration → 2020 Parkinsonian foot throw → 2022 morning foot “warm-up” → 2023 OFF/dystonia and pain analysis → 2024 toe curling despite pain relief → 2025 Sinemet-responsive foot pain.**
 
-No single observation has to prove one mechanism.
+No one observation proves a single mechanism.
 
-The correct questions are:
+Together they repeatedly show that the categories are not clinically impermeable.
 
-> **What was each observation capable of changing?**
+The question is:
 
-and:
-
-> **What did it actually change?**
-
-The controlling formulations are:
-
-> **selective utilisation without integrative revision**
-
-and:
-
-> **local updating, global non-revision.**
-
-A later clinician can correctly reinterpret one event without reconstructing the longitudinal whole.
-
-So distinguish:
-
-> **updating**
-
-from:
-
-> **rebuilding.**
-
-The record may show substantial updating. The audit asks where the rebuilding occurred.
+> **What did each crossing change about the founding allocation?**
 
 ---
 
-# 13. April 2018 is the independent clinical backstop
+# 16. April 2018 remains the independent backstop
 
-The case must not stand or fall entirely on July 2017 or the Protest.
+Even if July uncertainty and even July separation were initially reasonable, April 2018 is a separate question.
 
-The independent question is:
+The treating neurologist recorded a rapid change in the outside-left-foot / corn territory during procyclidine withdrawal, alongside broader worsening.
 
-> **Even if the July 2017 “Not Clear” position was initially reasonable, once the treating neurologist recorded that withdrawal of procyclidine was followed by rapid return of the focal outside-left-foot phenomenon, did reasonable neurological practice require that original relationship to be reopened and investigated? If not, why not?**
+Do not caricature this as a corn literally vanishing and returning pharmacologically.
+
+The proper question is:
+
+> **Did a focal foot phenomenon changing rapidly with neurological treatment state require the original “completely separate” allocation to be reopened? If not, why not?**
 
 This survives even if:
 
-- July uncertainty was initially reasonable;
-- Podiatry was appropriate;
-- Parkinsonism was correctly diagnosed;
-- the structural lesion was real;
+- the Protest is put aside;
+- structural pathology is accepted;
+- Podiatry referral was appropriate;
 - treatment restraint was reasonable;
-- and the Protest is put entirely to one side for the purpose of the question.
-
-That is why April 2018 is the strongest independent backstop.
+- Parkinsonism was correctly diagnosed.
 
 ---
 
-# 14. Mixed mechanism is not a defence to integration
+# 17. Structural pathology is not structural independence
 
-The case does not require proof that all foot pathology was neurological.
+The case does not require all foot pathology to be neurological.
 
-The real structural pathology must remain visible.
+The structural lesions were real.
 
-The controlling proposition is:
+The expert must distinguish:
 
-> **Structural pathology does not establish structural independence.**
-
-Possible mechanisms include:
-
-- mechanically independent pathology;
+- structural pathology;
+- structural independence;
 - neurologically influenced loading;
-- dystonia / tone;
-- gait disturbance;
-- altered posture;
-- pain modulation;
 - mixed mechanism.
 
-The expert question is not which single mechanism explains everything.
+The presence of a corn, callus, clawed toe or fifth-MTPJ lesion does not by itself answer why load was being applied in that pattern.
 
-It is:
-
-> **Was the relationship among the mechanisms adequately investigated and owned?**
+The relationship remains the clinical object.
 
 ---
 
-# 15. The information architecture and the evidential ratchet
+# 18. Actor states
 
-The founding synthesis does more than report evidence. It creates categories into which later evidence is likely to fall.
+## Brennan — input comparator + downstream recipient
 
-Once the foot is compatible with:
+He knows the integrated pre-admission patient and later receives the authoritative segregation. The key question is what the specialist allocation caused him reasonably to believe had already been investigated.
 
-> **separate / neuropathic / Podiatry / “Not Clear”**
+## Monaghan — founding encounter + allocation / commitment state
 
-later observations can acquire local meanings:
-
-- later corn → Podiatry evidence;
-- burning pain → pain / neuropathic evidence;
-- OFF deterioration → Parkinson fluctuation evidence;
-- toe curling → dystonia evidence;
-- Sinemet response → pain-modulation evidence.
-
-Each local interpretation may be individually reasonable.
-
-The controlling question is:
-
-> **Did any of those observations regain enough weight to change what the original foot problem was understood to be?**
-
-The first synthesis therefore acts as an **evidential ratchet**:
-
-> **it does not stop later evidence; it helps determine the compartments into which later evidence is most easily absorbed.**
-
-This is a structural hypothesis, not an allegation of conspiracy or conscious bias.
-
----
-
-# 16. Clinical lock-in
-
-Clinical lock-in should be understood structurally before psychologically.
-
-The model is:
-
-> **integrated clinical object → decomposition → specialty-specific objects → local updating → no integrative owner → original relationship no longer treated as a live object → global non-revision.**
-
-This does not require:
-
-- stubbornness;
-- dishonesty;
-- concealment;
-- conspiracy;
-- or conscious bias.
-
-The observable test is:
-
-> **Did later evidence cause the founding formulation to be reconsidered, or did the founding formulation principally govern how later evidence was interpreted?**
-
----
-
-# 17. Documentary resilience and self-inheritance
-
-Once finalised, the discharge synthesis becomes documentary infrastructure.
-
-The controlling distinction is:
-
-> **Visible reasoning is not the same as demonstrated clinical work.**
-
-A sophisticated summary can create an appearance of thoroughness. Later clinicians may then write inside the categories it created. Years later, reviewers may encounter a large and internally continuous record.
-
-That creates a methodological hazard:
-
-> **later documentary continuity is not automatically independent validation of the propositions from which that continuity descended.**
-
-The descendants of the founding synthesis can become apparent witnesses for the authority of their ancestor.
-
-This is **documentary self-inheritance**.
-
-It is not proof of bad faith. It is a provenance problem.
-
-The review question is:
-
-> **Did later review go beneath the inherited synthesis and independently reconstruct whether the medicine actually done matched the medicine the record made it appear had been done?**
-
----
-
-# 18. Institutional parallax
-
-The same unresolved relationship changes institutional form over time:
-
-> **integrated clinical question → bedside uncertainty → Protest → professional closure → documentary state → Podiatry problem → inherited neurological history → complaint evidence → governance object.**
-
-The human centre is:
-
-> **The body remained unresolved while the institution progressively resolved the record.**
-
-The critical question is:
-
-> **At which transitions was the underlying relationship independently reconstructed rather than merely translated into the language of the next function?**
-
----
-
-# 19. Continuity of what?
-
-Broad diagnostic continuity is not the same as specific aetiological continuity.
-
-The historical sequence includes:
-
-> **recessive / PRKN-PARK2 reasoning → Healy: probably PARK II → later broader Parkinson’s / iPD continuity.**
-
-Ask:
-
-> **What evidence or reasoning moved the formulation from the specific earlier state to the later broader state, and where is that transition documented?**
-
-The controlling phrase remains:
-
-> **Healy’s authority survived; Healy’s proposition did not.**
-
----
-
-# 20. 2023 is a separate safety and reassessment threshold
-
-The 2023 material must not be used to prove 2017 by analogy.
-
-It creates two later questions:
-
-1. **Was the current neurological / pain relationship adequately reassessed?**
-2. **What safeguarding response followed the documented psychological-safety signal?**
-
-The second question must be mapped from the records before any final assertion of safeguarding failure is made.
-
-Keep the 2023 safety architecture discrete from the founding assessment, Protest, discharge communication and 2018 reopening questions.
-
----
-
-# 21. Discrete breach architecture
-
-One history does not mean one breach.
-
-## A. July 2017 bedside assessment / formulation
-
-> **Was the feet–gait–tone relationship adequately assessed while the patient remained available?**
-
-## B. Protest / decision after express notice
-
-> **Once the patient said the feet had not been dealt with, what did reasonable practice require before closure?**
-
-## C. Final discharge communication
-
-> **Did the exported summary fairly represent the provenance of “Not Clear,” including the fact that closure had been contested?**
-
-## D. Inter-specialty handoff / reintegration
-
-> **Was Podiatry given a sufficiently defined neurological question and a return mechanism?**
-
-## E. 2017–2018 reopening threshold
-
-> **Did treatment-state evidence require reconsideration of the founding boundary?**
-
-## F. Later threshold-specific updating
-
-For each later event identify:
-
-- date;
-- information state;
-- new fact;
-- what it was capable of changing;
-- what response occurred;
-- whether global reconstruction was required.
-
-## G. 2023 safety / reassessment
-
-Treat separately.
-
----
-
-# 22. Causation remains separate
-
-For every alleged breach ask:
-
-1. What was known then?
-2. What should reasonable practice have required?
-3. What was omitted?
-4. What would competent care probably have done?
-5. What would that probably have shown?
-6. What management would probably have followed?
-7. Which later harms would probably have been avoided or reduced?
-
-Never allow:
-
-> **breach → therefore all later harm**
-
-to become the case structure.
-
----
-
-# 23. The competing-model test
-
-## Model A — ordinary complexity and legitimate decomposition
-
-- Parkinsonism was real.
-- Structural foot disease was real.
-- Podiatry was appropriate.
-- Uncertainty was reasonable.
-- Treatment restraint was reasonable.
-- Later observations were locally interpreted appropriately.
-- No global reconstruction was clinically required.
-
-## Model B — founding partition and resilient information architecture
-
-- the original integrated relationship was insufficiently resolved;
-- the Protest identified the incompleteness;
-- closure nevertheless occurred;
-- the final synthesis exported apparently considered uncertainty;
-- the Protest did not travel with that state;
-- downstream actors inherited the state;
-- later evidence repeatedly crossed the boundary;
-- evidence was used locally without equivalent reconstruction of the whole;
-- the founding formulation acquired documentary resilience.
-
-The controlling question is:
-
-> **Which model explains the documented sequence with fewer unsupported or invisible transitions?**
-
----
-
-# 24. How to read the case
-
-Do not begin with:
-
-> **Was the foot pain Parkinsonian?**
-
-Begin with:
-
-1. **What integrated problem did Brennan send to Neurology?**
-2. **What did Neurology actually see and examine?**
-3. **Which neurological signs were detected but not visibly integrated with the painful feet?**
-4. **What remained unresolved?**
-5. **What did the patient identify at the Protest?**
-6. **What did the department finally say, and what work earned “Not Clear”?**
-7. **Did the expertise that enriched the theory return to the body?**
-8. **What did the final document cause Brennan, Browne and others reasonably to understand?**
-9. **What later evidence crossed the boundary?**
-10. **What did each new observation actually change?**
-11. **Where was the original integrated object rebuilt?**
-12. **Who owned the arrows?**
-
-Only then ask whether there was breach.
-
-Only after breach ask what harm probably followed from that particular breach.
-
----
-
-# 25. Clean-repository reading sequence
-
-A reader of **`stronger-formulation`** should proceed in this order:
-
-1. **`CENTRAL_ORGANISING_ARCHITECTURE.md`** — learn how the case is to be read;
-2. **`FACTUAL_SPINE.md`** — read the compact factual sequence and counterfacts;
-3. **`meettheteam_replacement.md`** — understand expertise, decisions and actor-specific information / behaviour states;
-4. **`SRC_COMPLETE_RECORD_FORENSIC.md`** — test every important proposition against the canonical source record.
-
-Do not create a new analytical file simply because a new insight appears. First ask whether it belongs as a refinement of one of the three controlling analytical documents.
-
----
-
-# 26. Mandatory drafting rules
-
-1. State the information threshold before making the proposition.
-2. Do not let the final synthesis travel backwards.
-3. Do not let post-discharge treatment travel backwards into the admission.
-4. Do not make the Protest an objection to knowledge the patient did not possess.
-5. Do not infer bedside application from departmental expertise alone.
-6. Distinguish detection from integration.
-7. Distinguish capability, participation and bedside application.
-8. Do not infer structural independence from structural pathology.
-9. Do not treat Podiatry appropriateness as proof that Neurology completed the integrative task.
-10. Do not treat downstream repetition as independent validation without testing provenance.
-11. Do not treat later current-state reconsideration as proof that the original historical relationship was rebuilt.
-12. Do not collapse later evidence into one mechanism.
-13. Do not collapse all possible breaches into one continuing negligence allegation.
-14. Replace motive with structure unless motive is directly evidenced.
-15. Keep breach and causation separate.
-
----
-
-# 27. Centrally controlling propositions
-
-> **The patient arrived integrated.**
-
-> **The sign was seen; the question is whether it was integrated.**
-
-> **The Protest identified what remained unfinished and converted omission into notice.**
-
-> **What clinical work earned “Not Clear”?**
-
-> **Managed uncertainty is not the same information state as contested closure.**
-
-> **The synthesis may have outrun the examination.**
-
-> **Synthetic completeness is not evidential completeness.**
-
-> **Did the expertise that enriched the theory return to the body?**
-
-> **Capability → participation → bedside application.**
+He possesses the referral, patient, bedside findings and Protest. The summary is not information for him. It is the act by which a particular allocation becomes authoritative downstream.
 
 > **The summary changes knowledge downstream; it changes commitment upstream.**
 
-> **Commitment pressure is structural, not proof of motive.**
+For Monaghan the key questions are now:
 
-> **An insufficiency of examination may have been transmitted as an insufficiency of medical knowledge.**
+> **What clinical work justified “may have been completely separate”?**
+
+and:
+
+> **What justified converting the patient’s “markedly divorced” phenomenological distinction into support for a separated clinical pathway?**
+
+## Browne — downstream movement-disorders expertise
+
+His founding uncertainty may be inherited. Ask when direct later information gave him enough basis to test the allocation.
+
+## Counihan — capability / participation / application
+
+Trace when relevant movement-disorders / PRKN expertise entered the patient-specific case and whether it returned to examine the feet–gait relationship.
+
+## Healy — later independent specialist state
+
+His September probable PARK II opinion is independent at that later date but does not retroactively validate the July foot allocation.
+
+---
+
+# 19. Capability → participation → bedside application
+
+Always distinguish:
+
+> **Capability → Participation → Bedside Application**
+
+The department demonstrably possessed sophisticated expertise.
+
+That does not prove what was done to this patient’s feet.
+
+The return-loop question remains:
+
+> **Did the expertise that enriched the theory return to the body?**
+
+---
+
+# 20. Treatment restraint and baseline preservation
+
+Do not allege that levodopa was obviously mandatory in July.
+
+The deliberate restraint was clinically reasoned.
+
+But if treatment capable of changing the phenotype was deliberately deferred, the untreated / minimally treated state had increased observational value.
+
+Ask:
+
+> **Did treatment restraint increase the importance of documenting the baseline feet, posture, gait and dynamic lower-limb relationship before treatment changed them?**
+
+---
+
+# 21. Duty, breach, harm and causation after the correction
+
+## Duty
+
+> **Reasonable Neurology had to investigate and retain ownership of the relationship sufficiently to avoid treating the disabling feet as clinically independent before there was an adequate basis for doing so.**
+
+## Founding breach
+
+> **If expert evidence supports it, the founding breach occurred before the Protest: the record does not demonstrate a directed investigation sufficient to justify the later separation.**
+
+## Decision-after-notice breach
+
+> **The Protest then supplied express notice while correction remained possible.**
+
+## Allocation / communication breach
+
+> **The final synthesis may have converted insufficiently investigated uncertainty into an authoritative separate clinical state.**
+
+## Handoff breach
+
+> **Podiatry may have been appropriate but insufficient if no one retained ownership of the relationship.**
+
+## Reopening breach
+
+> **Later cross-boundary evidence, especially by April 2018, may independently have required reconstruction.**
+
+## Harm
+
+Two pathways must be kept distinct:
+
+1. **direct clinical harm** from loss of integrated ownership and delayed recognition / treatment of a neurologically modifiable or mixed component;
+2. **primary-care information harm** where the specialist allocation reduces the likelihood or speed with which the original neurological relationship is reopened downstream.
+
+## Causation
+
+For every breach:
+
+> **competent care → probable finding → probable avoidance / reversal of segregation → probable management change → probable effect on motor state / loading / pain / structural pathology → probable reduction in incremental morbidity.**
+
+Do not attribute all later disease burden to the breach.
+
+---
+
+# 22. Competing-model test
+
+## Model A — legitimate decomposition
+
+- Parkinsonism was real.
+- Structural foot disease was real.
+- The patient’s historical distinction supported independent mechanisms.
+- Neurological examination was sufficient.
+- Podiatry was an appropriate separate destination.
+- “Not clear” represented earned residual uncertainty.
+- Later evidence did not require reconstruction.
+
+## Model B — unearned founding segregation
+
+- the integrated referral required relationship-directed assessment;
+- the dystonic-looking lower limb increased that requirement;
+- the surviving record does not demonstrate sufficient relationship-directed work;
+- “may have been completely separate” converted uncertainty into an allocation;
+- “markedly divorced” gave the allocation apparent patient-side support without proving mechanistic independence;
+- Podiatry operationalised the separation;
+- the sophisticated specialist synthesis gave it authority;
+- later evidence was repeatedly classified inside the inherited architecture rather than used to test whether the founding segregation had been earned.
+
+The central forensic question is:
+
+> **Which model better explains the record with fewer unsupported transitions?**
+
+The legal conclusion remains for expert and counsel.
+
+---
+
+# 23. Mandatory expert questions at the centre
+
+1. **Leaving the Protest aside, what clinical work during July 2017 was directed to determining whether the painful abnormal feet, toe deformity, dystonic-looking lower-limb posture and abnormal gait were related?**
+2. **Was that work sufficient to justify permitting the feet to proceed as a separate problem?**
+3. **What clinical evidence justified the proposition that the foot symptoms “may have been completely separate”?**
+4. **Did the patient’s historical distinction between foot pain and bodily tension justify mechanistic independence, or only phenomenological distinction?**
+5. **What function did “markedly divorced” perform in the clinical reasoning, and was that function medically sound?**
+6. **Was Podiatry appropriate but insufficient unless Neurology retained or created ownership of the relationship?**
+7. **What should the Protest have changed once the patient expressly identified the feet as untreated?**
+8. **Did the final specialist account fairly communicate whether the separation was earned by investigation or was simply the disposition of an incompletely investigated relationship?**
+9. **Did later neurological–foot evidence require the founding “completely separate” allocation to be reopened, and when?**
+10. **What difference would competent integrated care probably have made?**
+
+---
+
+# 24. Centrally controlling propositions
+
+> **The patient arrived integrated.**
+
+> **The components were recorded; the relationship was not demonstrably investigated to equivalent depth.**
+
+> **Not identical is not independent.**
+
+> **“May have been completely separate” is the founding partition.**
+
+> **“Markedly divorced” is not self-proving evidence of mechanistic independence.**
+
+> **“Not Clear” describes uncertainty; the separate disposition gives the uncertainty direction.**
+
+> **The Protest did not create the omission. It converted it into express notice.**
+
+> **The synthesis may have outrun the examination.**
+
+> **The summary changes knowledge downstream; it changes commitment upstream.**
+
+> **Podiatry can be appropriate while segregation remains clinically unearned.**
 
 > **Structural pathology does not establish structural independence.**
 
 > **Who owned the arrows?**
 
-> **Fragmentation can preserve every fact while destroying ownership of the relationship among them.**
+> **Later facts can be acknowledged without the founding allocation being reconsidered.**
 
-> **The unresolved relationship did not disappear from the patient. It may have disappeared as an object of inquiry.**
+> **The genetic phenotype can become progressively clearer while the painful appendage remains outside the founding neurological formulation.**
 
 > **Local updating, global non-revision.**
 
-> **The record may show updating. The audit asks where the rebuilding occurred.**
-
-> **Later documentary continuity is not automatically independent validation of the frame that produced it.**
-
-> **The body remained unresolved while the institution progressively resolved the record.**
-
-> **Even if July “Not Clear” was initially reasonable, did the 2018 treatment-state crossing require reopening? If not, why not?**
+> **The question is not whether every foot lesion was Parkinsonian. The question is whether the feet were separated before separation had been clinically earned, what later evidence should have undone that allocation, and what harm the segregation probably caused.**
 
 ---
 
-# 28. Final controlling formulation
-
-> **The case should be read as the history of an integrated clinical object that entered Neurology, was only partly resolved at the bedside, was expressly identified by the patient as unfinished at the Protest, and was then translated into a sophisticated post-Protest specialist synthesis in which the neurological disease was strongly formulated but the feet remained “Not Clear.” The lower-limb abnormality had not simply been invisible: it had been seen, described in dystonic terms and used diagnostically, sharpening the question of why its relationship to the painful structural feet remained low-resolution. The Protest supplied diagnostic feedback and converted omission into notice, but the final portable account did not preserve the fact of contested closure. That synthesis created an authoritative information state for Brennan, Browne and later clinicians, while for the treating neurologist it represented a behavioural commitment to the formulation being exported. Relevant expertise must therefore be traced through capability, patient-specific participation and actual bedside application, including whether theoretical uplift ever returned to test the unresolved body. The later record repeatedly generated neurological, mechanical and treatment-state evidence capable of bearing on the original relationship. Much of that evidence was clinically used, but the central audit question is whether it ever rebuilt the original integrated object rather than being absorbed into the categories created by the founding synthesis. The case turns not on proving that every foot lesion was Parkinsonian, but on whether the neurological–foot relationship was adequately investigated, owned, transmitted, reopened and integrated at the successive information thresholds where reasonable practice required it.**
-
----
-
-# 29. Shortest possible version
+# 25. Shortest possible version
 
 > **Integrated referral.  
-> Seen but not necessarily integrated.  
-> Protest as diagnostic feedback.  
-> Post-Protest “Not Clear.”  
-> Managed uncertainty exported; contested closure omitted.  
-> Downstream information state.  
-> Upstream commitment state.  
-> Did expertise return to the body?  
-> Repeated boundary crossings.  
-> Local updating without clear global rebuilding.  
-> Who owned the arrows?  
-> What work earned the uncertainty?**
+> Dystonic-looking lower limb detected.  
+> No demonstrated relationship-directed foot investigation proportionate to the problem.  
+> “May have been completely separate.”  
+> “Markedly divorced.”  
+> Podiatry.  
+> Strong specialist synthesis gives the allocation authority.  
+> Protest converts omission into notice.  
+> Later evidence repeatedly crosses the allocation.  
+> Facts are updated locally while the founding separation remains resilient.  
+> What work earned the segregation?  
+> What harm did it cause?**
