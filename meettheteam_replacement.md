@@ -1,645 +1,439 @@
 # Meet the Team
 
-## Expertise, decisions, information states and behaviour states — Galway Neurology and the case, 2013–2021
+## Expertise, decisions, information states and behaviour states
 
-## Purpose
+**Function:** This document identifies who possessed which information, who participated in which decisions, and how the founding specialist allocation affected each actor differently.
 
-This document is not simply a list of who the relevant clinicians were.
-
-For each actor it asks:
-
-1. **What expertise did this person demonstrably possess?**
-2. **What did this person know directly from the patient?**
-3. **What did this person know only because another clinician or document told them?**
-4. **What decisions did this person actually participate in?**
-5. **Did the July 2017 discharge synopsis create an information state for them, or was the synopsis itself an act of behaviour and commitment by them?**
-6. **When did later evidence create a genuine opportunity to reopen the inherited formulation?**
-7. **Did relevant expertise merely exist, did it enter this patient-specific case, or did it actually return to the bedside and test the unresolved relationship?**
-
-This is not a guilt map. Expertise is not responsibility, authorship is not proof of motive, and a downstream clinician is not responsible for a founding information state merely because he or she later inherited it.
+It is not a guilt map.
 
 The controlling distinctions are:
 
-> **The discharge synopsis did not have the same effect on every actor. For some it created an information state. For the clinician who possessed the underlying encounter and authored the operative formulation, it was a behaviour and commitment state.**
+> **Capability is not participation, and participation is not bedside application.**
 
 and:
 
-> **Capability is not participation, and participation is not bedside application.**
+> **The summary changes knowledge downstream; it changes commitment upstream.**
+
+The refined case centre is now:
+
+> **The relationship between the abnormal lower-limb motor disorder and the painful structural feet was unresolved. The final synthesis nevertheless created a practical separation: “may have been completely separate,” reinforced by “markedly divorced,” with Podiatry as the foot destination. The actor question is who created, received, relied on, or later acquired enough independent information to test that allocation.**
 
 ---
 
 # 1. The state model
 
-## 1.1 Presentation state
+## Presentation state
 
-The presentation state is the patient as physically and historically available before the final specialist synthesis was constructed.
+The patient reached Neurology as an integrated clinical problem:
 
-The originating object was not “Parkinsonism plus unrelated feet.” It was an integrated problem involving:
-
-- painful and abnormal feet;
+- painful abnormal feet;
 - abnormal gait;
-- difficulty initiating movement;
-- increased tone and stiffness;
-- inability to relax;
-- clawing / postural abnormality;
-- impaired dexterity;
+- increased tone / stiffness;
+- movement-initiation difficulty;
+- toe clawing / deformity;
 - deteriorating function;
 - emerging Parkinsonian signs.
 
-The GP referral therefore defines the clinical question that entered Neurology.
+The referral did not establish neurological independence of the feet.
 
-## 1.2 Information state
+## Bedside-detection state
 
-An information state exists when an actor who did not possess the underlying encounter has to understand the patient through the account transmitted to them.
+Neurology detected:
 
-A discharge synopsis can determine:
+- severe Parkinsonism;
+- a strikingly abnormal gait;
+- a foot-drop-like lower-limb phenomenon considered dystonic rather than true foot drop;
+- pes planus;
+- hammertoes.
 
-- which problems appear integrated;
-- which problems appear separate;
-- which questions appear already investigated;
-- which uncertainties appear to be genuine residual medical uncertainty;
-- and which facts disappear from the portable representation altogether.
+The actor question is no longer simply **who saw the sign?**
 
-## 1.3 Behaviour / commitment state
+It is:
 
-The authoring neurologist is different.
+> **Who, if anyone, converted those detected components into a directed investigation of their relationship before separation?**
 
-He is not learning the admission from his own discharge summary. He already possesses the underlying encounter.
+## Allocation state
 
-For him, compiling and distributing the synthesis is a **behavioural and commitment event**.
+The final specialist synthesis states that the foot / leg symptoms:
 
-He moves from:
+> **“may have been completely separate”**
 
-> **knowing the patient in the encounter**
+and records that the patient had:
 
-into:
+> **“in his own mind - markedly divorced”**
 
-> **choosing the representation of the patient that will leave the encounter and become authoritative downstream.**
+his bodily / leg tension from the corns, callouses and foot pains.
 
-## 1.4 Reopening state
+It then leaves the relationship:
 
-A downstream actor may later acquire new first-hand information — treatment response, withdrawal effects, examination findings, OFF-state phenomena, foot dystonia, pain response or gait change — that can no longer be attributed merely to inheritance of the July formulation.
+> **“Not clear.”**
 
-At that point:
+with Podiatry as the practical foot pathway.
 
-> **Did the new information require the inherited frame to be reopened?**
+That combination creates the founding allocation.
 
-Responsibility therefore follows **information opportunity**, not job title alone.
+## Information state
+
+For a downstream actor, the discharge synthesis determines what appears to have been:
+
+- investigated;
+- integrated;
+- separated;
+- left uncertain;
+- and assigned to another specialty.
+
+## Behaviour / commitment state
+
+For the clinician who possessed the encounter and participated in the final synthesis, the summary is not new information. It is the act by which one interpretation of the patient becomes portable and authoritative.
+
+## Reopening state
+
+A later actor may acquire independent information—treatment response, withdrawal effects, OFF-state phenomena, gait findings, dystonia, foot pain response or Podiatry mechanics—capable of testing the founding allocation.
+
+Responsibility then follows **information opportunity**.
 
 ---
 
-# 2. The expertise test: capability → participation → bedside application
+# 2. The expertise test
 
-Every actor and every institutional expertise claim must be run through three levels.
+Every expertise claim must be run through:
+
+> **Capability → Participation → Bedside Application**
 
 ## Capability
 
-What relevant expertise existed in or around the professional environment?
+What relevant expertise existed?
 
 ## Participation
 
-What expertise can be shown to have entered **this patient-specific case** through discussion, advice, correspondence, meeting, treatment decision or review?
+What expertise actually entered this patient-specific case?
 
 ## Bedside application
 
-What relevant expertise can be shown to have actually returned to examine or test the unresolved feet–gait relationship while that relationship was still clinically open?
+What expertise actually returned to test the unresolved relationship?
 
-This third level is the most important and the easiest to overstate.
-
-The return-loop question is:
+The return-loop question remains:
 
 > **Did the expertise that enriched the theory return to the body?**
 
-The ideal cycle is:
-
-> **observe → formulate → consult expertise → return to patient → test improved formulation → revise**
-
-The case must test whether the actual sequence completed that return loop.
-
 ---
 
-# 3. The Protest is the phase change
+# 3. The Protest after the correction
 
-The Protest is treated in this project as a fact of the chronology.
-
-At the Protest, the patient says in substance:
+The Protest is treated as fact:
 
 > **You have not dealt with my feet.**
 
-The Protest is not merely dissatisfaction. It is clinically relevant feedback that the model being developed has not accounted for the problem the patient experiences as unfinished.
+It no longer marks the earliest possible breach.
 
-After that point, closure occurs in a changed information environment.
+Its function is sharper:
 
-The question is not whether uncertainty was permissible.
-
-It is:
-
-> **What clinical work earned that uncertainty after express notice?**
-
----
-
-# 4. The professional network at a glance
-
-| Actor | Relevant role | Direct access to founding presentation? | Effect of discharge synthesis | Central decision / question |
-|---|---|---:|---|---|
-| **Dr Aaron Brennan** | GP / referring doctor | Yes before admission; no direct access to neurological bedside work | **Information state** layered on his own pre-admission knowledge | What did “Not Clear” cause him reasonably to believe had been investigated? |
-| **Dr Thomas Monaghan** | Treating / discharge neurologist | **Yes** | **Behaviour / commitment state** | What work earned the synthesis and the post-Protest disposition of the feet? |
-| **Dr/Prof Timothy J. Counihan** | Galway consultant neurologist / movement-disorders and Parkinson-genetics expertise | Patient-specific bedside role not presently established | Internal specialist decision environment | When did his expertise enter this case, and did it generate bedside application? |
-| **Patrick Browne** | Movement Disorders ANP / Parkinson nurse | Founding bedside involvement not established; ANP input recorded as pending | **Downstream information state** until independent later evidence | When did he first acquire enough information to test the inherited frame? |
-| **Prof Daniel G. Healy** | External consultant neurologist / neurological genetics | No July bedside access | Referred information state, then independent September examination state | What did he independently add, and what happened to his PARK II proposition? |
-| **Galway Neurology Department** | Institutional clinical environment | Mixed | Produces and distributes institutional information states | Was capability merely available, did it participate, or did it return to the unresolved bedside problem? |
-
----
-
-# 5. Dr Aaron Brennan
-
-## General Practitioner — input comparator and downstream information-state recipient
-
-Galway East Medical Practice records that Aaron Brennan graduated in medicine from NUI Galway in 1998 and worked in hospital medicine before specialist GP training, including experience in Neurology.
-
-Public source:
-- https://www.galwayeastmedicalpractice.ie/team/
-
-His importance is not that he is a movement-disorders specialist.
-
-It is that he knows the patient **before the specialist documentary patient exists**.
-
-## 5.1 What Brennan sends into Neurology
-
-Across April to late June 2017 the GP chronology progressively joins:
-
-- bilateral foot pain and abnormal feet;
-- abnormal / festinant or stiff gait;
-- difficulty initiating movement;
-- muscle tension and inability to relax;
-- increased tone;
-- toe clawing;
-- impaired dexterity;
-- deterioration at work and in ordinary function.
-
-By 29 June this is an integrated neurological referral question.
-
-> **Brennan sent an integrated feet–gait–tone–movement patient into Neurology.**
-
-## 5.2 Brennan’s post-discharge information state
-
-Brennan does not witness the eight days of neurological bedside work.
-
-When the specialist account arrives, “Not Clear” carries the apparent authority of:
-
-- inpatient Neurology;
-- consultant assessment;
-- imaging;
-- sophisticated young-onset / recessive reasoning;
-- treatment planning;
-- and completed specialist synthesis.
-
-He cannot tell from the phrase itself whether:
-
-> **A. the relationship was adequately investigated and remained medically unclear**
-
-or:
-
-> **B. the relationship remained unclear because the work necessary to resolve it was not completed.**
-
-If B is established, then:
-
-> **an insufficiency of examination has been represented downstream as an insufficiency of medical knowledge.**
-
-## 5.3 Brennan retains a pre-synthesis comparator
-
-Brennan is not identical to Browne because he remembers what he sent in.
-
-That makes him a particularly important comparator when later treatment response restores function according to the original integrated referral standard.
-
----
-
-# 6. Dr Thomas Monaghan
-
-## Consultant Neurologist — authorial centre, behaviour state and commitment state
-
-Public consultant material identifies Thomas Monaghan as a Consultant Neurologist practising through University Hospital Galway.
-
-Public source:
-- https://www.vhi.ie/members/directory-of-consultants/consultant-details/12360
-
-His importance in this case is primarily patient-specific.
-
-## 6.1 Founding information advantage
-
-Monaghan has access to:
-
-- the GP referral;
-- the patient;
-- the bedside presentation;
-- abnormal gait and tone;
-- the dystonic-looking lower-limb posture;
-- the foot pain history;
-- the course of the admission;
-- and the Protest.
-
-He is therefore differently situated from every downstream recipient.
-
-## 6.2 The summary is not an information state for Monaghan
-
-The summary does not tell him what happened.
-
-He participates in the act that tells **other people** what happened.
-
-For him it is a **behaviour / commitment state**.
-
-> **The summary changes knowledge downstream; it changes commitment upstream.**
-
-## 6.3 Commitment pressure
-
-As the admission approaches closure, more professional work has accumulated around the emerging formulation: investigation, discussion, specialist reasoning and treatment planning.
-
-A late challenge to an incompletely integrated problem can therefore become more disruptive than it would have been earlier.
-
-That is **commitment pressure**.
-
-It is a structural concept, not evidence of pride, embarrassment, concealment or bad faith.
-
-The question is simply whether increasing investment in the emerging synthesis made reopening the unresolved feet–gait question progressively more consequential.
-
-## 6.4 Detection versus integration
-
-The lower-limb abnormality was not simply invisible.
-
-The gait was strikingly abnormal; the foot-drop-like posture was recognised as suggestive of dystonia rather than true foot drop; the gait was videoed; structural abnormalities were recorded.
-
-So the question for Monaghan is not merely whether he saw the sign.
-
-It is:
-
-> **Having seen and neurologically characterised it, what work carried that sign through into the assessment of the painful feet?**
-
-## 6.5 The acceleration problem
-
-The final synthesis accelerates into sophisticated neurological and neurogenetic reasoning.
-
-That creates the audit proposition:
-
-> **The synthesis may have outrun the examination.**
-
-For Monaghan, this is also an authorship question:
-
-> **What work, and whose work, earned the sophistication of the final formulation?**
-
-And:
-
-> **What work earned the post-Protest conclusion “Not Clear”?**
-
----
-
-# 7. Dr/Prof Timothy J. Counihan
-
-## Consultant Neurologist — internal specialist capability and patient-specific treatment environment
-
-Counihan’s public expertise connects directly with:
-
-- young-onset Parkinsonism;
-- PRKN / PARK2;
-- dystonia;
-- abnormal gait;
-- movement-disorders practice.
-
-## 7.1 Capability: JAMA Neurology 2013
-
-**Doherty KM, Silveira-Moriyama L, Parkkinen L, et al. _Parkin Disease: A Clinicopathologic Entity?_ JAMA Neurology. 2013;70(5):571–579. DOI: 10.1001/jamaneurol.2013.172.**
-
-Relevant authors include:
-
-- **Daniel G. Healy**
-- **Timothy J. Counihan**
-
-Sources:
-- https://jamanetwork.com/journals/jamaneurology/fullarticle/1659731
-- https://pubmed.ncbi.nlm.nih.gov/23459986/
-
-This demonstrates pre-2017 Parkin / PARK2 expertise and a professional connection between Counihan and Healy.
-
-## 7.2 Capability: 2015 Parkinson genetics
-
-The Galway article _Genetics in Parkinson's disease – what have we learned?_ was authored by Patrick Browne, Timothy Counihan and Galway colleagues and discusses Parkin / PRKN.
-
-Source:
-- https://www.irishhealthpro.com/content/articles/print/name/genetics-in-parkinsons-disease--what-have-we-learned
-
-The patient-specific record identifies Galway departmental Parkinson-genetics material as accompanying the discharge material.
-
-That means capability did not merely exist in the abstract; genetic expertise entered the documentary environment of this case.
-
-## 7.3 Participation: levodopa deferral
-
-The later correspondence contains:
-
-> **“Myself and Tim are keen to hold back on Levodopa insofar as maybe possible unless you'd advise otherwise?”**
-
-Later clinician material identifies Tim as Timothy Counihan.
-
-This places Counihan inside the patient-specific specialist decision environment concerning treatment strategy.
-
-It does **not** establish that he examined the feet.
-
-## 7.4 Bedside-application question
-
-The controlling question is therefore not simply whether Counihan possessed the relevant expertise.
-
-It is:
-
-> **When did his expertise enter the patient-specific case, what information did he receive, and did that expertise ever return to the unresolved feet–gait relationship at the bedside or in a defined integrative review?**
-
----
-
-# 8. Patrick Browne
-
-## Movement Disorders ANP / Parkinson nurse — relevant expert in a downstream information state
-
-Patrick Browne is the Galway movement-disorders ANP / Parkinson nurse relevant to this case.
-
-His public record is close to the disputed clinical territory.
-
-## 8.1 Capability: 2015 genetics
-
-The 2015 Galway genetics article identifies Browne as **Movement Disorders ANP Candidate, Neurology Department, Galway University Hospital** and co-authors him with Counihan on Parkinson genetics / PRKN.
-
-## 8.2 Capability: 2017 dystonic-foot reasoning
-
-**Cullinane PW, Browne P, Hennessy MJ, Counihan TJ. _Clinical Reasoning: A demure teenager and her dystonic foot._ Neurology. 2017;89(7):e71–e75. DOI: 10.1212/WNL.0000000000004231.**
-
-Sources:
-- https://www.neurology.org/doi/10.1212/WNL.0000000000004231
-- https://pubmed.ncbi.nlm.nih.gov/28808173/
-
-The conceptual cluster includes:
-
-> **young patient → abnormal gait → foot posture → dystonia → Parkinsonian signs → parkin genetics → procyclidine**
-
-The paper was published in August 2017 and must not be projected backwards as proof that its particular reasoning was applied in July.
-
-## 8.3 Founding state: downstream, not authorial
-
-This document does **not** rely on any holiday theory.
-
-The relevant record-level fact is:
-
-> **Parkinsons Disease Advanced Nurse Practitioner input — pending.**
-
-The current record therefore does not establish Browne as a founding bedside observer.
-
-His initial patient is mediated by the discharge synthesis, consultant formulation, handover and whatever he later sees directly.
+> **It converts a pre-existing possible omission into express notice while the patient remains physically available.**
 
 Thus:
 
-> **Browne’s initial uncertainty may be inherited.**
-
-## 8.4 The important question is what information state reached his expertise
-
-An expert presented with:
-
-> **young patient, dystonic-looking gait, painful abnormal feet, relationship unresolved — please examine before closure**
-
-is being invited to discover.
-
-An expert later handed:
-
-> **young-onset Parkinsonism; feet separately referred; relationship not clear**
-
-begins inside an already-constructed frame.
-
-That is why the useful question is:
-
-> **Why did the patient not reach the relevant movement-disorders expertise while the original relationship was still presented as genuinely open?**
-
-And later:
-
-> **When did Browne first acquire enough independent information to test that inherited frame, and what happened then?**
+- before the Protest: ask whether the relationship-directed assessment was already inadequate;
+- at the Protest: ask what express notice required;
+- after the Protest: ask why the separate allocation was maintained and exported.
 
 ---
 
-# 9. Prof Daniel G. Healy
+# 4. Actor map
 
-## External specialist — initially downstream, then independently examining
-
-Beaumont Hospital identifies Daniel Healy as a Consultant Neurologist with expertise including genetic disorders of the nervous system.
-
-Public source:
-- https://www.beaumont.ie/pages/consultants/556/professor-daniel-healy
-
-His pre-existing professional connection to Counihan is demonstrated by the 2013 JAMA Neurology Parkin paper.
-
-## 9.1 State transition
-
-Before personally reviewing the patient, Healy receives a referred information state.
-
-Once he examines the patient in September 2017, he creates a new independent specialist state.
-
-He records probable PARK II, recommends testing and documents dramatic motor response to procyclidine / rasagiline.
-
-That later examination cannot rewrite July.
-
-It can, however, test the durability of the July formulation.
-
-The questions are:
-
-- what Galway sent him;
-- what he independently observed;
-- what he added;
-- what he altered;
-- what happened to his Parkin-specific proposition afterwards.
+| Actor | Founding access | Effect of final synthesis | Central question |
+|---|---:|---|---|
+| **Aaron Brennan** | Direct pre-admission knowledge; no bedside Neurology access | Downstream information state layered onto his integrated referral | What did the specialist allocation cause him reasonably to believe had already been investigated? |
+| **Thomas Monaghan** | Direct founding encounter | Behaviour / allocation / commitment state | What work justified “may have been completely separate,” “markedly divorced,” and separate Podiatry disposition? |
+| **Timothy Counihan** | Patient-specific bedside role not established | Internal specialist decision environment | When did his expertise enter, and did it generate relationship-directed application? |
+| **Patrick Browne** | Founding bedside involvement not established; ANP input recorded as pending | Downstream specialist frame until independent later information | When did he acquire enough independent information to test the inherited allocation? |
+| **Daniel Healy** | No July bedside access | Referred state, then independent September specialist state | What did his later PARK II opinion add, and did it bear on the feet? |
+| **Galway Neurology Department** | Institutional capability | Produces the founding specialist state | Did relevant capability return to test the painful feet before or after segregation? |
 
 ---
 
-# 10. Galway Neurology Department
+# 5. Aaron Brennan — input comparator and downstream recipient
 
-## Capability environment and institutional information production
+Brennan is important because he knows what existed **before specialist compression**.
 
-The department’s demonstrated capability includes:
+He sent into Neurology:
 
-- Parkinson genetics and PRKN/PARK2;
+> **feet + gait + tone + movement initiation + clawing + deteriorating function.**
+
+He did not witness the inpatient neurological work.
+
+When the specialist correspondence arrived, he received:
+
+- a strongly formulated Parkinsonian syndrome;
+- possible complete separateness of the foot problem;
+- possible neuropathy;
+- “Not clear”;
+- Podiatry.
+
+He could not tell whether:
+
+> **the relationship had been adequately investigated and separation remained the reasonable residual position**
+
+or:
+
+> **the relationship had not been adequately investigated before the feet were allowed to proceed separately.**
+
+The refined Brennan proposition is therefore:
+
+> **The specialist record may have converted an unfinished relationship into an authoritative allocation for primary care.**
+
+That is the foundation of the primary-care information-harm question.
+
+Brennan also retained the original comparator. Later, when feet, tone and gait again appeared together, he was one of the few actors able to compare the specialist patient with the patient he had actually sent in.
+
+---
+
+# 6. Thomas Monaghan — founding encounter, allocation and commitment
+
+Monaghan is differently situated from every downstream actor.
+
+He possessed or had access to:
+
+- the GP referral;
+- the patient;
+- the severe Parkinsonian bedside phenotype;
+- the dystonic-looking lower limb;
+- the painful foot history;
+- structural foot findings;
+- the admission course;
+- the Protest;
+- and the final synthesis process.
+
+For him, the final account is not merely an information state.
+
+It is the act by which the case is allocated downstream.
+
+> **The summary changes knowledge downstream; it changes commitment upstream.**
+
+## The key Monaghan questions are now earlier and sharper
+
+1. **What relationship-directed foot examination was actually done before separation?**
+2. **What clinical evidence justified “may have been completely separate”?**
+3. **Did the patient’s historical distinction between foot pain and bodily tension justify mechanistic independence, or only phenomenological distinction?**
+4. **What function did “markedly divorced” perform in the clinical reasoning?**
+5. **Why did Podiatry become the operational destination without a demonstrated neurological return loop?**
+6. **What should the Protest have changed once the patient expressly said the feet had not been dealt with?**
+
+## “Markedly divorced” and authorship
+
+This phrase matters because it is not merely the patient speaking in quotation marks.
+
+It is an **authorial characterisation** of what the patient’s historical distinction meant.
+
+The patient had described different symptom behaviour over time and with standing exposure.
+
+The final synthesis characterises that as the patient having “markedly divorced” the foot pains from bodily tension.
+
+The expert question is whether that was clinically sound support for separation.
+
+No allegation of bad faith is required.
+
+## Commitment pressure
+
+As the neurological / genetic synthesis becomes more sophisticated, reopening the omitted or under-integrated feet becomes more disruptive.
+
+That is **commitment pressure**.
+
+It is structural, not motive.
+
+---
+
+# 7. Timothy Counihan — capability, participation, application
+
+Counihan’s relevant capability includes:
+
+- PRKN / PARK2;
+- young-onset Parkinsonism;
 - dystonia;
-- young-onset / juvenile Parkinsonism;
-- Parkinsonian gait / freezing;
-- movement-state analysis;
-- advanced Parkinson treatment.
+- movement disorders;
+- abnormal gait.
 
-Three anchors matter:
+Patient-specific participation is supported by the treatment correspondence:
 
-### 2013
+> **“Myself and Tim are keen to hold back on Levodopa…”**
 
-Counihan and Healy participate in the JAMA Neurology Parkin-disease paper.
+That places him in the treatment decision environment.
 
-### 2015
+It does not establish that he examined the painful feet or considered the founding separation.
 
-Browne and Counihan publish on Parkinson genetics / PRKN from the Galway Neurology Department.
+The controlling question is:
 
-### 2017
-
-Browne and Counihan are among the Galway authors of _A demure teenager and her dystonic foot_.
-
-The department therefore cannot fairly be characterised as an environment in which the conceptual connection between:
-
-> **young-onset Parkinsonism ↔ dystonia ↔ abnormal gait ↔ foot posture ↔ Parkin genetics**
-
-was alien or inaccessible.
-
-But that is only **capability**.
-
-The case must separately prove **participation** and **bedside application**.
-
-## 10.1 The return-loop question
-
-The institutional question is:
-
-> **Did the expertise that enriched the final theory return to test the unresolved body?**
-
-The theoretical sophistication of the final synthesis raises, rather than answers, the bedside question.
+> **When did Counihan’s expertise enter the patient-specific case, what information did he receive, and did that expertise ever generate direct investigation of whether the feet were structurally independent, neurologically influenced or mixed?**
 
 ---
 
-# 11. Three anchor publications and what each establishes
+# 8. Patrick Browne — relevant movement-disorders expertise downstream of the allocation
 
-| Publication | Actors | What it establishes | What it does not establish |
-|---|---|---|---|
-| **2013 — _Parkin Disease: A Clinicopathologic Entity?_** | Healy + Counihan | Pre-existing Parkin/PARK2 expertise and professional connection | When either clinician first considered PARK2 in this patient |
-| **2015 — _Genetics in Parkinson's disease – what have we learned?_** | Browne + Counihan + Galway colleagues | Galway movement-disorders/genetics capability; Browne as Movement Disorders ANP Candidate; PRKN discussed | That Browne saw the July 2017 presentation or Counihan examined the feet |
-| **2017 — _A demure teenager and her dystonic foot_** | Browne + Counihan + Galway colleagues | Contemporaneous Galway capability linking abnormal gait / foot dystonia with parkin-related juvenile Parkinsonism and procyclidine treatment | That the August publication informed the July encounter or that its reasoning was applied to this patient |
+Browne’s public and professional background is close to the disputed territory: movement disorders, Parkinson genetics, dystonia and abnormal foot posture.
 
----
+But capability does not prove July bedside participation.
 
-# 12. The crucial asymmetry: expertise entered the case unevenly
+The July synthesis records Parkinson’s Disease ANP input as:
 
-Sophisticated expertise entered the case in some directions:
+> **pending.**
 
-- PARK2 / recessive genetics;
-- genetic counselling;
-- specialist referral to Healy;
-- departmental Parkinson-genetics material;
-- a treatment strategy involving Counihan and levodopa deferral.
+The founding record therefore does not establish Browne as the clinician who created the bedside allocation.
 
-At the same time, the painful-foot relationship reaches closure as:
+His initial patient may have reached him already framed as:
 
-> **“Not Clear.”**
+> **young-onset Parkinsonism + separate / Podiatry feet + “Not clear.”**
 
-The question is not why every uncertainty was eliminated.
+That changes the question from:
 
-It is:
+> **Why did Browne not fix July?**
 
-> **Why did sophistication travel so far in one direction without a visible equivalent return loop to the unresolved feet–gait relationship?**
+into:
+
+> **When did Browne first acquire enough independent information to test whether the inherited separation had ever been clinically earned?**
+
+Later treatment-state information is especially important for that question.
 
 ---
 
-# 13. Information-state consequences by actor
+# 9. Daniel Healy — later independent specialist state
 
-## The patient
+Healy did not possess the July bedside encounter.
 
-The patient knows the feet remain unresolved and that he protested. Later recipients may not know closure itself was contested.
+His September 2017 personal review created an independent specialist information state.
+
+He recorded probable PARK II and dramatic response to procyclidine / rasagiline.
+
+That later opinion strengthens the neurological / Parkin phenotype.
+
+It does not independently validate the July foot allocation unless he was actually asked to assess that relationship and did so.
+
+The key Healy question is therefore:
+
+> **What did Galway ask him to decide, and did the referred question include the painful feet–dystonia–gait relationship?**
+
+If not, his authority on Parkin should not be treated as independent validation of the founding separation.
+
+---
+
+# 10. The department — capability does not prove application
+
+Galway Neurology had demonstrable capability in:
+
+- PRKN / PARK2;
+- young-onset Parkinsonism;
+- dystonia;
+- movement disorders;
+- gait;
+- Parkinson genetics.
+
+That makes the final synthesis unsurprisingly sophisticated.
+
+It does **not** answer whether the patient’s painful feet received a correspondingly directed movement-disorders examination.
+
+The departmental audit question is:
+
+> **How did high-resolution neurological / genetic construction coexist with a foot relationship represented as possibly “completely separate” without the record demonstrating equivalent relationship-directed work?**
+
+---
+
+# 11. The founding allocation affects later actors differently
+
+The same words have different effects depending on who receives them.
+
+## For Brennan
+
+They can appear to report what specialist Neurology has already investigated.
+
+## For Browne
+
+They can define the starting frame inside which later movement-disorders management occurs.
+
+## For Healy
+
+They can determine which questions were or were not sent externally for independent review.
+
+## For Monaghan
+
+They are not merely received information. They are part of the representation he helped make authoritative.
+
+That is why actor analysis must always distinguish:
+
+> **information inheritance**
+
+from:
+
+> **allocation authorship.**
+
+---
+
+# 12. Reopening opportunities
+
+The founding allocation is later tested by new information:
+
+- September 2017 treatment response;
+- October 2017 tension + restless feet + deteriorating walk during withdrawal;
+- recurrent left fifth-MTPJ mechanical pathology;
+- April 2018 rapid focal outside-left-foot change during withdrawal;
+- 2019 GP reintegration;
+- 2020 Parkinsonian foot throw;
+- 2022 morning foot warm-up;
+- 2023 OFF/dystonia and pain analysis;
+- 2024 toe curling despite pain relief;
+- 2025 Sinemet-responsive foot pain.
+
+For each actor ask:
+
+> **When did this person first acquire independent information capable of challenging the founding “completely separate” allocation?**
+
+Then:
+
+> **What did they do with it?**
+
+---
+
+# 13. The actor-specific causation questions
 
 ## Brennan
 
-Brennan retains the original referral comparator but receives “Not Clear” under the authority of a completed specialist admission.
+Would a discharge account that preserved the feet as an **active unresolved neurological relationship** have caused a reasonable GP to seek neurological reintegration earlier?
+
+## Monaghan
+
+Would adequate relationship-directed investigation before separation probably have changed the formulation, disposition or later management?
 
 ## Browne
 
-Browne has relevant expertise but initially lacks the founding bedside comparator unless later evidence proves otherwise.
-
-## Healy
-
-Healy begins downstream and then becomes independent when he examines the patient himself.
-
-## Monaghan
-
-Monaghan is not downstream of his own representation. His later conduct must be analysed through the effects of **commitment**, not inherited information.
-
----
-
-# 14. Behavioural consequences of commitment
-
-Once a professional formulation has been committed to record, later behaviour can be influenced by what has already been settled on paper.
-
-That does not require motive or bad faith.
-
-A formulation can become self-stabilising because:
-
-- later referrals begin from it;
-- later clinicians inherit it;
-- new evidence is interpreted locally;
-- settled boundaries require stronger triggers to reopen;
-- and the original untreated patient is no longer available in the same state.
-
-The discharge synopsis is therefore an intervention in the future information environment.
-
----
-
-# 15. The Browne–Brennan comparison
-
-Brennan and Browne are both downstream of the final synthesis, but not identically.
-
-Brennan has an independent **pre-synthesis comparator**: the integrated patient he personally referred.
-
-Browne has highly relevant specialist expertise but no presently established direct access to the founding bedside presentation before the synopsis was completed.
-
-> **Brennan can compare the specialist patient with the patient he sent in. Browne can initially compare the specialist patient only with what he later sees for himself.**
-
----
-
-# 16. The Monaghan–Browne distinction
-
-Browne’s initial uncertainty may be **inherited**.
-
-Monaghan’s uncertainty is **authored / committed**.
-
-Browne may initially not know what work went into “Not Clear.”
-
-Monaghan is positioned to know what work actually occurred and what the final summary says about it.
-
-> **The same words can create an information state for Browne and a behaviour state for Monaghan.**
-
----
-
-# 17. Controlling questions for each actor
-
-## Brennan
-
-> **What did the specialist summary cause the GP reasonably to believe had been investigated and resolved, or investigated and left unresolved?**
-
-## Monaghan
-
-> **What work supported the final synthesis, what did the Protest require before closure, and what consequences followed from choosing “Not Clear” as the portable disposition of the feet?**
+Once treatment-state evidence entered his direct knowledge, did reasonable movement-disorders practice require reconsideration of the inherited allocation?
 
 ## Counihan
 
-> **When did his expertise enter the patient-specific case, what information was available when he participated in treatment strategy, and did his involvement generate bedside or later integrative reconsideration of the feet–dystonia relationship?**
-
-## Browne
-
-> **What did he initially inherit, when did he first obtain genuinely independent information about the feet / movement relationship, and when did that information become sufficient to test the inherited frame?**
+Did his patient-specific participation ever create an opportunity to connect treatment strategy with the unresolved feet–gait relationship?
 
 ## Healy
 
-> **What did he receive from Galway, what did he independently add in September 2017, and what happened to the Parkin-specific proposition he introduced?**
-
-## Galway Neurology Department
-
-> **How did demonstrable capability in Parkin, dystonia and gait move from capability to participation, and where is the evidence that it returned to the unresolved bedside relationship?**
+Did the scope of the referral prevent an independent specialist capable of Parkin / movement-disorders reasoning from being asked the foot question at all?
 
 ---
 
-# 18. Shortest formulation
+# 14. Centrally controlling actor propositions
 
-> **Brennan supplies the integrated patient.**
->
-> **Monaghan possesses the founding encounter and commits the post-Protest documentary patient to record.**
->
-> **Counihan connects the case to internal Parkin / movement-disorders expertise and participates in the treatment-decision environment.**
->
-> **Browne possesses highly relevant movement-disorders expertise but begins downstream of the founding synthesis; his initial state is informational, not authorial.**
->
-> **Healy later supplies an independent external specialist state.**
->
-> **The decisive expertise question is not merely who knew the subject. It is whether capability entered this case, and whether participation returned to the bedside in time to alter the unresolved relationship.**
+> **Brennan sent the whole problem in.**
 
-And the central state distinction remains:
+> **Monaghan possessed the founding encounter and helped determine what would leave it.**
 
-> **The discharge synopsis changed what Brennan, Browne and the patient were told the case was. For Monaghan it did something different: it fixed what he had chosen the case to become on paper.**
+> **“May have been completely separate” is an allocation, not merely a description of uncertainty.**
+
+> **“Markedly divorced” is an authorial characterisation whose clinical function must be tested.**
+
+> **Not identical is not independent.**
+
+> **Browne’s initial uncertainty may be inherited.**
+
+> **Healy’s later Parkin authority does not automatically validate a foot question he was not asked to decide.**
+
+> **Capability → participation → bedside application.**
+
+> **Did the expertise that enriched the theory return to the body?**
+
+> **Responsibility follows information opportunity.**
+
+> **The decisive actor question is not merely who knew the subject. It is who had the patient, who created the allocation, who inherited it, and when later evidence gave each actor a real opportunity to test it.**
