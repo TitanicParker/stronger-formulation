@@ -1,391 +1,499 @@
 # Factual Spine
 
-**Status:** CORE FACTUAL FOUNDATION — STRONGER FORMULATION
+**Status:** CORE FACTUAL FOUNDATION — RECORD-WIDE AUDIT VERSION
 
-**Function:** Compact factual sequence supporting the organising architecture. It is not a pleading, expert report, negligence finding or causation opinion.
-
-The governing factual question is:
-
-> **What happened to the integrated feet–gait–tone–movement problem after it entered Neurology, what relationship-directed work is actually demonstrated, how did “may have been completely separate” and “markedly divorced” enter the final account, and what later facts tested that founding allocation across the hospital?**
-
-Later evidence must not be used to rewrite earlier knowledge.
+**Function:** Compact factual sequence supporting the organising architecture. It is not a pleading, expert report, negligence finding or causation opinion. The canonical source record controls if any conflict arises.
 
 ---
 
-# 1. Integrated problem before Neurology
+# 1. Before Neurology: structural feet and gait already existed together
 
 ## 10 April 2017
 
-Primary care documented abnormal gait, **bilateral foot pain**, marked mallet toes, onychogryphosis, callus / pressure areas and difficulty working on the feet. Podiatry was planned.
+Primary care documented:
 
-## 8–29 June 2017
+- abnormal gait;
+- bilateral foot pain;
+- marked mallet toes;
+- onychogryphosis;
+- callus / pressure areas;
+- difficulty working on the feet.
 
-Primary care increasingly integrated the problem: gait, feet and “muscle tension”; markedly increased tone; unusual festinant / stiff gait; difficulty initiating movement; toe clawing; inability to relax muscles; deteriorating dexterity and work function.
+Podiatry referral was planned.
 
-The feet did not arrive already proved independent of the neurological presentation.
+This establishes genuine structural foot pathology before neurological diagnosis.
 
-> **painful abnormal feet + abnormal gait + pathological tone / movement disorder.**
+## 8 June 2017
+
+The GP considered Neurology specifically for:
+
+> **gait, feet and “muscle tension” issues.**
+
+Difficulty initiating movement was already present.
+
+## 23 June 2017
+
+Primary care documented markedly increased tone in both legs, brisk upper-limb reflexes and use of alcohol to help “relax muscles.”
+
+## 29 June 2017 urgent referral
+
+The urgent referral described an unusual festinant / stiff gait in a patient attending with bilateral foot issues and recorded:
+
+- difficulty initiating movement;
+- marked stiffness / increased tone in upper and lower limbs;
+- brisk reflexes;
+- possible cogwheeling;
+- toe clawing in bed;
+- inability to relax;
+- worsening dexterity;
+- deteriorating work function.
+
+The referral did not establish that the feet were neurologically independent.
+
+> **Painful abnormal feet + abnormal gait + pathological tone / movement dysfunction entered the neurological assessment together.**
 
 ---
 
-# 2. What Neurology detected in July 2017
+# 2. Podiatry was already a live pathway before the neurological synthesis
 
-The July neurological assessment documented:
+This must remain visible.
 
-- markedly increased relatively symmetrical tone;
-- lead-pipe / axial rigidity;
-- gross bradykinesia;
-- absent arm swing;
+Primary care had already initiated Podiatry in April.
+
+On **6 July 2017**, during the admission period, the GP recorded:
+
+> **“Phoned podiatry to discuss case - will mark as priority case and as Parkinson's - should be called mid September.”**
+
+This directly establishes that the Podiatry pathway was being actively pursued and that Parkinson's was communicated to that service.
+
+The neurological correspondence also later records:
+
+> **“Please refer [Patient] to outpatient Chiropody/Podiatry services - - we'd be grateful if you could refer please - Our SHO has tried to do this in hospital.”**
+
+Therefore do **not** describe Podiatry as a wholly new pathway invented by the final neurological synthesis.
+
+The factual question is narrower:
+
+> **What neurological relationship question, if any, accompanied the structural-foot referral and what information returned?**
+
+The 6 July GP note itself does not establish the full content of the telephone discussion or any feedback loop.
+
+---
+
+# 3. What Neurology actually detected in July 2017
+
+The neurological assessment documented:
+
+- markedly increased and relatively symmetrical tone;
+- a right lower-limb tremor that appeared clonus-like but was classified as resting tremor;
+- symmetrically moderately brisk reflexes;
 - markedly reduced blink rate;
-- a **“strikingly abnormal” gait**;
-- a foot-drop-like lower-limb appearance described as suggestive of **dystonic posture — “NOT FOOT DROP”**;
+- a **“strikingly abnormal”** gait;
+- a foot-drop-like appearance described as somewhat suggestive of dystonic posture and expressly **“NOT FOOT DROP”**;
+- absent arm swing;
+- lead-pipe rigidity;
+- gross axial rigidity walking;
+- gross bradykinesia;
 - pes planus;
 - hammertoes;
-- mild / minimal sock-band pitting oedema.
+- mild / minimal sock-band pitting oedema;
+- videoed examination with permission.
 
-The gait was videoed.
+The discharge material also lists **Physiotherapy** and **Occupational Therapy** under other specialties consulted.
 
-The differential included very-young-onset Parkinsonism and possible autosomal-recessive Parkinsonism.
+The neurological syndrome was therefore not overlooked.
 
-> **The lower-limb sign was seen and neurologically characterised.**
+> **The lower-limb motor sign was seen and neurologically characterised.**
 
 ---
 
-# 3. What July demonstrates about the feet
+# 4. July foot history and the demonstrated examination gap
 
-The record contains a detailed history of:
+The neurological history records:
 
 - corns and calluses;
 - fallen arches in both feet;
-- treatment since approximately 2009–2010;
-- foot pain affected by occupational standing exposure;
-- persistent corns / calluses despite reduced pain;
-- a subjective historical distinction between foot pain and bodily / leg tension.
+- treatment for foot problems since approximately 2009–2010;
+- improvement in foot pain after leaving bar work / spending less time on the feet;
+- persistence of bodily / leg tension despite that improvement;
+- continued corns and calluses.
 
-The neurological examination records pes planus and hammertoes.
+The identified July neurological examination records pes planus and hammertoes.
 
-The discharge material states:
+What the reviewed corpus does **not presently preserve as a coherent relationship-directed assessment** is a documented account linking:
 
-> **Podiatry referral has been sent to review issues with feet reported by the patient.**
+- painful sites;
+- dynamic dystonic posture;
+- fixed versus dynamic deformity;
+- standing / walking load;
+- pressure lesions;
+- and the proposed peripheral-neuropathy alternative.
 
-What the identified July material does not clearly demonstrate is a directed clinical bridge between the dystonic-looking lower limb, painful structural feet, gait and loading.
+This is a documentary observation only.
 
----
+> **Do not infer from missing documentation that an examination definitely did not occur.**
 
-# 4. Conservative explicit examination-gap audit
-
-A 50-domain audit was performed against the **complete record**, not merely July.
-
-Using a conservative standard:
-
-- **24/50** are clearly documented somewhere in the complete record;
-- **6/50** have partial / related evidence;
-- **20/50** have **no adequate documented counterpart found**.
-
-The 20 explicit negatives are:
-
-1. directed characterisation of **foot pain at rest**;
-2. **great-toe extension** as a dystonic posture;
-3. directed **ankle twisting / dystonic torsion** assessment;
-4. specific **foot posture while sitting**;
-5. **walking backward** examination;
-6. **heel walking**;
-7. **toe walking**;
-8. **tandem walking**;
-9. **heel-strike** assessment;
-10. **Achilles reflex** examination;
-11. a true **ankle-clonus test**;
-12. **plantar response / Babinski**;
-13. formal **light-touch sensory examination of the feet**;
-14. formal **pinprick sensory examination of the feet**;
-15. **vibration at the great toe**;
-16. **joint-position / proprioceptive testing**;
-17. foot **capillary refill / temperature / colour** assessment;
-18. directed **focal bony tenderness** examination;
-19. **plantar-fascia tenderness** examination;
-20. **Achilles-tendon tenderness** examination.
-
-This is a documentary negative only:
-
-> **No adequate counterpart found does not prove the examination was not performed.**
-
-Do not count as missing matters that are demonstrably documented later. In 2020 Neurology explicitly documents normal dorsiflexion, plantarflexion, inversion and eversion power; later records directly observe gait under jogging / turning; Podiatry extensively documents callus / pressure-point mechanics.
-
-The negative audit is therefore deliberately conservative.
+The videoed July examination and any original Physio / OT records are potential evidence sources that could contain additional dynamic information not preserved in the text currently reviewed.
 
 ---
 
-# 5. Why the location of the explicit gaps matters
+# 5. Conservative complete-record negative examination audit
 
-The explicit negatives cluster in three discriminating areas:
+Across the complete reviewed record, no adequate documented counterpart has presently been identified for the following domains:
 
-## Dynamic dystonia / gait
+- foot pain specifically characterised at rest;
+- great-toe extension as dystonic posture;
+- directed ankle twisting / dystonic torsion assessment;
+- foot posture while sitting;
+- backward walking;
+- heel walking;
+- toe walking;
+- tandem walking;
+- heel strike;
+- Achilles reflex;
+- a true ankle-clonus test;
+- plantar response / Babinski;
+- formal light-touch foot sensory testing;
+- formal pinprick foot sensory testing;
+- vibration at the great toe;
+- joint-position / proprioception testing;
+- capillary refill / foot temperature / colour examination;
+- focal bony tenderness;
+- plantar-fascia tenderness;
+- Achilles-tendon tenderness.
 
-Great-toe extension, ankle twisting, sitting posture, backward walking, heel walking, toe walking, tandem walking and heel strike.
+This list is deliberately conservative and must not be presented as twenty proven omissions from reasonable care.
 
-## Peripheral-neurological discrimination
-
-Achilles reflex, ankle clonus, plantar response, light touch, pinprick, vibration and joint-position sense.
-
-## Local mechanical / vascular discrimination
-
-Rest pain, capillary refill / temperature / colour, focal bony tenderness, plantar-fascia tenderness and Achilles-tendon tenderness.
-
-The relevance is not that every item was necessarily required.
-
-The relevance is that the final specialist synthesis itself considered both **complete separation** and **peripheral neuropathy**.
-
-The expert must determine which of these examinations reasonable practice actually required to distinguish the competing models.
-
----
-
-# 6. “May have been completely separate” and possible neuropathy
-
-The final specialist synthesis states that the leg / foot symptoms including corns, callouses and burning:
-
-> **“may have been completely separate”**
-
-or perhaps represented a secondary peripheral neuropathy, possibly in some respect related to prior alcohol intake, and concludes:
-
-> **“Not clear.”**
-
-The complete record does not show an adequate formal foot sensory examination covering light touch, pinprick, vibration or joint-position sense, nor a documented Achilles reflex, plantar response or true ankle-clonus test.
-
-This does **not** establish that neuropathy was impossible or that no undocumented examination occurred.
-
-It establishes the factual basis for asking:
-
-> **What positive clinical examination evidence supported peripheral neuropathy as an explanatory branch?**
+Several other items are documented later and therefore are **not** complete-record negatives. In 2020, for example, dorsiflexion, plantarflexion, inversion and eversion power were specifically tested and recorded as normal.
 
 ---
 
-# 7. “Markedly divorced”
+# 6. The final 2017 foot proposition
 
-Immediately after the “completely separate / peripheral neuropathy / Not clear” passage, the final synthesis states that the patient had:
+The final specialist synthesis states:
+
+> **“The leg symptoms including corns and callouses and burning may have been completely separate or perhaps a secondary peripheral neuropathy perhaps in some respect related to the significant original alcohol intake? Not clear…”**
+
+It then records that the patient had:
 
 > **“in his own mind - markedly divorced”**
 
-his bodily / leg tension from the corns, callouses and pains in the feet.
+his feelings of leg tension from the corns, callouses and pains in the feet.
 
-The underlying history was that foot pain improved with reduced occupational standing while bodily tension persisted.
+The underlying history supporting that distinction was that foot pain had reduced with reduced standing while bodily tension persisted.
 
-Directly, this establishes **different symptom behaviour**. Whether it justified mechanistic independence is an expert question.
+The documentary distinction is therefore:
+
+> **patient reports different symptom behaviour**
+
+versus
+
+> **specialist text characterises the domains as “markedly divorced.”**
+
+Whether this was a sound clinical basis for mechanistic separation is an expert question.
+
+The source record does not itself demonstrate that “complete separation” or peripheral neuropathy had been established by a formal relationship-specific foot examination.
 
 ---
 
-# 8. The Protest
+# 7. The Protest
 
 The project treats the pre-discharge Protest as fact:
 
 > **You have not dealt with my feet.**
 
-It occurred while the patient remained available for examination and before he had seen the later completed specialist synthesis.
+It belongs to the bedside / decision-live state while the patient remained available for examination.
 
-The Protest does not create the earlier documentary issue. It makes alleged incompleteness explicit before closure.
+The Protest did not concern later PRKN wording, later treatment response or later genetics.
+
+Its factual significance is that the patient expressly identified the feet as an unfinished problem before closure.
 
 ---
 
-# 9. Discharge lifecycle and founding hospital state
+# 8. Discharge chronology
 
-Physical discharge occurred on **11 July 2017**. The DaT scan was performed on **13 July 2017** and was abnormal. Formal summary confirmation occurred on **17 July 2017 at 19:30**. Primary care recorded receipt of the correspondence on 18 July.
+The contemporaneous record supports the following sequence:
 
-The final document combined high-resolution neurological / neurogenetic reasoning with:
+- **11 July 2017:** contemporaneous family message records that the patient was being released from hospital;
+- **13 July 2017:** DaT scan completed;
+- **17 July 2017:** GP records that no formal discharge had yet been received;
+- **17 July 2017 at 19:30:** discharge summary records **“DATE SUMMARY CONFIRMED: 17/07/2017 19:30”**;
+- **18 July 2017:** GP records **“Extensive correspondence Dr Thomas Monaghan”**, early Parkinsonism, positive DaT scan and clinical features, and separately codes Parkinson's disease.
 
-> **“may have been completely separate”**
-
-> **possible peripheral neuropathy**
-
-> **“Not clear”**
-
-> **“markedly divorced”**
-
-and Podiatry as the practical foot destination.
+This chronology matters because the final specialist information state was completed after physical discharge and incorporated later material.
 
 The final account does not preserve the Protest.
 
 ---
 
-# 10. PRKN / recessive reasoning and timing
+# 9. Treatment strategy and external specialist input
 
-The record contains a young-onset / recessive Parkinsonian formulation and later correspondence seeking genetic advice and discussing a strategy to defer levodopa.
+The 2017 record shows deliberate caution about levodopa / dopamine agonists in a very young patient.
 
-The exact timing at which the most sophisticated PRKN reasoning crystallised must remain evidence-led.
+A contemporaneous letter to Prof Daniel Healy asks for genetic advice, asks whether a Dublin review might be useful, refers to a clinical video, and states:
 
-The factual fork is therefore:
+> **“Myself and Tim are keen to hold back on Levodopa insofar as maybe possible unless you'd advise otherwise?”**
 
-- if such reasoning was operative while the patient remained available, what phenotype-directed foot examination is documented then?
-- if it crystallised later, what record shows a return to the patient to test the improved formulation against the unresolved feet?
+The contemporaneous page itself does not identify **“Tim.”** Later material attributes that participation to Timothy Counihan; the source distinction must be preserved.
 
-Those are questions; the source record does not itself answer them.
+Healy subsequently reviewed the patient in September 2017 and recorded that he thought the patient **“probably has Park II”**, recommended initial testing and described substantial response to procyclidine / rasagiline.
 
----
-
-# 11. September–October 2017 — first treatment-state crossing
-
-Prof Daniel Healy later recorded probable **PARK II** and substantial improvement on procyclidine / rasagiline.
-
-During procyclidine withdrawal the patient contemporaneously reported:
-
-> **“tension building up, my feet are restless and my walk is falling apart...”**
-
-This established later co-variation of bodily tension, feet and walking with neurological treatment state. It did not establish one mechanism.
+Healy's September opinion is a later independent specialist state. It does not by itself resolve the foot relationship.
 
 ---
 
-# 12. September 2017–March 2019 — Podiatry mechanical archive
+# 10. October 2017 treatment-state crossing
 
-Podiatry documented genuine focal pathology, particularly the **left fifth MTPJ**:
+A contemporaneous 4 October 2017 email during a planned procyclidine break records dramatic prior functional improvement and then, four days into the break:
 
-- recurrent callus / corn / HD;
+> **“I am feeling the tension building up, my feet are restless and my walk is falling apart....”**
+
+This did not exist during the July decision state.
+
+It established that neurological treatment state altered bodily tension, feet and gait together.
+
+It did not establish one mechanism.
+
+---
+
+# 11. Podiatry mechanical archive, 2017–2019
+
+Podiatry treatment records document genuine structural / mechanical pathology, including:
+
+- recurrent left fifth-MTPJ callus / corn / HD;
 - clawed toes;
 - tight gastrocnemius / soleus;
-- pronating foot type;
-- debridement / enucleation;
+- debridement and enucleation;
 - toe props;
-- offloading;
-- insoles.
+- direct offloading;
+- custom / prescribed insoles;
+- later pronating foot-type / biomechanical treatment material.
 
-> **Podiatry establishes where mechanical loading produced morbidity.**
+This proves real local pathology and identifies focal load-bearing morbidity.
 
-It does not itself establish why the loading pattern existed or whether neurological posture / gait influenced it.
+It does not by itself establish why the loading pattern existed or whether neurological posture / gait contributed.
 
----
+A later GUH data-access response states that the Podiatry service at Merlin Park was part of **Community Healthcare West** and **“is not a hospital service.”**
 
-# 13. April 2018 — independent reopening evidence
-
-The treating neurologist later recorded that during withdrawal the first thing changing rapidly was the outside-left-foot / corn phenomenon, alongside broader worsening and increased shiftiness / lack of relaxation.
-
-Do not infer that a structural corn literally disappeared and reappeared pharmacologically.
-
-> **Neurology documented a rapid focal foot-state change during neurological medication withdrawal in the same broad lateral-foot territory that Podiatry was mechanically treating.**
+Accordingly, the systems history is not simply two GUH departments communicating internally. It includes an HSE community Podiatry service, GUH Neurology and primary care.
 
 ---
 
-# 14. March 2019 — critical institutional transition
+# 12. April 2018: clinician-authored record of the earlier withdrawal-linked foot change
 
-A March 2019 GP referral explicitly linked feet, increased tone, abnormal gait, Parkinson’s disease, clawing and pain.
+The April 2018 neurological note records that, during the earlier procyclidine withdrawal, the first thing changing rapidly was the outside-left-foot / corn phenomenon, alongside wider deterioration.
 
-The Podiatry record identifies:
+This should be stated narrowly.
+
+It is **not** evidence that a structural corn literally disappeared and reappeared pharmacologically.
+
+It is also **not** a separate April 2018 dechallenge event.
+
+The factual point is:
+
+> **By April 2018, the treating neurologist had documented a rapid focal foot-state change during the earlier neurological medication withdrawal.**
+
+That later clinician-authored observation is independent of whether the July Protest is accepted as clinically material.
+
+---
+
+# 13. March 2019: explicit re-linking and last recorded Podiatry attendance
+
+The 2019 Podiatry referral records:
+
+> **“Seen by podiatry in the past due to feet issues in relating to increased tone and abnormal gait relating to Parkinson's disease. Feels foot pain and issue again at present and seeking re-referral to service.”**
+
+It also records:
+
+> **“Parkinsons at very young age has issues with ‘clawing feet’ and pain”**
+
+and marks gait abnormalities / rearfoot-arch pain / callus.
+
+This is important because primary care explicitly re-links the structural feet to increased tone, abnormal gait and Parkinson's disease.
+
+The Podiatry system records:
 
 > **Patient Last Seen: 25 Mar 2019.**
 
-Therefore:
+The safe conclusion is:
 
-> **After March 2019, the operational allocation disappears but the conceptual partition survives.**
+> **No later active Podiatry attendance / treatment is shown in the available Podiatry record.**
 
-The later history should not be described as if Podiatry continuously retained the feet.
+Do not convert that into proof that every institutional Podiatry allocation ceased absolutely.
 
 ---
 
-# 15. 2020–2022 — Neurology directly reacquires the feet
+# 14. 2020: direct Neurology foot examination
 
-## 2020
+Neurology later records a lower-limb **“foot throw”** resembling foot drop but classifies it as Parkinsonian after documenting normal power in:
 
-Neurology recorded a foot throw resembling foot drop but classified it as Parkinsonian because dorsiflexion, plantarflexion, inversion and eversion power were normal. Excessive foot movement and exquisite sensitivity were also recorded.
+- dorsiflexion;
+- plantarflexion;
+- inversion;
+- eversion.
+
+The same later record describes exquisite foot sensitivity, excessive movement and urge to move the feet.
+
+This is direct neurological foot evidence obtained after the last recorded Podiatry attendance.
+
+---
+
+# 15. 2021–2022
 
 ## 2021
 
-Sinemet was introduced.
+Sinemet was introduced in September 2021. The October clinic note records that the patient had felt undertreated and that Browne had given a very small initial Sinemet dose; procyclidine was subsequently being removed because of ocular-pressure concerns while Sinemet was escalated.
 
 ## 2022
 
-The patient reported that the feet took approximately **20–25 minutes to “warm up”** in the morning and remained sore around corns / calluses.
+Neurology records:
 
-These later facts are important partly because they fill some examination domains absent at the founding assessment. They must not be projected backwards.
+> **“Most mornings the feet take 20-25 mins to warm up.”**
 
----
+with soreness around corns / calluses and a “coronal pain” around the edges.
 
-# 16. 2023 — integrated problem directly inside Neurology again
-
-The GP urgently referred severe bilateral burning foot / lower-leg pain and referred to a previous pain episode settling with better Parkinson's control.
-
-Neurology documented severe foot pain, mobility restriction, possible OFF dystonia, gait deterioration, neuropathic possibilities, Fabry investigation and treatment-state analysis.
-
-A Movement Disorders nurse assessed leg pain and shuffling as **OFF-related** and considered the patient undertreated.
-
-A contrary fact remains important: the patient at one point reported stopping Parkinson medication for ten days and feeling no Parkinson difference while believing the debilitating pain was not Parkinson-related.
-
-The later evidence is mixed.
+This is a reproducible morning / state-linked foot observation.
 
 ---
 
-# 17. 2024–2025 — mixed-mechanism evidence accumulates
+# 16. 2023: genuine reassessment and mixed evidence
 
-Pregabalin reduced pain while activity-dependent toe curling persisted.
+The March 2023 urgent GP referral records severe bilateral burning pain in the feet / lower legs, very high pregabalin use and concern including a reported death wish. The GP also records that a previous pain episode had suddenly settled with better Parkinson's control.
 
-By 2025 Neurology recorded that the feet improved from a pain perspective after Parkinson medication reached the system and that additional Sinemet would probably provide further pain relief, limited by dyskinesia risk. Dystonia was also recognised as capable of being painful.
+A Parkinson's / Movement Disorders nurse email records that the patient believed the pain was not Parkinson-related and had stopped Parkinson medication for ten days without perceiving a Parkinson difference.
 
-These facts do not prove all foot pain was dystonic or Parkinsonian.
+A 2023 neurology review later records bilateral foot difficulty, pain with walking and left-lower-limb cramping, raising:
 
-They show repeated crossing of the founding partition.
+> **“the question of a Parkinsonian dystonia whether an ON or OFF dystonia (clearly more likely an OFF dystonia).”**
 
----
+Another Movement Disorders contact records severe foot pain, reduced mobility and shuffling, worse in the morning / later if Sinemet had not been taken, and concludes:
 
-# 18. 2025–January 2026 — institutional governance state
+> **“it appears he is being undertreated and the leg pain and shuffling is off related.”**
 
-The historical integration issue was expressly placed before hospital governance through complaint / QPS / PAR / SIMT processes.
+Stalevo was then introduced.
 
-The record describes the SIMT outcome as:
+The 2023 record therefore contains genuine reconsideration and treatment change, alongside contrary patient-reported evidence.
 
-> **“no deficit in care.”**
-
-In January 2026 QPS stated that the prior complaint assessment / SIMT processes remained valid and that the later dystonia diagnosis did not require reopening, alteration or qualification of the historical governance outcomes.
-
-This establishes:
-
-> **clinical inheritance → express institutional review → continued governance reliance.**
-
-It does not by itself establish that governance independently reconstructed the founding foot examination.
+It must not be characterised as simple inertia.
 
 ---
 
-# 19. February 2026 — genetic clarification
+# 17. 2024–2025: mixed lower-limb evidence continues
 
-The St Vincent’s genetic-results letter records two pathogenic Parkin variants and concludes that the patient’s **Parkinsonism and dystonia are due to compound heterozygous mutations in the Parkin gene**.
+The later record shows:
 
-This is later clarification only.
+- pregabalin reducing pain while toe curling / motor phenomena can persist;
+- 2025 foot pain as the dominant concern;
+- severe morning pain / difficult first footsteps;
+- acknowledgement that once Sinemet reaches the system, the feet feel better from a pain perspective;
+- clinician view that Sinemet may reduce the experience of pain even where the underlying pain is not direct Parkinsonian phenomenology;
+- acknowledgement that painful dystonia can occur;
+- concern that increasing Sinemet would worsen dyskinesia.
 
-It must not be used to rewrite July 2017.
+The record therefore supports interaction between neurological treatment state and foot pain without establishing that all foot pain was Parkinsonian or dystonic.
 
 ---
 
-# 20. What this factual spine establishes — and does not establish
+# 18. 2025 governance sequence
+
+The formal complaint was sent on **19 March 2025** and asked for independent review of diagnostic anchoring / failure to reassess among other matters.
+
+On **30 May 2025**, GUH QPS wrote that the complaint would be managed through the **Incident Management Framework**, that a **Preliminary Assessment Report (PAR)** was being completed and would be reviewed by the **Serious Incident Management Team (SIMT)**.
+
+The later SIMT outcome states that the PAR was presented on **27 August 2025** and that the multidisciplinary SIMT was satisfied that care decisions were appropriate. It concluded:
+
+> **“there was no deficit in the care provided.”**
+
+The source-status note in the canonical record is important: the reproduced SIMT letter does not show the complete PAR evidence pack or a source-by-source reconstruction of the 2017 foot issue.
+
+Those materials remain evidential gaps.
+
+---
+
+# 19. January 2026 governance position
+
+In January 2026 the patient re-engaged QPS about the present governance consequences of the 2025 processes.
+
+QPS replied on 26 January 2026 that the complaint assessment and SIMT review were undertaken using the information, clinical presentations and investigations available at the time; that the determinations were appropriate to the predefined timeframe; and that a subsequently reported December 2025 dystonia diagnosis did not undermine the validity of those processes or require reopening / alteration / qualification.
+
+This establishes a governance position of continued reliance on the completed processes.
+
+It does not establish that QPS independently re-performed every clinical judgment in the founding record.
+
+---
+
+# 20. December 2025 remains source-limited
+
+The corpus contains the patient's report that a specialist diagnosis of dystonia was made in December 2025.
+
+The primary December specialist letter has **not** been located in the reviewed corpus.
+
+Therefore do not treat the exact contents of that diagnosis, its author, institution or its relationship to the Parkinsonism diagnosis as independently established from the primary December source.
+
+---
+
+# 21. February 2026 genetic clarification
+
+The February 2026 St Vincent's consultant neurology letter is direct evidence.
+
+It states that genetic testing confirmed two pathogenic Parkin variants and concludes:
+
+> **“His Parkinsonism and dystonia are due to compound heterozygous mutations in the Parkin gene.”**
+
+This is later genetic clarification.
+
+It does not retrospectively prove the mechanism of the 2017 foot pain or determine the 2017 standard of care.
+
+---
+
+# 22. What the factual record establishes
 
 It establishes:
 
-- integrated bilateral foot / gait / tone presentation;
-- severe Parkinsonism and a dystonic-looking lower-limb sign;
-- genuine structural foot disease;
-- a detailed foot history;
-- a conservative complete-record audit finding 20 examination domains with no adequate documented counterpart;
-- “may have been completely separate”;
-- possible peripheral neuropathy;
-- “Not clear”;
-- “markedly divorced”;
-- Podiatry as initial practical destination;
-- the Protest;
-- later treatment-state crossings and mechanical findings;
-- the end of active Podiatry in March 2019;
-- direct later neurological reacquisition of the feet;
-- later OFF / dystonic / dopaminergic foot phenomena;
-- governance review and continued reliance;
-- eventual genetic clarification.
-
-It does **not** by itself establish:
-
-- that any of the 20 undocumented examinations were necessarily required;
-- that they were not performed undocumented;
-- negligence;
-- that neuropathy was impossible;
-- that every foot lesion was neurological;
-- that dystonia caused the fifth-MTPJ pathology;
-- that every later event required historical reconstruction;
-- or that earlier integration would probably have prevented all later morbidity.
-
-Those remain expert and causal questions.
+- genuine structural foot disease before Neurology;
+- a pre-existing Podiatry pathway;
+- an urgent GP referral connecting feet, gait, tone, toe clawing and deterioration;
+- severe young-onset Parkinsonism;
+- a dystonic-looking pseudo-footdrop / gait sign;
+- pes planus and hammertoes;
+- detailed foot history;
+- a final specialist proposition of possible complete separateness / possible neuropathy / “Not clear”;
+- “markedly divorced” wording;
+- the Protest as treated within the project;
+- Podiatry mechanical treatment;
+- later treatment-state crossings;
+- a clinician-authored April 2018 record of the earlier focal foot change during withdrawal;
+- explicit 2019 re-linking of foot issues to tone / gait / Parkinson's;
+- last recorded Podiatry attendance on 25 March 2019;
+- later direct Neurology foot findings;
+- genuine 2023 OFF / dystonia / pain reassessment and counter-evidence;
+- later dopaminergic modulation of foot pain;
+- institutional governance review and “no deficit” conclusion;
+- later genetic confirmation of Parkin-related Parkinsonism and dystonia.
 
 ---
 
-# 21. Shortest factual formulation
+# 23. What it does not establish by itself
 
-> **The GP sent one integrated feet–gait–tone problem. Neurology saw severe Parkinsonism, a dystonic-looking lower limb and real structural foot disease. The complete record contains no adequate counterpart for 20 potentially discriminating examination domains, including formal foot sensory testing, several lower-limb reflex / plantar tests, and multiple dynamic gait / dystonia and local mechanical examinations. The final synthesis nevertheless entertained “completely separate” and peripheral neuropathy, concluded “Not clear,” characterised the patient as having “markedly divorced” the feet from bodily tension, and sent the feet through Podiatry. Later records progressively supplied some of the missing phenotype information and repeatedly crossed the founding partition. The factual audit asks whether the separation was ever clinically earned and, once later evidence accumulated, where it was reconstructed.**
+It does **not** establish:
+
+- that every relevant undocumented examination was definitely not performed;
+- that the video / allied-health records contain no additional useful information;
+- negligence;
+- that every foot lesion was neurological;
+- that dystonia caused the recurrent fifth-MTPJ lesion;
+- that neuropathy was impossible;
+- that Podiatry was inappropriate;
+- that Podiatry was a GUH hospital department;
+- that active Podiatry allocation absolutely ceased after March 2019 beyond what the available record shows;
+- that later dopaminergic response proves one exclusive pain mechanism;
+- the exact primary content of the unlocated December 2025 specialist letter;
+- or the amount of morbidity that competent integrated care would probably have avoided.
+
+Those remain expert, evidential or legal questions.
+
+---
+
+# 24. Shortest audited factual formulation
+
+> **Structural feet and Podiatry pre-dated Neurology. The urgent neurological referral nevertheless connected bilateral foot problems, abnormal gait, tone, toe clawing and deterioration. Neurology found severe Parkinsonism and a dystonic-looking lower-limb gait. The record preserves extensive neurological reasoning but not a coherent demonstrated examination explaining how the painful structural feet related to that motor state before the synthesis permitted “complete separation” / neuropathy and said “Not clear.” Later HSE Podiatry and GUH Neurology accumulated complementary evidence; after the last recorded Podiatry attendance, Neurology itself repeatedly reacquired the feet. The historical question is not whether every lesion was neurological, but what work earned the separation, what later evidence should have reopened it, and what difference competent integrated care would probably have made.**
