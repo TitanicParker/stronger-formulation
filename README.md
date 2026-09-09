@@ -2,6 +2,32 @@
 
 This repository is not an archive. It is a working case architecture.
 
+## The controlling mechanism
+
+> **The founding synthesis did not merely record uncertainty. It organised the uncertainty.**
+
+The patient entered Neurology with painful feet, abnormal gait, increased tone/stiffness, movement difficulty and toe clawing still inside one open clinical problem.
+
+Neurology identified severe Parkinsonism and a dystonic-looking lower limb.
+
+The later specialist synthesis then allowed the foot/leg symptoms to be **“completely separate”**, possibly neuropathic, and **“Not clear.”**
+
+That may have changed the information state for every later clinician.
+
+There is a difference between inheriting:
+
+> **We have not established how the neurological disorder and the painful feet relate.**
+
+and inheriting:
+
+> **Parkinsonism is established; the foot problem may be separate; its cause is not clear.**
+
+The second formulation can make later local explanations accumulate without forcing reconstruction of the original relationship.
+
+> **The problem is not that information disappeared. The problem is the shape in which it travelled.**
+
+That is the mechanism the repository tests.
+
 ## The centre
 
 > **Unresolved source of disabling pain**  
@@ -14,13 +40,13 @@ Then, by 2023:
 ## Read in this order
 
 1. **`SRC_COMPLETE_RECORD_FORENSIC.md`** — canonical factual backstop. If any summary conflicts with it, the source record controls.
-2. **`ARGUMENT_ARCHITECTURE.md`** — the master map. One longitudinal case, three nested arguments, two decision forks.
-3. **`ARGUMENT_1_FOUNDING_SEPARATION.md`** — strongest case that survives without the 2017 Protest.
-4. **`ARGUMENT_2_PROTEST_FORK.md`** — what changes if the Protest is established: express notice, available futures, choice and omission.
-5. **`ARGUMENT_3_SAFETY_MISALIGNMENT.md`** — autonomous 2023–2025 case: direct life-tolerability notice, GP escalation, nursing corroboration, acknowledged explanatory misalignment and the safeguarding question.
+2. **`ARGUMENT_ARCHITECTURE.md`** — the controlling mechanism and master map: one longitudinal case, three nested arguments, two decision forks.
+3. **`ARGUMENT_1_FOUNDING_SEPARATION.md`** — asks whether the founding information state was clinically earned.
+4. **`ARGUMENT_2_PROTEST_FORK.md`** — asks what changes if that information state was expressly challenged before discharge.
+5. **`ARGUMENT_3_SAFETY_MISALIGNMENT.md`** — asks what reasonable care required when the inherited model was explicitly contested and the pain had become safety-relevant.
 6. **`FACTUAL_SPINE.md`** — chronology stripped of advocacy.
 7. **`CASE_REGISTER.md`** — quotation/fact/proposition/argument/expert-opinion discipline.
-8. **`EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md`** — questions for independent clinical experts.
+8. **`EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md`** — questions for independent clinical experts, including information inheritance and global reconstruction.
 9. **`WHY_THIS_IS_THE_CASE_WE_ARE_TAKING.md`** — plain-language teaching and democratic case-selection test for family, friends, lawyers and experts.
 
 `index.html` is the public front door to the same structure.
@@ -48,6 +74,12 @@ By 2023, without relying on the Protest, the documentary record contains direct 
 The question becomes:
 
 > **What did reasonable care require once the pain had become a safety problem while the explanatory model itself was visibly contested?**
+
+## The longitudinal test
+
+At every transition ask:
+
+> **Did the new evidence merely receive another local label, or did it require reconstruction of the original feet–gait–movement–pain relationship?**
 
 ## Repository rule
 
