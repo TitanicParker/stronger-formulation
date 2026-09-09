@@ -121,7 +121,53 @@ The question is therefore:
 
 ---
 
-# 6. Podiatry does not answer the neurological relationship
+# 6. The information-state consequence
+
+This is now part of the founding argument, not a later add-on.
+
+The 2017 synthesis may have done more than describe uncertainty.
+
+It may have **organised the uncertainty for everyone downstream**.
+
+There is a material difference between these two portable messages:
+
+> **We do not yet know how the neurological disorder and painful feet relate.**
+
+and:
+
+> **Parkinsonism is established; the feet may be separate; their cause is not clear.**
+
+The first preserves an open relationship.
+
+The second gives the next clinician an already-structured answer-space.
+
+If the relationship-directed work was incomplete, then:
+
+> **investigative incompleteness may have travelled downstream as specialist uncertainty.**
+
+That is an expert-dependent proposition, but it is central.
+
+The practical consequence is that later findings can be absorbed locally without necessarily reconstructing the founding problem.
+
+Structural disease can be treated as structure.
+
+Burning can be treated as neuropathic.
+
+OFF deterioration can be treated as OFF-related.
+
+Toe curling can be treated as dystonic.
+
+Medication response can be treated as a treatment effect.
+
+Each local interpretation may be reasonable.
+
+The longitudinal question is whether the original relationship ever becomes the object of a **global reconstruction** rather than repeated local updating.
+
+> **The founding synthesis did not merely record uncertainty. It may have determined the shape in which uncertainty travelled.**
+
+---
+
+# 7. Podiatry does not answer the neurological relationship
 
 Podiatry was appropriate.
 
@@ -147,7 +193,7 @@ The practical question becomes:
 
 ---
 
-# 7. The medication evidence reopens the relationship
+# 8. The medication evidence reopens the relationship
 
 The original pain predates neurological treatment.
 
@@ -171,9 +217,13 @@ The question becomes:
 
 This is one of the strongest later routes because it does not depend on the Protest.
 
+It is also the first major test of the information mechanism:
+
+> **Did the new evidence reopen the model, or was it absorbed inside the existing categories?**
+
 ---
 
-# 8. March 2019 and the disappearance of the destination
+# 9. March 2019 and the disappearance of the destination
 
 By March 2019 the GP again linked:
 
@@ -197,7 +247,7 @@ From then on, the question is less about allocation between two active services 
 
 ---
 
-# 9. Later Neurology repeatedly crosses the old boundary
+# 10. Later Neurology repeatedly crosses the old boundary
 
 The later record includes:
 
@@ -226,9 +276,13 @@ It is:
 
 > **When did the accumulated crossing evidence become strong enough that the original feet–gait–pain relationship had to be reconstructed from the beginning?**
 
+The case is not that each local explanation was wrong.
+
+It is that repeated local updating may have left the founding relationship permanently unresolved.
+
 ---
 
-# 10. The 2023 crisis strengthens the no-Protest case
+# 11. The 2023 crisis strengthens the no-Protest case
 
 The documentary case does not end in 2019 or 2020.
 
@@ -242,11 +296,15 @@ It is also:
 
 > **What did reasonable care require once the unresolved pain became dangerous and the old explanatory architecture was still in play?**
 
+By then Neurology itself records an explanatory “misalignment”.
+
+That makes the information problem explicit inside the clinical record.
+
 Argument 3 addresses that second fork directly.
 
 ---
 
-# 11. The strongest legal/expert formulation
+# 12. The strongest legal/expert formulation
 
 > **Reasonable Neurology had to investigate whether the neurological disorder was contributing to the disabling foot problem before treating the feet as separate, or keep that question actively open if it could not yet be answered.**
 
@@ -254,15 +312,16 @@ Potential date-specific breach questions include:
 
 1. whether enough relationship-directed assessment occurred in 2017;
 2. whether “possibly separate” and neuropathy were supported by enough evidence;
-3. whether Neurology retained ownership of the neurological part of the foot problem while Podiatry treated structure;
-4. whether medication-linked foot changes required reopening;
-5. whether later foot/gait/treatment evidence required global reconstruction rather than local explanation.
+3. whether the resulting information state could reasonably be transmitted without making the unresolved relationship explicit;
+4. whether Neurology retained ownership of the neurological part of the foot problem while Podiatry treated structure;
+5. whether medication-linked foot changes required reopening;
+6. whether later foot/gait/treatment evidence required global reconstruction rather than local explanation.
 
 Every one of those remains expert-dependent.
 
 ---
 
-# 12. Defence that must remain inside the argument
+# 13. Defence that must remain inside the argument
 
 The defence is real and should be preserved:
 
@@ -278,10 +337,10 @@ The response is not to deny those facts.
 
 It is:
 
-> **The issue is not whether structural disease existed or whether later reassessment occurred. The issue is what work justified separation at the founding episode and when later evidence required reconstruction.**
+> **The issue is not whether structural disease existed or whether later reassessment occurred. The issue is what work justified separation at the founding episode, what information state that created, and when later evidence required reconstruction.**
 
 ---
 
-# 13. The one-line argument
+# 14. The one-line argument
 
-> **They saw the abnormal neurological walk. They knew the feet hurt. The record does not clearly show what work earned the separation.**
+> **They saw the abnormal neurological walk. They knew the feet hurt. The record does not clearly show what work earned the separation — and that separation may have determined the shape in which every later clinician inherited the pain problem.**
