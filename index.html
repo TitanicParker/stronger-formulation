@@ -68,7 +68,7 @@ p{font-size:18px;line-height:1.65;margin:0 0 1.05em}
 .timeline li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:28px;padding:25px 0;border-bottom:1px solid var(--rule)}
 .timeline time{font:800 11px/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
 .timeline p{margin:0;font-size:17px;line-height:1.55}
-.order{display:grid;grid-template-columns:repeat(4,1fr);margin:38px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.order{display:grid;grid-template-columns:repeat(5,1fr);margin:38px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
 .order div{padding:21px 15px 22px;border-right:1px solid var(--rule)}
 .order div:last-child{border-right:0}
 .order b{display:block;font:800 10px/1 var(--sans);letter-spacing:.12em;color:var(--accent);margin-bottom:8px}
@@ -98,9 +98,9 @@ footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55
   .section{padding-left:21px;padding-right:21px}
   .doc-row,.timeline li{grid-template-columns:1fr;gap:10px}
   .doc-type{padding-top:0}
-  .order{grid-template-columns:1fr 1fr}
-  .order div:nth-child(2){border-right:0}
-  .order div:nth-child(-n+2){border-bottom:1px solid var(--rule)}
+  .order{grid-template-columns:1fr}
+  .order div{border-right:0;border-bottom:1px solid var(--rule)}
+  .order div:last-child{border-bottom:0}
   .hero{padding-left:21px;padding-right:21px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
@@ -137,7 +137,7 @@ footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55
 <main id="content">
   <section class="hero" id="case" aria-labelledby="page-title">
     <div class="hero-inner">
-      <div class="eyebrow">Facts first · question second · medicine third · law last</div>
+      <div class="eyebrow">Quote first · fact second · question third · medicine fourth · law last</div>
       <h1 id="page-title">The foot question.</h1>
       <blockquote class="centre">
         <span>Unresolved source of disabling pain</span>
@@ -153,7 +153,7 @@ footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55
       <div class="section-label">What this is</div>
       <h2 id="about-title">A way into the record, not a second record.</h2>
       <p class="lede">This repository organises a large clinical and documentary record around a simple unresolved question: why did the feet hurt so badly, and what did the neurological problem have to do with it?</p>
-      <p>The pages and working documents below serve different purposes. They are not interchangeable. The canonical clinical record is the evidential backstop; factual reconstruction, analysis, expert questions and presentation material remain derived from it.</p>
+      <p>The pages and working documents below serve different purposes. They are not interchangeable. The canonical clinical record is the evidential backstop; the Case Register controls the presentation distinctions between quotations, facts, propositions, arguments and expert questions; the remaining analytical and expert documents stay derived from those layers.</p>
       <div class="question">
         <small>The later human question</small>
         They gave him neurological tablets. His feet got much better. When they stopped the tablets, the foot problem came back quickly. What did that require Neurology to reconsider?
@@ -186,6 +186,17 @@ footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55
               <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/FACTUAL_SPINE.md">Factual Spine ↗</a></h3>
               <p>A short chronological foundation in ordinary language. If it conflicts with the canonical record, the canonical record controls.</p>
               <span class="status">Best first read</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="doc-row">
+          <div class="doc-type">Presentation register</div>
+          <div class="doc-list">
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/CASE_REGISTER.md">Case Register ↗</a></h3>
+              <p>The controlling presentation and analytical register. It keeps source quotations, facts, propositions, arguments and expert questions in their proper evidential layers.</p>
+              <span class="status">Controls presentation distinctions</span>
             </article>
           </div>
         </div>
@@ -249,7 +260,7 @@ footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55
         <li><time>2025 → 2026</time><p>Governance material and later specialist or genetic information arrive. They may matter later, but they must not be imported backwards into what was known in 2017.</p></li>
       </ol>
       <div class="order" aria-label="Case register order">
-        <div><b>01</b><span>Facts</span></div><div><b>02</b><span>Question</span></div><div><b>03</b><span>Medicine</span></div><div><b>04</b><span>Law</span></div>
+        <div><b>01</b><span>Quote</span></div><div><b>02</b><span>Fact</span></div><div><b>03</b><span>Question</span></div><div><b>04</b><span>Medicine</span></div><div><b>05</b><span>Law</span></div>
       </div>
     </div>
   </section>
@@ -260,6 +271,7 @@ footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55
       <h2 id="discipline-title">Simplify the language. Keep the provenance.</h2>
       <p class="lede">This site is an interface to the case. It does not acquire evidential authority merely because it is easier to read.</p>
       <ul>
+        <li>A quotation is not automatically a fact about mechanism.</li>
         <li>Allegation does not become fact by repetition.</li>
         <li>Inference does not become a clinical finding.</li>
         <li>An expert question is not an expert conclusion.</li>
