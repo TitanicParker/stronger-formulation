@@ -1,491 +1,398 @@
 # Central Organising Architecture
 
-**Status:** CONTROLLING CASE-ORGANISATION FILE — RECORD-WIDE AUDIT VERSION
+**Status:** CONTROLLING CASE-ORGANISATION FILE
 
-**Function:** Governs how the case is reconstructed, written and tested. It does not replace the primary record or expert opinion.
-
----
-
-# 0. Repository hierarchy and conflict rule
-
-The repository now contains several kinds of material. They do not have equal evidential status.
-
-## Controlling layer
-
-1. `SRC_COMPLETE_RECORD_FORENSIC.md` — canonical evidential backstop.
-2. `FACTUAL_SPINE.md` — compact documentary sequence, subordinate to the canonical source.
-3. `CENTRAL_ORGANISING_ARCHITECTURE.md` — organising theory, subordinate to the facts.
-4. `meettheteam_replacement.md` — actor / information-state analysis, subordinate to the facts.
-
-## Derived expert / analytical layer
-
-5. `EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md` — expert-facing working brief.
-6. `INTERNAL_EXPERT_FINDINGS_DUTY_BREACH_HARM_CAUSATION_MAP.md` — claimant-side internal map, not expert instructions.
-7. `100_STRONGEST_POINTS_ACROSS_THE_RECORD.md` — analytical treasury.
-
-## Presentation layer
-
-8. `LEAVE_IT_AT_THAT_READER.html` — literary / presentation material only. It is not a factual source and must not override the audited markdown files.
-
-If two files conflict:
-
-> **canonical source → factual spine → organising architecture / actor map → expert derivatives → literary presentation.**
-
-No derived file may be used to prove a fact that the canonical record does not support.
+**Purpose:** Keep the case simple, chronological and legally usable.
 
 ---
 
-# 1. The case in one sentence
+# 1. The centre of the case
 
-> **Neurology received an urgent referral in which painful abnormal feet, gait, tone, toe clawing and movement dysfunction remained clinically connected; Neurology identified severe young-onset Parkinsonism and a dystonic-looking lower-limb gait, but the surviving record does not demonstrate a relationship-directed examination sufficient to show how that motor disorder related to the painful structural feet before the specialist synthesis allowed that the foot symptoms “may have been completely separate,” recorded that the patient had “markedly divorced” foot pain from bodily tension, and left Podiatry as the practical structural-foot pathway. Later treatment-state, foot, gait and dystonia evidence repeatedly crossed that separation.**
+> **Unresolved source of disabling pain**  
+> **becomes**  
+> **specialist uncertainty about a possibly separate foot problem.**
 
-The case does **not** require proof that every foot lesion was neurological, that Podiatry was inappropriate, or that the Parkinsonism diagnosis was wrong.
+That is the centre.
 
----
+The case does not need to begin with dystonia, neuropathy, biomechanics, pharmacology or genetics.
 
-# 2. The central correction
+It begins with a simpler question:
 
-The **relationship** was unresolved.
+> **Why did his feet hurt so badly, and did the neurological problem have anything to do with it?**
 
-The **segregation** was the practical / documentary disposition placed on that unresolved relationship.
+Neurology found a very abnormal neurological gait and a lower limb that looked dystonic rather than weak.
 
-The founding sequence is:
-
-> **integrated neurological referral → components detected → relationship insufficiently demonstrated as investigated → “may have been completely separate” → “markedly divorced” → “Not clear” → structural feet proceed through Podiatry → authoritative specialist state.**
-
-Shortest form:
-
-> **The relationship was unresolved.  
-> The separation was permitted.  
-> What clinical work earned it?**
-
----
-
-# 3. A necessary counterfact: Podiatry pre-dated Neurology
-
-Do not imply that Neurology invented the Podiatry pathway.
-
-Primary care had already identified genuine structural foot disease and referred to Podiatry in April 2017.
-
-During the neurological admission, on 6 July, the GP telephoned Podiatry and recorded that the case would be marked as a priority **“as Parkinson’s.”**
-
-The neurological material also expressly asks for outpatient Chiropody / Podiatry referral and states that the hospital SHO had tried to arrange it.
-
-This strengthens, rather than defeats, the narrow case:
-
-> **Podiatry was a legitimate pre-existing structural-care pathway. The question is whether that pathway was allowed to substitute for, or proceed without, Neurology retaining the unresolved neurological relationship.**
-
-The broader pathway was therefore **not blind to Parkinsonism**. The missing question is more specific:
-
-> **What neurological question about dystonia, posture, gait, loading and pain was actually transmitted, and what return mechanism existed?**
-
-Do not claim that no neurological label reached Podiatry. The GP's 6 July note directly shows that Parkinson's was communicated.
-
----
-
-# 4. What the July record actually establishes
-
-Neurology documented:
-
-- markedly increased tone;
-- brisk reflexes;
-- severe rigidity and bradykinesia;
-- a strikingly abnormal gait;
-- a foot-drop-like appearance described as suggestive of dystonic posture and expressly **“NOT FOOT DROP”**;
-- absent arm swing;
-- pes planus;
-- hammertoes;
-- mild / minimal sock-band pitting oedema;
-- a videoed examination.
-
-The discharge material also records Physiotherapy and Occupational Therapy as consulted.
-
-Those are important counterfacts. Do not write that the lower limb was ignored or that no multidisciplinary involvement existed.
-
-The narrower documentary point is:
-
-> **The reviewed corpus does not preserve a coherent relationship-directed account showing how the dystonic-looking lower-limb behaviour, painful sites, structural deformity, loading and the proposed neuropathy alternative were clinically discriminated before separation.**
-
-The video is a potentially important latent source. If preserved, it could answer dynamic-posture questions that the text does not.
-
-Similarly, the fact that Physiotherapy and Occupational Therapy were consulted does not establish what relationship-directed foot work they performed; any original allied-health notes should be sought before asserting that none occurred.
-
----
-
-# 5. The explicit negative examination audit
-
-Use only the examination domains for which the complete record contains **no adequate documented counterpart**. Do not turn this into a claim that twenty mandatory tests were omitted.
-
-The current conservative set is:
-
-1. foot pain specifically characterised at rest;
-2. great-toe extension as a dystonic posture;
-3. directed ankle twisting / dystonic torsion assessment;
-4. specific foot posture while sitting;
-5. backward walking;
-6. heel walking;
-7. toe walking;
-8. tandem walking;
-9. heel-strike assessment;
-10. Achilles reflex;
-11. a true ankle-clonus test;
-12. plantar response / Babinski;
-13. formal light-touch foot sensation;
-14. formal pinprick foot sensation;
-15. vibration at the great toe;
-16. joint-position / proprioceptive testing;
-17. capillary refill / foot temperature / colour assessment;
-18. focal bony tenderness examination;
-19. plantar-fascia tenderness examination;
-20. Achilles-tendon tenderness examination.
-
-> **No adequate documentary counterpart does not prove the manoeuvre was not performed.**
-
-Do not call later-documented matters absent from the complete record. In 2020 Neurology explicitly tested dorsiflexion, plantarflexion, inversion and eversion power and used those findings to distinguish the later foot throw from true foot drop. Later gait / turning, Podiatry pressure pathology and other foot phenomena are also documented.
-
-The expert question is:
-
-> **Which of the explicitly undocumented domains, or equivalent clinical work, would reasonable neurological practice actually have required in 2017 to distinguish neurological / dystonic influence, structural independence, peripheral neuropathy and mixed mechanisms?**
-
----
-
-# 6. The neuropathy branch must show its work
-
-The specialist synthesis states that the leg / foot symptoms including corns, callouses and burning:
-
-> **“may have been completely separate”**
-
-or perhaps represented secondary peripheral neuropathy, and concludes:
-
-> **“Not clear.”**
-
-The complete record does not preserve an adequate formal foot sensory examination covering light touch, pinprick, vibration or joint position, nor a documented Achilles reflex, plantar response or true ankle-clonus test.
-
-That does not prove neuropathy was impossible or that such examinations were not performed.
-
-It creates the narrower expert question:
-
-> **What positive clinical evidence supported peripheral neuropathy as an explanatory branch, and what examination was reasonably required before that branch could perform explanatory work in the final synthesis?**
-
-The controlling formulation is:
-
-> **Before asking whether “Not clear” was a reasonable answer, ask whether the demonstrated examination was capable of producing an earned answer.**
-
----
-
-# 7. “Markedly divorced”: not identical is not independent
-
-The underlying history was that foot pain reduced after the patient stopped bar work / reduced prolonged standing while bodily tension persisted.
-
-That supports a distinction between experiences and their behaviour.
-
-It does not by itself prove mechanistic independence.
-
-> **Did “markedly divorced” convert phenomenological distinction into apparent support for mechanistic separation?**
-
-This is an expert question, not a factual conclusion.
-
----
-
-# 8. Detection versus integration
-
-The lower-limb sign was not missed.
-
-The stronger question is:
-
-> **A dystonic-looking sign was detected, neurologically characterised and used diagnostically. What work then connected it to, or excluded it from, the painful structural feet?**
-
-Recognition is not automatically relationship investigation.
-
-History is not automatically a directed biomechanical / neurological examination.
-
----
-
-# 9. The PRKN / expertise timing fork
-
-Do not project the completed PRKN-rich synthesis backwards into the bedside phase.
-
-Use the timing fork:
-
-> **If recessive / PRKN-type Parkinsonism was already an operative theory while the patient remained physically available, where is the phenotype-directed return to the painful feet and dystonic-looking lower limb?**
-
-If the more sophisticated formulation crystallised only after departure:
-
-> **Where is the return / recall needed to test the improved theory against the unresolved foot problem?**
-
-A contemporaneous letter to Prof Daniel Healy seeks genetics advice and a possible second opinion, and refers to **“Myself and Tim”** being keen to hold back levodopa. The contemporaneous page itself does **not** identify “Tim”; identification as Timothy Counihan comes from later material and must be kept source-separated.
-
-> **Did the expertise that enriched the theory return to the body?**
-
----
-
-# 10. The Protest
-
-The project treats the pre-discharge Protest as fact:
-
-> **You have not dealt with my feet.**
-
-Its function is not to create the founding issue.
-
-It changes the information state:
-
-> **possible pre-existing incompleteness → express notice while correction remains possible → closure becomes a separate decision-after-notice question.**
-
-The patient was not protesting the later PRKN wording or later treatment evidence. The Protest belongs to the bedside / decision-live state.
-
----
-
-# 11. The synthesis–examination differential
-
-The specialist account is sophisticated in neurological and neurogenetic reasoning.
-
-That sophistication is an internal comparator, not proof that every neighbouring proposition was equally investigated.
-
-> **The synthesis may have outrun the examination.**
-
-> **Synthetic completeness is not evidential completeness.**
+The record then allowed the painful feet to sit as something that **“may have been completely separate”**, possibly neuropathic, and **“Not clear.”**
 
 The question is:
 
-> **What clinical work earned “may have been completely separate,” the neuropathy branch, “Not clear,” and a clinical future in which the structural feet could proceed outside the active neurological formulation?**
+> **What examination showed that the painful feet could safely be treated as separate?**
 
 ---
 
-# 12. The Podiatry boundary is an HSE cross-service boundary, not simply an intra-hospital department split
+# 2. The drafting rule
 
-A later GUH data-access response states that the Podiatry service situated at Merlin Park was part of **Community Healthcare West** and **“is not a hospital service.”**
+From now on, use this order:
 
-Accordingly, do not describe the 2017–2019 arrangement simply as two departments inside Galway University Hospital.
+> **Facts first.  
+> Question second.  
+> Medicine third.  
+> Law last.**
 
-The more accurate systems model is:
+If something can be said accurately in ordinary language, say it that way first.
 
-> **GUH Neurology + Community Healthcare West Podiatry + primary care = separate services holding different parts of the same lower-limb problem.**
+Do not lead with technical words when the fact is simpler.
 
-That distinction increases the importance of explicit handoff content and return criteria.
+Examples:
 
-Podiatry's structural work was real and appropriate. The issue is whether anyone retained ownership of:
+- not **“pharmacological dechallenge”** — say **“when they stopped the tablets, the foot problem came back quickly.”**
+- not **“mechanistic independence”** — say **“were the feet really separate?”**
+- not **“clinical segregation”** — say **“the foot problem was treated as separate.”**
+- not **“treatment-state-sensitive pain phenotype”** — say **“the pain changed with neurological medication.”**
+- not **“institutional information architecture”** — say **“who knew what, and who was supposed to put it together?”**
 
-> **motor state ↔ gait ↔ loading ↔ structural lesion ↔ pain ↔ treatment state.**
-
-> **Who owned the arrows?**
-
----
-
-# 13. Treatment-state evidence: chronology must remain exact
-
-September 2017 Healy review and October 2017 treatment / withdrawal evidence are later information states and cannot make July unreasonable by hindsight.
-
-The 4 October contemporaneous account records:
-
-> **“tension building up, my feet are restless and my walk is falling apart...”**
-
-The April 2018 neurology note then records, retrospectively, that during the earlier procyclidine withdrawal the first thing changing rapidly was the outside-left-foot / corn phenomenon.
-
-Do not turn this into a separate April 2018 biological dechallenge event.
-
-The correct proposition is:
-
-> **By April 2018 at the latest, the treating neurologist had himself documented a focal foot phenomenon changing rapidly during a neurological medication withdrawal.**
-
-That creates a later reopening question independent of whether July care had initially been reasonable.
-
-Do not say a corn literally disappeared and reappeared pharmacologically.
+Technical language is still useful, but it comes after the fact has been made clear.
 
 ---
 
-# 14. March 2019: precise transition, not an absolute disappearance
+# 3. What entered Neurology
 
-The March 2019 GP / Podiatry referral explicitly re-links the feet to increased tone, abnormal gait and Parkinson's disease, and refers to **“clawing feet”** and pain.
+The patient did not arrive with two settled problems.
 
-The Podiatry record identifies **25 March 2019** as the patient's **last recorded attendance**.
+He arrived with:
 
-The source proves:
+- disabling foot pain;
+- abnormal feet;
+- an abnormal gait;
+- increased muscle tone / stiffness;
+- movement difficulty;
+- toe clawing;
+- declining function.
 
-> **no later active Podiatry attendance / treatment is shown in the available Podiatry record.**
+Primary care had already involved Podiatry because there was real structural foot disease.
 
-It does **not** prove as an institutional absolute that every Podiatry allocation ceased to exist.
+That does not answer the neurological question.
 
-Therefore use:
+The hospital still had to ask:
 
-> **After 25 March 2019, the available record no longer shows an active Podiatry treatment stream; later foot phenomena are increasingly documented directly inside Neurology. Any continuing separation is therefore less well described as an active inter-service split and more as a conceptual partition within the remaining clinical architecture.**
-
-Do not use the unqualified phrase **“the allocation disappeared.”**
-
----
-
-# 15. 2020–2025: direct Neurology reacquisition
-
-Later Neurology itself records or receives:
-
-- 2020 foot throw treated as Parkinsonian after normal dorsiflexion / plantarflexion / inversion / eversion power, with excessive foot movement and exquisite sensitivity;
-- 2022 morning foot warm-up of approximately 20–25 minutes;
-- 2023 severe bilateral foot / lower-leg pain, possible OFF dystonia, neuropathic / Fabry considerations and an urgent GP concern;
-- a later 2023 Movement Disorders contact stating that leg pain and shuffling appeared OFF-related and that the patient appeared undertreated;
-- the counterfact that the patient also reported a ten-day medication stop with no perceived Parkinson difference and believed the pain was not Parkinson-related;
-- 2024 pain improvement on pregabalin while toe curling persisted;
-- 2025 acknowledgement that the feet felt better from a pain perspective once Sinemet reached the system, alongside continued clinician distinction between direct Parkinsonian phenomenology and pain modulation.
-
-This is mixed evidence.
-
-Do not use it to prove that all pain was dystonia.
-
-Its relevance is that the neurological and foot domains repeatedly become clinically permeable.
-
-> **Later evidence can destabilise an old separation without proving one exclusive replacement mechanism.**
+> **Is the neurological problem contributing to what is happening in the feet?**
 
 ---
 
-# 16. Governance: institutional notice and review, not automatic proof of clinical breach
+# 4. What Neurology found
 
-The formal March 2025 complaint concerned diagnostic anchoring, bias and failure to reassess and placed the long-running foot-pain / diagnostic-framing problem before GUH governance.
+Neurology did a substantial neurological assessment.
 
-On 30 May 2025 QPS escalated the matter into the Incident Management Framework, with a Preliminary Assessment Report for SIMT review.
+It found:
 
-The SIMT outcome states that the PAR was presented on 27 August 2025 and records a conclusion that there was **“no deficit in the care provided.”**
+- severe Parkinsonism;
+- marked rigidity and slowness;
+- a strikingly abnormal gait;
+- a foot-drop-like appearance that was described as suggestive of a dystonic posture and **not true foot drop**;
+- pes planus;
+- hammertoes;
+- other structural foot findings.
 
-The reproduced SIMT text does **not** show the complete PAR evidence pack or a source-by-source reconstruction of the 2017 foot relationship. Those remain evidential gaps.
+The examination was videoed. Physiotherapy and Occupational Therapy were also involved.
 
-In January 2026, QPS stated that the earlier complaint assessment and SIMT review were appropriate to the contemporaneous information and that a subsequently reported December 2025 dystonia diagnosis did not require reopening or alteration of the completed governance processes.
+So the case is **not**:
 
-The institutional question is therefore:
+> nobody looked;
 
-> **Once the historical diagnostic-framing / foot issue was expressly before governance, what material was actually reviewed, and did the review independently reconstruct what clinical work had justified the founding separation?**
+or:
 
-This is an institutional-information question. It is not, without more, a separate clinical-negligence finding.
+> nobody recognised the neurological problem.
 
-> **Clinical inheritance is not the same as governance adoption.**
+The case is:
 
----
-
-# 17. December 2025 and February 2026 must not be conflated
-
-The corpus records the patient's report of a specialist dystonia diagnosis in December 2025.
-
-The primary December specialist letter has **not** been located in the reviewed corpus. Do not describe its exact content, author, institution or diagnostic relationship to Parkinsonism as established fact unless the primary source is obtained.
-
-The February 2026 St Vincent's genetic-results letter is different: it is direct specialist evidence confirming two pathogenic Parkin variants and stating that the patient's **Parkinsonism and dystonia** are due to compound-heterozygous Parkin mutations.
-
-That later genetic clarification is a retrospective comparator only.
-
-It does not prove the historical foot-pain mechanism and must not rewrite the 2017 standard of care.
+> **They saw the abnormal neurological lower limb. They knew the feet hurt. Where is the examination showing what one had to do with the other?**
 
 ---
 
-# 18. Whole-life institutional model
+# 5. The missing bridge
 
-Use five distinct information / custody states:
+The record contains many observations about the neurological disorder and many observations about the feet.
 
-## Phase A — pre-admission / input
+What is hard to find is the bridge between them.
 
-Primary care identifies genuine structural foot disease, already initiates Podiatry, and later sends an urgent Neurology referral in which feet, gait, tone and movement remain connected.
+In simple terms:
 
-## Phase B — July 2017 founding neurological state
+- where exactly did the feet hurt?
+- what did the toes and ankles do when standing and walking?
+- was the deformity fixed or did it change with movement?
+- where was pressure being placed on the foot?
+- did the painful areas match the abnormal gait?
+- was there proper sensory evidence for neuropathy?
+- what did the neurological abnormality mean for the structural foot disease?
 
-Neurology detects severe Parkinsonism and dystonic-looking lower-limb behaviour; the final specialist synthesis permits complete separation / neuropathy while leaving the relationship “Not clear.”
+The complete-record audit also identifies a conservative group of examination items for which no adequate documentary counterpart has been found. That list belongs in the evidence file and expert brief.
 
-## Phase C — 2017 to March 2019 cross-service state
+Do not say those examinations definitely did not happen.
 
-GUH Neurology and Community Healthcare West Podiatry accumulate complementary dynamic and structural information. Primary care sits between them.
+Say:
 
-## Phase D — after the last recorded Podiatry attendance
-
-The available Podiatry record shows no later active treatment stream, while Neurology directly reacquires repeated foot / gait / dystonia / medication-state evidence.
-
-## Phase E — 2025–2026 governance and external comparator state
-
-The historical framing issue is put before GUH / HSE governance; later external specialist / genetic information alters the prospective clinical picture but must remain temporally separate from 2017.
-
-The whole-system question is:
-
-> **At each point where a clinician or institutional function possessed enough information to test the original feet–movement separation, what information did it actually possess, what did it do with it, and what relationship question remained open?**
-
-Responsibility follows **information opportunity**, not institutional abstraction.
+> **The record does not show the work needed to explain how the competing possibilities were tested.**
 
 ---
 
-# 19. Duty, breach, harm and causation
+# 6. The first transformation
 
-## Duty
+The final specialist account says the foot symptoms:
 
-> **Reasonable Neurology had to investigate and retain ownership of the neurological relationship sufficiently to avoid treating the disabling feet as clinically independent before there was an adequate basis for doing so.**
+> **“may have been completely separate”**
 
-## Possible founding breach
+and raises possible peripheral neuropathy, then says:
 
-> **If expert evidence supports it: segregation before sufficient discriminating relationship-directed examination was demonstrated.**
+> **“Not clear.”**
 
-## Decision-after-notice issue
+It also records that the patient had **“markedly divorced”** the foot pain from the bodily tension in his own mind.
 
-> **The Protest supplied express notice while correction remained possible.**
+The plain question is:
 
-## Handoff issue
+> **How did an unresolved cause of disabling pain become uncertainty about a possibly separate foot problem?**
 
-> **Podiatry could be appropriate while the neurological relationship remained insufficiently owned.**
+And then:
 
-## Reopening issue
-
-> **Later cross-boundary evidence could create new date-specific duties even if July care was reasonable.**
-
-## Harm
-
-Keep clinical injury separate from documentary mechanism. Potentially recoverable harm must be incremental clinical morbidity: pain, loading-related morbidity, mobility / function loss or psychological injury caused by delayed integrated management.
-
-## Causation
-
-For every proposed breach:
-
-> **competent care → probable finding → probable formulation change → probable management change → probable effect on motor state / loading / pain / structural pathology → probable reduction in incremental morbidity.**
-
-Do not attribute the entire later disease course to the alleged breach.
+> **What clinical work justified that change?**
 
 ---
 
-# 20. Mandatory central questions
+# 7. The Protest
 
-1. **What relationship-directed clinical work was performed during July 2017 before the feet were allowed to proceed separately?**
-2. **Which of the explicitly undocumented examination domains, or equivalent work, would reasonable practice actually have required?**
-3. **What positive examination evidence supported peripheral neuropathy?**
-4. **Was “Not clear” earned residual uncertainty after adequate discrimination, or uncertainty left after insufficient investigation?**
-5. **What clinical work justified “may have been completely separate”?**
-6. **Did “markedly divorced” support mechanistic independence or only phenomenological distinction?**
-7. **What did the existing GP / Podiatry pathway already communicate, and what neurological relationship question did Neurology add or retain?**
-8. **What should the Protest have changed?**
-9. **By April 2018, what significance should have been attached to the clinician-recorded focal foot change during the earlier neurological medication withdrawal?**
-10. **What is the significance of the March 2019 referral expressly re-linking feet, tone, gait and Parkinson's at the end of the active Podiatry record?**
-11. **Once Neurology directly reacquired repeated foot evidence after 2019, when, if ever, should the founding relationship have been reconstructed?**
-12. **What difference would competent integrated care probably have made?**
+Before discharge, the patient said in substance:
+
+> **You have not dealt with my feet.**
+
+That does not create the problem.
+
+It makes the problem impossible to miss.
+
+The simple question is:
+
+> **Once the patient said the feet had not been dealt with, what did Neurology do to answer the original question before letting the case close?**
 
 ---
 
-# 21. Controlling propositions
+# 8. Podiatry was not the mistake
 
-> **The relationship was unresolved. The separation was permitted. What clinical work earned it?**
+Podiatry was appropriate for real corns, calluses, toe deformity and loading problems.
 
-> **Podiatry pre-dated Neurology; the allegation is not that Podiatry was wrong.**
+Podiatry also existed before the final Neurology formulation, and the GP even told Podiatry the case was being prioritised **“as Parkinson's.”**
 
-> **Being labelled “Parkinson's” to Podiatry is not the same as transmitting a defined dystonia–gait–loading question.**
+So do not argue:
 
-> **Recognition is not necessarily relationship investigation.**
+> Podiatry was wrong.
 
-> **Before asking whether “Not clear” was reasonable, ask whether the demonstrated examination could earn the answer.**
+Argue the narrower point:
 
-> **Not identical is not independent.**
+> **Treating the structural feet did not answer whether the neurological disorder was contributing to the pain, posture or loading.**
 
-> **Structural pathology is not structural independence.**
+The later record also shows that Merlin Park Podiatry belonged to Community Healthcare West rather than being a GUH hospital department.
 
-> **The synthesis may have outrun the examination.**
+That makes the practical question even simpler:
 
-> **The April 2018 note is a later clinician-authored record of the earlier withdrawal-linked focal foot change, not a second dechallenge event.**
+> **Who was responsible for putting the neurological and foot information back together?**
 
-> **After 25 March 2019, no further active Podiatry treatment is shown in the available Podiatry record; later Neurology increasingly contains the feet itself.**
+---
 
-> **Podiatry was a Community Healthcare West service, not a GUH hospital department.**
+# 9. The tablets bring the case to life
 
-> **Clinical inheritance is not governance adoption.**
+This is now one of the clearest parts of the case.
 
-> **The December 2025 diagnosis is reported but its primary letter remains missing; February 2026 genetics is direct evidence.**
+The pain existed long before neurological treatment.
 
-> **Who owned the arrows?**
+So the claim is **not** that Neurology caused the original foot pain.
 
-> **Local updating, global non-revision.**
+The important fact is different:
 
-> **The case is broad in evidence and narrow in allegation.**
+> **Neurological medication changed what happened in the feet.**
+
+When procyclidine was working, the patient's condition improved dramatically.
+
+When it was withdrawn, the record describes tension building, restless feet and the walk falling apart.
+
+The treating neurologist later recorded the focal foot problem as **returning rapidly** during that withdrawal.
+
+The plain question is:
+
+> **If tablets prescribed for the neurological condition could make the foot problem better, and stopping them could make it return, why did that not force the original foot–neurology question back open?**
+
+This does not require anyone in 2017 to use the word dystonia.
+
+It does not prove one mechanism.
+
+It proves something simpler and clinically important:
+
+> **The foot problem was not therapeutically separate from Neurology.**
+
+---
+
+# 10. Do not import later words backwards
+
+In 2017 the record used descriptions such as **“dystonic posture”** and **“dystonically unusual”** for the gait.
+
+That is not the same as saying the foot pain had been diagnosed as dystonia.
+
+Later clinicians used dystonia more explicitly.
+
+Later still, 2026 genetics linked Parkinsonism and dystonia to Parkin mutations.
+
+Keep those stages separate.
+
+The 2017 question remains plain:
+
+> **The feet hurt, the gait was neurologically very abnormal, and neurological treatment later changed the foot problem. What did that mean, and why was the relationship not properly reopened?**
+
+---
+
+# 11. The eight-year problem
+
+Do not say the neurologist thought exactly the same thing every day for eight years.
+
+There were later changes and real reassessment.
+
+The record later includes:
+
+- Parkinsonian foot movement;
+- foot sensitivity and excess movement;
+- morning foot problems;
+- severe bilateral pain;
+- possible OFF dystonia;
+- a later view that leg pain and shuffling were OFF-related and that the patient appeared undertreated;
+- toe curling;
+- pregabalin benefit;
+- Sinemet benefit from a pain perspective.
+
+There is also contrary evidence, including the patient's own belief at one stage that the pain was not Parkinson-related and a medication stop that he felt made no Parkinson difference.
+
+So the later record is mixed.
+
+The simpler longitudinal question is:
+
+> **The pain remained a major problem, and Neurology kept learning new things about how the feet, walking and medication interacted. When was the original question finally rebuilt from the beginning?**
+
+---
+
+# 12. Psychological harm: keep the question clean
+
+The pain existed before neurological treatment.
+
+So do not say:
+
+> neurological medication caused the pain.
+
+And do not yet say:
+
+> medication caused the psychological crisis.
+
+The expert question is:
+
+> **Did the way the neurological treatment was chosen, stopped, restarted or left insufficiently adjusted contribute to the severity of the pre-existing foot pain, and did prolonged severe pain then contribute to the patient's later psychological distress?**
+
+The possible chain is:
+
+> **pre-existing pain → treatment affects severity → relationship not fully understood / managed → prolonged severe pain and loss of function → major distress.**
+
+That is a causation question for expert evidence.
+
+---
+
+# 13. The institutional case
+
+The institutional case is also simple.
+
+Different people and services held different pieces:
+
+- the GP knew the integrated history;
+- Neurology knew the abnormal movement disorder and medication effects;
+- Podiatry knew the structural and pressure problems;
+- later Neurology knew the feet were changing with treatment state;
+- governance later reviewed the complaint.
+
+The question is:
+
+> **Who was supposed to put the pieces together?**
+
+And later:
+
+> **When the hospital was expressly asked to review the history, did it go back and ask what examination had originally justified treating the foot problem as separate?**
+
+---
+
+# 14. The legal structure stays underneath
+
+The language becomes simpler. The legal structure does not.
+
+## Duty — what should reasonable care have done?
+
+> **Neurology had to investigate whether the neurological disorder was contributing to the disabling foot problem before treating the feet as separate, or keep that question open if it could not yet be answered.**
+
+## Breach — what may have gone wrong?
+
+Possible breaches remain date-specific:
+
+1. not doing enough to answer the relationship before separation;
+2. treating the feet as separate without enough clinical basis;
+3. not responding adequately when the patient said the feet had not been dealt with;
+4. not making clear who would put Neurology and Podiatry findings back together;
+5. not reopening the question when neurological medication changed the foot problem;
+6. later failing to rebuild the original question despite repeated foot / gait / medication crossings;
+7. any separate failure of reassessment or safety response when pain became extreme.
+
+## Harm — what happened to the patient?
+
+The relevant harm is not “bad documentation.”
+
+The relevant harm is any extra:
+
+- pain;
+- difficulty walking or standing;
+- repeated loading / foot injury;
+- loss of function;
+- loss of work or ordinary activity;
+- psychological distress;
+
+caused by delayed understanding or treatment.
+
+## Causation — what difference would better care probably have made?
+
+For every alleged breach ask:
+
+> **If they had done the right thing then, what would probably have happened next, and how much suffering would probably have been avoided?**
+
+That question must be answered separately at each date.
+
+---
+
+# 15. The core questions
+
+1. **Why did his feet hurt?**
+2. **What did Neurology do in 2017 to find out whether the neurological disorder was contributing?**
+3. **What examination justified saying the foot problem might be completely separate?**
+4. **What examination supported neuropathy?**
+5. **What should have happened when the patient said his feet had not been dealt with?**
+6. **What did it mean when neurological medication made the foot problem better?**
+7. **What did it mean when the foot problem returned rapidly after that medication was stopped?**
+8. **Why did those events not force the original question back open?**
+9. **As later foot, gait and medication evidence accumulated, who was responsible for putting it together?**
+10. **What extra suffering probably followed from the delay, if any?**
+
+---
+
+# 16. The phrases to keep
+
+> **Unresolved source of disabling pain becomes specialist uncertainty about a possibly separate foot problem.**
+
+> **They saw the abnormal walk. They knew the feet hurt. Where is the examination showing why the two were separate?**
+
+> **The tablets they gave him for the neurological condition changed what happened in his feet.**
+
+> **When they stopped the tablets, the foot problem came back quickly.**
+
+> **The pain may have remained diagnostically separate, but it was not therapeutically separate.**
+
+> **Podiatry could treat the feet. Someone still had to answer the relationship.**
+
+> **Who was supposed to put the pieces back together?**
+
+> **Facts first. Question second. Medicine third. Law last.**
