@@ -2,7 +2,7 @@
 
 ## Expertise, decisions, information states and behaviour states
 
-**Function:** This document identifies who possessed which information, who participated in which decisions, and how the founding specialist allocation affected each actor differently.
+**Function:** This document identifies who possessed which information, who participated in which decisions, and how the founding specialist allocation affected each actor and institutional function differently across the life of the record.
 
 It is not a guilt map.
 
@@ -10,13 +10,13 @@ The controlling distinctions are:
 
 > **Capability is not participation, and participation is not bedside application.**
 
-and:
-
 > **The summary changes knowledge downstream; it changes commitment upstream.**
 
-The refined case centre is now:
+> **Clinical inheritance is not the same thing as governance adoption.**
 
-> **The relationship between the abnormal lower-limb motor disorder and the painful structural feet was unresolved. The final synthesis nevertheless created a practical separation: “may have been completely separate,” reinforced by “markedly divorced,” with Podiatry as the foot destination. The actor question is who created, received, relied on, or later acquired enough independent information to test that allocation.**
+The refined case centre is:
+
+> **The relationship between the abnormal lower-limb motor disorder and the painful structural feet was unresolved. The final synthesis nevertheless created a practical separation: “may have been completely separate,” reinforced by “markedly divorced,” with Podiatry as the initial foot destination. That operational allocation later ended, but the conceptual partition survived. The actor question is who created it, who inherited it, who later acquired independent information capable of testing it, and when the hospital itself moved from passive inheritance to express governance review and continued reliance.**
 
 ---
 
@@ -24,37 +24,19 @@ The refined case centre is now:
 
 ## Presentation state
 
-The patient reached Neurology as an integrated clinical problem:
-
-- painful abnormal feet;
-- abnormal gait;
-- increased tone / stiffness;
-- movement-initiation difficulty;
-- toe clawing / deformity;
-- deteriorating function;
-- emerging Parkinsonian signs.
+The patient reached Neurology as an integrated clinical problem involving painful abnormal feet, abnormal gait, increased tone / stiffness, movement-initiation difficulty, toe clawing / deformity, deteriorating function and emerging Parkinsonian signs.
 
 The referral did not establish neurological independence of the feet.
 
 ## Bedside-detection state
 
-Neurology detected:
-
-- severe Parkinsonism;
-- a strikingly abnormal gait;
-- a foot-drop-like lower-limb phenomenon considered dystonic rather than true foot drop;
-- pes planus;
-- hammertoes.
-
-The actor question is no longer simply **who saw the sign?**
-
-It is:
+Neurology detected severe Parkinsonism, a strikingly abnormal gait, a foot-drop-like lower-limb phenomenon considered dystonic rather than true foot drop, pes planus and hammertoes.
 
 > **Who, if anyone, converted those detected components into a directed investigation of their relationship before separation?**
 
 ## Allocation state
 
-The final specialist synthesis states that the foot / leg symptoms:
+The final synthesis states that the foot / leg symptoms:
 
 > **“may have been completely separate”**
 
@@ -64,33 +46,39 @@ and records that the patient had:
 
 his bodily / leg tension from the corns, callouses and foot pains.
 
-It then leaves the relationship:
+It leaves the relationship:
 
 > **“Not clear.”**
 
 with Podiatry as the practical foot pathway.
 
-That combination creates the founding allocation.
-
 ## Information state
 
-For a downstream actor, the discharge synthesis determines what appears to have been:
-
-- investigated;
-- integrated;
-- separated;
-- left uncertain;
-- and assigned to another specialty.
+For a downstream actor, the discharge synthesis determines what appears to have been investigated, integrated, separated, left uncertain and assigned elsewhere.
 
 ## Behaviour / commitment state
 
-For the clinician who possessed the encounter and participated in the final synthesis, the summary is not new information. It is the act by which one interpretation of the patient becomes portable and authoritative.
+For the clinician who possessed the encounter and participated in the final synthesis, the summary is not new information. It is the act by which one representation of the patient becomes portable and authoritative.
+
+## Operational-allocation state
+
+From September 2017 through March 2019, Neurology and Podiatry actively carry different parts of the same lower-limb system.
+
+## Post-allocation conceptual state
+
+The Podiatry record identifies **25 March 2019 as the last attendance**. After that date, active Podiatry ownership is no longer shown in the available record, but the conceptual separation persists.
+
+## Direct reacquisition state
+
+From 2020 onward, Neurology itself repeatedly possesses foot findings, dystonia / OFF-state information, gait changes and treatment-response evidence. Responsibility can no longer be analysed solely as inherited division between Neurology and an active Podiatry service.
+
+## Governance state
+
+Once the historical integration problem is expressly placed before QPS / PAR / SIMT, institutional actors are not merely passive downstream recipients. They are evaluating, adopting, rejecting or continuing reliance on an institutional account.
 
 ## Reopening state
 
-A later actor may acquire independent information—treatment response, withdrawal effects, OFF-state phenomena, gait findings, dystonia, foot pain response or Podiatry mechanics—capable of testing the founding allocation.
-
-Responsibility then follows **information opportunity**.
+A clinician or institutional function may acquire independent information capable of testing the founding allocation. Responsibility follows **information opportunity**, not title alone.
 
 ---
 
@@ -99,18 +87,6 @@ Responsibility then follows **information opportunity**.
 Every expertise claim must be run through:
 
 > **Capability → Participation → Bedside Application**
-
-## Capability
-
-What relevant expertise existed?
-
-## Participation
-
-What expertise actually entered this patient-specific case?
-
-## Bedside application
-
-What expertise actually returned to test the unresolved relationship?
 
 The return-loop question remains:
 
@@ -126,28 +102,29 @@ The Protest is treated as fact:
 
 It no longer marks the earliest possible breach.
 
-Its function is sharper:
-
 > **It converts a pre-existing possible omission into express notice while the patient remains physically available.**
 
 Thus:
 
-- before the Protest: ask whether the relationship-directed assessment was already inadequate;
+- before the Protest: ask whether relationship-directed assessment was already inadequate;
 - at the Protest: ask what express notice required;
 - after the Protest: ask why the separate allocation was maintained and exported.
 
 ---
 
-# 4. Actor map
+# 4. Actor and institutional map
 
-| Actor | Founding access | Effect of final synthesis | Central question |
+| Actor / function | Founding access | Later information state | Central question |
 |---|---:|---|---|
-| **Aaron Brennan** | Direct pre-admission knowledge; no bedside Neurology access | Downstream information state layered onto his integrated referral | What did the specialist allocation cause him reasonably to believe had already been investigated? |
-| **Thomas Monaghan** | Direct founding encounter | Behaviour / allocation / commitment state | What work justified “may have been completely separate,” “markedly divorced,” and separate Podiatry disposition? |
+| **Aaron Brennan** | Direct pre-admission knowledge; no Neurology bedside access | Downstream specialist state layered onto his integrated referral; re-integrates feet/tone/gait in 2019 | What did the specialist allocation cause him reasonably to believe had already been investigated, and what did his 2019 reintegration make the hospital capable of reconsidering? |
+| **Thomas Monaghan** | Direct founding encounter | Behaviour / allocation / commitment state; later direct Neurology knowledge | What work justified “may have been completely separate,” “markedly divorced,” and the Podiatry disposition; what later evidence required reconsideration? |
 | **Timothy Counihan** | Patient-specific bedside role not established | Internal specialist decision environment | When did his expertise enter, and did it generate relationship-directed application? |
-| **Patrick Browne** | Founding bedside involvement not established; ANP input recorded as pending | Downstream specialist frame until independent later information | When did he acquire enough independent information to test the inherited allocation? |
-| **Daniel Healy** | No July bedside access | Referred state, then independent September specialist state | What did his later PARK II opinion add, and did it bear on the feet? |
-| **Galway Neurology Department** | Institutional capability | Produces the founding specialist state | Did relevant capability return to test the painful feet before or after segregation? |
+| **Patrick Browne** | Founding bedside involvement not established; ANP input pending | Downstream movement-disorders frame, later direct medication / symptom information | When did independent later information make the inherited allocation testable? |
+| **Daniel Healy** | No July bedside access | Referred state, then independent September specialist state | What did his PARK II opinion add, and was he ever asked the foot question? |
+| **Podiatry** | Separate structural pathway | Active mechanical owner September 2017–25 March 2019 | What mechanical data did it acquire, what neurological question was it asked, and what feedback loop existed? |
+| **Galway Neurology after March 2019** | Direct longitudinal specialty access | Feet return directly inside Neurology without active Podiatry ownership | Once the feet were no longer elsewhere, what kept the conceptual partition alive? |
+| **QPS / PAR / SIMT** | No founding bedside access | Governance review of inherited clinical record after historical issue expressly raised | Did governance independently reconstruct the founding transition or principally assess the completed state it inherited? |
+| **St Vincent’s specialist / genetics** | Later independent specialist access | December 2025 dystonia reported; February 2026 Parkin genetic clarification | What later independent information changes the prospective clinical state without being projected backwards as proof of 2017 breach? |
 
 ---
 
@@ -159,138 +136,76 @@ He sent into Neurology:
 
 > **feet + gait + tone + movement initiation + clawing + deteriorating function.**
 
-He did not witness the inpatient neurological work.
+When the specialist correspondence arrived, he received a strongly formulated Parkinsonian syndrome, possible complete separateness of the foot problem, possible neuropathy, “Not clear” and Podiatry.
 
-When the specialist correspondence arrived, he received:
-
-- a strongly formulated Parkinsonian syndrome;
-- possible complete separateness of the foot problem;
-- possible neuropathy;
-- “Not clear”;
-- Podiatry.
-
-He could not tell whether:
-
-> **the relationship had been adequately investigated and separation remained the reasonable residual position**
-
-or:
-
-> **the relationship had not been adequately investigated before the feet were allowed to proceed separately.**
-
-The refined Brennan proposition is therefore:
+He could not tell whether the relationship had been adequately investigated and separation remained the reasonable residual position, or whether the relationship had not been adequately investigated before the feet were allowed to proceed separately.
 
 > **The specialist record may have converted an unfinished relationship into an authoritative allocation for primary care.**
 
-That is the foundation of the primary-care information-harm question.
+## 2019 changes Brennan’s significance
 
-Brennan also retained the original comparator. Later, when feet, tone and gait again appeared together, he was one of the few actors able to compare the specialist patient with the patient he had actually sent in.
+In March 2019 Brennan again links feet, increased tone, abnormal gait, Parkinson’s disease, clawing and pain.
+
+That is not merely another referral. It is primary care **reconstructing the integrated object** at the exact period in which the Podiatry stream reaches its last recorded attendance.
+
+The institutional question is:
+
+> **What did Brennan’s re-integration make available to the hospital, and where did that information go?**
 
 ---
 
 # 6. Thomas Monaghan — founding encounter, allocation and commitment
 
-Monaghan is differently situated from every downstream actor.
-
-He possessed or had access to:
-
-- the GP referral;
-- the patient;
-- the severe Parkinsonian bedside phenotype;
-- the dystonic-looking lower limb;
-- the painful foot history;
-- structural foot findings;
-- the admission course;
-- the Protest;
-- and the final synthesis process.
-
-For him, the final account is not merely an information state.
-
-It is the act by which the case is allocated downstream.
+Monaghan possessed or had access to the GP referral, the patient, the severe Parkinsonian phenotype, the dystonic-looking lower limb, painful foot history, structural foot findings, admission course, Protest and final synthesis process.
 
 > **The summary changes knowledge downstream; it changes commitment upstream.**
 
-## The key Monaghan questions are now earlier and sharper
+The key questions are:
 
 1. **What relationship-directed foot examination was actually done before separation?**
 2. **What clinical evidence justified “may have been completely separate”?**
-3. **Did the patient’s historical distinction between foot pain and bodily tension justify mechanistic independence, or only phenomenological distinction?**
-4. **What function did “markedly divorced” perform in the clinical reasoning?**
+3. **Did the patient’s historical distinction justify mechanistic independence, or only phenomenological distinction?**
+4. **What function did “markedly divorced” perform?**
 5. **Why did Podiatry become the operational destination without a demonstrated neurological return loop?**
-6. **What should the Protest have changed once the patient expressly said the feet had not been dealt with?**
-
-## “Markedly divorced” and authorship
-
-This phrase matters because it is not merely the patient speaking in quotation marks.
-
-It is an **authorial characterisation** of what the patient’s historical distinction meant.
-
-The patient had described different symptom behaviour over time and with standing exposure.
-
-The final synthesis characterises that as the patient having “markedly divorced” the foot pains from bodily tension.
-
-The expert question is whether that was clinically sound support for separation.
+6. **What should the Protest have changed?**
+7. **What should the October 2017 / April 2018 treatment-state crossings have changed?**
+8. **When later Neurology directly reacquired the feet after Podiatry ended, was the founding allocation ever expressly reconstructed?**
 
 No allegation of bad faith is required.
-
-## Commitment pressure
-
-As the neurological / genetic synthesis becomes more sophisticated, reopening the omitted or under-integrated feet becomes more disruptive.
-
-That is **commitment pressure**.
-
-It is structural, not motive.
 
 ---
 
 # 7. Timothy Counihan — capability, participation, application
 
-Counihan’s relevant capability includes:
+Counihan’s relevant capability includes PRKN / PARK2, young-onset Parkinsonism, dystonia, movement disorders and abnormal gait.
 
-- PRKN / PARK2;
-- young-onset Parkinsonism;
-- dystonia;
-- movement disorders;
-- abnormal gait.
-
-Patient-specific participation is supported by the treatment correspondence:
+Patient-specific participation is supported by:
 
 > **“Myself and Tim are keen to hold back on Levodopa…”**
 
-That places him in the treatment decision environment.
-
-It does not establish that he examined the painful feet or considered the founding separation.
-
-The controlling question is:
+That places him in the treatment decision environment but does not establish that he examined the painful feet or considered the founding separation.
 
 > **When did Counihan’s expertise enter the patient-specific case, what information did he receive, and did that expertise ever generate direct investigation of whether the feet were structurally independent, neurologically influenced or mixed?**
 
 ---
 
-# 8. Patrick Browne — relevant movement-disorders expertise downstream of the allocation
+# 8. Patrick Browne — movement-disorders expertise downstream of the allocation
 
-Browne’s public and professional background is close to the disputed territory: movement disorders, Parkinson genetics, dystonia and abnormal foot posture.
-
-But capability does not prove July bedside participation.
+Browne’s capability is close to the disputed territory, but capability does not prove July bedside participation.
 
 The July synthesis records Parkinson’s Disease ANP input as:
 
 > **pending.**
 
-The founding record therefore does not establish Browne as the clinician who created the bedside allocation.
-
-His initial patient may have reached him already framed as:
+His initial patient may therefore have reached him already framed as:
 
 > **young-onset Parkinsonism + separate / Podiatry feet + “Not clear.”**
 
-That changes the question from:
-
-> **Why did Browne not fix July?**
-
-into:
+The question is not why he did not fix July.
 
 > **When did Browne first acquire enough independent information to test whether the inherited separation had ever been clinically earned?**
 
-Later treatment-state information is especially important for that question.
+Later treatment-state and OFF-state information are central to that question.
 
 ---
 
@@ -298,123 +213,198 @@ Later treatment-state information is especially important for that question.
 
 Healy did not possess the July bedside encounter.
 
-His September 2017 personal review created an independent specialist information state.
+His September 2017 personal review created an independent specialist information state. He recorded probable PARK II and dramatic response to procyclidine / rasagiline.
 
-He recorded probable PARK II and dramatic response to procyclidine / rasagiline.
-
-That later opinion strengthens the neurological / Parkin phenotype.
-
-It does not independently validate the July foot allocation unless he was actually asked to assess that relationship and did so.
-
-The key Healy question is therefore:
+That strengthens the neurological / Parkin phenotype. It does not independently validate the July foot allocation unless he was actually asked to assess that relationship and did so.
 
 > **What did Galway ask him to decide, and did the referred question include the painful feet–dystonia–gait relationship?**
 
-If not, his authority on Parkin should not be treated as independent validation of the founding separation.
+---
+
+# 10. Podiatry — active operational owner until 25 March 2019
+
+Podiatry acquires precise structural and mechanical information:
+
+- recurrent left fifth-MTPJ pathology;
+- clawed toes;
+- tight gastroc / soleus;
+- pronating foot type;
+- repeated debridement / offloading;
+- toe props / insoles.
+
+Its work establishes a genuine mechanical object.
+
+The questions are:
+
+> **What neurological question was Podiatry actually asked?**
+
+> **Were its loading / deformity findings expected to return to Neurology for integrated interpretation?**
+
+> **Who owned the relationship while both services were active?**
+
+The available Podiatry record identifies:
+
+> **Patient Last Seen: 25 Mar 2019.**
+
+That date changes the institutional architecture.
 
 ---
 
-# 10. The department — capability does not prove application
+# 11. Galway Neurology after March 2019 — direct reacquisition
 
-Galway Neurology had demonstrable capability in:
+After the last recorded Podiatry attendance, the later record should not be described as though the feet remained elsewhere.
 
-- PRKN / PARK2;
-- young-onset Parkinsonism;
-- dystonia;
-- movement disorders;
-- gait;
-- Parkinson genetics.
+Neurology itself records:
 
-That makes the final synthesis unsurprisingly sophisticated.
-
-It does **not** answer whether the patient’s painful feet received a correspondingly directed movement-disorders examination.
-
-The departmental audit question is:
-
-> **How did high-resolution neurological / genetic construction coexist with a foot relationship represented as possibly “completely separate” without the record demonstrating equivalent relationship-directed work?**
-
----
-
-# 11. The founding allocation affects later actors differently
-
-The same words have different effects depending on who receives them.
-
-## For Brennan
-
-They can appear to report what specialist Neurology has already investigated.
-
-## For Browne
-
-They can define the starting frame inside which later movement-disorders management occurs.
-
-## For Healy
-
-They can determine which questions were or were not sent externally for independent review.
-
-## For Monaghan
-
-They are not merely received information. They are part of the representation he helped make authoritative.
-
-That is why actor analysis must always distinguish:
-
-> **information inheritance**
-
-from:
-
-> **allocation authorship.**
-
----
-
-# 12. Reopening opportunities
-
-The founding allocation is later tested by new information:
-
-- September 2017 treatment response;
-- October 2017 tension + restless feet + deteriorating walk during withdrawal;
-- recurrent left fifth-MTPJ mechanical pathology;
-- April 2018 rapid focal outside-left-foot change during withdrawal;
-- 2019 GP reintegration;
 - 2020 Parkinsonian foot throw;
+- excessive foot movement and exquisite sensitivity;
+- 2021 dopaminergic treatment;
 - 2022 morning foot warm-up;
-- 2023 OFF/dystonia and pain analysis;
+- 2023 possible OFF dystonia and major foot pain;
+- Movement Disorders nurse assessment of leg pain / shuffling as OFF-related;
 - 2024 toe curling despite pain relief;
 - 2025 Sinemet-responsive foot pain.
 
-For each actor ask:
+The central actor question changes:
 
-> **When did this person first acquire independent information capable of challenging the founding “completely separate” allocation?**
+> **Once the feet were no longer elsewhere, what continued to keep the founding separation alive?**
 
-Then:
-
-> **What did they do with it?**
+This is the point at which the case becomes less about inter-specialty allocation and more about **conceptual inheritance inside Neurology itself**.
 
 ---
 
-# 13. The actor-specific causation questions
+# 12. QPS / PAR / SIMT — from clinical inheritance to governance adoption
+
+This is a different category of actor state.
+
+Ordinary downstream clinicians may inherit a specialist frame because that is how the patient arrives to them.
+
+By 2025, however, the historical integration problem is expressly placed before the hospital through complaint and governance channels.
+
+The matter proceeds through QPS and later IMF / PAR / SIMT review. The record later describes the SIMT outcome as:
+
+> **“no deficit in care.”**
+
+In January 2026 the patient again places later dystonia information and the continued institutional reliance issue before QPS.
+
+On 26 January QPS states, in substance, that:
+
+- the complaint assessment and SIMT review used contemporaneous information;
+- those determinations were appropriate to their timeframe;
+- the December 2025 dystonia diagnosis did not undermine their validity;
+- reopening, alteration or qualification was not considered necessary;
+- no current governance risk requiring escalation was identified.
+
+This produces the controlling distinction:
+
+> **clinical inheritance is not the same as governance adoption.**
+
+Once governance is expressly asked to examine the historical issue, the institutional question is:
+
+> **Did the review independently reconstruct what clinical work had justified the founding separation, or did it principally evaluate the completed record through the architecture that record already contained?**
+
+This is not by itself proof of governance failure. It identifies the information opportunity and the question the institutional record now permits.
+
+---
+
+# 13. St Vincent’s — later independent specialist / genetic comparator
+
+The preserved corpus records that the patient reported a specialist diagnosis of dystonia on 19 December 2025. The primary December specialist letter remains an evidential gap and must not be reconstructed from patient-authored descriptions.
+
+The February 2026 genetic-results letter is direct specialist evidence. It confirms two pathogenic Parkin variants and states that the patient’s:
+
+> **Parkinsonism and dystonia are due to compound heterozygous mutations in the Parkin gene.**
+
+That does not prove that the historic foot pain was all dystonia and cannot rewrite July 2017.
+
+It does provide a later independent comparator against which the hospital-wide information history can be examined.
+
+---
+
+# 14. The institutional life-cycle map
+
+The whole record can now be read through four changing custody states:
+
+## 2017 — founding clinical allocation
+
+Neurology creates the authoritative specialist partition.
+
+## September 2017–March 2019 — operational inter-specialty split
+
+Neurology and Podiatry own different objects and accumulate complementary evidence.
+
+## After March 2019 — conceptual partition without an active second specialty owner
+
+Podiatry ends, but later Neurology repeatedly reacquires the feet.
+
+## 2025–January 2026 — governance adoption / continued institutional reliance
+
+The historical issue is expressly presented to the hospital and becomes a governance object.
+
+The whole-hospital question is therefore:
+
+> **At each point where the institution possessed enough information to reconstruct the original feet–movement relationship, which actor or function had that information, what did it do with it, and why did the founding separation remain operative?**
+
+---
+
+# 15. Reopening opportunities by information holder
+
+- **Monaghan / Neurology, July 2017:** integrated referral + dystonic-looking lower limb + painful feet.
+- **Monaghan / Neurology, Protest:** express notice.
+- **Neurology, October 2017:** tension + restless feet + deteriorating gait on withdrawal.
+- **Neurology, April 2018:** rapid focal outside-left-foot change on neurological medication withdrawal.
+- **Brennan / receiving HSE pathways, March 2019:** explicit GP re-integration of feet + tone + gait + Parkinson’s.
+- **Neurology, 2020:** Parkinsonian foot throw + sensitivity / excessive foot movement.
+- **Neurology, 2022:** morning foot warm-up.
+- **Neurology / Movement Disorders, 2023:** OFF dystonia, OFF-related pain / shuffling, catastrophic foot pain.
+- **Neurology, 2024–25:** toe curling / pain dissociation and dopaminergic pain response.
+- **QPS / PAR / SIMT, 2025:** historical integration issue expressly raised institutionally.
+- **QPS, January 2026:** later dystonia development + challenge to continued reliance.
+- **St Vincent’s / prospective clinical system, February 2026:** Parkin-related Parkinsonism + dystonia genetically clarified.
+
+For each state ask:
+
+> **What did this information make the actor or institution capable of reconsidering?**
+
+---
+
+# 16. Actor-specific causation questions
 
 ## Brennan
 
-Would a discharge account that preserved the feet as an **active unresolved neurological relationship** have caused a reasonable GP to seek neurological reintegration earlier?
+Would a discharge account preserving the feet as an **active unresolved neurological relationship** have caused a reasonable GP to seek neurological reintegration earlier?
 
 ## Monaghan
 
-Would adequate relationship-directed investigation before separation probably have changed the formulation, disposition or later management?
+Would adequate relationship-directed investigation before separation probably have changed formulation, disposition or later management?
 
-## Browne
+## Browne / Movement Disorders
 
-Once treatment-state evidence entered his direct knowledge, did reasonable movement-disorders practice require reconsideration of the inherited allocation?
+Once treatment-state evidence entered direct knowledge, did reasonable practice require reconsideration of the inherited allocation?
 
 ## Counihan
 
-Did his patient-specific participation ever create an opportunity to connect treatment strategy with the unresolved feet–gait relationship?
+Did patient-specific participation create an opportunity to connect treatment strategy with the unresolved feet–gait relationship?
 
 ## Healy
 
-Did the scope of the referral prevent an independent specialist capable of Parkin / movement-disorders reasoning from being asked the foot question at all?
+Did the scope of the referral prevent an independent specialist capable of Parkin / movement-disorders reasoning from being asked the foot question?
+
+## Podiatry / cross-service system
+
+Would a defined neurological question and return mechanism probably have brought the mechanical findings back into neurological interpretation?
+
+## Post-2019 Neurology
+
+Once the feet were directly back within Neurology, would competent historical reintegration probably have changed management?
+
+## Governance
+
+This is not ordinarily a medical-causation question in the same sense. The narrower issue is whether governance review preserved or reinforced an information state capable of affecting future care and institutional reliance. Legal significance requires separate advice.
 
 ---
 
-# 14. Centrally controlling actor propositions
+# 17. Centrally controlling actor propositions
 
 > **Brennan sent the whole problem in.**
 
@@ -426,6 +416,10 @@ Did the scope of the referral prevent an independent specialist capable of Parki
 
 > **Not identical is not independent.**
 
+> **Podiatry operationalised the split but its active role ended on 25 March 2019.**
+
+> **After March 2019, the feet were no longer elsewhere; the separation was.**
+
 > **Browne’s initial uncertainty may be inherited.**
 
 > **Healy’s later Parkin authority does not automatically validate a foot question he was not asked to decide.**
@@ -434,6 +428,8 @@ Did the scope of the referral prevent an independent specialist capable of Parki
 
 > **Did the expertise that enriched the theory return to the body?**
 
+> **Clinical inheritance is not the same as governance adoption.**
+
 > **Responsibility follows information opportunity.**
 
-> **The decisive actor question is not merely who knew the subject. It is who had the patient, who created the allocation, who inherited it, and when later evidence gave each actor a real opportunity to test it.**
+> **The decisive institutional question is not merely who knew the subject. It is who had the patient, who created the allocation, who inherited it, when the operational split ended, who later reacquired the feet, and when the hospital itself chose whether to continue relying on the inherited state.**
