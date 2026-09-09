@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f3efe8">
+<meta name="description" content="A restrained front door to the stronger-formulation documentary case record.">
+<title>Stronger Formulation — Documentary Case Register</title>
+<style>
+:root{
+  --paper:#f3efe8;
+  --paper-2:#ece5da;
+  --ink:#171717;
+  --muted:#66615a;
+  --rule:#cfc5b7;
+  --accent:#8b2f24;
+  --accent-soft:#d8b7ae;
+  --rail:238px;
+  --measure:880px;
+  --serif:ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
+  --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);text-rendering:optimizeLegibility}
+a{color:inherit;text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:2px}
+.skip-link{position:fixed;left:12px;top:12px;z-index:100;transform:translateY(-180%);background:var(--ink);color:var(--paper);padding:10px 14px;font:700 12px/1 var(--sans);text-decoration:none}
+.skip-link:focus{transform:none;color:var(--paper)}
+.rail{position:fixed;inset:0 auto 0 0;width:var(--rail);padding:28px 22px;border-right:1px solid var(--rule);background:rgba(243,239,232,.96);display:flex;flex-direction:column;z-index:20}
+.brand{font:800 11px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.brand strong{display:block;margin-top:8px;font:600 23px/1.02 var(--serif);letter-spacing:-.025em;text-transform:none;color:var(--ink)}
+.nav-label{margin:38px 0 11px;font:700 10px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.rail nav{display:grid;gap:2px}
+.rail nav a{display:grid;grid-template-columns:27px 1fr;gap:8px;padding:9px 7px;text-decoration:none;font:600 12px/1.3 var(--sans);border-radius:8px}
+.rail nav a:hover{background:rgba(139,47,36,.07)}
+.no{font-size:9px;letter-spacing:.08em;color:var(--accent);padding-top:2px}
+.rail-note{margin-top:auto;padding-top:22px;border-top:1px solid var(--rule);font:11px/1.5 var(--sans);color:var(--muted)}
+.mobile-head{display:none}
+main{margin-left:var(--rail)}
+.hero{min-height:82vh;display:flex;align-items:flex-end;padding:clamp(72px,9vw,118px) clamp(28px,8vw,108px);border-bottom:1px solid var(--rule)}
+.hero-inner{width:min(1040px,100%)}
+.eyebrow,.section-label,.doc-type{font:800 10px/1.2 var(--sans);letter-spacing:.19em;text-transform:uppercase;color:var(--accent)}
+h1{margin:18px 0 32px;max-width:970px;font-size:clamp(56px,8.6vw,122px);line-height:.84;letter-spacing:-.055em;font-weight:600}
+.centre{max-width:820px;margin:0;padding:0;border:0;font-size:clamp(27px,3.2vw,43px);line-height:1.08;letter-spacing:-.025em}
+.centre span{display:block}
+.centre .turn{margin:.2em 0;font:800 10px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+.hero-meta{display:flex;flex-wrap:wrap;gap:18px;margin-top:38px;font:11px/1.45 var(--sans);color:var(--muted)}
+.hero-meta span{padding-top:9px;border-top:1px solid var(--rule)}
+.section{padding:clamp(64px,8vw,100px) clamp(24px,8vw,108px);border-bottom:1px solid var(--rule)}
+.section-inner{width:min(var(--measure),100%);margin:0 auto}
+h2{margin:12px 0 28px;font-size:clamp(38px,5vw,66px);line-height:.95;letter-spacing:-.035em;font-weight:600}
+.lede{font-size:clamp(20px,2vw,26px);line-height:1.38;color:#35312c;margin:0 0 24px}
+p{font-size:18px;line-height:1.65;margin:0 0 1.05em}
+.question{margin:42px 0 0;padding:26px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font-size:clamp(23px,2.5vw,32px);line-height:1.3}
+.question small{display:block;margin-bottom:12px;font:800 10px/1.2 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.register{margin-top:42px;border-top:1px solid var(--rule)}
+.doc-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;padding:28px 0;border-bottom:1px solid var(--rule)}
+.doc-type{padding-top:5px}
+.doc-list{display:grid;gap:24px}
+.doc h3{margin:0 0 7px;font-size:clamp(23px,2.4vw,31px);line-height:1.08;font-weight:600;letter-spacing:-.02em}
+.doc h3 a{text-decoration:none}
+.doc p{margin:0;font:14px/1.55 var(--sans);color:var(--muted);max-width:650px}
+.doc .status{display:inline-block;margin-top:8px;font:700 10px/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.timeline{margin:42px 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.timeline li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:28px;padding:25px 0;border-bottom:1px solid var(--rule)}
+.timeline time{font:800 11px/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.timeline p{margin:0;font-size:17px;line-height:1.55}
+.order{display:grid;grid-template-columns:repeat(4,1fr);margin:38px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.order div{padding:21px 15px 22px;border-right:1px solid var(--rule)}
+.order div:last-child{border-right:0}
+.order b{display:block;font:800 10px/1 var(--sans);letter-spacing:.12em;color:var(--accent);margin-bottom:8px}
+.order span{font-size:18px}
+.discipline{background:var(--paper-2)}
+.discipline ul{margin:28px 0 0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.discipline li{padding:15px 0;border-bottom:1px solid var(--rule);font:15px/1.5 var(--sans)}
+.reader-link{display:inline-block;margin-top:16px;padding:12px 16px;border:1px solid var(--ink);border-radius:999px;text-decoration:none;font:750 12px/1 var(--sans)}
+.reader-link:hover{background:var(--ink);color:var(--paper)}
+footer{margin-left:var(--rail);padding:34px clamp(24px,8vw,108px);font:11px/1.55 var(--sans);color:var(--muted)}
+.footer-inner{width:min(var(--measure),100%);margin:0 auto;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+@media(max-width:900px){
+  :root{--rail:0px}
+  .rail{display:none}
+  .mobile-head{display:block;position:sticky;top:0;z-index:30;border-bottom:1px solid var(--rule);background:rgba(243,239,232,.96);backdrop-filter:blur(10px)}
+  .mobile-top{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:13px 18px 10px}
+  .mobile-brand{font:800 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+  .mobile-head nav{display:flex;gap:18px;padding:0 18px 11px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+  .mobile-head nav::-webkit-scrollbar{display:none}
+  .mobile-head nav a{font:700 11px/1 var(--sans);text-decoration:none;color:var(--muted)}
+  main,footer{margin-left:0}
+  .hero{min-height:72vh;padding-top:78px}
+}
+@media(max-width:620px){
+  h1{font-size:clamp(52px,17vw,76px)}
+  .centre{font-size:27px}
+  .section{padding-left:21px;padding-right:21px}
+  .doc-row,.timeline li{grid-template-columns:1fr;gap:10px}
+  .doc-type{padding-top:0}
+  .order{grid-template-columns:1fr 1fr}
+  .order div:nth-child(2){border-right:0}
+  .order div:nth-child(-n+2){border-bottom:1px solid var(--rule)}
+  .hero{padding-left:21px;padding-right:21px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(prefers-color-scheme:dark){
+  :root{--paper:#171614;--paper-2:#1d1b18;--ink:#eee8df;--muted:#aaa198;--rule:#39342e;--accent:#e18474;--accent-soft:#74443c}
+  .rail,.mobile-head{background:rgba(23,22,20,.96)}
+  .lede{color:#ddd4c8}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+
+<aside class="rail" aria-label="Site contents">
+  <div class="brand">Documentary case register<strong>Stronger Formulation</strong></div>
+  <div class="nav-label">Contents</div>
+  <nav>
+    <a href="#case"><span class="no">01</span><span>The case</span></a>
+    <a href="#register"><span class="no">02</span><span>Document register</span></a>
+    <a href="#orientation"><span class="no">03</span><span>Orientation</span></a>
+    <a href="#discipline"><span class="no">04</span><span>Evidential discipline</span></a>
+    <a href="./LEAVE_IT_AT_THAT_READER.html"><span class="no">↗</span><span>Long-form reader</span></a>
+  </nav>
+  <div class="rail-note">A small front door to a large record.<br>The website is not the evidence.</div>
+</aside>
+
+<header class="mobile-head">
+  <div class="mobile-top"><a class="mobile-brand" href="#case">Stronger Formulation</a><span class="eyebrow">Case register</span></div>
+  <nav aria-label="Mobile site contents">
+    <a href="#case">Case</a><a href="#register">Documents</a><a href="#orientation">Orientation</a><a href="#discipline">Discipline</a><a href="./LEAVE_IT_AT_THAT_READER.html">Reader</a>
+  </nav>
+</header>
+
+<main id="content">
+  <section class="hero" id="case" aria-labelledby="page-title">
+    <div class="hero-inner">
+      <div class="eyebrow">Facts first · question second · medicine third · law last</div>
+      <h1 id="page-title">The foot question.</h1>
+      <blockquote class="centre">
+        <span>Unresolved source of disabling pain</span>
+        <span class="turn">becomes</span>
+        <span>specialist uncertainty about a possibly separate foot problem.</span>
+      </blockquote>
+      <div class="hero-meta"><span>Documentary case register</span><span>Primary record remains controlling</span><span>Presentation layer kept deliberately small</span></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="about-title">
+    <div class="section-inner">
+      <div class="section-label">What this is</div>
+      <h2 id="about-title">A way into the record, not a second record.</h2>
+      <p class="lede">This repository organises a large clinical and documentary record around a simple unresolved question: why did the feet hurt so badly, and what did the neurological problem have to do with it?</p>
+      <p>The pages and working documents below serve different purposes. They are not interchangeable. The canonical clinical record is the evidential backstop; factual reconstruction, analysis, expert questions and presentation material remain derived from it.</p>
+      <div class="question">
+        <small>The later human question</small>
+        They gave him neurological tablets. His feet got much better. When they stopped the tablets, the foot problem came back quickly. What did that require Neurology to reconsider?
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="register" aria-labelledby="register-title">
+    <div class="section-inner">
+      <div class="section-label">Document register</div>
+      <h2 id="register-title">Read in layers.</h2>
+      <p class="lede">Start with the simplest account. Move outward only when the question you are asking requires it.</p>
+
+      <div class="register">
+        <div class="doc-row">
+          <div class="doc-type">Primary record</div>
+          <div class="doc-list">
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/SRC_COMPLETE_RECORD_FORENSIC.md">Canonical clinical record ↗</a></h3>
+              <p>The source-level forensic transcription. Use this when a factual proposition, quotation, date or provenance needs to be checked.</p>
+              <span class="status">Evidential backstop</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="doc-row">
+          <div class="doc-type">Factual reconstruction</div>
+          <div class="doc-list">
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/FACTUAL_SPINE.md">Factual Spine ↗</a></h3>
+              <p>A short chronological foundation in ordinary language. If it conflicts with the canonical record, the canonical record controls.</p>
+              <span class="status">Best first read</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="doc-row">
+          <div class="doc-type">Organising analysis</div>
+          <div class="doc-list">
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/CENTRAL_ORGANISING_ARCHITECTURE.md">Central Organising Architecture ↗</a></h3>
+              <p>The controlling case-organisation file: centre, sequence, drafting rules and the questions that hold the material together.</p>
+            </article>
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/100_STRONGEST_POINTS_ACROSS_THE_RECORD.md">100 Strongest Points Across the Record ↗</a></h3>
+              <p>An internal analytical treasury. Useful for issue spotting; not a substitute for checking the underlying source.</p>
+            </article>
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/meettheteam_replacement.md">Meet the Team ↗</a></h3>
+              <p>A derived map of information, opportunity and responsibility. It should remain a repository document rather than become another designed page.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="doc-row">
+          <div class="doc-type">Expert material</div>
+          <div class="doc-list">
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md">Expert Brief — Duty, Breach, Harm and Causation ↗</a></h3>
+              <p>Questions for an expert to test. It does not turn the claimant's theory into an expert conclusion.</p>
+            </article>
+            <article class="doc">
+              <h3><a href="https://github.com/TitanicParker/stronger-formulation/blob/main/INTERNAL_EXPERT_FINDINGS_DUTY_BREACH_HARM_CAUSATION_MAP.md">Internal Counsel Map ↗</a></h3>
+              <p>An explicitly claimant-side working document. Its proposed findings remain propositions for independent expert assessment.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="doc-row">
+          <div class="doc-type">Presentation material</div>
+          <div class="doc-list">
+            <article class="doc">
+              <h3><a href="./LEAVE_IT_AT_THAT_READER.html">Leave It At That — Reader →</a></h3>
+              <p>The existing long-form editorial reader and the visual reference for this site. It is presentation material, not source authority.</p>
+              <span class="status">Long-form reading</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="orientation" aria-labelledby="orientation-title">
+    <div class="section-inner">
+      <div class="section-label">Short orientation</div>
+      <h2 id="orientation-title">Keep the chronology visible.</h2>
+      <p class="lede">The point of a timeline here is not to decide the case. It is to stop later knowledge from silently becoming earlier knowledge.</p>
+      <ol class="timeline">
+        <li><time>Before Neurology</time><p>Disabling foot pain, abnormal feet, abnormal gait, stiffness and movement difficulty were still part of one unresolved clinical picture.</p></li>
+        <li><time>July 2017</time><p>Neurology identified a severe movement disorder and a strikingly abnormal gait. The source of the foot pain remained unresolved, while the feet could be treated as a possibly separate problem.</p></li>
+        <li><time>Oct 2017 → Apr 2018</time><p>During a planned withdrawal of neurological medication, the foot problem was reported and later documented as returning quickly. That created a new reason to ask whether the feet were really separate.</p></li>
+        <li><time>2019 onward</time><p>Foot, gait and treatment interactions recur in the later record. The evidence is mixed; later reconsideration is part of the history.</p></li>
+        <li><time>2025 → 2026</time><p>Governance material and later specialist or genetic information arrive. They may matter later, but they must not be imported backwards into what was known in 2017.</p></li>
+      </ol>
+      <div class="order" aria-label="Case register order">
+        <div><b>01</b><span>Facts</span></div><div><b>02</b><span>Question</span></div><div><b>03</b><span>Medicine</span></div><div><b>04</b><span>Law</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section discipline" id="discipline" aria-labelledby="discipline-title">
+    <div class="section-inner">
+      <div class="section-label">Evidential discipline</div>
+      <h2 id="discipline-title">Simplify the language. Keep the provenance.</h2>
+      <p class="lede">This site is an interface to the case. It does not acquire evidential authority merely because it is easier to read.</p>
+      <ul>
+        <li>Allegation does not become fact by repetition.</li>
+        <li>Inference does not become a clinical finding.</li>
+        <li>An expert question is not an expert conclusion.</li>
+        <li>Later evidence does not become earlier knowledge.</li>
+        <li>Patient-authored interpretation does not become an independent clinical finding.</li>
+        <li>Where derived material and the canonical record differ, return to the canonical record.</li>
+      </ul>
+      <p style="margin-top:30px">For the existing long-form presentation, continue to the reader. It expands the narrative, but it does not replace the source hierarchy.</p>
+      <a class="reader-link" href="./LEAVE_IT_AT_THAT_READER.html">Open the long-form reader →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>Stronger Formulation · documentary case register</span>
+    <a href="https://github.com/TitanicParker/stronger-formulation">View repository on GitHub ↗</a>
+  </div>
+</footer>
+</body>
+</html>
