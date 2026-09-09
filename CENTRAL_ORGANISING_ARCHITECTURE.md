@@ -4,6 +4,10 @@
 
 **Purpose:** Keep the case simple, chronological and legally usable.
 
+The canonical record controls every factual dispute.
+
+`CASE_REGISTER.md` controls the presentation register: quotes, facts, propositions, arguments and expert questions must remain separate.
+
 ---
 
 # 1. The centre of the case
@@ -32,11 +36,12 @@ The question is:
 
 # 2. The drafting rule
 
-From now on, use this order:
+Use this order:
 
-> **Facts first.  
-> Question second.  
-> Medicine third.  
+> **Quote first.  
+> Fact second.  
+> Question third.  
+> Medicine fourth.  
 > Law last.**
 
 If something can be said accurately in ordinary language, say it that way first.
@@ -50,8 +55,11 @@ Examples:
 - not **“clinical segregation”** — say **“the foot problem was treated as separate.”**
 - not **“treatment-state-sensitive pain phenotype”** — say **“the pain changed with neurological medication.”**
 - not **“institutional information architecture”** — say **“who knew what, and who was supposed to put it together?”**
+- not **“relationship-directed examination”** — say **“an examination to find out whether the neurological problem was affecting the feet.”**
+- not **“reopening threshold”** — say **“this was a reason to look again.”**
+- not **“neurological reacquisition of the feet”** — say **“Neurology was seeing the foot problem itself again.”**
 
-Technical language is still useful, but it comes after the fact has been made clear.
+Technical language stays where the medical or legal term itself matters. Otherwise ordinary language comes first.
 
 ---
 
@@ -125,13 +133,13 @@ In simple terms:
 - was there proper sensory evidence for neuropathy?
 - what did the neurological abnormality mean for the structural foot disease?
 
-The complete-record audit also identifies a conservative group of examination items for which no adequate documentary counterpart has been found. That list belongs in the evidence file and expert brief.
+The complete-record audit identifies a conservative group of examination items for which no adequate documentary counterpart has been found. The expert brief contains the full testing question.
 
 Do not say those examinations definitely did not happen.
 
 Say:
 
-> **The record does not show the work needed to explain how the competing possibilities were tested.**
+> **The record does not show enough work to explain how the competing possibilities were tested.**
 
 ---
 
@@ -159,15 +167,17 @@ And then:
 
 # 7. The Protest
 
-Before discharge, the patient said in substance:
+The project treats the pre-discharge Protest as fact:
 
 > **You have not dealt with my feet.**
 
-That does not create the problem.
+The exact phrase is not located verbatim in the canonical source. Later patient-authored material records that he raised disabling bilateral foot pain as unaddressed and asked for the supervising neurologist. Keep that source distinction visible.
 
-It makes the problem impossible to miss.
+The Protest does not create the problem.
 
-The simple question is:
+It makes the unfinished problem explicit.
+
+The question is:
 
 > **Once the patient said the feet had not been dealt with, what did Neurology do to answer the original question before letting the case close?**
 
@@ -177,7 +187,7 @@ The simple question is:
 
 Podiatry was appropriate for real corns, calluses, toe deformity and loading problems.
 
-Podiatry also existed before the final Neurology formulation, and the GP even told Podiatry the case was being prioritised **“as Parkinson's.”**
+Podiatry also existed before the final Neurology formulation, and the GP told Podiatry the case was being prioritised **“as Parkinson's.”**
 
 So do not argue:
 
@@ -187,17 +197,15 @@ Argue the narrower point:
 
 > **Treating the structural feet did not answer whether the neurological disorder was contributing to the pain, posture or loading.**
 
-The later record also shows that Merlin Park Podiatry belonged to Community Healthcare West rather than being a GUH hospital department.
+The later record shows that Merlin Park Podiatry belonged to Community Healthcare West rather than being a GUH hospital department.
 
-That makes the practical question even simpler:
+That makes the practical question simple:
 
 > **Who was responsible for putting the neurological and foot information back together?**
 
 ---
 
 # 9. The tablets bring the case to life
-
-This is now one of the clearest parts of the case.
 
 The pain existed long before neurological treatment.
 
@@ -207,23 +215,21 @@ The important fact is different:
 
 > **Neurological medication changed what happened in the feet.**
 
-When procyclidine was working, the patient's condition improved dramatically.
+During the procyclidine withdrawal, the patient reported tension building, restless feet and his walk falling apart.
 
-When it was withdrawn, the record describes tension building, restless feet and the walk falling apart.
-
-The treating neurologist later recorded the focal foot problem as **returning rapidly** during that withdrawal.
+The treating neurologist later recorded a focal outside-left-foot phenomenon as changing / returning rapidly during that earlier withdrawal.
 
 The plain question is:
 
-> **If tablets prescribed for the neurological condition could make the foot problem better, and stopping them could make it return, why did that not force the original foot–neurology question back open?**
+> **If tablets prescribed for the neurological condition could change the foot problem, why did that not force the original foot–neurology question back open?**
 
 This does not require anyone in 2017 to use the word dystonia.
 
 It does not prove one mechanism.
 
-It proves something simpler and clinically important:
+It establishes a simpler point:
 
-> **The foot problem was not therapeutically separate from Neurology.**
+> **The foot problem was not separate from Neurology in treatment terms.**
 
 ---
 
@@ -241,7 +247,7 @@ Keep those stages separate.
 
 The 2017 question remains plain:
 
-> **The feet hurt, the gait was neurologically very abnormal, and neurological treatment later changed the foot problem. What did that mean, and why was the relationship not properly reopened?**
+> **The feet hurt, the gait was neurologically very abnormal, and neurological treatment later changed the foot problem. What did that mean, and why was the relationship not properly looked at again?**
 
 ---
 
@@ -267,7 +273,7 @@ There is also contrary evidence, including the patient's own belief at one stage
 
 So the later record is mixed.
 
-The simpler longitudinal question is:
+The longitudinal question is:
 
 > **The pain remained a major problem, and Neurology kept learning new things about how the feet, walking and medication interacted. When was the original question finally rebuilt from the beginning?**
 
@@ -287,11 +293,11 @@ And do not yet say:
 
 The expert question is:
 
-> **Did the way the neurological treatment was chosen, stopped, restarted or left insufficiently adjusted contribute to the severity of the pre-existing foot pain, and did prolonged severe pain then contribute to the patient's later psychological distress?**
+> **Did the way neurological treatment was chosen, stopped, restarted or left insufficiently adjusted contribute to the severity of the pre-existing foot pain, and did prolonged severe pain then contribute to the patient's later psychological distress?**
 
 The possible chain is:
 
-> **pre-existing pain → treatment affects severity → relationship not fully understood / managed → prolonged severe pain and loss of function → major distress.**
+> **pre-existing pain → treatment affects severity → the connection is not fully understood or managed → prolonged severe pain and loss of function → major distress.**
 
 That is a causation question for expert evidence.
 
@@ -299,11 +305,9 @@ That is a causation question for expert evidence.
 
 # 13. The institutional case
 
-The institutional case is also simple.
-
 Different people and services held different pieces:
 
-- the GP knew the integrated history;
+- the GP knew the combined history;
 - Neurology knew the abnormal movement disorder and medication effects;
 - Podiatry knew the structural and pressure problems;
 - later Neurology knew the feet were changing with treatment state;
@@ -331,12 +335,12 @@ The language becomes simpler. The legal structure does not.
 
 Possible breaches remain date-specific:
 
-1. not doing enough to answer the relationship before separation;
+1. not doing enough to answer the foot–neurology question before separation;
 2. treating the feet as separate without enough clinical basis;
 3. not responding adequately when the patient said the feet had not been dealt with;
 4. not making clear who would put Neurology and Podiatry findings back together;
-5. not reopening the question when neurological medication changed the foot problem;
-6. later failing to rebuild the original question despite repeated foot / gait / medication crossings;
+5. not looking again when neurological medication changed the foot problem;
+6. later failing to rebuild the original question despite repeated foot / gait / medication interactions;
 7. any separate failure of reassessment or safety response when pain became extreme.
 
 ## Harm — what happened to the patient?
@@ -371,8 +375,8 @@ That question must be answered separately at each date.
 3. **What examination justified saying the foot problem might be completely separate?**
 4. **What examination supported neuropathy?**
 5. **What should have happened when the patient said his feet had not been dealt with?**
-6. **What did it mean when neurological medication made the foot problem better?**
-7. **What did it mean when the foot problem returned rapidly after that medication was stopped?**
+6. **What did it mean when neurological medication changed the foot problem?**
+7. **What did it mean when the foot problem returned quickly after that medication was stopped?**
 8. **Why did those events not force the original question back open?**
 9. **As later foot, gait and medication evidence accumulated, who was responsible for putting it together?**
 10. **What extra suffering probably followed from the delay, if any?**
@@ -389,9 +393,9 @@ That question must be answered separately at each date.
 
 > **When they stopped the tablets, the foot problem came back quickly.**
 
-> **The pain may have remained diagnostically separate, but it was not therapeutically separate.**
+> **The foot problem may have remained separate in the diagnosis, but it was not separate in treatment.**
 
-> **Podiatry could treat the feet. Someone still had to answer the relationship.**
+> **Podiatry could treat the feet. Someone still had to answer the connection.**
 
 > **Who was supposed to put the pieces back together?**
 
