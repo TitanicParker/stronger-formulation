@@ -2,7 +2,11 @@
 
 **Status:** CORE FACTUAL FOUNDATION
 
-**Purpose:** State what happened, in order, in the simplest accurate language. The canonical source record controls if anything conflicts.
+**Purpose:** State what happened, in order, in the simplest accurate language, while preserving the three-argument structure.
+
+**Controlling factual source:** `SRC_COMPLETE_RECORD_FORENSIC.md`
+
+**Controlling argument map:** `ARGUMENT_ARCHITECTURE.md`
 
 ---
 
@@ -33,17 +37,17 @@ Neurology found severe young-onset Parkinsonism.
 It also found:
 
 - a strikingly abnormal gait;
-- a foot-drop-like appearance that was described as suggestive of a dystonic posture and **not true foot drop**;
+- a foot-drop-like appearance described as suggestive of a dystonic posture and **not true foot drop**;
 - marked rigidity and slowness;
 - pes planus;
 - hammertoes;
 - longstanding corns and calluses.
 
-The examination was videoed. Physiotherapy and Occupational Therapy were involved.
+The gait was videoed. Physiotherapy and Occupational Therapy were involved.
 
 So the neurological problem was recognised.
 
-The unresolved question was simpler:
+The unresolved question was:
 
 > **What did the neurological abnormality have to do with the painful feet?**
 
@@ -53,7 +57,7 @@ The unresolved question was simpler:
 
 The record contains many facts about Neurology and many facts about the feet.
 
-It does not clearly show a single examination tying them together.
+It does not clearly show the bridge between them.
 
 In particular, the record does not clearly show how clinicians tested:
 
@@ -61,11 +65,16 @@ In particular, the record does not clearly show how clinicians tested:
 - what the toes and ankles did during standing and walking;
 - whether deformity was fixed or changed with movement;
 - whether abnormal gait was loading the painful areas;
-- or what examination supported peripheral neuropathy.
+- what positive examination supported peripheral neuropathy;
+- what the neurological motor state meant for the structural feet.
 
-A conservative complete-record audit also identifies specific examination items for which no adequate documentary counterpart has been found.
+The complete-record audit identifies further examination items for which no adequate documentary counterpart has been found.
 
 That is a documentary point only. It does not prove those examinations were never performed.
+
+The founding factual question is:
+
+> **What work earned the separation?**
 
 ---
 
@@ -83,17 +92,27 @@ It also records that the patient had **“markedly divorced”** his bodily tens
 
 The plain factual transition is:
 
-> **the cause of the disabling foot pain remained unresolved, but the feet were allowed to sit as a possibly separate problem.**
+> **The cause of the disabling foot pain remained unresolved, but the feet were allowed to sit as a possibly separate problem.**
+
+This is the factual foundation of **Argument One — the Founding Separation**.
 
 ---
 
-# 5. The Protest
+# 5. The Protest — conditional second layer
 
-Before discharge, the patient said in substance:
+The patient says that before discharge he said, in substance:
 
 > **You have not dealt with my feet.**
 
-That is the simplest expression of the unfinished problem.
+The exact phrase is not located verbatim in the contemporaneous canonical record. Later patient-authored material records that disabling bilateral foot pain was raised as unaddressed and that the supervising neurologist was requested.
+
+Treat this as **patient evidence**, not as a contemporaneous chart quotation.
+
+If the Protest is established, it creates a new factual question:
+
+> **What happened after the patient expressly pointed to the unfinished pain problem while he was still available for examination?**
+
+This is the factual foundation of **Argument Two — the Protest Fork**.
 
 ---
 
@@ -111,13 +130,11 @@ So the factual issue is not whether Podiatry was wrong.
 
 It is:
 
-> **who was responsible for putting the structural foot findings and the neurological findings back together?**
+> **Who was responsible for putting the structural foot findings and the neurological findings back together?**
 
 ---
 
 # 7. Neurological medication changed the foot problem
-
-This is one of the most important facts in the record.
 
 The foot pain existed before neurological treatment.
 
@@ -134,6 +151,8 @@ The safe factual statement is:
 > **Neurological medication changed what happened in the feet, and stopping it was associated with the foot problem returning quickly.**
 
 This does not by itself prove why.
+
+It does show that the foot problem was not clinically isolated from Neurology in treatment terms.
 
 ---
 
@@ -163,6 +182,10 @@ The available Podiatry record identifies **25 March 2019 as the last recorded at
 
 After that date, no later active Podiatry treatment is shown in the available Podiatry record.
 
+The practical destination disappeared.
+
+The explanatory separation did not necessarily disappear with it.
+
 ---
 
 # 10. The feet move back inside Neurology
@@ -181,39 +204,160 @@ Later Neurology itself records or receives:
 
 There is also contrary evidence, including the patient's own view at one stage that the pain was not Parkinson-related and his report that stopping Parkinson medication for ten days did not make a difference from his perspective.
 
-The later record is therefore mixed.
+The later record is mixed.
 
 What is clear is that **the feet, walking and neurological treatment repeatedly interacted**.
 
 ---
 
-# 11. The eight-year factual problem
+# 11. 1 February 2023 — direct patient notice
 
-The safest longitudinal statement is:
+The patient sent an email to Thomas Monaghan, Patrick Browne and Aaron Brennan.
 
-> **The disabling foot pain remained a major problem for years while Neurology repeatedly acquired new information showing that the feet, gait and neurological treatment were not clinically isolated from one another.**
+He wrote that the foot pain was:
 
-The record shows later reconsideration. It does not support saying nothing changed for eight years.
+> **“The hardest part of the entire experience.”**
 
-The question is whether the original source-of-pain question was ever rebuilt fully enough.
+He described the residual pain as:
 
----
+> **“absolutely intolerable though not unbearable.”**
 
-# 12. Psychological deterioration
+He then wrote:
 
-By 2023 the record contains severe bilateral pain, major functional restriction and serious psychological distress, including a reported death wish / no quality of life.
+> **“I have no idea how I tolerated the pain, because I don’t think I could live with it anymore. It is perfect torture.”**
 
-Do not say Neurology created the original pain; it pre-dated treatment by many years.
+This is direct documentary evidence that the patient transmitted life-tolerability language about the foot pain into the treating network.
 
-The factual sequence that matters is:
-
-> **longstanding pain → neurological treatment shown to affect the foot state → continuing severe pain and loss of function → later major distress.**
-
-Whether delayed understanding or treatment caused part of that deterioration is an expert causation question.
+It does not by itself prove suicidal intent, a suicide plan, when each recipient read it, or what response occurred outside the record.
 
 ---
 
-# 13. 2025 governance
+# 12. 26 March 2023 — GP escalation
+
+The GP sent an **urgent** Healthlink Neurology referral describing severe bilateral burning pain.
+
+The referral records:
+
+> **“Says extreme at time and causing death wish.”**
+
+The GP writes:
+
+> **“I am worried about him.”**
+
+and:
+
+> **“Despite his facade, I don’t think he is doing well. I’d be grateful for your review before we get into trouble here.”**
+
+This is clinician-authored documentary notice that the pain had entered a safety domain.
+
+The March referral may be read as an escalation of a warning already transmitted directly by the patient seven weeks earlier.
+
+---
+
+# 13. 28 March 2023 — Neurology nursing corroboration
+
+After speaking to the patient, the Parkinson's nurse wrote to the consultant and recorded:
+
+> **“debilitating pain”**
+
+and:
+
+> **“no quality of life.”**
+
+The pain was worsening over months.
+
+The patient was asking to be reviewed.
+
+---
+
+# 14. Later 2023 — the explanatory conflict becomes explicit
+
+A later Neurology note records a **“misalignment”** between doctor and patient.
+
+The clinician says it would be a fair characterisation of the patient's view that he held a:
+
+> **“firm belief that everything has to be explainable by the Parkinson's”**
+
+while describing the patient's concerns about the feet as:
+
+> **“very reasonable and justifiable.”**
+
+The same passage records that the first symptoms were in the feet and that the earlier peripheral-neuropathy question had seemed to subside.
+
+The same note also says it would be **“embarrassing”** if there were another cause, while expressly stating that getting the diagnosis right mattered much more than being personally right.
+
+This does not prove bad faith or legal anchoring.
+
+It does prove that the explanatory disagreement itself had become visible inside Neurology.
+
+---
+
+# 15. What the 2023 period changes
+
+By 2023 four documentary facts coexist:
+
+1. severe longstanding foot pain;
+2. direct patient life-tolerability language;
+3. an urgent GP “death wish” warning and explicit concern for safety;
+4. an acknowledged disagreement about the explanatory model governing the feet and pain.
+
+This creates a second factual fork independent of the 2017 Protest.
+
+The question is no longer only:
+
+> **What was causing the pain?**
+
+It also becomes:
+
+> **What response was required once the pain had become a safety concern while the explanatory model itself was contested?**
+
+---
+
+# 16. The safeguarding bridge — present documentary state
+
+The record shows substantial neurological and pain management after the 2023 warnings, including medication changes, Lyrica, levodopa / Stalevo decisions, consideration of OFF phenomena, neuropathy / Fabry questions and continuing review.
+
+So do not say:
+
+> nobody did anything.
+
+The narrower documentary point is:
+
+> **No documented safeguarding bridge has yet been identified in the reviewed corpus that corresponds in visibility to the life-safety language itself.**
+
+As of the current review, no clearly identified formal suicide-risk assessment, safety plan, crisis pathway, liaison-psychiatry referral specifically linked to the pain crisis, or clearly designated safeguarding owner has been found.
+
+That does not prove none occurred.
+
+It identifies the present evidential gap.
+
+---
+
+# 17. 2025 — renewed life-tolerability language in Neurology
+
+The 2025 Neurology note records that the feet are the thing on the patient's mind.
+
+It records that he hobbles out of bed, that the feet can be too sore to tie his runners, that mornings feel like:
+
+> **“murder in the feet”**
+
+and that the first 150 footsteps are:
+
+> **“torture.”**
+
+It then records:
+
+> **“To say ‘I won’t live with it’ allows him put words on the situation.”**
+
+The note also records relief in the feet once Parkinson's medication reaches his system and discusses the limits of increasing levodopa because of dyskinesia.
+
+The exact clinic date/version should be controlled by the native letter because the year-split source and later patient-authored chronology differ on whether the relevant encounter was in March or April 2025.
+
+The substantive wording is direct neurological record evidence.
+
+---
+
+# 18. 2025 governance and regulatory notice
 
 The patient formally complained in March 2025 about diagnostic anchoring and failure to reassess.
 
@@ -223,13 +367,17 @@ The SIMT outcome said there was:
 
 > **“no deficit in the care provided.”**
 
-The reproduced record does not show the complete PAR evidence pack or a source-by-source reconstruction of the original foot question.
+The reproduced record does not show the complete PAR evidence pack or a source-by-source reconstruction of the original foot question and the 2023 safety chronology.
 
 That remains an evidence gap.
 
+By November 2025 the patient had also expressly put the alleged failure to respond to suicidality / safety concerns before GUH governance and the Medical Council.
+
+Those later emails prove what the patient told those bodies. They do not independently prove every allegation contained in them.
+
 ---
 
-# 14. 2026 later information
+# 19. 2026 later information
 
 The record reports a specialist dystonia diagnosis in December 2025, but the primary December specialist letter has not been located in the reviewed corpus.
 
@@ -241,15 +389,20 @@ It is later information only.
 
 ---
 
-# 15. The factual spine in ten lines
+# 20. The factual case in fifteen lines
 
 1. **The patient had disabling foot pain before Neurology.**
 2. **The GP sent feet, gait, tone and movement problems into Neurology together.**
 3. **Neurology found a very abnormal neurological gait and a lower limb that looked dystonic rather than weak.**
-4. **The record does not clearly show the examination that established why the painful feet could be separate.**
+4. **The record does not clearly show the work that established why the painful feet could be separate.**
 5. **The specialist account nevertheless allowed that the feet “may have been completely separate” and said “Not clear.”**
-6. **The patient said his feet had not been dealt with.**
+6. **If the Protest is established, the patient expressly said the feet had not been dealt with before discharge.**
 7. **Neurological medication then changed what happened in the feet.**
 8. **When the medication was stopped, the foot problem was documented as returning quickly.**
-9. **Later Neurology repeatedly recorded foot, gait and medication interactions while the pain remained a major problem.**
-10. **The expert question is what better integrated care would probably have changed, and how much later suffering it would probably have prevented.**
+9. **Later Neurology repeatedly recorded foot, gait and medication interactions.**
+10. **On 1 February 2023 the patient directly wrote that the foot pain was perfect torture and that he did not think he could live with it anymore.**
+11. **On 26 March 2023 the GP urgently reported that the pain was causing a death wish and said he was worried.**
+12. **On 28 March Neurology's nurse recorded debilitating pain and no quality of life.**
+13. **Later in 2023 the neurologist documented an explanatory misalignment and described the patient's concerns as reasonable and justifiable.**
+14. **In 2025 Neurology itself recorded “murder in the feet”, “torture” and “I won’t live with it.”**
+15. **The expert questions are what reasonable care required at each fork and what difference better care probably would have made.**

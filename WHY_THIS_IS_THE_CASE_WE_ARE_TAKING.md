@@ -1,616 +1,362 @@
 # Why This Is the Case We Are Taking
 
-## A plain-language guide for a family member
+## A plain-language teaching guide for family, friends, lawyers and experts
 
-This case is easiest to understand if we begin with the patient rather than with the diagnoses.
+This file has one job:
 
-For years, his feet hurt badly. By 2017, that pain was affecting work, walking and ordinary life. At the same time, his way of moving had become obviously abnormal. His GP was not looking at those things as two settled and unrelated problems. The GP was looking at a man with painful feet, an abnormal gait, increased muscle tone, difficulty starting movement, toe clawing and declining function, and asking Neurology to help work out what was going on.
+> **Teach the case clearly enough that a non-specialist can understand the choice between the strongest case without the Protest and the stronger case if the Protest is established.**
 
-Neurology then found something very important. The patient had a serious neurological movement disorder. His gait was described as “strikingly abnormal.” His lower limb looked a little like foot drop, but the neurologist expressly said it was **not foot drop** and described it as suggestive of a dystonic posture. The patient also had real structural problems in his feet: pes planus, hammertoes, corns, calluses and pressure-related problems.
+It is not evidence.
 
-That combination is the heart of the case.
+It is not an archive.
 
-The case is not that Neurology failed to see a movement disorder. It did see it.
-
-The case is not that the patient had no structural foot disease. He did.
-
-The case is not that Podiatry should never have been involved. Podiatry was entirely appropriate for genuine local foot problems.
-
-The real question is much simpler:
-
-> **What was the neurological problem doing to the painful feet, if anything?**
-
-That question mattered in 2017. It mattered again when neurological medication changed what happened in the feet. It mattered again when the foot problem continued for years. It mattered again when later clinicians began to describe OFF-related pain, possible dystonia and pain relief when Sinemet reached the system. It mattered most of all because the patient’s pain eventually became so severe that the record contains urgent concern about extreme distress and a death wish.
-
-This is why the case cannot be reduced to a disagreement about labels.
-
-The centre is:
-
-> **Unresolved source of disabling pain**  
-> **becomes**  
-> **specialist uncertainty about a possibly separate foot problem.**
-
-Everything else follows from that.
+It is a comprehension test.
 
 ---
 
-## 1. What entered Neurology in 2017
+# 1. Start with the patient, not the diagnosis
 
-Before the hospital admission, the GP had already documented a mixed picture.
+The patient had longstanding painful feet.
 
-There were painful and visibly abnormal feet. There was abnormal gait. There was increased tone and stiffness. There were movement-initiation problems. There was toe clawing in bed. There was worsening dexterity and difficulty functioning at work.
+By 2017 he also had an obviously abnormal way of walking, increased tone/stiffness, difficulty starting movement, toe clawing and declining function.
 
-The GP had already referred the patient to Podiatry because there were genuine structural problems in the feet. That is important because it prevents the case from becoming exaggerated. The structural disease was real. The patient needed local foot care.
+His GP sent those problems into Neurology together.
 
-But the GP also wanted Neurology to look at the bigger picture. In June 2017 the GP was considering a Neurology opinion for the patient’s **“gait, feet and ‘muscle tension’ issues.”** In the urgent referral a few weeks later, the patient was described as having an unusual stiff or festinant gait while attending with bilateral foot problems, together with marked stiffness, increased tone and difficulty initiating movement.
+Neurology correctly found severe young-onset Parkinsonism.
 
-In other words, the GP was not sending one problem to Neurology and another problem somewhere else as if their relationship had already been decided.
+It also found something else that matters greatly: a lower limb that looked a little like foot drop but was expressly described as suggestive of a **dystonic posture — not true foot drop**.
 
-The whole lower-limb picture was still open.
+At the same time, the patient had real structural foot disease: pes planus, hammertoes, corns, calluses and pressure-related problems.
 
-That matters because the legal and medical questions start with the problem the clinician was asked to assess, not merely with the diagnosis eventually made.
+That is the combination.
 
----
+The case is not:
 
-## 2. What Neurology did well
+> Neurology missed Parkinsonism.
 
-A fair case has to acknowledge what was done properly.
+It did not.
 
-Neurology carried out a substantial neurological assessment. It identified severe young-onset Parkinsonism. It documented marked rigidity, slowness, brisk reflexes and a striking gait abnormality. It noticed that the lower limb had a foot-drop-like appearance and specifically described it as somewhat suggestive of dystonic posture rather than true weakness. The examination was videoed. Physiotherapy and Occupational Therapy were involved. The record also notes structural foot findings such as pes planus and hammertoes.
+The case is not:
 
-So this is not a case built on the slogan “nobody looked at him.”
+> the feet had no structural pathology.
 
-That would be inaccurate and easy to defeat.
+They did.
 
-The important point is more precise:
+The case is not:
 
-> **They looked carefully at the neurological disorder. But where is the work showing what that neurological disorder had to do with the painful feet?**
+> Podiatry was inappropriate.
 
-That is the missing bridge.
-
-The record contains a great deal about the movement disorder and a great deal about the feet, but the surviving written record does not clearly show the clinical work that joined the two together and tested the competing possibilities.
-
-For example, if the feet were painful because of structural loading, was the abnormal neurological gait contributing to that loading? If the toes clawed, was that fixed deformity, dynamic abnormal posture, or both? If burning pain suggested neuropathy, what positive sensory or reflex findings supported that? If the neurological lower limb looked dystonic, what did that mean for the feet while standing and walking?
-
-These are not obscure academic questions. They are ordinary clinical questions about cause and contribution.
-
----
-
-## 3. How uncertainty became separation
-
-The specialist account eventually said that the leg and foot symptoms, including corns, calluses and burning, **“may have been completely separate”** or perhaps related to peripheral neuropathy, and concluded: **“Not clear.”**
-
-That wording is central.
-
-“Not clear” is not itself a mistake. Medicine often ends with uncertainty. A doctor is allowed to say that the cause is unclear.
-
-The problem is what happened around that uncertainty.
-
-The unresolved cause of disabling pain became compatible with treating the foot problem as something that might sit outside the main neurological formulation.
-
-That is a very different thing.
-
-There is a difference between saying:
-
-> “We have not yet worked out how the movement disorder and painful feet are related.”
-
-and saying:
-
-> “The painful feet may simply be completely separate.”
-
-The second position may be perfectly reasonable — but only if enough clinical work has been done to justify it.
-
-That is why the core question is:
-
-> **What examination earned the separation?**
-
-This is a better question than arguing that the neurologist “missed dystonia,” because that imports a later word into an earlier point in time. In 2017 the record used descriptive terms such as “dystonic posture” and “dystonically unusual” for the gait, but the patient’s painful feet had not been diagnosed as dystonia.
-
-The case does not need that diagnosis in 2017.
-
-It only needs to ask whether the relationship between the neurological disorder and the feet was properly investigated before the feet were allowed to proceed as possibly separate.
-
----
-
-## 4. “Markedly divorced” and why language matters
-
-The specialist record also says that the patient had, in his own mind, **“markedly divorced”** the bodily tension from the corns, calluses and foot pains.
-
-The underlying history appears to be that the foot pain improved when the patient was on his feet less, while the bodily tension continued. That is useful clinical information.
-
-But different behaviour does not automatically mean different cause.
-
-Two symptoms can behave differently and still influence each other. Structural pain can be worsened by abnormal gait. A neurological problem can affect loading. A fixed deformity can coexist with dynamic abnormal posture. A local lesion can be real while still being made worse by the way a person moves.
-
-So the point is not that the specialist was wrong to notice that the patient experienced the symptoms differently.
-
-The question is whether that difference was given too much weight as support for treating the conditions as separate.
-
-In simple terms:
-
-> **Not identical does not necessarily mean unrelated.**
-
-That is a proposition for an expert to examine.
-
----
-
-## 5. The patient’s own warning
-
-The project treats as fact that, before discharge, the patient said in substance:
-
-> **“You have not dealt with my feet.”**
-
-That sentence matters because it is so simple.
-
-The patient did not need to know whether the pain was caused by dystonia, neuropathy, pressure, gait, deformity or a mixture. He did not need to know the future genetic result. He did not need specialist vocabulary.
-
-He only needed to know that the problem that brought him into care still felt unanswered.
-
-The legal importance of that moment is not that a patient can force a particular diagnosis.
-
-It is that the patient gave express notice that, from his perspective, the disabling foot problem remained unresolved while he was still physically available for further explanation, examination or planning.
-
-If the clinicians believed the foot problem had been sufficiently addressed, they could have explained why. If more examination was required, it could have been done. If the answer truly remained uncertain, there could have been a clear plan about who would investigate it and how Neurology and Podiatry findings would be brought back together.
-
-The point is not that the Protest proves negligence.
-
-It changes the information state.
-
-Before the Protest, one can argue that a gap may simply have been unnoticed.
-
-After the Protest, the question becomes:
-
-> **What did they do after the patient told them the problem was still there?**
-
----
-
-## 6. Why Podiatry is not the allegation
-
-Podiatry was not a mistake.
-
-The GP had already referred the patient because there were real structural problems. During the Neurology admission, the GP contacted Podiatry and recorded that the case would be treated as a priority **“as Parkinson’s.”** Neurology also requested outpatient Podiatry and recorded that the hospital SHO had tried to arrange it.
-
-So it would be wrong to say that the foot pathway was blind to the Parkinson’s diagnosis.
-
-The narrower issue is what information actually travelled with the patient.
-
-A label saying “Parkinson’s” is not the same as a clinical question such as:
-
-> “Does this abnormal lower-limb posture or gait contribute to the pressure, clawing and pain in the feet?”
-
-And later information shows that the Merlin Park Podiatry service belonged to Community Healthcare West and was not a GUH hospital service. That makes the practical question even more important, because the patient’s care crossed an organisational boundary.
-
-One service was treating structural problems. Another service was managing a neurological disorder.
-
-Who was responsible for putting the two pictures together?
-
-That is the institutional question in its simplest form.
-
----
-
-## 7. The tablets bring the case to life
-
-The most important later development is not a new diagnostic word.
-
-It is what happened when neurological medication was changed.
-
-The patient’s foot pain pre-dated neurological treatment by many years. Therefore Neurology did not create the original pain.
-
-But after treatment with procyclidine, the patient experienced major improvement in his physical state. During a planned break from the drug in October 2017, he wrote contemporaneously:
-
-> **“I am feeling the tension building up, my feet are restless and my walk is falling apart....”**
-
-A later Neurology note, written in April 2018, described the earlier withdrawal and said that the first thing he noticed **“changing and changing rapidly”** was the return of the outside-left-foot phenomenon.
-
-That is crucial.
-
-It does not prove that all the pain was dystonia.
-
-It does not prove that a corn literally vanished and reappeared because of a tablet.
-
-It does not prove one exclusive mechanism.
-
-It proves something much simpler:
-
-> **Neurological medication changed what happened in the feet.**
-
-Once that happens, the old question becomes harder to leave alone.
-
-If a medication prescribed for the neurological disorder can materially change the foot problem, and stopping it is followed by rapid deterioration that includes the feet and gait, then Neurology has new information about the relationship between its treatment and the patient’s foot state.
-
-The clinical question becomes:
-
-> **What did that new information require them to reconsider?**
-
-That question is strong precisely because it does not depend on technical language.
-
----
-
-## 8. Why “dystonia” should not carry the whole case
-
-Later in the record, dystonia becomes more explicit.
-
-By 2023 a Neurology review was considering Parkinsonian dystonia, more likely OFF dystonia. A later Movement Disorders contact said that the patient appeared undertreated and that the **“leg pain and shuffling is off related.”** In 2026 a direct specialist genetic letter stated that the patient’s Parkinsonism and dystonia were due to compound heterozygous Parkin mutations.
-
-All of that is important.
-
-But none of it should be used to rewrite 2017.
-
-The patient did not need the word dystonia in 2017 for the case to exist.
-
-The issue was already there in ordinary terms:
-
-- the feet hurt;
-- the gait was very abnormal;
-- the lower limb looked neurologically abnormal;
-- the cause of the pain was unclear;
-- the specialist account allowed the pain to be treated as possibly separate.
-
-Later, neurological medication changed the foot problem.
-
-That is enough to generate a duty to think carefully about the relationship, even before anyone gives the relationship a final diagnostic name.
-
-The later dystonia evidence is useful because it shows that the later clinical vocabulary moved closer to the lower-limb problem. But it is not the foundation of the case.
-
----
-
-## 9. What happened over the following years
-
-The later record is not a story of complete inaction.
-
-That is important.
-
-In 2019, primary care explicitly re-linked the patient’s feet to increased tone, abnormal gait and Parkinson’s disease. The referral referred to clawing feet and pain.
-
-After the last recorded Podiatry attendance in March 2019, the foot problem increasingly appears directly inside Neurology records.
-
-Later Neurology documented abnormal foot movement, sensitivity, morning foot problems, severe bilateral foot and lower-leg pain, possible OFF dystonia, toe curling and the effect of neurological medication.
-
-The record also contains contrary evidence. At one point the patient himself believed the pain was not related to Parkinson’s and reported stopping Parkinson medication for ten days without noticing a difference from his perspective.
-
-That matters because the case should not pretend the evidence was simple.
-
-Medicine often involves mixed mechanisms.
-
-The question is not whether every later fact points in one direction.
+It was appropriate.
 
 The question is:
 
-> **As Neurology kept receiving new information about the feet, gait and medication, when was the original source-of-pain question rebuilt from the beginning?**
-
-That is a much more defensible way to describe the eight-year period than saying the neurologist “did nothing for eight years.”
-
-There was reassessment.
-
-The issue is whether the founding separation remained too influential despite repeated later reasons to reconsider it.
+> **What was the neurological problem doing to the painful feet, if anything?**
 
 ---
 
-## 10. By 2023 the human consequences were severe
+# 2. What happened to that question
 
-This is where the case stops being merely about diagnostic reasoning.
+The specialist account eventually allowed the foot symptoms to sit as something that:
 
-In 2023 the GP urgently referred the patient because of severe bilateral burning pain in the feet and lower legs. The note records that the pain was extreme at times and **“causing death wish.”**
+> **“may have been completely separate”**
 
-A Parkinson’s nursing note records **“debilitating pain”** and that the patient said he had **“no quality of life.”**
+possibly neuropathic, and:
 
-A Neurology record later says **“The foot pain was the major problem.”**
+> **“Not clear.”**
 
-Those are not abstract harms.
+“Not clear” is not negligence.
 
-They describe a person whose ordinary life had become dominated by pain, walking difficulty and distress.
+Medicine is allowed to be uncertain.
 
-The case must still be careful about causation. The original foot pain existed long before Neurology. The underlying neurological disease was real. Structural disease was real. Treatment itself carried risks, including dyskinesia. Not every later episode of suffering can simply be attributed to an earlier clinical decision.
+The problem is different.
 
-But the law does not require an all-or-nothing answer.
+The record does not clearly show the work that established why the painful feet could safely be treated as separate from the abnormal neurological lower limb.
 
-The real causation question is:
+So the first case is simply:
 
-> **Did delayed understanding or management of the relationship cause an additional period of pain, disability or distress that probably would have been reduced with better care?**
+> **They saw the abnormal neurological walk. They knew the feet hurt. What work earned the separation?**
 
-That is what the experts must decide.
-
----
-
-## 11. Why the 2025 Sinemet evidence matters
-
-By 2025 the treating record openly acknowledged that:
-
-> **“once the Sinemet hits his system that the feet feel better from a pain perspective.”**
-
-The same passage is cautious. The clinician says the type of pain described is not direct Parkinson’s phenomenology, accepts that painful dystonia can occur, and says more Sinemet would probably give some further pain relief but would risk more severe dyskinesias.
-
-That is important because it shows how complex the management problem had become.
-
-It also proves why the case should not be framed as “Sinemet proved the pain was dystonia.”
-
-The better point is:
-
-> **By this stage Neurology itself accepted that neurological medication could improve the patient’s experience of foot pain.**
-
-That is a powerful later fact because it shows that the pain and Neurology were not practically independent.
-
-Even if the underlying pain had more than one cause, the neurological treatment state could influence what the patient experienced.
-
-So the question becomes not only:
-
-> “What caused the pain?”
-
-but also:
-
-> **“What could Neurology do to make it better or worse, and when did it know that?”**
-
-That is where the case becomes a causation case rather than merely a documentation case.
+That case does not need the Protest.
 
 ---
 
-## 12. How the documentation fits into the case
+# 3. The strongest case without the Protest
 
-Medical negligence cases are not decided simply by counting words in the notes.
+Assume the Protest never happened.
 
-But documentation matters because the record is how later clinicians, experts, lawyers and institutions understand what was done.
+Delete it.
 
-The surviving record shows a very detailed neurological diagnosis. It also preserves uncertainty about the feet. What it does not clearly preserve is the clinical work that transformed an integrated presentation into a possibly separate foot problem.
+What remains?
 
-That creates a documentary problem.
+- painful abnormal feet entered Neurology together with gait, tone and movement problems;
+- Neurology saw a dystonic-looking lower limb;
+- structural foot pathology was real;
+- the surviving record does not clearly show the bridge between neurological motor state and painful feet;
+- the specialist account allowed possible separation / neuropathy / “Not clear”;
+- neurological medication later changed what happened in the feet;
+- primary care later put feet, gait and tone back together;
+- later Neurology itself considered OFF dystonia and OFF-related pain;
+- by 2023 the pain had become severe enough to generate direct life-tolerability language, an urgent GP death-wish warning and a nursing “no quality of life” warning;
+- later in 2023 Neurology itself recorded that doctor and patient were **“misaligned”** about the explanatory model.
 
-The project has identified a conservative list of examination domains for which no adequate written counterpart has been found across the complete reviewed record, including formal foot sensation, vibration, joint position, Achilles reflex, plantar response and certain dynamic gait and local foot examinations.
+That is already a serious documentary case.
 
-That does **not** prove those examinations were not performed.
+Its question is:
 
-That distinction is essential.
-
-The proper expert question is:
-
-> **Which examinations, or equivalent clinical work, would reasonable practice actually have required in this presentation, and does the documented assessment show enough to support the conclusion reached?**
-
-The original videoed examination, Physio notes, OT notes, the complete Podiatry referral and the full governance evidence pack could all matter because they may contain information not preserved in the current written corpus.
-
-A strong case does not hide those gaps. It identifies them.
-
----
-
-## 13. What experts are actually being asked to do
-
-The experts should not be asked to adopt the patient’s theory.
-
-They should be asked to test a sequence of simple questions.
-
-First:
-
-> **What should reasonable Neurology have done in 2017 to work out whether the neurological disorder was contributing to the painful feet?**
-
-Second:
-
-> **Was enough done to justify treating the feet as possibly separate?**
-
-Third:
-
-> **What positive evidence supported peripheral neuropathy?**
-
-Fourth:
-
-> **What should have happened after the patient said the feet had not been dealt with?**
-
-Fifth:
-
-> **What should have happened when neurological medication was later shown to change the foot problem?**
-
-Sixth:
-
-> **At what later point, if any, did the accumulating foot, gait and medication evidence require a fresh integrated review?**
-
-And finally:
-
-> **If better care had occurred, what would probably have changed for the patient?**
-
-That last question is causation.
-
-Without it, the case is only criticism.
+> **What did reasonable care require each time the record gave another reason to reopen the relationship between pain, feet, gait and neurological treatment?**
 
 ---
 
-## 14. How the law fits around the medicine
+# 4. What changes if the Protest is true
 
-The law should structure the case without making the language complicated.
+The patient says that before discharge he said, in substance:
 
-There are four basic stages.
+> **You have not dealt with my feet.**
 
-### Duty
+If that is established, the case changes.
 
-Duty asks:
+The Protest does not prove what caused the pain.
 
-> **What should reasonable care have done with the information available at that time?**
+It does not prove dystonia.
 
-The question is date-specific. A clinician in July 2017 is judged using the information reasonably available in July 2017, not by what genetics showed in 2026.
+It does not prove negligence.
 
-### Breach
+It proves something more limited and more useful:
 
-Breach asks:
+> **the patient expressly told the service that the painful problem still felt unresolved while he was still there and other clinical futures remained open.**
 
-> **What should have been done but was not?**
+At that point the service could have:
 
-Possible breach routes include an inadequate founding assessment, treating the feet as separate without enough basis, failing to respond properly to the patient’s warning, failing to coordinate the cross-service problem, and failing to reopen the question after later medication evidence.
+- re-examined;
+- done a limited targeted return to the feet;
+- asked for senior or movement-disorders review;
+- asked Podiatry a defined question;
+- kept the relationship explicitly open;
+- reassured the patient that the pain remained owned;
+- planned a return review;
+- documented disagreement;
+- or simply preserved the patient’s objection in the portable record.
 
-Each route must be tested separately.
+The point is not that one specific response was automatically mandatory.
 
-### Harm
+The point is that the Protest reveals the choice-space.
 
-Harm asks:
+> **The Protest is the widest point in the future.**
 
-> **What actual injury or suffering followed?**
+If the Protest occurred but did not travel in the later specialist account, then the later reader sees the outcome without seeing that the outcome had been challenged.
 
-The important harms are not phrases in a medical letter. They are additional pain, difficulty walking, abnormal loading, loss of function, loss of ordinary life and psychological distress.
+> **The omitted Protest removes the fork from history.**
 
-### Causation
+That is what the Protest adds.
 
-Causation asks:
-
-> **If the right thing had been done at the right time, what would probably have happened differently?**
-
-This is often the hardest part.
-
-It is not enough to show that care may have been imperfect. The claimant must connect that imperfection to a real difference in outcome.
-
-Would an earlier integrated assessment probably have led to a different treatment plan? Would medication have been adjusted sooner? Would gait or loading have been managed differently? Would some pain have been avoided? Would the period of extreme distress have been shorter?
-
-Those are expert questions.
-
-The case does not need to prove that every bad thing would have disappeared.
-
-It needs to identify a probable **incremental harm**: the part of the suffering that better care would probably have prevented or reduced.
+It makes the case earlier.
 
 ---
 
-## 15. The institutional case
+# 5. Then 2023 changes everything again
 
-The institutional aspect must also remain simple.
+The 2023 crisis does not depend on the Protest.
 
-Different services held different pieces of the picture.
+It is documented.
 
-The GP knew the integrated history.
+## 1 February 2023
 
-Neurology knew the movement disorder.
+The patient emails Thomas Monaghan, Patrick Browne and Aaron Brennan.
 
-Podiatry knew the structural and pressure problems.
+He says foot pain was:
 
-Later Neurology knew more about foot movement, OFF states and medication response.
+> **“The hardest part of the entire experience.”**
 
-By 2025 Quality and Patient Safety, the Preliminary Assessment process and SIMT had the patient’s formal complaint.
+He says the residual pain is:
 
-The later governance outcome said there was **“no deficit in the care provided.”**
+> **“absolutely intolerable though not unbearable.”**
 
-That conclusion is part of the record and must be taken seriously.
+Then:
 
-But the complete Preliminary Assessment evidence pack is not in the reviewed corpus. Therefore the present question is not whether governance acted dishonestly or improperly.
+> **“I don’t think I could live with it anymore. It is perfect torture.”**
 
-The question is narrower:
+This does not by itself prove suicidal intent.
 
-> **What material was actually reviewed, and did the review go back to the original clinical question: what examination justified treating the painful feet as separate?**
+It does prove that the patient directly put the tolerability of continuing life with the pain into words.
 
-The institutional case is strongest when responsibility is tied to actual information and opportunity.
+## 26 March 2023
 
-Do not say “the hospital knew everything.”
+The GP sends an urgent Neurology referral.
 
-Ask:
+He writes that the pain is:
 
-> **Who knew enough, at each stage, to ask the next obvious question?**
+> **“causing death wish.”**
 
----
+He says:
 
-## 16. What this case is not saying
+> **“I am worried about him.”**
 
-A strong case is often defined by what it refuses to overclaim.
+and:
 
-This case does **not** require saying that:
+> **“Despite his facade, I don’t think he is doing well. I’d be grateful for your review before we get into trouble here.”**
 
-- every foot problem was neurological;
-- all pain was dystonia;
-- the Parkinsonism diagnosis was wrong;
-- Podiatry was inappropriate;
-- no one examined the patient;
-- no multidisciplinary work happened;
-- nothing was reconsidered for eight years;
-- procyclidine proved the mechanism;
-- Sinemet proved the mechanism;
-- the medication created the original pain;
-- the whole hospital knew every fact;
-- later genetics proves earlier negligence;
-- every later clinician was negligent;
-- the governance process was a cover-up.
+## 28 March 2023
 
-None of those propositions is necessary.
+The Parkinson’s nurse records:
 
-The case is stronger without them.
+> **“debilitating pain”**
 
-The argument is narrower:
+and:
 
-> **The source of disabling foot pain remained unresolved. The specialist record nevertheless allowed the feet to become a possibly separate problem. Later neurological treatment showed that what happened in the feet could change with the neurological treatment state. The question is whether reasonable care should have investigated, retained or reopened that relationship more effectively, and whether failure to do so probably added to the patient’s later suffering.**
+> **“no quality of life.”**
 
-That is the case.
+At this point the problem is no longer only diagnostic.
+
+It is a safety problem.
 
 ---
 
-## 17. The family-member version
+# 6. Neurology itself then records the misalignment
 
-If a family member asked, “What is this case really about?”, the answer should be understandable in a minute.
+Later in 2023 the neurologist records that doctor and patient are:
 
-It is this:
+> **“misaligned.”**
 
-He had terrible foot pain and a very abnormal way of walking.
+He says it would be a fair characterisation of the patient’s view that the clinician held a:
 
-His GP sent both problems to Neurology together.
+> **“firm belief that everything has to be explainable by the Parkinson’s”**
 
-Neurology correctly found a serious movement disorder.
+while describing the patient’s contrary concerns as:
 
-But the source of the foot pain was never clearly resolved, and the specialist record allowed the feet to be treated as something that might be completely separate.
+> **“very reasonable and justifiable.”**
 
-The patient himself said the feet had not been dealt with.
+That is not a confession of negligence.
 
-Then something important happened: the neurological tablets changed what happened in the feet. When the tablets were stopped, the feet and walking got worse quickly. The neurologist later recorded that a focal foot problem was returning rapidly during that withdrawal.
+It is not proof of bad faith.
 
-That did not prove one diagnosis.
+It does prove something important:
 
-But it should at least have made everyone ask again whether the feet were really separate.
+> **the disagreement about the explanatory model had become visible inside Neurology itself.**
 
-Over the following years, Neurology kept seeing more evidence that feet, walking and medication were interacting. By 2023 the pain had become severe enough to cause major functional and psychological distress. Later clinicians even described some of the leg pain and shuffling as OFF-related, and by 2025 the treating record openly accepted that Sinemet made the feet feel better from a pain perspective.
+That means 2023 joins two facts:
 
-The legal question is not whether the doctors caused the original pain.
+> **the pain is dangerous**
 
-They did not.
+and:
 
-The legal question is whether better neurological assessment, coordination and treatment would probably have reduced some of the later pain, disability and distress.
+> **the model governing that pain is openly contested.**
 
-That is what the experts must decide.
+The question becomes:
 
----
-
-## 18. The final way to hold the case in mind
-
-There are really only five steps.
-
-### One
-
-> **The feet hurt badly.**
-
-### Two
-
-> **The gait was neurologically very abnormal.**
-
-### Three
-
-> **The relationship between those two things was never clearly resolved before the feet were allowed to sit as possibly separate.**
-
-### Four
-
-> **Neurological medication later changed what happened in the feet.**
-
-### Five
-
-> **The patient then lived for years with severe pain while the record accumulated more evidence that the feet, gait and neurological treatment interacted.**
-
-The law asks whether reasonable care should have done more with those facts, and whether doing more would probably have spared him some of what followed.
-
-That is why this is the case we are taking.
+> **What did reasonable care require once both things were true at the same time?**
 
 ---
 
-## Working rule for every future draft
+# 7. By 2025 the same language is inside Neurology’s own note
 
-> **Facts first. Question second. Medicine third. Law last.**
+The 2025 Neurology note records:
 
-And underneath that:
+> **“murder in the feet”**
 
-> **Quote → Fact → Proposition → Argument → Expert Opinion → Legal Consequence**
+> **the first 150 footsteps are “torture”**
 
-That order keeps the case simple without making it simplistic.
+and:
 
-It allows a family member to understand the human story.
+> **“I won’t live with it.”**
 
-It allows a medical expert to identify the clinical question.
+By then no one can say the pain was invisible.
 
-It allows a lawyer to separate duty, breach, harm and causation.
+The narrower documentary question is:
 
-And it prevents later technical language from swallowing the basic fact that started everything:
+> **What structured safeguarding response, if any, corresponded to the life-safety signal itself?**
 
-> **His feet hurt, his walking was very abnormal, and the relationship between those things was never safely put to rest.**
+The reviewed record shows substantial neurological and pain management.
+
+It does not yet show a safeguarding bridge equivalent in visibility to the warning language.
+
+That is a documentary negative only.
+
+---
+
+# 8. So what are the three arguments?
+
+## Argument One — Founding Separation
+
+> **What work earned the separation?**
+
+This is the strongest case if the Protest is rejected.
+
+## Argument Two — Protest Fork
+
+> **What did the service choose to do once the patient expressly said the painful problem had not been dealt with?**
+
+This is the additional case if the Protest is established.
+
+## Argument Three — Safety and Misalignment
+
+> **What did reasonable care require once the pain had become a life-safety problem while the explanatory model itself was visibly contested?**
+
+This is independently documentary.
+
+The arguments are not rivals.
+
+They are nested.
+
+---
+
+# 9. The question for family and friends
+
+After hearing the case in this form, ask them:
+
+> **What case do you think I should take?**
+
+Then make the choice concrete.
+
+### Choice A — without the Protest
+
+Would you take the case that says:
+
+> **the documentary record itself shows an integrated painful feet–gait–tone problem, an abnormal neurological lower limb, insufficiently demonstrated separation, later treatment crossing, and eventually a documented safety crisis with acknowledged explanatory misalignment?**
+
+### Choice B — with the Protest
+
+Or would you take the same case plus the patient’s evidence that:
+
+> **he expressly told Neurology before discharge that the painful problem had not been dealt with, exposing an earlier choice between reopening, explaining, retaining ownership, documenting disagreement or allowing the case to close?**
+
+Their answer is not evidence.
+
+It does not decide the law.
+
+It is useful because it tests whether the evidence can be understood honestly without technical scaffolding.
+
+If family and friends consistently identify the same centre, the case is being taught clearly.
+
+If they split over the Protest, that tells us exactly where the evidential hinge lies.
+
+That is useful information.
+
+---
+
+# 10. The legal question underneath
+
+The law comes last.
+
+The case should first disclose the information and the choices.
+
+Then the expert and court can ask:
+
+> **Was the course actually followed one that an ordinarily careful practitioner of equivalent status and skill could properly have followed on the information then available?**
+
+The Protest matters because, if established, it creates an earlier decision-after-notice.
+
+The 2023 record matters because it creates a later documented decision-after-notice even if the Protest is rejected.
+
+The legal structure is:
+
+> **information available → choices available → course actually followed → standard of care → probable consequence.**
+
+---
+
+# 11. The shortest possible teaching version
+
+Tell the case like this:
+
+> **My feet hurt badly. Neurology saw that my walk and lower limb were neurologically very abnormal. The record does not clearly show what work established that the painful feet could be separate. If I prove that I told them before discharge that they had not dealt with my feet, that exposes an earlier choice they made after notice. But even if nobody believes that Protest, by 2023 I had directly said I did not think I could live with the pain, my GP urgently warned of a death wish and said he was worried, Neurology recorded no quality of life, and the neurologist himself later recorded that we were misaligned about the explanation. So the question is not just what diagnosis they gave me. It is what reasonable care required each time the evidence showed that the existing explanation was no longer enough.**
+
+If a reader understands that, they understand the case.
