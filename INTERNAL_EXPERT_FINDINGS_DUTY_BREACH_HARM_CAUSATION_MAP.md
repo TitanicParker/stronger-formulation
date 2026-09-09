@@ -2,7 +2,9 @@
 
 **Status:** INTERNAL CLAIMANT-SIDE WORKING DOCUMENT
 
-**Purpose:** Keep the legal logic sharp without burying the case in specialist language.
+**Purpose:** Keep the legal logic exact while stating the case in ordinary language.
+
+`SRC_COMPLETE_RECORD_FORENSIC.md` controls the facts. `CASE_REGISTER.md` separates source quotations, facts, propositions, arguments and expert questions.
 
 The expert must remain free to reject any proposition.
 
@@ -16,11 +18,11 @@ The expert must remain free to reject any proposition.
 
 Then:
 
-> **Neurological medication changes the foot problem.**
+> **Neurological medication changes what happens in the feet.**
 
 Then:
 
-> **The original question should have become harder to leave unanswered.**
+> **The original question becomes harder to leave unanswered.**
 
 ---
 
@@ -32,7 +34,7 @@ Best-case expert finding:
 
 Neurology did not need to treat every corn or callus.
 
-It did need to answer, or retain responsibility for:
+It did need to answer, or keep responsibility for:
 
 > **What is the neurological disorder doing to the feet, if anything?**
 
@@ -42,7 +44,7 @@ It did need to answer, or retain responsibility for:
 
 Best-case expert finding:
 
-> **The record does not show enough relationship-directed examination to justify treating the painful feet as separate.**
+> **The record does not show enough examination to justify treating the painful feet as separate from the abnormal neurological lower limb.**
 
 The important point is not that Neurology missed the abnormal gait.
 
@@ -58,11 +60,11 @@ The question is:
 
 The specialist record raised peripheral neuropathy.
 
-The complete record does not show an adequate formal foot sensory / reflex workup capable of clearly supporting that explanation.
+The complete record does not show an adequate formal foot sensory / reflex workup that clearly supports that explanation.
 
 Best-case expert finding:
 
-> **Peripheral neuropathy was allowed to explain the pain without enough demonstrated examination to earn that explanation.**
+> **Peripheral neuropathy was allowed to explain the pain without enough demonstrated examination to support it.**
 
 This remains expert-dependent.
 
@@ -70,13 +72,15 @@ This remains expert-dependent.
 
 # 5. Protest breach
 
-Assume the patient said:
+The project treats the pre-discharge Protest as fact:
 
 > **You have not dealt with my feet.**
 
+The exact phrase is not found verbatim in the canonical record; later patient-authored material records that disabling bilateral foot pain was raised as unaddressed and that the supervising neurologist was requested.
+
 Best-case expert finding:
 
-> **That should have caused a further examination, explanation, specialist input or a clear follow-up plan before the foot question was allowed to remain outside the neurological problem.**
+> **That should have caused further examination, explanation, senior review or a clear follow-up plan before the foot question was allowed to remain unresolved.**
 
 ---
 
@@ -88,7 +92,7 @@ The issue is not the referral itself.
 
 Best-case expert finding:
 
-> **The system treated the structural feet locally but did not clearly assign anyone responsibility for putting the Podiatry findings and neurological findings together.**
+> **The structural feet were treated, but nobody is clearly shown as responsible for putting the Podiatry findings and neurological findings back together.**
 
 Plain question:
 
@@ -98,11 +102,11 @@ Plain question:
 
 # 7. Medication-response breach
 
-The record later shows that neurological medication materially changed the patient's condition, including the feet, and that a focal foot problem was documented as returning rapidly when procyclidine was stopped.
+The record later shows that neurological medication changed the patient's condition, including what happened in the feet. During the earlier procyclidine withdrawal, the patient reported restless feet and worsening walking. The treating neurologist later recorded a focal foot phenomenon as changing / returning rapidly during that withdrawal.
 
 Best-case expert finding:
 
-> **That was enough to require the original foot–neurology question to be reopened, even if the 2017 separation had initially been reasonable.**
+> **That was enough to require the original foot–neurology question to be looked at again, even if the 2017 separation had initially been reasonable.**
 
 This is one of the strongest later breach routes because it does not depend entirely on the July Protest.
 
@@ -116,7 +120,7 @@ The record is mixed and includes contrary patient-reported evidence.
 
 Best-case expert finding:
 
-> **At some later point the amount of cross-over evidence became too great for the old separation to remain clinically safe without a fresh integrated review.**
+> **At some later point there was too much evidence linking feet, walking and treatment for the old separation to remain untested.**
 
 The expert must identify the date.
 
@@ -139,7 +143,7 @@ caused by delayed understanding or treatment.
 
 Best-case finding:
 
-> **Earlier integrated care would probably have reduced a measurable part of the later suffering.**
+> **Earlier care that put the whole problem together would probably have reduced a measurable part of the later suffering.**
 
 That must be proved, not assumed.
 
@@ -153,25 +157,25 @@ The pain existed long before treatment.
 
 The causal question is:
 
-> **Did neurological treatment materially affect the severity of that pain, and did failure to understand or optimise that relationship contribute to prolonged severe pain and later psychological crisis?**
+> **Did neurological treatment affect how severe the pain became, and did any failure to understand or optimise that connection contribute to prolonged severe pain and later psychological crisis?**
 
 Best-case finding:
 
 > **A preventable part of prolonged pain contributed materially to later distress.**
 
-This requires expert support and should be separated from any distress caused by the underlying disease itself.
+This requires expert support and must be separated from distress caused by the underlying disease itself.
 
 ---
 
 # 11. Primary-care information harm
 
-The GP sent an integrated problem in.
+The GP sent a combined problem in.
 
-The specialist record returned a strong neurological diagnosis plus a foot problem that could be separate / neuropathic / “Not clear.”
+The specialist record returned a strong neurological diagnosis plus a foot problem that could be separate, neuropathic or “Not clear.”
 
 Best-case finding:
 
-> **A reasonable GP could understand that the specialist relationship question had already been properly investigated. If it had not, the specialist record may have delayed later re-referral or reintegration.**
+> **A reasonable GP could understand that the specialist had already properly investigated the connection. If that understanding was wrong, the specialist record may have delayed later reconsideration.**
 
 ---
 
@@ -199,7 +203,7 @@ The institutional case is strongest when tied to actual information and opportun
 
 ## Breach
 
-> **Treating the feet as separate without enough investigation; failing to reopen after new evidence; or failing to assign anyone responsibility for the whole problem.**
+> **Treating the feet as separate without enough investigation; failing to look again after new evidence; or failing to assign anyone responsibility for the whole problem.**
 
 ## Harm
 
@@ -218,7 +222,7 @@ For every proposed breach:
 1. **What should they have done?**
 2. **What would they probably have found?**
 3. **Would the foot problem probably still have been treated as separate?**
-4. **What treatment / follow-up would probably have changed?**
+4. **What treatment or follow-up would probably have changed?**
 5. **What suffering would probably have been avoided?**
 6. **What would have happened anyway?**
 
@@ -237,7 +241,7 @@ Do not say:
 - the whole hospital knew every fact;
 - later genetics proves 2017 negligence.
 
-These are unnecessary and make the case weaker.
+These claims are unnecessary and make the case weaker.
 
 ---
 
@@ -249,9 +253,9 @@ These are unnecessary and make the case weaker.
 
 > **When they stopped the tablets, the foot problem came back quickly.**
 
-> **The pain may have remained diagnostically separate, but it was not therapeutically separate.**
+> **The foot problem may have remained separate in the diagnosis, but it was not separate in treatment.**
 
-> **Podiatry could treat the feet. Someone still had to answer the relationship.**
+> **Podiatry could treat the feet. Someone still had to answer the connection.**
 
 > **Who was supposed to put the pieces back together?**
 
