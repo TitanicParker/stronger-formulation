@@ -1,0 +1,1770 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f3efe8">
+<title>Leave It At That — Four Essays</title>
+<style>
+:root{
+  --paper:#f3efe8; --paper-2:#ece5da; --ink:#171717; --muted:#66615a; --rule:#cfc5b7;
+  --accent:#8b2f24; --accent-soft:#d8b7ae; --panel:rgba(243,239,232,.94);
+  --max:880px; --rail:250px; --shadow:0 24px 70px rgba(24,18,12,.16);
+  --serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);text-rendering:optimizeLegibility}
+body.reader-open{overflow:hidden}
+a{color:inherit}
+button{font:inherit}
+
+/* persistent contents rail */
+.contents-rail{position:fixed;z-index:40;left:0;top:0;bottom:0;width:var(--rail);padding:28px 22px;border-right:1px solid var(--rule);background:linear-gradient(180deg,var(--panel),rgba(243,239,232,.84));backdrop-filter:blur(14px);display:flex;flex-direction:column}
+.brand{font-family:var(--sans);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:12px;line-height:1.3;margin-bottom:34px}
+.brand b{display:block;font-family:var(--serif);font-size:22px;letter-spacing:-.02em;text-transform:none;margin-top:7px}
+.contents-label{font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.contents-nav{display:grid;gap:2px}
+.contents-nav a{display:grid;grid-template-columns:28px 1fr;gap:8px;padding:10px 8px;text-decoration:none;border-radius:10px;font-family:var(--sans);font-size:13px;line-height:1.25;color:#2d2b28}
+.contents-nav a:hover,.contents-nav a:focus-visible{background:rgba(139,47,36,.08);outline:none}
+.toc-no{font-size:10px;letter-spacing:.08em;color:var(--accent);padding-top:2px}
+.toc-notes{margin-top:10px;color:var(--muted)!important}
+.rail-footer{margin-top:auto;font-family:var(--sans);font-size:11px;line-height:1.45;color:var(--muted)}
+.contents-fab{display:none;position:fixed;z-index:70;right:14px;top:14px;border:1px solid var(--rule);background:var(--panel);backdrop-filter:blur(14px);padding:10px 13px;border-radius:999px;font-family:var(--sans);font-weight:700;font-size:12px;color:var(--ink);box-shadow:0 8px 30px rgba(0,0,0,.08)}
+
+main{margin-left:var(--rail)}
+.hero{min-height:96vh;display:flex;align-items:flex-end;padding:clamp(60px,9vw,120px) clamp(30px,8vw,110px);border-bottom:1px solid var(--rule);position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:auto -7vw -12vw auto;width:38vw;height:38vw;border:1px solid var(--accent-soft);border-radius:50%;opacity:.45}
+.hero-inner{max-width:1050px;position:relative}
+.eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:11px;color:var(--accent);font-weight:800}
+h1.display{font-size:clamp(58px,9vw,132px);line-height:.82;letter-spacing:-.055em;margin:18px 0 30px;max-width:900px;font-weight:600}
+.deck{font-size:clamp(20px,2.3vw,31px);line-height:1.25;max-width:850px;margin:0 0 30px;color:#35312c}
+.hero-meta{font-family:var(--sans);font-size:12px;letter-spacing:.04em;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap}
+.hero-meta span{padding-top:9px;border-top:1px solid var(--rule)}
+
+.preface{padding:90px clamp(24px,8vw,110px) 72px;border-bottom:1px solid var(--rule)}
+.preface .prose{max-width:var(--max);margin:0 auto}
+.preface .prose>h1:first-child,.preface .prose>h2:first-of-type{display:none}
+.preface-label{max-width:var(--max);margin:0 auto 32px;font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:800}
+
+.essays{padding:0 clamp(18px,5vw,74px) 110px}
+.essay-card{border-bottom:1px solid var(--rule)}
+.essay-card>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:150px minmax(0,1fr) 44px;grid-template-areas:"kick title toggle" "kick sub toggle";gap:6px 24px;padding:42px max(12px,3vw);align-items:center}
+.essay-card>summary::-webkit-details-marker{display:none}
+.essay-card>summary:hover .essay-title{color:var(--accent)}
+.essay-kicker{grid-area:kick;font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:800}
+.essay-title{grid-area:title;font-size:clamp(30px,4vw,58px);line-height:.96;letter-spacing:-.03em;transition:color .18s}
+.essay-subtitle{grid-area:sub;font-family:var(--sans);font-size:13px;color:var(--muted);margin-top:5px}
+.essay-toggle{grid-area:toggle;font-family:var(--sans);font-size:34px;text-align:center;font-weight:300;transition:transform .25s}
+.essay-card[open] .essay-toggle{transform:rotate(45deg)}
+.essay-shell{padding:0 max(12px,3vw) 80px}
+.essay-toolbar{max-width:var(--max);margin:0 auto 42px;display:flex;justify-content:flex-end;position:sticky;top:14px;z-index:5;pointer-events:none}
+.read-full{pointer-events:auto;border:0;background:var(--ink);color:var(--paper);padding:11px 16px;border-radius:999px;font-family:var(--sans);font-size:12px;font-weight:750;letter-spacing:.01em;cursor:pointer;box-shadow:0 8px 28px rgba(0,0,0,.12)}
+.read-full span{padding-left:9px}.read-full:hover{background:var(--accent)}
+.read-full.ghost{background:transparent;color:var(--ink);border:1px solid var(--rule);box-shadow:none}
+.essay-end{max-width:var(--max);margin:60px auto 0;text-align:center}
+
+.prose{font-size:clamp(18px,1.35vw,21px);line-height:1.72}
+.prose h1,.prose h2,.prose h3,.prose h4{font-family:var(--serif);line-height:1.04;letter-spacing:-.025em;scroll-margin-top:30px}
+.prose h2{font-size:clamp(34px,4.2vw,58px);margin:2.1em 0 .55em}
+.prose h3{font-size:clamp(24px,2.7vw,38px);margin:1.8em 0 .5em}
+.prose h4{font-size:22px;margin:1.6em 0 .45em}
+.prose p{margin:0 0 1.22em}
+.prose strong{font-weight:750}
+.prose em{font-style:italic}
+.prose blockquote{margin:2.4em 0;padding:0 0 0 1.2em;border-left:3px solid var(--accent);font-size:1.18em;line-height:1.48;color:#2a2520}
+.prose blockquote p{margin:.55em 0}
+.prose ul,.prose ol{padding-left:1.25em;margin:0 0 1.4em}
+.prose li{margin:.35em 0}
+.prose hr{border:0;border-top:1px solid var(--rule);margin:3.5em 0}
+.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;background:rgba(0,0,0,.05);padding:.12em .32em;border-radius:4px}
+.essay-body{max-width:var(--max);margin:0 auto}
+
+.notebook-wrap{padding:85px clamp(24px,8vw,110px) 120px;background:var(--paper-2)}
+.notebook{max-width:var(--max);margin:0 auto;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.notebook>summary{list-style:none;cursor:pointer;font-family:var(--sans);padding:25px 0;font-weight:800;display:flex;justify-content:space-between;align-items:center}
+.notebook>summary::-webkit-details-marker{display:none}.notebook>summary:after{content:"+";font-size:24px;font-weight:400}.notebook[open]>summary:after{content:"−"}
+.notebook .prose{padding:16px 0 65px;font-size:17px}
+
+/* Drawer */
+.drawer-backdrop{position:fixed;inset:0;background:rgba(20,17,14,.32);z-index:79;opacity:0;pointer-events:none;transition:.2s}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(390px,88vw);z-index:80;background:var(--paper);border-left:1px solid var(--rule);transform:translateX(102%);transition:transform .25s ease;box-shadow:var(--shadow);padding:26px;overflow:auto}
+.drawer.open{transform:none}.drawer-backdrop.open{opacity:1;pointer-events:auto}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.drawer-head b{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transform:uppercase}.drawer-close{border:0;background:transparent;font-size:26px;cursor:pointer}
+.drawer-nav a{display:block;text-decoration:none;padding:13px 4px;border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:14px}
+.drawer-nav small{display:block;color:var(--accent);font-size:10px;letter-spacing:.14em;margin-bottom:4px}
+
+/* Full-screen reader */
+.reader{position:fixed;inset:0;z-index:100;background:var(--paper);display:none;overflow:hidden}
+.reader.active{display:block}
+.reader-top{height:64px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;border-bottom:1px solid var(--rule);padding:0 max(14px,2vw);font-family:var(--sans);background:rgba(243,239,232,.96);backdrop-filter:blur(10px);position:relative;z-index:3}
+.reader-left{display:flex;gap:8px;align-items:center}.reader-right{justify-self:end;display:flex;gap:8px;align-items:center}
+.icon-btn{border:1px solid var(--rule);background:transparent;color:var(--ink);height:36px;padding:0 12px;border-radius:999px;cursor:pointer;font-family:var(--sans);font-weight:700;font-size:12px}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent)}
+.reader-title{text-align:center;min-width:0}.reader-title b{display:block;font-family:var(--serif);font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:46vw}.reader-title small{display:block;font-size:9px;text-transform:uppercase;letter-spacing:.17em;color:var(--accent);margin-bottom:2px}
+.reader-stage{position:absolute;left:0;right:0;top:64px;bottom:44px;overflow:hidden;touch-action:pan-y}
+.reader-track{height:100%;display:flex;will-change:transform;transition:transform .34s cubic-bezier(.2,.7,.2,1)}
+.reader-page{height:100%;width:100vw;flex:0 0 100vw;overflow:hidden;padding:clamp(24px,5vh,54px) clamp(22px,7vw,120px) 28px;display:flex;justify-content:center}
+.reader-page-inner{width:min(860px,100%);height:100%;overflow:hidden;font-size:var(--reader-font,20px);line-height:1.66}
+.reader-page .prose{font-size:inherit;line-height:inherit}
+.reader-page h2{font-size:clamp(32px,4vw,52px);margin:.1em 0 .6em}.reader-page h3{font-size:clamp(23px,2.6vw,34px);margin:1.1em 0 .45em}.reader-page h4{font-size:20px;margin:1em 0 .4em}.reader-page p{margin:0 0 1em}.reader-page blockquote{margin:1.3em 0;padding-left:1em;font-size:1.12em}.reader-page ul,.reader-page ol{margin:0 0 1em}
+.reader-bottom{position:absolute;left:0;right:0;bottom:0;height:44px;border-top:1px solid var(--rule);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 max(14px,2vw);font-family:var(--sans);font-size:11px;color:var(--muted)}
+.reader-hint{letter-spacing:.02em}.reader-progress{justify-self:center}.reader-nextprev{justify-self:end;display:flex;gap:8px}.nav-arrow{border:0;background:transparent;font-size:20px;color:var(--ink);cursor:pointer;padding:5px 9px}
+.nav-arrow:disabled{opacity:.25;cursor:default}
+.measure-page{position:fixed;left:-99999px;top:0;visibility:hidden;width:min(860px, calc(100vw - 44px));height:calc(100vh - 160px);overflow:hidden;font-size:20px;line-height:1.66;padding:0}
+.reader-contents{position:absolute;z-index:6;top:64px;right:0;bottom:44px;width:min(390px,88vw);background:rgba(243,239,232,.985);border-left:1px solid var(--rule);box-shadow:var(--shadow);transform:translateX(101%);transition:transform .25s;overflow:auto;padding:28px}
+.reader-contents.open{transform:none}.reader-contents h3{font-family:var(--sans);font-size:11px;letter-spacing:.15em;text-transform:uppercase;margin:0 0 18px}.reader-contents button{display:block;width:100%;text-align:left;border:0;background:transparent;border-bottom:1px solid var(--rule);padding:11px 2px;cursor:pointer;color:var(--ink);font-family:var(--sans);font-size:13px;line-height:1.3}.reader-contents button.sub{padding-left:18px;color:var(--muted);font-size:12px}.reader-contents button:hover{color:var(--accent)}
+.reader-flash{position:absolute;left:50%;bottom:62px;transform:translateX(-50%);z-index:10;background:var(--ink);color:var(--paper);padding:8px 12px;border-radius:999px;font-family:var(--sans);font-size:11px;opacity:0;transition:.2s;pointer-events:none}.reader-flash.show{opacity:.9}
+
+@media (max-width:900px){
+  :root{--rail:0px}.contents-rail{display:none}.contents-fab{display:block}main{margin-left:0}
+  .hero{min-height:88vh;padding-top:100px}.essay-card>summary{grid-template-columns:1fr 38px;grid-template-areas:"kick toggle" "title toggle" "sub toggle";gap:8px 12px;padding:32px 4px}.essay-kicker{margin-bottom:4px}.essay-title{font-size:38px}.essay-shell{padding-left:4px;padding-right:4px}.essays{padding-left:18px;padding-right:18px}.essay-toolbar{top:12px}
+}
+@media (max-width:600px){
+  h1.display{font-size:61px}.deck{font-size:21px}.hero{padding-left:22px;padding-right:22px}.preface{padding:70px 22px}.prose{font-size:18px;line-height:1.67}.prose h2{font-size:36px}.reader-top{grid-template-columns:auto 1fr auto}.reader-title b{font-size:14px;max-width:43vw}.reader-left .label-hide{display:none}.reader-page{padding:27px 21px 20px}.reader-page-inner{font-size:var(--reader-font,18px);line-height:1.58}.reader-hint{display:none}.reader-bottom{grid-template-columns:1fr auto}.reader-nextprev{display:none}.reader-progress{justify-self:start}.reader-right .font-label{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reader-track,.drawer,.drawer-backdrop,.reader-contents{transition:none}}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#171614;--paper-2:#1d1b18;--ink:#eee8df;--muted:#aaa198;--rule:#39342e;--accent:#e18474;--accent-soft:#74443c;--panel:rgba(23,22,20,.94);--shadow:0 24px 70px rgba(0,0,0,.45)}
+  .contents-nav a{color:#ddd5ca}.prose blockquote{color:#ddd4c8}.prose code{background:rgba(255,255,255,.08)}
+}
+</style>
+</head>
+<body>
+<aside class="contents-rail" aria-label="Contents">
+  <div class="brand">Four-part reconstruction + satirical coda<b>Leave It At That</b></div>
+  <div class="contents-label">Contents</div>
+  <nav class="contents-nav"><a href="#essay-1" data-close-drawer><span class="toc-no">01</span><span>THE DINOSAUR WALKS IN</span></a>
+<a href="#essay-2" data-close-drawer><span class="toc-no">02</span><span>THE LAST OPEN DOOR</span></a>
+<a href="#essay-3" data-close-drawer><span class="toc-no">03</span><span>THE PATIENT LEAVES; THE SYNTHESIS STAYS</span></a>
+<a href="#essay-4" data-close-drawer><span class="toc-no">04</span><span>THE SECOND CLOSURE</span></a>
+<a href="#essay-5" data-close-drawer><span class="toc-no">CODA</span><span>THE DEPARTMENT OF EXTREMELY ADVANCED THINGS</span></a>
+<a href="#working-notes" data-close-drawer class="toc-notes"><span class="toc-no">↳</span><span>Working notebook</span></a></nav>
+  <div class="rail-footer">One choice. Four views. One darkly comic coda.<br>Open any essay, or read it page-by-page full screen.</div>
+</aside>
+<button class="contents-fab" data-open-drawer aria-label="Open contents">Contents</button>
+
+<div class="drawer-backdrop" data-close-drawer></div>
+<aside class="drawer" id="contents-drawer" aria-label="Contents drawer">
+  <div class="drawer-head"><b>Contents</b><button class="drawer-close" data-close-drawer aria-label="Close contents">×</button></div>
+  <nav class="drawer-nav">
+    <a href="#essay-1" data-close-drawer><small>01</small>The Dinosaur Walks In</a>
+    <a href="#essay-2" data-close-drawer><small>02</small>The Last Open Door</a>
+    <a href="#essay-3" data-close-drawer><small>03</small>The Patient Leaves; The Synthesis Stays</a>
+    <a href="#essay-4" data-close-drawer><small>04</small>The Second Closure</a>
+    <a href="#essay-5" data-close-drawer><small>Coda</small>The Department of Extremely Advanced Things</a>
+    <a href="#working-notes" data-close-drawer><small>Notebook</small>Working notes & source anchors</a>
+  </nav>
+</aside>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Four linked essays + a five-minute satirical coda · working edition</div>
+    <h1 class="display">Leave It<br>At That</h1>
+    <p class="deck">A reconstruction of one surviving choice: what was present before the Protest, what remained possible after it, and what followed when an unresolved human phenotype was allowed to become a settled information state.</p>
+    <div class="hero-meta"><span>4 essays + satirical coda</span><span>≈ 13,000-word working manuscript</span><span>Swipe or arrow-key page reading</span></div>
+  </div>
+</section>
+
+<section class="preface" id="preface">
+  <div class="preface-label">The proposition</div>
+  <article class="prose"><h1 id="preface-leave-it-at-that">LEAVE IT AT THAT</h1>
+<h2 id="preface-a-four-part-reconstruction-of-one-surviving-choice">A four-part reconstruction of one surviving choice — with a short satirical coda</h2>
+<p><strong>Working manuscript — v0.1</strong><br/>
+<strong>Form:</strong> four linked instalments, each intended to become a 15-minute / c.2,500-word read, followed by a five-minute satirical coda<br/>
+<strong>Centre of gravity:</strong> the post-Protest choice not to reopen the unresolved feet–gait–dystonia question<br/>
+<strong>Method:</strong> literary journalism anchored to the contemporaneous record, with explicit separation between documented fact, patient recollection, inference and later interpretation</p>
+<hr/>
+<h2 id="preface-the-proposition">The proposition</h2>
+<p>This is not a document about one missed corn.</p>
+<p>It is not, at root, a document about one wrong diagnosis, one drug, one consultant, one complaint or one hospital letter.</p>
+<p>It is about a moment in which an unusually rich human problem remained open — and then ceased to be treated as open.</p>
+<p>Near the end of an eight-day neurological admission in July 2017, after a university hospital had already recognised severe young-onset Parkinsonism, a strikingly abnormal gait, a lower limb with a foot-drop appearance suggestive of dystonic posture, marked rigidity and bradykinesia, pes planus, hammertoes and perhaps thirteen years of prior evolution, the patient objected that the feet had not been dealt with.</p>
+<p>That objection matters because it means the omission had become visible before discharge.</p>
+<p>The admission had not yet become history. The patient had not yet gone home. The discharge synthesis had not yet become the portable truth by which later clinicians would know him. The department still had access to the body, the gait, the feet, the soles, the pain, the story, the untreated baseline, the strange resilience, the patient's intelligence, the departmental expertise and the possibility of going back to look again.</p>
+<p>The moment did not require clairvoyance. Nobody needed to know the final mechanism. Nobody needed to prove that every corn, callus, burning sensation or later pain state was neurological. Nobody needed to predict what procyclidine withdrawal, Podiatry, levodopa, OFF states, toe curling or the next eight years would eventually reveal.</p>
+<p>The choice was smaller than that.</p>
+<p>The choice was whether uncertainty would remain <strong>active</strong>.</p>
+<p>Would the response be: <em>we do not yet understand this relationship, so we must reopen it</em>?</p>
+<p>Or would it be: <em>we do not yet understand this relationship; leave it at that</em>?</p>
+<p>Everything in this four-part work turns around that fork.</p>
+<p>The first instalment asks what exactly was standing in front of the hospital before the choice was made.</p>
+<p>The second slows time almost to a stop around the Protest and asks what remained possible in that room.</p>
+<p>The third follows what happened when an unresolved phenotype was converted into a stable information state and then distributed across services.</p>
+<p>The fourth returns years later, when pain had become psychologically dangerous, and asks what it means for an institution to look back at the accumulated notes and stand over a pathway whose central unresolved question had never been globally reconstructed.</p>
+<p>The refrain is simple:</p>
+<blockquote>
+<p><strong>Leave it at that.</strong></p>
+</blockquote>
+<p>At first it is only a bedside choice.</p>
+<p>Then it becomes a document.</p>
+<p>Then an information architecture.</p>
+<p>Then a management pattern.</p>
+<p>Then a life.</p>
+<p>Then, finally, a retrospective position.</p>
+<hr/>
+<h2 id="preface-evidence-discipline">Evidence discipline</h2>
+<p>This manuscript should be fierce in language and conservative in proof.</p>
+<p>Use the following tags in draft until every proposition is nailed down:</p>
+<ul>
+<li><strong>[DOC]</strong> directly documented contemporaneously.</li>
+<li><strong>[PATIENT]</strong> patient recollection or autobiographical account.</li>
+<li><strong>[DEPT]</strong> evidence of departmental / colleague / senior involvement.</li>
+<li><strong>[EXPERTISE]</strong> evidence of relevant local academic or subspecialist capability.</li>
+<li><strong>[RX]</strong> treatment-state evidence.</li>
+<li><strong>[POD]</strong> Podiatry evidence.</li>
+<li><strong>[GP]</strong> primary-care evidence.</li>
+<li><strong>[LIFE]</strong> lived-function / autobiographical material.</li>
+<li><strong>[SAFEGUARD]</strong> evidence relevant to psychological safety, risk recognition, crisis response or its apparent absence.</li>
+<li><strong>[2025]</strong> complaint / rebuttal / governance material.</li>
+<li><strong>[INFERENCE]</strong> a reasoned interpretation that must not be written as established motive or fact.</li>
+<li><strong>[OPEN]</strong> proposition requiring verification.</li>
+</ul>
+<p>The literary force should come from adjacency: place documented facts beside one another until the reader feels the discrepancy. Do not manufacture heat where chronology already burns.</p>
+<hr/>
+</article>
+</section>
+
+<section class="essays">
+    <details class="essay-card" id="essay-1" data-essay="1">
+      <summary>
+        <span class="essay-kicker">INSTALLMENT I</span>
+        <span class="essay-title">THE DINOSAUR WALKS IN</span>
+        <span class="essay-subtitle">What exactly did Galway have?</span>
+        <span class="essay-toggle" aria-hidden="true">+</span>
+      </summary>
+      <div class="essay-shell">
+        <div class="essay-toolbar"><button class="read-full" data-open-reader="1">Read full screen <span>→</span></button></div>
+        <article class="prose essay-body" data-essay-body="1">
+<h2 id="e1-what-exactly-did-galway-have">What exactly did Galway have?</h2>
+<p>The story should begin before Parkinson's disease has a name.</p>
+<p>Begin with work.</p>
+<p>Begin with a man standing behind a bar for hours, learning the geography of pain through the soles of his feet. Begin with the physical tricks by which a body keeps a life moving long after automatic movement has begun to fail. Begin with corn plasters brought by a friend. Begin with podiatry. Begin with the strange relief of having something mechanical altered in a foot that keeps producing trouble. Begin with job changes, with walking, with the conscious management of a body that other people still read as functioning. Begin with a bicycle and <em>Countdown</em> on the television: ten or eleven kilometres while the body grows stranger. Begin with the fact that the person survives his own phenotype so effectively that survival itself becomes camouflage.</p>
+<p>The eventual medical record preserves some of this. It records a possible thirteen-year onset, bodily tension, corns and calluses, fallen arches, treatment of the feet since around 2009–2010, bar work, improvement in foot pain after leaving that work, continuing leg tension, gym exercise and cycling, later difficulty in a medical-devices job and progressive loss of dexterity. It records a patient who had kept constructing solutions long before Neurology met him. [DOC]</p>
+<p>But the record is not the life.</p>
+<p>The life is what happened between the entries.</p>
+<p>The important journalistic task is to recover the <strong>cost</strong> hidden inside apparent function.</p>
+<p>He could walk. That does not mean walking was normal.</p>
+<p>He could work. That does not mean work was physiologically cheap.</p>
+<p>He could exercise. That does not mean exercise disproved severe disease.</p>
+<p>He could articulate what was happening. That does not mean the system had understood it.</p>
+<p>The line from the autobiographical work belongs early and should recur:</p>
+<blockquote>
+<p><strong>I was not well because I could walk. I could walk at cost.</strong></p>
+</blockquote>
+<p>That one sentence changes the interpretation of the entire prodrome. Resilience is no longer evidence against severity. It becomes part of the phenotype. A highly adaptive person can hold a deteriorating system together for years by spending effort other people never see.</p>
+<p>This matters medically. It matters pedagogically. It matters morally. It matters because the patient who eventually arrives in July 2017 is not a blank 39-year-old with new Parkinsonism. He is a human longitudinal study who has already conducted thirteen years of uncontrolled natural experiments on himself: prolonged standing, walking, reduced standing, job changes, exercise, conscious gait, podiatry, rest, alcohol used as a crude de-tensioning strategy, and relentless adaptation.</p>
+<p>He arrives carrying data.</p>
+<p>Not data in a spreadsheet.</p>
+<p>Data in tissue, posture, habit, deformity, skin, pain, gait and memory.</p>
+<h3 id="e1-the-gp-sends-the-whole-animal">The GP sends the whole animal</h3>
+<p>The primary-care chronology is crucial because it shows what the hospital received before specialist compression began.</p>
+<p>On 10 April 2017, the GP record pairs <strong>abnormal gait and bilateral foot pain</strong> with marked mallet toes, onychogryphosis and callus/pressure areas. The patient works on his feet and is finding it tough. [GP]</p>
+<p>On 8 June, the GP is considering a neurology opinion specifically for the patient's <strong>gait, feet and “muscle tension” issues</strong>. [GP]</p>
+<p>By 23 June, there is marked increased tone in both legs and brisk upper-limb reflexes. [GP]</p>
+<p>By 29 June, the picture has accelerated into an urgent neurological problem: an unusual stiff/festinant gait, difficulty initiating movement, increased tone, clawed toes, deterioration and a question of Parkinsonism or another neurological process. [GP — insert exact referral]</p>
+<p>The point is not that the GP had solved the mechanism.</p>
+<p>The point is that the referral had not yet split the human being into neat domains.</p>
+<p>Feet. Gait. Tone. Movement initiation. Deterioration.</p>
+<p>One body.</p>
+<p>One problem still open enough to be thought about.</p>
+<blockquote>
+<p><strong>The whole animal reached the hospital before the hospital divided it.</strong></p>
+</blockquote>
+<p>That should be one of the load-bearing sentences of Part I.</p>
+<h3 id="e1-monday-3-july-2017">Monday, 3 July 2017</h3>
+<p>Now the doors of the university hospital open.</p>
+<p>The patient is 39.</p>
+<p>Neurology describes the gait as <strong>strikingly abnormal</strong>. The left lower limb has a foot-drop appearance that is considered somewhat suggestive of a dystonic posture rather than true foot drop. There is no arm swing. Tone is markedly symmetrically increased. Gross rigidity is evident during walking. Gross bradykinesia is present. Pes planus and hammertoes are noted. The examination is videoed with permission. [DOC]</p>
+<p>The eventual DAT scan request will describe the walk as “almost dystonically unusual” in a very young man with bilateral Parkinsonism and symptoms perhaps reaching back thirteen years, with an autosomal-recessive form suspected. [DOC]</p>
+<p>Pause there.</p>
+<p>This is the moment to let the reader see the patient before diagnostics flatten him.</p>
+<p>A young man with an old body history.</p>
+<p>A Parkinsonian syndrome severe enough to be obvious but atypical enough to provoke broad investigation.</p>
+<p>Very little tremor.</p>
+<p>Huge tone.</p>
+<p>A gait strange enough to be called dystonic-looking.</p>
+<p>Painful abnormal feet with years of history.</p>
+<p>Corns and calluses.</p>
+<p>Fallen arches.</p>
+<p>Hammertoes.</p>
+<p>A man whose cognition is later described as excellent, whose intelligence impresses the clinician, who understands complex counselling and expresses willingness to hear about clinical trials. [DOC]</p>
+<p>This is not merely “young Parkinson's disease.”</p>
+<p>It is a case with <strong>density</strong>.</p>
+<h3 id="e1-where-the-abnormal-limb-meets-the-ground">Where the abnormal limb meets the ground</h3>
+<p>The soles deserve their own scene.</p>
+<p>The soles are not a rhetorical flourish. They are the patient's load-bearing archive.</p>
+<p>If the gait is abnormal for years, the foot is where that abnormal motor pattern repeatedly collides with gravity, footwear and the floor. The plantar surface may preserve evidence of where pressure has travelled, where compensation has become habitual, where tissue has thickened, where recurrent focal stress has accumulated.</p>
+<p>That does not prove neurological causation of every structural lesion. Structural pathology can be genuinely structural. Mechanical pathology can coexist with dystonia. Pain can be mixed. The point is not to force a monocausal story.</p>
+<p>The point is that the interface demanded curiosity.</p>
+<p>In a patient with painful feet and a dystonic-looking lower-limb gait, the soles are not beneath Neurology's dignity. They are where the neurological motor programme meets the world.</p>
+<p>The working evidential formulation must therefore be exact:</p>
+<blockquote>
+<p><strong>No adequate plantar / sole examination has yet been identified in the available documentation.</strong> [OPEN — verify across nursing, physio, OT, Podiatry and handwritten notes]</p>
+</blockquote>
+<p>Do not write “nobody looked at the soles” until the record can support it.</p>
+<p>But if the completed record contains no serious plantar examination, the absence itself is astonishing. Not because every person with Parkinsonism needs a foot-pressure laboratory, but because this patient had arrived with a long, painful foot history and an explicitly dystonic-looking gait.</p>
+<p>The question becomes almost embarrassingly elementary:</p>
+<p><strong>What was written on the surface carrying thirteen years of abnormal movement?</strong></p>
+<h3 id="e1-it-walked-into-an-archaeology-department">It walked into an archaeology department</h3>
+<p>Now widen the lens from bedside to institution.</p>
+<p>The significance of the case is not merely that relevant expertise existed somewhere in the world. Relevant expertise existed around Galway.</p>
+<p>This section must distinguish <strong>institutional capability</strong> from <strong>personal involvement</strong>. It must never pretend that publication authors personally examined the patient unless the record proves that they did.</p>
+<p>But capability matters.</p>
+<p>Timothy Counihan had co-authored the 2013 <em>JAMA Neurology</em> paper on Parkin disease, in which parkin-linked young-onset disease and dystonia were part of the clinical landscape. [EXPERTISE — public source]</p>
+<p>Patrick Browne and Counihan were publishing on dystonia and on Parkinsonian gait / freezing. [EXPERTISE — insert exact papers]</p>
+<p>Galway clinicians and engineering / human-movement collaborators were already working on objective measurement of gait and freezing. [EXPERTISE]</p>
+<p>And in August 2017, within weeks of this admission, clinicians from the Department of Neurology at University Hospital Galway published a <em>Neurology</em> Clinical Reasoning case built around a teenager with a <strong>dystonic foot</strong>, neurological gait disorder and parkin-related disease. [EXPERTISE — publication date 15 Aug 2017; explicitly note that publication after admission does not prove July knowledge of that particular manuscript]</p>
+<p>The correct literary line is therefore not: “the experts definitely knew what this was.”</p>
+<p>That would overstate.</p>
+<p>The line is:</p>
+<blockquote>
+<p><strong>The dinosaur did not walk into a department unfamiliar with dinosaurs. It walked into an archaeology department.</strong></p>
+</blockquote>
+<p>The opportunity was not merely diagnostic.</p>
+<p>It was educational.</p>
+<p>Scientific.</p>
+<p>Longitudinal.</p>
+<p>Human.</p>
+<p>A local patient, able to return, with an apparently long untreated or undertreated phenotype, excellent cognition, a bizarre gait, painful feet and a future full of therapeutic perturbations.</p>
+<p>What movement-disorders academic would not want the baseline?</p>
+<p>Shoes off.</p>
+<p>Socks off.</p>
+<p>Soles.</p>
+<p>Standing.</p>
+<p>Walking.</p>
+<p>Turning.</p>
+<p>Faster walking.</p>
+<p>Fatigue.</p>
+<p>Toe posture.</p>
+<p>Pressure sites.</p>
+<p>Fixed versus dynamic deformity.</p>
+<p>Video.</p>
+<p>Podiatry integrated with Neurology.</p>
+<p>Then repeat the examination after treatment.</p>
+<p>The extraordinary missed opportunity is that the body would later provide the experiment anyway.</p>
+<h3 id="e1-the-department-studies-almost-everything-except-the-relationship">The department studies almost everything except the relationship</h3>
+<p>The admission is not medically empty. Quite the opposite.</p>
+<p>This is what makes the case interesting.</p>
+<p>There is CT. MRI brain. MRI cervical spine. abdominal ultrasound to explore a Gaucher-related possibility. Extensive blood work. DAT imaging. Genetic thinking. Recessive Parkinsonism. PRKN/PARK2. Discussion of LRRK2, SNCA, GBA and future exome or genome analysis. A Neurology Complex Case Meeting. Senior discussion around levodopa and dopamine agonists. Physiotherapy. Occupational therapy. Counselling. A plan for rasagiline and procyclidine. [DOC]</p>
+<p>This is a service thinking hard.</p>
+<p>The DisSynth even records that its author is <strong>not a movement-disorders neurologist</strong>, while displaying wide theoretical awareness of phenotypes, genetics and long-term strategy. [DOC]</p>
+<p>And there sits the asymmetry.</p>
+<p>Theoretical altitude rises.</p>
+<p>The body becomes increasingly well classified.</p>
+<p>But the relationship between the dystonic-looking lower limb, the painful abnormal feet, years of load-bearing and structural pathology remains curiously low-resolution.</p>
+<p>The DisSynth will eventually offer possibilities: perhaps the leg symptoms, corns, calluses and burning were completely separate; perhaps peripheral neuropathy played a role; “Not clear.” [DOC]</p>
+<p>That phrase can mean two very different things.</p>
+<p>It can mean: <strong>we investigated the relationship properly and uncertainty remained.</strong></p>
+<p>Or it can mean: <strong>the relationship remained unclear because the investigation never fully formed around it.</strong></p>
+<p>Part I should end before deciding which.</p>
+<p>End instead on the visual contradiction:</p>
+<p>The hospital has searched the brain, the spine, the spleen, the genome and the future.</p>
+<p>The patient is still standing there on the same two feet.</p>
+<p>And the most basic question about how the abnormal neurological limb meets the ground remains unresolved.</p>
+<blockquote>
+<p><strong>Galway knew an extraordinary amount about what the patient might theoretically be. The unanswered question was whether it had looked closely enough at what the patient actually was.</strong></p>
+</blockquote>
+<hr/>
+</article>
+        <div class="essay-end"><button class="read-full ghost" data-open-reader="1">Read this essay as pages</button></div>
+      </div>
+    </details>
+
+    <details class="essay-card" id="essay-2" data-essay="2">
+      <summary>
+        <span class="essay-kicker">INSTALLMENT II</span>
+        <span class="essay-title">THE LAST OPEN DOOR</span>
+        <span class="essay-subtitle">The Protest and the choice to leave it at that</span>
+        <span class="essay-toggle" aria-hidden="true">+</span>
+      </summary>
+      <div class="essay-shell">
+        <div class="essay-toolbar"><button class="read-full" data-open-reader="2">Read full screen <span>→</span></button></div>
+        <article class="prose essay-body" data-essay-body="2">
+<h2 id="e2-the-protest-and-the-choice-to-leave-it-at-that">The Protest and the choice to leave it at that</h2>
+<p>Part II should feel like time slowing down.</p>
+<p>The first instalment establishes abundance: abundant history, abundant phenotype, abundant institutional capability, abundant curiosity directed toward Parkinsonism. The second asks what happened at the moment the remaining absence was identified by the person whose body carried it.</p>
+<p>The key event is not a later complaint.</p>
+<p>It is not retrospective criticism.</p>
+<p>It is the patient, still an inpatient, saying in substance:</p>
+<p><strong>You have not dealt with my feet.</strong> [PATIENT]</p>
+<p>Use the NCT / bald-tyres analogy in the patient's own remembered form once the exact wording is settled. [PATIENT — insert fullest account]</p>
+<p>The point is not theatricality. The analogy is clinically intelligent. A car may have an engine diagnosis and still fail because the tyres are bald. A body may have Parkinsonism and still require somebody to explain why the part meeting the ground is painful, deformed and functionally decisive.</p>
+<p>The Protest is the hinge because it turns omission into notice.</p>
+<p>Before the Protest, the feet might have been deprioritised amid a dramatic young-onset Parkinsonian presentation.</p>
+<p>After the Protest, the department cannot be described as simply unaware that the patient regarded the omission as important.</p>
+<p>The patient has returned the missing thing to the centre.</p>
+<h3 id="e2-eight-days-of-intellectual-momentum">Eight days of intellectual momentum</h3>
+<p>The timing matters.</p>
+<p>By then, the case has momentum.</p>
+<p>The neurological syndrome has been recognised. The department has discussed it. Imaging has been pursued. The possibility of atypical / recessive disease has been entertained. Senior treatment advice has entered the case. The long-term therapeutic future is being carefully narrated.</p>
+<p>The admission is moving toward completion.</p>
+<p>This is the moment at which an omission becomes most psychologically awkward.</p>
+<p>Earlier in the week, reopening the feet would simply be another examination.</p>
+<p>At the end, reopening the feet risks asking whether the thing now called a comprehensive admission is actually finished.</p>
+<p>That is where <strong>commitment pressure</strong> belongs.</p>
+<p>Do not call it pride.</p>
+<p>Do not call it concealment.</p>
+<p>Do not allege that anybody consciously thought, <em>this will be embarrassing</em>.</p>
+<p>Write instead about structure.</p>
+<p>The more intellectual work already invested in a formulation, the more disruptive a late contradiction can become. The greater the sophistication of the emerging synthesis, the more consequential it is to discover that the most disabling presenting problem has not been integrated.</p>
+<blockquote>
+<p><strong>The closer the admission came to completion, the more expensive curiosity became.</strong></p>
+</blockquote>
+<p>That is not a claim about character. It is a claim about how human institutions work.</p>
+<h3 id="e2-the-tuesday-decision-and-the-narrowing-of-the-experimental-field">The Tuesday decision and the narrowing of the experimental field</h3>
+<p>The chronology should establish, precisely, what happened at the Complex Case Meeting and what influence senior discussion had on therapy. [DEPT — verify date, attendees and source wording]</p>
+<p>The record clearly shows that “the greatest of care” was advised with a senior consultant and neurological colleagues regarding future levodopa / dopamine-agonist treatment, with a strategy of avoiding those agents for as long as possible because of the patient's very young age and concerns about dyskinesia and impulse-control complications. [DOC]</p>
+<p>This section must not mutate into an allegation that levodopa was mandatory in July 2017.</p>
+<p>There were legitimate strategic reasons for caution in a very young patient.</p>
+<p>The significance is different.</p>
+<p>Once an obvious dopaminergic challenge is deferred, <strong>observation becomes more important</strong>. The service is electing to preserve a relatively untreated motor state while trying other symptomatic approaches. That makes the existing phenotype unusually valuable as a baseline.</p>
+<p>The treatment decision narrows one experimental route while increasing the value of another: watch closely.</p>
+<p>Watch the gait.</p>
+<p>Watch the posture.</p>
+<p>Watch the feet.</p>
+<p>Watch what the alternative therapy changes.</p>
+<p>Preserve what can still be seen before medication transforms it.</p>
+<h3 id="e2-what-the-record-saw">What the record saw</h3>
+<p>The record does see.</p>
+<p>This distinction is essential.</p>
+<p>The gait is videoed.</p>
+<p>The pseudo-footdrop is described.</p>
+<p>The possibility of dystonic posture is expressly raised.</p>
+<p>Pes planus and hammertoes are noted.</p>
+<p>The patient supplies the history of corns, calluses and foot treatment.</p>
+<p>The DAT request itself says the walk is almost dystonically unusual. [DOC]</p>
+<p>So this is not a story about a sign being completely invisible.</p>
+<p>It is a story about a sign being <strong>seen, named, used diagnostically — and then not carried through into the synthesis of the painful foot problem</strong>.</p>
+<p>That is much stronger.</p>
+<blockquote>
+<p><strong>The sign was not missed. It was seen. It was neurologically characterised. It was useful enough to appear in the diagnostic imagination. Then, when the feet themselves required synthesis, the line went dead.</strong></p>
+</blockquote>
+<h3 id="e2-expertise-enters-the-document">Expertise enters the document</h3>
+<p>Now examine the DisSynth as an object.</p>
+<p>It knows a lot.</p>
+<p>It knows the thirteen-year possibility.</p>
+<p>It knows the unusual phenotype.</p>
+<p>It knows autosomal-recessive Parkinsonism.</p>
+<p>It knows PRKN/PARK2.</p>
+<p>It knows GBA / Gaucher possibilities.</p>
+<p>It knows long-term treatment hazards in very young patients.</p>
+<p>It knows enough to discuss future whole-genome or whole-exome analysis.</p>
+<p>It knows enough to say prognosis may depend on genetic form.</p>
+<p>It knows enough to describe the patient as unusually intelligent, cognitively excellent and capable of sophisticated engagement.</p>
+<p>It knows enough to contemplate clinical trials and referral to colleagues in Dublin or the UK. [DOC]</p>
+<p>And it tells us explicitly that the case has passed through more minds than one. It was discussed at the Neurology Complex Case Meeting. Senior consultant and colleague advice informed the treatment strategy. [DEPT]</p>
+<p>Therefore, the serious hypothesis is not that one neurologist somehow invented all this sophistication alone.</p>
+<p>The serious hypothesis is that <strong>departmental expertise uplifted the case theoretically</strong>.</p>
+<p>That is ordinary medicine. Colleagues talk. Seniors advise. Cases are presented. A treating doctor learns from the room.</p>
+<p>The problem appears one step later.</p>
+<p>Where is the return loop?</p>
+<p>The ideal process is:</p>
+<p><strong>observe → formulate → consult expertise → return to patient → test improved formulation → revise</strong></p>
+<p>The process suggested by the record may instead have been:</p>
+<p><strong>observe → formulate → consult expertise → improve theoretical synthesis → discharge</strong></p>
+<p>That is the missing bridge.</p>
+<blockquote>
+<p><strong>The expertise may have entered the document without entering the room.</strong></p>
+</blockquote>
+<p>More precisely: relevant expertise may have entered the <em>interpretation</em> of the case without being brought back to the unresolved foot–gait–pain relationship at the bedside.</p>
+<p>This is the hypothesis to test, not a fact to assume.</p>
+<p>Who contributed to the final synthesis?</p>
+<p>Who supplied the PRKN reasoning?</p>
+<p>Who shaped the long-term treatment caution?</p>
+<p>Who attended the Complex Case Meeting?</p>
+<p>Who actually re-examined the patient afterward?</p>
+<p>Did anybody with movement-disorders expertise look at the feet dynamically?</p>
+<p>Did anybody examine the soles?</p>
+<p>Did anybody ask whether the callus pattern and painful sites corresponded to the abnormal gait?</p>
+<p>Did anyone distinguish fixed deformity from dystonic posture?</p>
+<p>Did the theoretical sophistication ever return to the body that generated it?</p>
+<p>[OPEN — build contributor map from notes, rosters, correspondence, meeting records, drafts, dictation / transcription metadata if obtainable]</p>
+<h3 id="e2-two-patients-in-one-document">Two patients in one document</h3>
+<p>The DisSynth begins to look as though it contains two versions of the same man.</p>
+<p>There is the <strong>observed patient</strong>.</p>
+<p>He is grossly rigid. Bradykinetic. His walk is bizarre. One leg kicks out with a pseudo-footdrop appearance. His feet are structurally abnormal. He has a long bodily history.</p>
+<p>Then there is the <strong>theoretical patient</strong>.</p>
+<p>He may have young-onset idiopathic Parkinson's disease. Or a recessive form. PRKN is considered. GBA is considered. Atypical syndromes are considered. Therapeutic sensitivity is considered. Future genomics is considered.</p>
+<p>The theoretical patient becomes increasingly sophisticated.</p>
+<p>Then the document reaches the feet.</p>
+<p>Perhaps separate.</p>
+<p>Perhaps peripheral neuropathy.</p>
+<p>Not clear.</p>
+<p>Podiatry.</p>
+<p>The contrast is startling.</p>
+<blockquote>
+<p><strong>The document knew the patient theoretically better than the documented investigation had established him physically.</strong></p>
+</blockquote>
+<p>This is what it means to say the DisSynth “betrays” its own process.</p>
+<p>Not because the sophisticated material is false.</p>
+<p>Because its sophistication creates an expectation of equivalent depth in the unresolved domains.</p>
+<p>The more comprehensive the synthesis appears, the more important it becomes to ask what work earned each conclusion.</p>
+<p>“Synthetic completeness” is not the same as “evidential completeness.”</p>
+<p>A long letter can make uncertainty look investigated merely by placing it inside an impressive field of investigated things.</p>
+<h3 id="e2-the-patient-detects-the-seam">The patient detects the seam</h3>
+<p>Then comes the Protest.</p>
+<p>The patient may not possess the vocabulary of phenotypic integration, dystonic biomechanics, information states or clinical epistemology.</p>
+<p>He does not need it.</p>
+<p>He knows the seam because he lives inside it.</p>
+<p>The hospital has explained the engine.</p>
+<p>The tyres are still bald.</p>
+<p>The Protest is therefore not an awkward consumer complaint about service satisfaction.</p>
+<p>It is <strong>diagnostic feedback</strong>.</p>
+<p>The patient is telling the system that its model has failed a reality check.</p>
+<p>This is especially striking because the DisSynth itself describes him as highly intelligent and “prescient,” able to say when information is overwhelming him. [DOC]</p>
+<p>The same patient whose cognitive sophistication is celebrated in the document uses that sophistication to identify a hole in the admission.</p>
+<p>And that hole is not carried into the finished account.</p>
+<h3 id="e2-the-two-futures">The two futures</h3>
+<p>At the Protest, two futures still exist.</p>
+<h4 id="e2-future-a-reopen">Future A: Reopen</h4>
+<p>The response could have been:</p>
+<p><em>You're right. We have diagnosed the Parkinsonian syndrome, but we have not properly answered the relationship between your neurological gait and the painful abnormal feet. Let's look again.</em></p>
+<p>Then:</p>
+<ul>
+<li>repeat examination;</li>
+<li>shoes and socks off;</li>
+<li>plantar surface documented;</li>
+<li>dynamic gait re-examined with the painful area in mind;</li>
+<li>movement-disorders expertise brought to bedside;</li>
+<li>Podiatry asked a defined biomechanical / neurological question;</li>
+<li>baseline images or video preserved;</li>
+<li>uncertainty explicitly carried as an active problem;</li>
+<li>planned review of foot state after procyclidine;</li>
+<li>later dechallenge treated as information;</li>
+<li>longitudinal follow-up integrated.</li>
+</ul>
+<p>This path guarantees no answer.</p>
+<p>That is important.</p>
+<p>The defence against the manuscript cannot be: <em>perhaps they still would not have known.</em></p>
+<p>Of course perhaps they would not have known.</p>
+<p>Science is allowed to remain uncertain.</p>
+<p>The missed opportunity is not certainty.</p>
+<p>It is <strong>structured curiosity</strong>.</p>
+<h4 id="e2-future-b-leave-it-at-that">Future B: Leave it at that</h4>
+<p>The admission remains conceptually complete.</p>
+<p>Parkinsonism is the centre.</p>
+<p>The feet may be separate.</p>
+<p>Neuropathy is possible.</p>
+<p>Not clear.</p>
+<p>Podiatry.</p>
+<p>Discharge.</p>
+<p>The unresolved relationship is no longer a question the neurological service owns.</p>
+<p>That is the fork.</p>
+<h3 id="e2-the-omitted-protest">The omitted Protest</h3>
+<p>The distinction from “omitted process” must be explicit.</p>
+<p>The omission is <strong>the Protest itself</strong>.</p>
+<p>The finished synthesis records an extraordinary amount about the patient's opinions, uncertainties, fears, intelligence, treatment preferences and understanding.</p>
+<p>It records the feet.</p>
+<p>It records Podiatry.</p>
+<p>It records uncertainty.</p>
+<p>But on the current record, it does not preserve the patient's end-of-admission challenge that the feet had not actually been dealt with. [PATIENT + OPEN — verify every discharge / clinic-letter version]</p>
+<p>That omission changes the information state exported to everyone else.</p>
+<p>There is an enormous difference between:</p>
+<p><strong>Feet remain unclear; Podiatry referral arranged.</strong></p>
+<p>and:</p>
+<p><strong>Feet remain unclear; patient has specifically objected before discharge that this principal presenting problem has not been dealt with.</strong></p>
+<p>The first sounds like managed uncertainty.</p>
+<p>The second sounds like contested closure.</p>
+<p>The first invites continuation.</p>
+<p>The second should invite reconsideration.</p>
+<blockquote>
+<p><strong>The first separation was clinical: the feet from the phenotype. The second was informational: later clinicians from the fact that the patient had challenged that separation before it hardened.</strong></p>
+</blockquote>
+<h3 id="e2-the-professional-discomfort-of-reopening">The professional discomfort of reopening</h3>
+<p>This is where embarrassment can be discussed without alleging motive.</p>
+<p>Suppose the Protest had produced a proper movement-disorders re-examination and that examination had found an obvious dynamic relationship between dystonia, loading and painful plantar pathology.</p>
+<p>What would that mean?</p>
+<p>It would not merely add a new fact.</p>
+<p>It could expose that the institution had spent days performing sophisticated imaging, genetics and long-term treatment reasoning while under-investigating the patient's most disabling presenting complaint.</p>
+<p>That is professionally uncomfortable.</p>
+<p>The discomfort becomes greater in proportion to the expertise of the environment.</p>
+<p>A university hospital with relevant dystonia, gait and young-onset Parkinsonism expertise has more intellectual capital at stake than a service with no such specialist tradition.</p>
+<p>Again: no motive need be alleged.</p>
+<p>The point is simply that, by the end of an admission, reopening can carry a cost that was not present at the beginning.</p>
+<blockquote>
+<p><strong>Embarrassment becomes structurally possible when the missing observation threatens the finishedness of an impressive explanation.</strong></p>
+</blockquote>
+<h3 id="e2-the-door-closes">The door closes</h3>
+<p>Part II should end quietly.</p>
+<p>Do not end with accusation.</p>
+<p>End with loss.</p>
+<p>The patient is discharged.</p>
+<p>The raw phenomenon remains in his body.</p>
+<p>The Protest does not travel with the formal account.</p>
+<p>The uncertainty does travel — but as “Not clear,” not as a disputed and still-open failure of integration.</p>
+<p>The institution has not solved the feet.</p>
+<p>It has done something more consequential.</p>
+<p>It has decided how future clinicians will first encounter them.</p>
+<blockquote>
+<p><strong>The door was still open. The patient pointed to it. Then it closed.</strong></p>
+</blockquote>
+<hr/>
+</article>
+        <div class="essay-end"><button class="read-full ghost" data-open-reader="2">Read this essay as pages</button></div>
+      </div>
+    </details>
+
+    <details class="essay-card" id="essay-3" data-essay="3">
+      <summary>
+        <span class="essay-kicker">INSTALLMENT III</span>
+        <span class="essay-title">THE PATIENT LEAVES; THE SYNTHESIS STAYS</span>
+        <span class="essay-subtitle">How one unresolved choice becomes an information architecture</span>
+        <span class="essay-toggle" aria-hidden="true">+</span>
+      </summary>
+      <div class="essay-shell">
+        <div class="essay-toolbar"><button class="read-full" data-open-reader="3">Read full screen <span>→</span></button></div>
+        <article class="prose essay-body" data-essay-body="3">
+<h2 id="e3-how-one-unresolved-choice-becomes-an-information-architecture">How one unresolved choice becomes an information architecture</h2>
+<p>A human being can leave a ward in a taxi.</p>
+<p>A synthesis can keep moving for years.</p>
+<p>That is the opening image of Part III.</p>
+<p>The patient goes home with the same feet, the same soles, the same long natural history and a body now entering treatment. The hospital keeps the document. The GP receives the document. Nurses, podiatrists, later neurologists and anyone reviewing the historical case are more likely to meet the <strong>synthesised patient</strong> before they meet the raw July 2017 problem.</p>
+<p>This is where “leave it at that” becomes larger than the discharge conversation.</p>
+<p>It becomes infrastructure.</p>
+<h3 id="e3-the-portable-patient">The portable patient</h3>
+<p>The July synthesis is unusually comprehensive. It is designed to consolidate discussion, explain the diagnosis and plan, and carry information outward. That is normally a virtue.</p>
+<p>But the more authoritative a summary becomes, the more consequential its omissions and partitions become.</p>
+<p>A later clinician does not usually begin by reconstructing the GP referral from scratch, re-reading every inpatient observation and interviewing the patient as if nobody has ever met him.</p>
+<p>They begin with the inherited account.</p>
+<p>Young-onset Parkinson's disease.</p>
+<p>Atypical features.</p>
+<p>Possible recessive genetics.</p>
+<p>Long-term treatment strategy.</p>
+<p>Feet: possibly separate / possible neuropathic element / Podiatry / not clear.</p>
+<p>The document therefore becomes a kind of <strong>portable information state</strong>.</p>
+<p>It does not merely report the patient.</p>
+<p>It pre-classifies him.</p>
+<blockquote>
+<p><strong>The raw phenotype cannot travel easily between clinicians. The synthesis can.</strong></p>
+</blockquote>
+<p>That distinction will matter for every later observation.</p>
+<h3 id="e3-the-expertise-problem-changes-shape">The expertise problem changes shape</h3>
+<p>Patrick Browne belongs here, but with evidential discipline.</p>
+<p>The working account is that Browne, whose professional role and publications place him squarely in the relevant movement-disorders environment, was away during the inpatient admission. [PATIENT / OPEN — documentary confirmation required]</p>
+<p>The further working belief is that when he later encountered the case, he did so through essentially the same information state available to the GP: the completed synthesis rather than the unresolved raw admission. [PATIENT / OPEN — establish from correspondence and records]</p>
+<p>If that is substantiated, the missed opportunity becomes almost perfectly clear.</p>
+<p>The question is no longer:</p>
+<p><strong>Why did Patrick Browne fail to recognise the phenomenon?</strong></p>
+<p>It is:</p>
+<blockquote>
+<p><strong>Why did the patient never reach the relevant expertise in the information state in which that expertise could have mattered most?</strong></p>
+</blockquote>
+<p>Those are entirely different propositions.</p>
+<p>An expert asked to see:</p>
+<p><em>39-year-old, thirteen-year evolution, dystonic-looking gait, painful abnormal feet, unclear relationship — please examine before we close this</em></p>
+<p>is being invited to discover.</p>
+<p>An expert later handed:</p>
+<p><em>young-onset Parkinson's; feet separately referred; relationship not clear</em></p>
+<p>is being invited to manage.</p>
+<p>The first question opens the case.</p>
+<p>The second begins inside the answer.</p>
+<blockquote>
+<p><strong>By the time some expertise becomes available, the dinosaur may already have been converted into a discharge summary.</strong></p>
+</blockquote>
+<h3 id="e3-procyclidine-the-body-begins-answering">Procyclidine: the body begins answering</h3>
+<p>Now treatment enters.</p>
+<p>This is where the manuscript should become almost cinematic because the core idea is so simple.</p>
+<p>The hospital did not design a prospective foot experiment.</p>
+<p>The body did.</p>
+<p>Procyclidine is introduced.</p>
+<p>The patient's movement improves. His lived experience changes. The feet change with it. [RX — insert precise 2017 patient reports]</p>
+<p>The patient has every reason to feel reassured.</p>
+<p>He has been told he has Parkinson's disease. He has been given neurological medication. He feels better. The new framework appears to work.</p>
+<p>That is the human asymmetry at the centre of the story:</p>
+<blockquote>
+<p><strong>The treatment response reassures the patient at exactly the same time that it should increase professional curiosity about the disputed boundary.</strong></p>
+</blockquote>
+<p>The patient does not need to infer mechanism. He has specialists for that.</p>
+<p>He reports what happens.</p>
+<p>They are the people responsible for deciding what it means.</p>
+<h3 id="e3-the-dechallenge">The dechallenge</h3>
+<p>Then comes one of the most important later observations.</p>
+<p>In October 2017, during a planned break from procyclidine, the patient's own email reports that the walk begins to fall apart again and the feet become restless as tension builds. [RX — insert exact email]</p>
+<p>By April 2018, the treating neurologist records that when procyclidine had been stopped for two weeks, <strong>the first thing noticed changing rapidly was the return of the outside-left-foot corn phenomenon</strong>. [RX — insert exact contemporaneous wording]</p>
+<p>Handle this scientifically.</p>
+<p>Do not write that an established structural corn literally vanished and reappeared pharmacologically. Hyperkeratotic lesions do not dematerialise on command.</p>
+<p>The observation requires interpretation.</p>
+<p>What exactly returned rapidly?</p>
+<p>Pain?</p>
+<p>Pressure?</p>
+<p>Awareness of the lesion?</p>
+<p>A loading pattern?</p>
+<p>Dystonic posture changing the local mechanical stress?</p>
+<p>The point is not that 2018 proves one mechanism.</p>
+<p>The point is that a neurological medication withdrawal produced a rapid, focal event at the very foot territory that had been left “Not clear.”</p>
+<p>That should have been scientifically delicious.</p>
+<p>The body had crossed the conceptual border the document had drawn.</p>
+<blockquote>
+<p><strong>The body reopened the 2017 question pharmacologically. The formulation did not reopen with it.</strong></p>
+</blockquote>
+<p>This is the moment to explain why a patient can live through such evidence without recognising its full significance.</p>
+<p>He experiences the phenomenon directly.</p>
+<p>But meaning is outsourced.</p>
+<p>He has been told what kind of patient he is. He trusts the framework. When the tablets work, he experiences relief rather than epistemological alarm.</p>
+<blockquote>
+<p><strong>A person can experience the evidence and still defer its meaning to the people who hold the model.</strong></p>
+</blockquote>
+<p>That sentence is essential to understanding the later psychological story.</p>
+<h3 id="e3-podiatry-a-second-archive-of-the-same-body">Podiatry: a second archive of the same body</h3>
+<p>Now follow the feet through another service.</p>
+<p>This is not a story in which Podiatry is irrelevant or mistaken. Podiatric treatment appears to have identified and treated genuine structural pathology repeatedly.</p>
+<p>That is precisely why the records matter.</p>
+<p>Across 2017–2019, the later foot record should be reconstructed in exact anatomical sequence: clawing / hammertoes, pressure areas, recurrent focal hyperkeratotic lesions, left fifth-MTPJ involvement, debridement or enucleation, insoles, offloading and pronation where documented. [POD — build table]</p>
+<p>The language must remain careful about the early natural history.</p>
+<p>Do not say “the left fifth MTPJ lesion existed since 2004” unless an early source anatomically fixes that site.</p>
+<p>Use:</p>
+<blockquote>
+<p><strong>A longstanding left-lateral-foot phenomenon, present from the early natural history, was later anatomically resolved by Podiatry into recurrent focal fifth-MTPJ pathology.</strong></p>
+</blockquote>
+<p>That is stronger because it is accurate.</p>
+<p>The bigger question is why the two archives never fully merge.</p>
+<p>Neurology has the dystonic-looking limb.</p>
+<p>Podiatry has the repeated load-bearing lesion.</p>
+<p>The patient has the pain.</p>
+<p>Medication has the perturbation.</p>
+<p>The relationship sits between services.</p>
+<blockquote>
+<p><strong>Motor state, foot symptoms, gait and mechanical foot treatment are all present in the longitudinal record. What is missing is the sentence joining them.</strong></p>
+</blockquote>
+<h3 id="e3-2019-the-gp-casually-rebuilds-the-bridge">2019: the GP casually rebuilds the bridge</h3>
+<p>A later GP referral contains one of those lines that can look ordinary until placed beside the original partition.</p>
+<p>The patient had been seen by Podiatry for foot issues “in relating to increased tone and abnormal gait relating to Parkinson's disease,” and the foot pain/problem had returned. [GP — insert exact record]</p>
+<p>The generalist has, in ordinary language, recombined the domains.</p>
+<p>Feet.</p>
+<p>Tone.</p>
+<p>Abnormal gait.</p>
+<p>Parkinson's.</p>
+<p>One sentence.</p>
+<p>This is important because the later record should not caricature primary care as believing for years that the feet were wholly unrelated. The GP may have perceived a connection while reasonably deferring specialist interpretation to Neurology.</p>
+<p>The system problem is subtler.</p>
+<p>Different people can hold different pieces of the truth without anyone owning the <strong>relationship</strong>.</p>
+<h3 id="e3-the-dinosaur-disappears-without-leaving-galway">The dinosaur disappears without leaving Galway</h3>
+<p>This is the great middle passage of the entire work.</p>
+<p>The patient never physically disappears.</p>
+<p>He lives in the same town as the hospital.</p>
+<p>He remains available.</p>
+<p>He attends.</p>
+<p>He phones.</p>
+<p>He reports.</p>
+<p>His feet keep changing.</p>
+<p>His medications keep changing.</p>
+<p>His life keeps generating evidence.</p>
+<p>And yet the extraordinary 2017 scientific object can disappear institutionally.</p>
+<p>How?</p>
+<p>Not by concealment.</p>
+<p>By ordinary categorisation.</p>
+<p>The extraordinary phenotype becomes “Parkinson's disease.”</p>
+<p>The painful feet become “Podiatry.”</p>
+<p>The burning becomes “neuropathic pain.”</p>
+<p>The movement variability becomes “OFF.”</p>
+<p>The toe curling becomes “dystonia.”</p>
+<p>The recurrent lesion becomes “corn/callus.”</p>
+<p>Each category can be locally correct.</p>
+<p>The catastrophe is that the <strong>whole</strong> becomes nobody's object.</p>
+<blockquote>
+<p><strong>Nobody has to put the dinosaur in a cupboard. They only have to put labels on its individual bones.</strong></p>
+</blockquote>
+<p>That is the epistemic disappearance.</p>
+<p>The patient remains visible.</p>
+<p>The case vanishes.</p>
+<h3 id="e3-the-life-must-stay-in-frame">The life must stay in frame</h3>
+<p>This manuscript cannot become a clever essay about information theory while losing the man whose life was being spent.</p>
+<p>The years between 2018 and 2023 need scenes.</p>
+<p>Not every clinic appointment.</p>
+<p>Scenes.</p>
+<p>Work.</p>
+<p>Home.</p>
+<p>Walking.</p>
+<p>The dog.</p>
+<p>The chair.</p>
+<p>The shrinking radius of ordinary life.</p>
+<p>The relief that neurological treatment does provide.</p>
+<p>The exhilaration of function returning enough to walk for hours with a dog after levodopa eventually enters the treatment picture in 2021. [LIFE + DOC — nail chronology]</p>
+<p>This is essential because the tragedy is not that neurological treatment never worked.</p>
+<p>The tragedy is that it worked <strong>well enough to restore a life while an unresolved foot component remained capable of progressively constraining that restored life</strong>.</p>
+<p>That makes the later collapse more painful.</p>
+<p>The reader should see possibility returning.</p>
+<p>A dog.</p>
+<p>Long walks.</p>
+<p>A future.</p>
+<p>Then the feet begin charging rent again.</p>
+<p>By 2022, the patient reports that his feet can take twenty or twenty-five minutes to “warm up” in the morning and remain sore with corns and calluses. [DOC — insert exact note]</p>
+<p>Do not interpret “warm up” literally as temperature. Treat it phenomenologically: how long before the feet become usable, comfortable or mobile enough to enter the day?</p>
+<p>The body is still speaking.</p>
+<h3 id="e3-what-was-lost-scientifically">What was lost scientifically</h3>
+<p>Now return to the university opportunity, but from the future looking backward.</p>
+<p>Imagine the dataset that could have existed.</p>
+<p>A carefully documented pretreatment plantar and gait baseline in July 2017.</p>
+<p>Video under defined conditions.</p>
+<p>Dynamic toe posture.</p>
+<p>Pain map.</p>
+<p>Pressure map.</p>
+<p>Podiatric structural map.</p>
+<p>Procyclidine introduction.</p>
+<p>Planned withdrawal.</p>
+<p>Repeat gait and foot exam.</p>
+<p>Long-term structural progression.</p>
+<p>Levodopa introduction.</p>
+<p>OFF / ON comparison.</p>
+<p>Pain comparison.</p>
+<p>Toe-curling comparison.</p>
+<p>Functional walking history.</p>
+<p>The patient is local and cognitively able to report subtle state changes.</p>
+<p>He is interested in clinical trials.</p>
+<p>His body continues generating exactly the perturbations an academic observer would want.</p>
+<p>And yet the clean untreated baseline is gone forever.</p>
+<p>Medication changes the site.</p>
+<p>Time changes the site.</p>
+<p>Structural pathology accumulates.</p>
+<p>Pain processing changes.</p>
+<p>Behaviour changes.</p>
+<p>The person adapts.</p>
+<p>You can refer a patient later.</p>
+<p>You cannot recreate July 2017.</p>
+<blockquote>
+<p><strong>That specimen existed once. Galway had it.</strong></p>
+</blockquote>
+<p>This is the true scale of the missed opportunity.</p>
+<h3 id="e3-leave-it-at-that-as-an-epistemic-ratchet">“Leave it at that” as an epistemic ratchet</h3>
+<p>The ending of Part III should explain why one early partition can survive later contradictory observations without anyone needing to consciously defend it.</p>
+<p>The original synthesis does not merely describe evidence.</p>
+<p>It establishes the categories by which future evidence will be priced.</p>
+<p>If the case remains open, a medication-linked foot change is potentially revolutionary.</p>
+<p>If the case is closed, it can become one more symptom in a complicated patient.</p>
+<p>If the foot is still an unresolved part of the phenotype, recurrent focal pathology may force integration.</p>
+<p>If the foot already belongs to Podiatry, it remains structural.</p>
+<p>If the relationship is still alive, OFF-related pain is a clue.</p>
+<p>If the relationship is already partitioned, OFF pain can be appended without reconstructing the beginning.</p>
+<p>Thus:</p>
+<blockquote>
+<p><strong>The first synthesis prices the evidential value of everything that comes after it.</strong></p>
+</blockquote>
+<p>That is the ratchet.</p>
+<p>Not conspiracy.</p>
+<p>Not dishonesty.</p>
+<p>Institutional continuity.</p>
+<p>The body keeps conducting the study.</p>
+<p>The system keeps filing the results.</p>
+<blockquote>
+<p><strong>“Leave it at that” did not stop information. It determined the compartments into which future information would be allowed to fall.</strong></p>
+</blockquote>
+<hr/>
+</article>
+        <div class="essay-end"><button class="read-full ghost" data-open-reader="3">Read this essay as pages</button></div>
+      </div>
+    </details>
+
+    <details class="essay-card" id="essay-4" data-essay="4">
+      <summary>
+        <span class="essay-kicker">INSTALLMENT IV</span>
+        <span class="essay-title">THE SECOND CLOSURE</span>
+        <span class="essay-subtitle">When the body has spent eight years answering</span>
+        <span class="essay-toggle" aria-hidden="true">+</span>
+      </summary>
+      <div class="essay-shell">
+        <div class="essay-toolbar"><button class="read-full" data-open-reader="4">Read full screen <span>→</span></button></div>
+        <article class="prose essay-body" data-essay-body="4">
+<h2 id="e4-when-the-body-has-spent-eight-years-answering">When the body has spent eight years answering</h2>
+<p>The fourth instalment should begin with a cruel inversion.</p>
+<p>In 2017, the department worried about the patient's future.</p>
+<p>It worried about dyskinesia. It worried about impulse-control complications. It worried about the consequences of starting conventional dopaminergic therapy too early in a very young man. It explicitly framed delay as part of a strategy to protect the <strong>best possible long-term outcome</strong>, while acknowledging that one day the service might even regret not starting levodopa earlier. [DOC]</p>
+<p>The future mattered.</p>
+<p>That is important.</p>
+<p>Because the eventual story is not that nobody cared what happened to the patient. The record shows thought, counselling, caution and long-range therapeutic concern.</p>
+<p>The tragedy is harder than indifference.</p>
+<p>The service could imagine the future consequences of treatment while failing to preserve one unresolved present-tense relationship that would become central to the patient's future life.</p>
+<h3 id="e4-levodopa-and-the-return-of-ordinary-life">Levodopa and the return of ordinary life</h3>
+<p>When levodopa eventually enters years later, the narrative must stay human.</p>
+<p>Do not reduce this to another pharmacological data point.</p>
+<p>Show what treatment buys.</p>
+<p>Movement.</p>
+<p>A dog.</p>
+<p>Hours of walking.</p>
+<p>A larger radius of life.</p>
+<p>The possibility that the person inside the disease is still intact and waiting for usable movement.</p>
+<p>This is where the line from <em>The Unshared Manifold</em> belongs in spirit: the body narrows while the mind remains vivid. [LIFE — source exact passage where used]</p>
+<p>The reader needs to understand that the patient is not simply accumulating complaints over eight years. He is repeatedly trying to rebuild a life out of whatever function treatment gives him.</p>
+<p>That is why the feet matter so much.</p>
+<p>They are not a side symptom in a case about Parkinson's disease.</p>
+<p>They become the bottleneck through which recovered neurological function must pass.</p>
+<p>A medication may give the legs more motor possibility, but life still has to be carried through the feet.</p>
+<p>Walking the dog is not merely a functional outcome measure.</p>
+<p>It is a life returning.</p>
+<p>Standing to throw darts is not merely weight-bearing tolerance.</p>
+<p>It is leisure, identity, concentration, competition, social time.</p>
+<p>Pumping tyres is not a clinical test.</p>
+<p>It is an ordinary task that later becomes enough to curl the toes.</p>
+<p>The manuscript should repeatedly translate clinical phenomena back into the things they remove from a life.</p>
+<h3 id="e4-2023-the-unresolved-problem-becomes-a-safety-event">2023: the unresolved problem becomes a safety event</h3>
+<p>Then the tone changes.</p>
+<p>By March 2023, the record no longer permits anybody to describe the feet as merely inconvenient.</p>
+<p>The GP makes an urgent referral describing severe bilateral burning in the feet and lower legs. The pain is reported as extreme at times and <strong>causing a death wish</strong>. The patient has escalated pregabalin from a low starting dose to a very high daily dose in pursuit of control. The GP writes: <strong>“I am worried about him”</strong> and, despite the patient's facade, does not think he is doing well; she asks for review <strong>“before we get into trouble here.”</strong> [SAFEGUARD / GP]</p>
+<p>The following day, the Parkinson's nurse reports ongoing bilateral foot/leg pain despite 600 mg/day of pregabalin, describing it as <strong>debilitating</strong> and saying the patient has <strong>no quality of life</strong>, worsening over months. [SAFEGUARD / DOC]</p>
+<p>These lines should not be buried in a chronology.</p>
+<p>They are a threshold.</p>
+<p>The problem that once sat at the edge of the 2017 neurological formulation has now become capable of overwhelming the patient's desire to remain alive inside his present condition.</p>
+<p>That is not merely “pain management.”</p>
+<p>That is a safeguarding moment.</p>
+<p>And this is where the working document must ask a second, separate question from the original diagnostic one:</p>
+<blockquote>
+<p><strong>What happened when the unresolved pain became psychologically dangerous?</strong></p>
+</blockquote>
+<p>Do not jump ahead of the evidence.</p>
+<p>The current source set establishes that the risk signal existed: “death wish,” GP worry, facade, urgent review, debilitating pain, no quality of life. [DOC]</p>
+<p>The manuscript must now map the response with the same forensic seriousness applied to the 2017 feet:</p>
+<ul>
+<li>Was there a documented suicide-risk assessment?</li>
+<li>Was the meaning of “death wish” clarified?</li>
+<li>Was there same-day or urgent direct contact by a doctor?</li>
+<li>Was emergency / crisis advice given?</li>
+<li>Was liaison psychiatry or mental-health assessment considered?</li>
+<li>Was a family member or support person involved with consent?</li>
+<li>Was there a documented safety plan?</li>
+<li>Was access to large quantities of medication considered in the risk picture?</li>
+<li>Was follow-up explicitly timed and owned?</li>
+<li>Was the GP told what safeguarding response had occurred?</li>
+<li>Was there a multidisciplinary discussion focused not simply on mechanism of pain but on immediate psychological safety?</li>
+</ul>
+<p><strong>[SAFEGUARD — build a date-by-date response map before asserting absence.]</strong></p>
+<p>The working thesis is not “the hospital ignored suicidality” unless the records ultimately justify that sentence.</p>
+<p>The stronger and safer formulation is:</p>
+<blockquote>
+<p><strong>The available record contains an unmistakable psychological-safety signal. The manuscript must establish what safeguarding response, if any, followed it. If no structured response is documented, that absence belongs at the centre of the story rather than in a footnote.</strong></p>
+</blockquote>
+<p>This is where the original choice and the later safety question finally touch.</p>
+<p>Not by simplistic causation.</p>
+<p>Nobody should write: <em>the 2017 Protest was ignored, therefore the 2023 death wish occurred.</em></p>
+<p>Human pain, Parkinson's disease, structural foot pathology, neuropathic mechanisms, medication states and psychological distress are too complex for that shortcut.</p>
+<p>The more serious proposition is longitudinal:</p>
+<p>An unresolved problem was partitioned.</p>
+<p>The patient then lived for years inside fragmented explanations and fragmented management.</p>
+<p>The same territory repeatedly generated new information.</p>
+<p>The burden grew.</p>
+<p>By 2023, whatever the exact mechanism, the patient was reporting distress at a level that triggered a clear safety signal.</p>
+<p>At that point, an institution had a duty of curiosity of a different kind:</p>
+<p>not simply <strong>what causes the pain?</strong></p>
+<p>but also:</p>
+<p><strong>how close is this man to being unable to endure it?</strong></p>
+<h3 id="e4-the-facade">The facade</h3>
+<p>The GP's word “facade” deserves careful attention.</p>
+<p>It reaches back to Part I.</p>
+<p>Resilience had always been double-edged.</p>
+<p>The same capacity that allowed the patient to work, cycle, joke, reason, adapt and survive could make severity easy to underestimate.</p>
+<p>In 2017, function could obscure the physiological cost of movement.</p>
+<p>In 2023, composure could obscure the psychological cost of pain.</p>
+<p>That creates one of the deepest continuities in the entire piece:</p>
+<blockquote>
+<p><strong>The patient was repeatedly in danger of being mistaken for how well he could carry what was happening to him.</strong></p>
+</blockquote>
+<p>The body had done this once.</p>
+<p>The mind could do it again.</p>
+<p>A highly articulate patient can describe extreme distress in controlled language.</p>
+<p>A resilient patient can remain conversational while approaching the limits of endurance.</p>
+<p>A person who has survived thirteen years of progressive abnormality may be exactly the person whose crisis is most easily underestimated because he has become expert at functioning inside catastrophe.</p>
+<p>This is why the safeguarding chapter cannot be detached from the life chapter.</p>
+<p>His resilience is not inspirational decoration.</p>
+<p>It is clinically dangerous camouflage.</p>
+<h3 id="e4-neurology-begins-to-cross-the-old-boundary">Neurology begins to cross the old boundary</h3>
+<p>The later neurological record appears, importantly, to become more sophisticated about the pain relationship.</p>
+<p>This must be acknowledged fairly.</p>
+<p>There are later considerations of clawing, possible OFF dystonia, Parkinsonian OFF states amplifying pain, evening worsening and medication-state relationships. Later records associate shuffling and leg pain with OFF periods. [DOC — insert exact sequence]</p>
+<p>This matters because the manuscript should never pretend that nobody ever rethought anything.</p>
+<p>They did.</p>
+<p>The sharper point is that <strong>local reinterpretation is not the same as global reconstruction</strong>.</p>
+<p>A later clinician can reasonably say:</p>
+<p><em>This episode may be OFF-related.</em></p>
+<p><em>That toe curling may be dystonia.</em></p>
+<p><em>This focal corn still needs mechanical treatment.</em></p>
+<p><em>Pregabalin is helping one component.</em></p>
+<p>All of those statements can be true.</p>
+<p>The missing act is to turn around and ask:</p>
+<blockquote>
+<p><strong>If these things are now crossing neurological, mechanical and pain boundaries, what exactly did the original 2017 separation mean — and should the longitudinal case be reconstructed from the beginning?</strong></p>
+</blockquote>
+<p>That is the distinction between <strong>updating</strong> and <strong>rebuilding</strong>.</p>
+<p>The record appears to contain updating.</p>
+<p>The manuscript asks whether it ever contains rebuilding.</p>
+<h3 id="e4-2024-a-life-lived-within-his-boundaries">2024: a life lived “within his boundaries”</h3>
+<p>Now shrink the camera aperture again.</p>
+<p>By 2024, the clinical language includes the idea that the patient is living within his boundaries. [DOC — insert exact note]</p>
+<p>Make the reader feel what that means.</p>
+<p>Seven minutes pumping tyres, then toe curling. [DOC]</p>
+<p>Darts reduced from hours a day to a fraction of that because standing hurts the feet. [DOC / LIFE]</p>
+<p>Pregabalin can remove or reduce pain while toe curling remains. [RX]</p>
+<p>The point is not simply symptom burden.</p>
+<p>It is the re-engineering of a life around avoidance.</p>
+<p>You stop doing the thing before the body stops you.</p>
+<p>You stand less.</p>
+<p>Walk less.</p>
+<p>Plan around medication.</p>
+<p>Plan around pain.</p>
+<p>Choose the chair.</p>
+<p>Reduce the radius.</p>
+<p>From outside, this can resemble stability.</p>
+<p>Inside, it is negotiated disappearance.</p>
+<p>This is where <em>This Old Chair</em> should enter most strongly.</p>
+<p>The chair is not a metaphor invented for the manuscript. It is the physical endpoint of adaptation: a stable point around which the rest of life becomes an excursion. [LIFE]</p>
+<p>That image should make the 2017 scientific opportunity almost unbearable in retrospect.</p>
+<p>The same patient who once walked into Galway carrying thirteen years of legible natural history later ends up with his world contracting around a chair while the original relationship remains historically unreconstructed.</p>
+<h3 id="e4-2025-the-body-supplies-another-answer">2025: the body supplies another answer</h3>
+<p>By 2025, the record contains a further observation: when Sinemet “hits his system,” the feet feel better from a pain perspective. The clinician appropriately notes that Sinemet is not a direct analgesic, while recognising that dystonia can be painful and that medication-state changes can alter the experience. [RX — insert exact note]</p>
+<p>Again, do not overclaim.</p>
+<p>Levodopa responsiveness does not prove that all foot pain was dopaminergic.</p>
+<p>It does something more modest and more important.</p>
+<p>It demonstrates that the disputed pain territory is <strong>neurologically modifiable</strong>.</p>
+<p>That fact belongs beside 2017 dystonic-looking gait, 2018 procyclidine dechallenge, recurrent structural lesions, later OFF-related phenomena, toe curling and the response to pregabalin.</p>
+<p>The mature picture may be mixed.</p>
+<p>Neurological.</p>
+<p>Mechanical.</p>
+<p>Structural.</p>
+<p>Pain-processing.</p>
+<p>Medication-state dependent.</p>
+<p>That complexity is not a defence of the original partition.</p>
+<p>It is a reason the relationship needed ownership.</p>
+<blockquote>
+<p><strong>Structural pathology is not the same thing as structural independence.</strong></p>
+</blockquote>
+<h3 id="e4-the-complaint-becomes-the-protest-again">The complaint becomes the Protest again</h3>
+<p>Then the patient returns to the question in another form.</p>
+<p>The 2017 Protest says:</p>
+<p><strong>You have not dealt with my feet.</strong></p>
+<p>The later complaint says, in substance:</p>
+<p><strong>You have not understood what happened when you did not deal with my feet.</strong></p>
+<p>The difference is that eight years of evidence now stand behind the second statement.</p>
+<p>This creates another fork.</p>
+<p>The institution can reconstruct.</p>
+<p>Or it can defend continuity.</p>
+<p>A reconstructive response would ask:</p>
+<p>What exactly did the GP refer?</p>
+<p>What exactly did Neurology observe?</p>
+<p>Who actually examined the feet?</p>
+<p>What was done with the soles?</p>
+<p>Who contributed to the sophisticated genetic and treatment synthesis?</p>
+<p>Did relevant expertise return to the patient?</p>
+<p>What happened after the Protest?</p>
+<p>Why was the Protest not in the exported account?</p>
+<p>What did procyclidine change?</p>
+<p>What did withdrawal change?</p>
+<p>What did Podiatry repeatedly find?</p>
+<p>What did levodopa later change?</p>
+<p>What happened to the patient's life?</p>
+<p>What safeguarding response followed the 2023 death-wish signal?</p>
+<p>That would be genuine historical re-examination.</p>
+<p>The alternative is to review the notes as evidence that the pathway already considered the relevant issues.</p>
+<p>Feet were mentioned.</p>
+<p>Podiatry was involved.</p>
+<p>Pain was treated.</p>
+<p>Parkinson's medications were adjusted.</p>
+<p>The patient remained under follow-up.</p>
+<p>A reviewer can see the issues in the notes.</p>
+<p>That mode of review is not necessarily dishonest.</p>
+<p>It is something more interesting.</p>
+<p>It may be trapped inside the information architecture it is supposed to evaluate.</p>
+<h3 id="e4-documentary-self-inheritance">Documentary self-inheritance</h3>
+<p>Here is the loop.</p>
+<p>The DisSynth creates categories.</p>
+<p>Later clinicians inherit the categories.</p>
+<p>Their notes accumulate inside those categories.</p>
+<p>Years later, a complaint reviewer reads the accumulated notes.</p>
+<p>The volume and continuity of documentation then appear to validate the original categories.</p>
+<p>The descendants become witnesses for the ancestor.</p>
+<blockquote>
+<p><strong>The system points to the continuity of its own record as evidence for the adequacy of the frame that produced that continuity.</strong></p>
+</blockquote>
+<p>Call this <strong>documentary self-inheritance</strong>.</p>
+<p>It is not proof of bad faith.</p>
+<p>It is a methodological hazard.</p>
+<p>The more complete the record looks, the easier it is to mistake documentary continuity for clinical integration.</p>
+<p>This is especially dangerous where the original question is whether a foundational synthesis prematurely divided one phenotype into separate problems.</p>
+<p>If the review begins with that synthesis as the authoritative map, it may never rediscover the landscape the map left out.</p>
+<h3 id="e4-a-reviewer-can-see-it-in-the-notes">“A reviewer can see it in the notes”</h3>
+<p>This line, if supported by the exact complaint rebuttal, should become the climax. [2025 — insert exact wording and attribution]</p>
+<p>Because it turns both ways.</p>
+<p>Suppose a reviewer really can see the pattern in the notes.</p>
+<p>Then the notes contain the ingredients.</p>
+<p>The painful feet.</p>
+<p>The gait.</p>
+<p>The dystonic-looking limb.</p>
+<p>The treatment effects.</p>
+<p>The dechallenge.</p>
+<p>The recurrent lesions.</p>
+<p>The OFF relationship.</p>
+<p>The toe curling.</p>
+<p>The later levodopa-related pain improvement.</p>
+<p>The psychological crisis.</p>
+<p>If a reviewer can see all that retrospectively, the obvious question is not merely whether it was documented.</p>
+<p>It is:</p>
+<blockquote>
+<p><strong>Why did the patient have to live long enough to generate the entire archive before the relationship became retrospectively legible?</strong></p>
+</blockquote>
+<p>And harder:</p>
+<blockquote>
+<p><strong>Retrospective visibility is not evidence of contemporaneous adequacy. It may be evidence that the clues were there all along.</strong></p>
+</blockquote>
+<p>The record can succeed as an archive while failing as a clinical instrument.</p>
+<p>That is the distinction.</p>
+<p>A medical record is not supposed merely to preserve enough breadcrumbs for a future reviewer to reconstruct a disaster.</p>
+<p>Its first purpose is to help clinicians understand the patient early enough to alter what happens next.</p>
+<blockquote>
+<p><strong>The record succeeded in remembering what happened. The question is whether it succeeded in preventing what happened next.</strong></p>
+</blockquote>
+<h3 id="e4-2017-and-2025-as-the-same-event-at-different-scales">2017 and 2025 as the same event at different scales</h3>
+<p>This is the conceptual fireworks display at the end.</p>
+<p>In 2017:</p>
+<p>The patient challenges a nearly completed clinical account.</p>
+<p>He says something important is missing.</p>
+<p>The system can reopen the patient or preserve the synthesis.</p>
+<p>The synthesis survives.</p>
+<p>In 2025:</p>
+<p>The patient challenges the historical account with eight years of accumulated evidence.</p>
+<p>He says the original separation does not survive what happened afterward.</p>
+<p>The system can reopen the history or preserve the inherited account.</p>
+<p>If the rebuttal relies on the notes as evidence that the pathway was adequate, then structurally the institution may be doing again what happened in 2017:</p>
+<p><strong>using the completeness of the existing account as a reason not to reopen the thing the patient says the account omitted.</strong></p>
+<p>No motive is needed to see the symmetry.</p>
+<p>No litigation is needed.</p>
+<p>This is simply an inquiry into institutional cognition.</p>
+<blockquote>
+<p><strong>Was the institution in 2025 still capable of seeing the 2017 patient outside the informational world created by the 2017 synthesis?</strong></p>
+</blockquote>
+<p>That is the question.</p>
+<h3 id="e4-the-present-day-university-coda">The present-day university coda</h3>
+<p>Only after the whole story is told should the present University of Galway leadership appear.</p>
+<p>Not as accusation.</p>
+<p>Not as evidence about 2017.</p>
+<p>As an extraordinary contemporary frame.</p>
+<p>As of 2026, the President of the University of Galway is Professor David Burn, a clinical academic neurologist specialising in Parkinson's disease and related conditions, formerly Professor of Movement Disorders Neurology at Newcastle. He is also President of the International Parkinson and Movement Disorder Society for 2025–2027. [EXPERTISE — current public sources]</p>
+<p>He had nothing to do with the July 2017 admission. That sentence must be explicit.</p>
+<p>The relevance is almost literary.</p>
+<p>The university that once had this patient in its hospital is now led by a movement-disorders neurologist of international standing.</p>
+<p>That transforms the final question from accusation into invitation.</p>
+<p>Not:</p>
+<p><strong>Who should be blamed?</strong></p>
+<p>But:</p>
+<p><strong>What would a university dedicated to medicine, teaching and discovery make of what it once had?</strong></p>
+<p>If that same 39-year-old patient walked into a movement-disorders clinic tomorrow — thirteen-year history, dystonic-looking gait, painful abnormal feet, marked rigidity, preserved cognition, unusual resilience, untreated baseline still available — what would an expert want to see before he went home?</p>
+<p>Would the soles matter?</p>
+<p>Would the foot through the gait cycle matter?</p>
+<p>Would fixed versus dynamic deformity matter?</p>
+<p>Would a pain map matter?</p>
+<p>Would Podiatry be asked a defined question?</p>
+<p>Would video matter?</p>
+<p>Would medication response matter?</p>
+<p>Would withdrawal matter?</p>
+<p>Would the fact that the patient lived locally and could be followed for years matter?</p>
+<p>Would the case be worth teaching?</p>
+<p>Would it be worth studying?</p>
+<p>The answer need not be forced.</p>
+<p>The questions are enough.</p>
+<h3 id="e4-the-final-return">The final return</h3>
+<p>The manuscript must finish where it began.</p>
+<p>Not in 2023.</p>
+<p>Not in 2025.</p>
+<p>Not in complaint procedure.</p>
+<p>Back in the room before discharge.</p>
+<p>A patient who has survived thirteen years of something strange has just spent eight days inside a university neurological service.</p>
+<p>The service has found severe Parkinsonism.</p>
+<p>The department has generated sophisticated theory.</p>
+<p>The patient has listened.</p>
+<p>He has trusted them.</p>
+<p>Then he says one part has not been dealt with.</p>
+<p>At that moment, nobody knows the future.</p>
+<p>There is no 2018 dechallenge yet.</p>
+<p>No 2019 recurrent focal foot record yet.</p>
+<p>No levodopa yet.</p>
+<p>No dog.</p>
+<p>No twenty-five-minute morning feet.</p>
+<p>No 2023 death wish.</p>
+<p>No “no quality of life.”</p>
+<p>No chair.</p>
+<p>No 2025 complaint.</p>
+<p>No retrospective reviewer.</p>
+<p>There is only a patient, a body and a question.</p>
+<p>The future is still clean enough to study.</p>
+<p>The original phenotype is still physically present.</p>
+<p>The expertise still exists around him.</p>
+<p>The Protest has done the most important thing a patient can do for a clinical system:</p>
+<p><strong>it has told the system where its model does not fit the lived body.</strong></p>
+<p>The institution does not need to know the answer.</p>
+<p>It only needs not to close the question.</p>
+<p>That is why the entire ten-thousand-word story can turn on four words.</p>
+<blockquote>
+<p><strong>Leave it at that.</strong></p>
+</blockquote>
+<p>Because that is the smallest possible description of a choice whose consequences became enormous.</p>
+<p>The dinosaur becomes a missed opportunity.</p>
+<p>The missed opportunity becomes an omitted Protest.</p>
+<p>The omitted Protest becomes an authoritative synthesis.</p>
+<p>The synthesis becomes a portable information state.</p>
+<p>The information state becomes fragmented management.</p>
+<p>Fragmented management becomes a life organised around boundaries.</p>
+<p>The unresolved pain becomes psychologically dangerous.</p>
+<p>The safety signal demands another kind of ownership.</p>
+<p>Years later, the complaint asks the institution to reconstruct the beginning.</p>
+<p>And at the end, the record itself is offered as proof that the story was visible.</p>
+<p>The deepest response is not anger.</p>
+<p>It is wonder at the scale of what was there.</p>
+<p>A thirteen-year human phenotype walked into a university hospital carrying its own natural history, biomechanics and future treatment experiments.</p>
+<p>The service recognised its rarity theoretically.</p>
+<p>The patient himself pointed to the part that remained unresolved.</p>
+<p>The body then spent years supplying the missing information.</p>
+<p>And the question for the university, even now, is whether it is willing to look at the whole thing as though it has not already been explained.</p>
+<blockquote>
+<p><strong>They did not lose the patient. They lost the chance to see what they had.</strong></p>
+</blockquote>
+<p>And later, when the patient came back with the archive written through his life:</p>
+<blockquote>
+<p><strong>the final test was whether they could see him again.</strong></p>
+</blockquote>
+<hr/>
+</article>
+        <div class="essay-end"><button class="read-full ghost" data-open-reader="4">Read this essay as pages</button></div>
+      </div>
+    </details>
+
+    <details class="essay-card satire" id="essay-5" data-essay="5">
+      <summary>
+        <span class="essay-kicker">FIVE-MINUTE SATIRICAL CODA</span>
+        <span class="essay-title">THE DEPARTMENT OF EXTREMELY ADVANCED THINGS</span>
+        <span class="essay-subtitle">A short institutional comedy in which the soles remain stubbornly attached to the patient</span>
+        <span class="essay-toggle" aria-hidden="true">+</span>
+      </summary>
+      <div class="essay-shell">
+        <div class="essay-toolbar"><button class="read-full" data-open-reader="5">Read full screen <span>→</span></button></div>
+        <article class="prose essay-body" data-essay-body="5">
+<h2 id="e5-a-brief-tour-of-the-department">A brief tour of the department</h2>
+<p>Welcome to the Department of Extremely Advanced Things.</p>
+<p>On your left, you will see autosomal-recessive Parkinsonism. On your right, PRKN. Upstairs we have Gaucher disease, synucleinopathies, whole-exome sequencing, whole-genome sequencing and a Complex Case Meeting. Down the corridor there is a DAT scanner. Please do not touch the genetics; they are very expensive.</p>
+<p>The patient is the 39-year-old man in the middle.</p>
+<p>He has been developing whatever this is for perhaps thirteen years. His tone is markedly increased. His gait is, in the department's own words, <strong>strikingly abnormal</strong>. The leg kicks out like a foot drop, except it is specifically recorded as <strong>not foot drop</strong> and as suggestive of dystonic posture. He has pes planus. He has hammertoes. He has a long history of painful corns, calluses and foot treatment. The department even videos the examination.</p>
+<p>We are pleased to report that virtually every part of this story can be made intellectually exciting.</p>
+<p>Except, somehow, the bit touching the floor.</p>
+
+<h3 id="e5-rare-disease-common-floor">Rare disease, common floor</h3>
+<p>This is one of the mysteries of modern academic medicine. The farther away an object is from the ground, the more sophisticated the vocabulary available to describe it.</p>
+<p>Basal ganglia? Fascinating.</p>
+<p>Recessive inheritance? Fascinating.</p>
+<p>Possible PRKN? Very fascinating.</p>
+<p>Future genome analysis when knowledge of genotype-phenotype associations has matured? Pull up a chair.</p>
+<p>The sole of the foot?</p>
+<p>Podiatry.</p>
+<p>One imagines the poor plantar surface arriving at the border checkpoint of Neurology with the wrong passport.</p>
+<p><em>Purpose of visit?</em></p>
+<p>Thirteen years of carrying an abnormally moving human being.</p>
+<p><em>Sorry. Mechanical. Next.</em></p>
+
+<h3 id="e5-the-great-nct-consultation">The Great NCT consultation</h3>
+<p>Near discharge, the patient himself notices a problem with this arrangement.</p>
+<p>He has been in hospital for eight days. He understands that something major has been discovered. He also understands that the thing which hurts when he stands and walks has somehow survived the entire neurological excavation without becoming a neurological question.</p>
+<p>So he uses a car analogy. An NCT. Bald tyres.</p>
+<p>It is a wonderfully dangerous analogy because it is impossible to misunderstand.</p>
+<p>You may have rebuilt the engine. You may have analysed the fuel system. You may have convened a multidisciplinary conference on the probable genetic ancestry of the gearbox. But if the tyres are bald, the car still has a problem where it meets the road.</p>
+<p>The institutional answer, in practical terms, becomes:</p>
+<blockquote><p><strong>Tyre department.</strong></p></blockquote>
+<p>And thus a whole-body neurological problem achieves the administrative miracle of becoming two unrelated queues.</p>
+
+<h3 id="e5-not-clear-a-masterclass">“Not clear”: a masterclass</h3>
+<p>Eventually the DisSynth reaches the feet.</p>
+<p>After the genetics, the imaging, the differential diagnosis, the prognostication, the senior advice and the discussion of future therapies, the relationship between the bizarre neurological gait and the painful structurally abnormal feet arrives at its grand conclusion:</p>
+<blockquote><p><strong>Not clear.</strong></p></blockquote>
+<p>This is a magnificent phrase.</p>
+<p>It can mean: <em>we investigated this carefully and uncertainty remains.</em></p>
+<p>It can also mean: <em>we have reached the end of the document.</em></p>
+<p>The difficulty is working out which one occurred.</p>
+<p>Because the document is so sophisticated, “Not clear” inherits the glow of everything around it. It sits there wearing the academic robes of PRKN, exome sequencing and the Complex Case Meeting, despite the awkward question of whether anyone ever performed the equally sophisticated manoeuvre of bending down and properly interrogating the load-bearing surface.</p>
+<p>There may be no cheaper diagnostic instrument in medicine than looking at the bottom of somebody's foot.</p>
+<p>It does, however, require proximity to the patient.</p>
+
+<h3 id="e5-the-body-submits-revisions">The body submits revisions</h3>
+<p>Unfortunately for a settled document, the patient keeps having a body.</p>
+<p>The body then develops the irritating habit of submitting amendments.</p>
+<p>Neurological medication changes the feet.</p>
+<p>Stopping procyclidine produces a rapid return of a focal foot phenomenon.</p>
+<p>Podiatry keeps finding recurrent structural lesions.</p>
+<p>Primary care later writes the feet back into the world of increased tone, abnormal gait and Parkinson's disease.</p>
+<p>OFF phenomena become relevant.</p>
+<p>Toe curling appears.</p>
+<p>Levodopa eventually changes the foot experience again.</p>
+<p>The body is behaving like a particularly persistent peer reviewer:</p>
+<blockquote><p><strong>Major revision required. Please address the relationship you called “Not clear.”</strong></p></blockquote>
+<p>The document, meanwhile, has already been published into clinical reality.</p>
+<p>There are no tracked changes.</p>
+
+<h3 id="e5-the-fragmentation-service">The fragmentation service</h3>
+<p>Years pass and the original dinosaur becomes increasingly efficient to manage.</p>
+<p>One bone goes to Neurology.</p>
+<p>One bone goes to Podiatry.</p>
+<p>Pain gets its own box.</p>
+<p>Neuropathy gets another.</p>
+<p>Dystonia is available when required.</p>
+<p>OFF symptoms can be booked separately.</p>
+<p>Medication side effects have their own excellent filing cabinet.</p>
+<p>The advantage of this system is that no individual clinic ever has to accommodate an entire dinosaur.</p>
+<p>The disadvantage is that the dinosaur is the patient.</p>
+
+<h3 id="e5-where-the-joke-stops">Where the joke stops</h3>
+<p>Then 2023 arrives, and satire temporarily loses its licence.</p>
+<p>The GP records pain described as extreme and causing a <strong>death wish</strong>. She writes that she is worried, that behind the facade the patient is not doing well, and asks for review before “we get into trouble here.” The Parkinson's nurse reports debilitating pain and <strong>no quality of life</strong>.</p>
+<p>At that point there is nothing funny about the pain, the patient or the psychological danger.</p>
+<p>The comedy survives only in the architecture that made such a point possible: an unresolved presenting problem had travelled far enough through fragmented ownership that, years later, a primary-care doctor had to send a warning flare back into the system.</p>
+<p>The joke was never the man.</p>
+<p>The joke was the distance between the sophistication of the institution and the simplicity of the question it had failed to keep open.</p>
+
+<h3 id="e5-the-reviewer-arrives">And finally, the reviewer arrives</h3>
+<p>At the end of the story comes one final piece of institutional theatre.</p>
+<p>The historical record can be invoked on the basis that a reviewer can see the relevant matters in the notes.</p>
+<p>After reading the preceding four essays, the reader may experience an involuntary urge to stand up and applaud.</p>
+<p><strong>Yes.</strong></p>
+<p>The reviewer can see it in the notes.</p>
+<p>That is rather the problem.</p>
+<p>The notes contain the thirteen-year history. The dystonic-looking gait. The painful feet. The structural abnormalities. The treatment experiments. The recurrent clues. The later pain. The distress.</p>
+<p>The archive did an excellent job of preserving fragments.</p>
+<p>The question is why the patient had to live long enough for a retrospective reader to assemble them.</p>
+<p>It is a little like a museum curator standing beside a pile of labelled bones and saying, triumphantly:</p>
+<blockquote><p><strong>As you can see, all the dinosaur was here.</strong></p></blockquote>
+<p>Precisely.</p>
+
+<h3 id="e5-the-cheapest-conclusion">The cheapest conclusion in the building</h3>
+<p>No conspiracy is needed.</p>
+<p>No villain is needed.</p>
+<p>No theory of motive is needed.</p>
+<p>All that is required is a very human sequence: expertise, momentum, categorisation, closure, inheritance and the ordinary professional tendency to trust the work already done.</p>
+<p>That is what makes the story funny in the darkest way.</p>
+<p>The institution did not lack intelligence.</p>
+<p>It may have had too much intelligence travelling in the wrong direction.</p>
+<p>It climbed from the patient into theory and did not complete the return journey.</p>
+<p>And so, after the scans, meetings, genetics, prognostication, pharmacology and years of follow-up, the satirical conclusion is offensively inexpensive:</p>
+<blockquote><p><strong>The university did not need a better telescope.</strong><br/><strong>It needed, at the right moment, to bend down.</strong></p></blockquote>
+</article>
+        <div class="essay-end"><button class="read-full ghost" data-open-reader="5">Read this coda as pages</button></div>
+      </div>
+    </details>
+</section>
+
+<section class="notebook-wrap" id="working-notes">
+  <details class="notebook">
+    <summary>Working notebook — joinery, evidence threads, source anchors and protected lines</summary>
+    <article class="prose"><h1 id="notes-master-joinery-how-the-four-installments-must-lock-together">MASTER JOINERY — HOW THE FOUR INSTALLMENTS MUST LOCK TOGETHER</h1>
+<p>The manuscript must not feel episodic. Every instalment should hand a live object to the next.</p>
+<h2 id="notes-part-i-hands-part-ii-the-specimen">Part I hands Part II the specimen</h2>
+<p><strong>Part I question:</strong> What did they have?</p>
+<p>Answer: an extraordinary living longitudinal phenotype in an unusually relevant university environment.</p>
+<p><strong>Hand-off line:</strong> The hospital had studied almost everything around the unresolved relationship. Then the patient pointed directly at it.</p>
+<h2 id="notes-part-ii-hands-part-iii-the-information-state">Part II hands Part III the information state</h2>
+<p><strong>Part II question:</strong> What remained possible after the Protest?</p>
+<p>Answer: reopening was still available, but closure prevailed and the Protest did not travel with the final synthesis.</p>
+<p><strong>Hand-off line:</strong> The patient left with the unresolved body; the system kept the resolved-looking document.</p>
+<h2 id="notes-part-iii-hands-part-iv-the-life">Part III hands Part IV the life</h2>
+<p><strong>Part III question:</strong> What did the early partition do to later evidence?</p>
+<p>Answer: it priced and compartmentalised later observations while the body kept producing cross-boundary information.</p>
+<p><strong>Hand-off line:</strong> Eventually the problem ceased to be merely epistemic. It became unbearable.</p>
+<h2 id="notes-part-iv-returns-everything-to-part-ii">Part IV returns everything to Part II</h2>
+<p><strong>Part IV question:</strong> What does the end tell us about the original choice?</p>
+<p>Answer: not that anybody could have predicted every later event, but that preserving the unresolved question would have preserved the possibility of learning, integration and earlier correction.</p>
+<p><strong>Final hand-off:</strong> The 2025 complaint is the Protest returning after eight years, now carrying the consequences with it.</p>
+<hr/>
+<h1 id="notes-life-thread-non-negotiable-scenes">LIFE THREAD — NON-NEGOTIABLE SCENES</h1>
+<p>These should be distributed through all four instalments so the patient never disappears behind the argument.</p>
+<ol>
+<li><p><strong>Bar work / standing / early lateral-foot pain.</strong><br/>
+The body first learning cost through work.</p>
+</li>
+<li><p><strong>Friend bringing corn plasters.</strong><br/>
+Tiny act of ordinary care; evidence that the problem existed socially before it existed neurologically.</p>
+</li>
+<li><p><strong>Podiatry and extraordinary temporary relief.</strong><br/>
+The body responds to mechanical intervention; do not force mechanism.</p>
+</li>
+<li><p><strong>Leaving bar work.</strong><br/>
+Function changes because exposure changes; the patient unconsciously conducting a load experiment.</p>
+</li>
+<li><p><strong>Cycling while watching <em>Countdown</em>.</strong><br/>
+A vivid picture of intelligence, determination and compensatory function.</p>
+</li>
+<li><p><strong>Factory work / clean-room difficulty / conscious movement.</strong><br/>
+The limits of compensation becoming visible.</p>
+</li>
+<li><p><strong>July 2017 arrival.</strong><br/>
+“The game is over” / entering the place where uncertainty should narrow. [Use exact autobiographical language only after source check.]</p>
+</li>
+<li><p><strong>The Protest.</strong><br/>
+The patient still trusting the system enough to tell it what it missed.</p>
+</li>
+<li><p><strong>Medication improvement.</strong><br/>
+Relief as both gift and camouflage.</p>
+</li>
+<li><p><strong>The dog after levodopa.</strong><br/>
+A life expanding again.</p>
+</li>
+<li><p><strong>Morning feet taking time to become usable.</strong><br/>
+Daily negotiation.</p>
+</li>
+<li><p><strong>2023 pain crisis.</strong><br/>
+The facade, death wish, no quality of life.</p>
+</li>
+<li><p><strong>Darts shrinking.</strong><br/>
+Quantify lost leisure through standing tolerance.</p>
+</li>
+<li><p><strong>Pumping tyres and toe curling.</strong><br/>
+Ordinary task becomes a functional stress test.</p>
+</li>
+<li><p><strong>The chair.</strong><br/>
+Not melodrama: geography of a narrowed life.</p>
+</li>
+<li><p><strong>2025 relief / recognition.</strong><br/>
+The body again changing under medication and the past becoming newly interpretable.</p>
+</li>
+</ol>
+<hr/>
+<h1 id="notes-safeguarding-thread-build-before-finalising-part-iv">SAFEGUARDING THREAD — BUILD BEFORE FINALISING PART IV</h1>
+<p>This requires its own evidential table.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Signal</th>
+<th>Who knew</th>
+<th>Immediate response</th>
+<th>Risk assessment documented?</th>
+<th>Safety plan / crisis pathway?</th>
+<th>Follow-up owner</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mar 2023</td>
+<td>GP: severe burning pain, “death wish,” worry, “before we get into trouble”</td>
+<td>GP / receiving Neurology</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>GP urgent referral</td>
+</tr>
+<tr>
+<td>28 Mar 2023</td>
+<td>Nurse: debilitating pain, “no quality of life”</td>
+<td>Parkinson's nurse / consultant</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>Nurse email</td>
+</tr>
+<tr>
+<td>[next contact]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+<td>[FILL]</td>
+</tr>
+</tbody>
+</table>
+<p>Do not write “absence of safeguarding” as a final conclusion until this table is complete.</p>
+<p>If the record shows only symptom-management / mechanism discussion after these signals and no structured psychological-safety response, then the narrative formulation can become:</p>
+<blockquote>
+<p><strong>By 2023 the unresolved foot problem had crossed from diagnostic uncertainty into a patient-safety domain, yet the record does not show a corresponding safeguarding architecture proportionate to the language being used.</strong></p>
+</blockquote>
+<p>That is stronger than indignation because it is testable.</p>
+<hr/>
+<h1 id="notes-expertise-thread-present-without-overclaiming">EXPERTISE THREAD — PRESENT WITHOUT OVERCLAIMING</h1>
+<p>The department / environment section should distinguish three levels:</p>
+<h3 id="notes-1-capability">1. Capability</h3>
+<p>What relevant expertise existed in or around Galway?</p>
+<ul>
+<li>movement disorders;</li>
+<li>dystonia;</li>
+<li>Parkinsonian gait / freezing;</li>
+<li>young-onset Parkinsonism;</li>
+<li>PRKN / Parkin;</li>
+<li>genetics;</li>
+<li>human movement measurement.</li>
+</ul>
+<h3 id="notes-2-participation">2. Participation</h3>
+<p>What expertise can be shown to have entered <strong>this case</strong>?</p>
+<ul>
+<li>Neurology Complex Case Meeting;</li>
+<li>senior consultant treatment advice;</li>
+<li>colleague input;</li>
+<li>advanced theoretical genetics in the DisSynth;</li>
+<li>any movement-disorders nurse input;</li>
+<li>any later named specialist input.</li>
+</ul>
+<h3 id="notes-3-bedside-application">3. Bedside application</h3>
+<p>What relevant expertise can be shown to have actually returned to examine the unresolved feet–gait relationship?</p>
+<p>This is the key distinction.</p>
+<blockquote>
+<p><strong>The institution may have possessed the capability and may even have contributed to the synthesis, while still failing to bring that capability to the patient in the information state where it could alter the case.</strong></p>
+</blockquote>
+<hr/>
+<h1 id="notes-source-anchors-already-identified">SOURCE ANCHORS ALREADY IDENTIFIED</h1>
+<h2 id="notes-july-2017-discharge-synthesis-hospital-record">July 2017 discharge synthesis / hospital record</h2>
+<ul>
+<li>Possible thirteen-year onset; corns, calluses, fallen arches, prior treatment and work history. [Conversation source: <code>discharge-summary.html</code>]</li>
+<li>Markedly increased tone; strikingly abnormal gait; foot-drop appearance suggestive of dystonic posture; gross rigidity / bradykinesia; pes planus; hammertoes; videoed exam. [Conversation source]</li>
+<li>DAT request: very young man, bilateral Parkinsonism, symptoms up to thirteen years, walk “almost dystonically unusual,” recessive Parkinsonism suspected. [Conversation source]</li>
+<li>Feet/leg symptoms possibly separate or possible peripheral neuropathy; “Not clear.” [Conversation source]</li>
+<li>Neurology Complex Case Meeting and senior / colleague treatment advice. [Conversation source]</li>
+<li>PRKN/PARK2 and wider genetic discussion; author states he is not a movement-disorders neurologist. [Conversation source]</li>
+<li>Patient described as particularly intelligent / prescient and interested in possible clinical trials. [Conversation source]</li>
+<li>Long-term plan deliberately cautious about levodopa / dopamine agonists; possibility acknowledged that later they might regret not starting earlier. [Conversation source]</li>
+</ul>
+<h2 id="notes-2023-safety-signals">2023 safety signals</h2>
+<p>Canonical record contains:</p>
+<ul>
+<li>urgent GP referral: severe bilateral burning feet/lower legs, extreme pain “causing death wish,” GP “worried,” concern despite “facade,” request for review “before we get into trouble here.”</li>
+<li>Parkinson's nurse email next day: debilitating bilateral feet/leg pain, 600 mg/day pregabalin, “no quality of life,” worsening for months.</li>
+</ul>
+<p><strong>Next task:</strong> reconstruct every action after those two messages before finalising the safeguarding argument.</p>
+<h2 id="notes-public-expertise-present-day-context">Public expertise / present-day context</h2>
+<ul>
+<li>2013 <em>JAMA Neurology</em>: “Parkin disease: a clinicopathologic entity?” includes Timothy J. Counihan and Daniel G. Healy among authors; parkin cases described young-onset disease with tremor often combined with dystonia.</li>
+<li>15 Aug 2017 <em>Neurology</em>: “Clinical Reasoning: A demure teenager and her dystonic foot,” by Patrick W. Cullinane, Patrick Browne, Michael J. Hennessy and Timothy J. Counihan, Department of Neurology, University Hospital Galway / NUI Galway.</li>
+<li>As of 2026, Professor David Burn is President of the University of Galway; University materials describe him as a clinical academic neurologist specialising in Parkinson's disease and related conditions.</li>
+<li>International Parkinson and Movement Disorder Society lists David Burn as President for 2025–2027.</li>
+</ul>
+<p><strong>Discipline:</strong> the current presidency is a coda about the university's capacity to understand the case now, not evidence about 2017 conduct or 2025 motive.</p>
+<hr/>
+<h1 id="notes-questions-that-should-haunt-the-reader">QUESTIONS THAT SHOULD HAUNT THE READER</h1>
+<p>Use these sparingly as section endings or pull quotes.</p>
+<blockquote>
+<p><strong>What exactly was written into the soles of a man who had been walking abnormally for thirteen years?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>If the walk was dystonic enough to matter diagnostically, why was the painful foot not dystonic enough to demand integration?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>What neurological examination earned the words “Not clear”?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Did the expertise that enriched the theory ever return to the body?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Why did the patient never reach the relevant expertise in the information state in which that expertise could have mattered?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>What did the department know theoretically that it had not yet earned observationally?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Why did curiosity stop when it did?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>What happens when a patient recognises the incompleteness of a model before the model becomes his medical history?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>How many times can the body cross an institutional boundary before the boundary itself is reconsidered?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>When pain produces a death wish, who owns more than the pain?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Was 2025 another opportunity to rediscover the patient — and did the institution instead rediscover the authority of its own records?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>If a reviewer can see it now in the notes, why could the patient not benefit from that visibility then?</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>Can the University now look at the patient with the curiosity that the 2017 pathway failed to preserve?</strong></p>
+</blockquote>
+<hr/>
+<h1 id="notes-lines-worth-protecting">LINES WORTH PROTECTING</h1>
+<p>These are candidate load-bearing lines. Do not use all of them in final prose; repetition will cheapen them.</p>
+<ul>
+<li><strong>The whole animal reached the hospital before the hospital divided it.</strong></li>
+<li><strong>The foot was where the abnormal limb met the ground.</strong></li>
+<li><strong>The dinosaur did not walk into a department unfamiliar with dinosaurs. It walked into an archaeology department.</strong></li>
+<li><strong>They went looking for the rare disease while the rare phenotype was walking in front of them.</strong></li>
+<li><strong>The expertise may have entered the document without entering the room.</strong></li>
+<li><strong>They appear to have brought the department to the document when what the patient needed was for the department to be brought to the bedside.</strong></li>
+<li><strong>The document knew the patient theoretically better than the documented investigation had established him physically.</strong></li>
+<li><strong>Synthetic completeness is not evidential completeness.</strong></li>
+<li><strong>The patient identified the missing part of the model before the model left the building.</strong></li>
+<li><strong>The door was still open. The patient pointed to it. Then it closed.</strong></li>
+<li><strong>The patient left with the unresolved body; the system kept the resolved-looking document.</strong></li>
+<li><strong>The body reopened the 2017 question pharmacologically. The formulation did not reopen with it.</strong></li>
+<li><strong>A person can experience the evidence and still defer its meaning to the people who hold the model.</strong></li>
+<li><strong>Nobody had to put the dinosaur in a cupboard. They only had to put labels on its individual bones.</strong></li>
+<li><strong>The specimen did not disappear from Galway. It disappeared inside the categories assigned to it.</strong></li>
+<li><strong>The body kept conducting the study after the hospital stopped designing one.</strong></li>
+<li><strong>The first synthesis prices the evidential value of everything that comes after it.</strong></li>
+<li><strong>The patient was repeatedly in danger of being mistaken for how well he could carry what was happening to him.</strong></li>
+<li><strong>Structural pathology is not the same thing as structural independence.</strong></li>
+<li><strong>Local updating is not global reconstruction.</strong></li>
+<li><strong>The descendants of the original synthesis become evidence for the authority of their ancestor.</strong></li>
+<li><strong>Retrospective legibility is not evidence of contemporaneous integration.</strong></li>
+<li><strong>The record succeeded as an archive of what happened. The question is whether it succeeded as an instrument for preventing what happened next.</strong></li>
+<li><strong>In 2017 the department failed to reconstruct the patient from the phenotype. In 2025 it may have failed to reconstruct the phenotype from the record.</strong></li>
+<li><strong>They did not lose the patient. They lost the chance to see what they had.</strong></li>
+<li><strong>The final test was whether they could see him again.</strong></li>
+</ul>
+<hr/>
+<h1 id="notes-next-drafting-passes">NEXT DRAFTING PASSES</h1>
+<h2 id="notes-pass-1-evidence-insertion">Pass 1 — Evidence insertion</h2>
+<p>Replace every <code>[OPEN]</code>, <code>[FILL]</code> and source placeholder with exact dates / record language. Do not yet beautify.</p>
+<p>Priority:</p>
+<ol>
+<li>complete 2017 admission chronology;</li>
+<li>exact Protest account and corroborating circumstantial anchors;</li>
+<li>full contributors / expertise map;</li>
+<li>2017–2018 procyclidine chronology;</li>
+<li>Podiatry anatomical chronology;</li>
+<li>levodopa introduction and functional recovery;</li>
+<li>2022–2025 symptom-state chronology;</li>
+<li>complete 2023 safeguarding response map;</li>
+<li>exact 2025 complaint-rebuttal wording.</li>
+</ol>
+<h2 id="notes-pass-2-life-insertion">Pass 2 — Life insertion</h2>
+<p>For every 700–900 words of medical / institutional analysis, force the narrative back into a scene from the patient's life.</p>
+<p>Rule:</p>
+<blockquote>
+<p><strong>No reader should be allowed to spend more than three pages with the institution without being returned to the person.</strong></p>
+</blockquote>
+<h2 id="notes-pass-3-joinery">Pass 3 — Joinery</h2>
+<p>Remove headings that feel like legal submissions. Convert chronology into causal narrative transitions.</p>
+<p>Each section should end by creating the next question.</p>
+<h2 id="notes-pass-4-restraint">Pass 4 — Restraint</h2>
+<p>Cut any sentence alleging a state of mind that cannot be proved.</p>
+<p>Replace motive with structure.</p>
+<p>Replace accusation with juxtaposition.</p>
+<p>Replace “they knew” with the exact person / document / information state that knew.</p>
+<p>Replace “caused” with the strongest relationship the evidence supports.</p>
+<h2 id="notes-pass-5-fireworks">Pass 5 — Fireworks</h2>
+<p>Only after the evidence is hard.</p>
+<p>Sharpen rhythm.</p>
+<p>Shorten paragraphs at pivots.</p>
+<p>Use repetition deliberately.</p>
+<p>Let ordinary human objects — shoes, soles, corn plasters, a bicycle, a dog, darts, a tyre pump, a chair — carry the emotional load that abstract rhetoric cannot.</p>
+<p>The final prose should feel less like a submission than an investigation in which the reader watches a living human being become a record and then watches the record struggle to become a human being again.</p>
+<hr/>
+<h2 id="notes-working-final-sentence">Working final sentence</h2>
+<blockquote>
+<p><strong>The first time the patient told the institution that something essential had been left out, the answer was to leave it at that. Eight years later, after the body had filled the record with what the missing question went on to mean, the question returned: would the institution finally reopen the patient — or leave it at that again?</strong></p>
+</blockquote>
+</article>
+  </details>
+</section>
+</main>
+
+<div class="reader" id="reader" role="dialog" aria-modal="true" aria-label="Full-screen essay reader">
+  <header class="reader-top">
+    <div class="reader-left"><button class="icon-btn" id="reader-close">← <span class="label-hide">Exit</span></button><button class="icon-btn" id="reader-toc">Contents</button></div>
+    <div class="reader-title"><small id="reader-kicker">Essay</small><b id="reader-name">Title</b></div>
+    <div class="reader-right"><button class="icon-btn" id="font-down" aria-label="Decrease text size">A−</button><button class="icon-btn" id="font-up" aria-label="Increase text size">A+</button></div>
+  </header>
+  <div class="reader-stage" id="reader-stage"><div class="reader-track" id="reader-track"></div></div>
+  <aside class="reader-contents" id="reader-contents"><h3>Within this essay</h3><div id="reader-contents-links"></div></aside>
+  <div class="reader-flash" id="reader-flash"></div>
+  <footer class="reader-bottom">
+    <div class="reader-hint">Swipe · ← → · Space</div>
+    <div class="reader-progress"><span id="page-now">1</span> / <span id="page-total">1</span></div>
+    <div class="reader-nextprev"><button class="nav-arrow" id="prev-page" aria-label="Previous page">←</button><button class="nav-arrow" id="next-page" aria-label="Next page">→</button></div>
+  </footer>
+</div>
+<div class="measure-page prose" id="measure-page" aria-hidden="true"></div>
+
+<script>
+const essayTocs = [[{"id": "e1-what-exactly-did-galway-have", "text": "What exactly did Galway have?", "level": "h2"}, {"id": "e1-the-gp-sends-the-whole-animal", "text": "The GP sends the whole animal", "level": "h3"}, {"id": "e1-monday-3-july-2017", "text": "Monday, 3 July 2017", "level": "h3"}, {"id": "e1-where-the-abnormal-limb-meets-the-ground", "text": "Where the abnormal limb meets the ground", "level": "h3"}, {"id": "e1-it-walked-into-an-archaeology-department", "text": "It walked into an archaeology department", "level": "h3"}, {"id": "e1-the-department-studies-almost-everything-except-the-relationship", "text": "The department studies almost everything except the relationship", "level": "h3"}], [{"id": "e2-the-protest-and-the-choice-to-leave-it-at-that", "text": "The Protest and the choice to leave it at that", "level": "h2"}, {"id": "e2-eight-days-of-intellectual-momentum", "text": "Eight days of intellectual momentum", "level": "h3"}, {"id": "e2-the-tuesday-decision-and-the-narrowing-of-the-experimental-field", "text": "The Tuesday decision and the narrowing of the experimental field", "level": "h3"}, {"id": "e2-what-the-record-saw", "text": "What the record saw", "level": "h3"}, {"id": "e2-expertise-enters-the-document", "text": "Expertise enters the document", "level": "h3"}, {"id": "e2-two-patients-in-one-document", "text": "Two patients in one document", "level": "h3"}, {"id": "e2-the-patient-detects-the-seam", "text": "The patient detects the seam", "level": "h3"}, {"id": "e2-the-two-futures", "text": "The two futures", "level": "h3"}, {"id": "e2-the-omitted-protest", "text": "The omitted Protest", "level": "h3"}, {"id": "e2-the-professional-discomfort-of-reopening", "text": "The professional discomfort of reopening", "level": "h3"}, {"id": "e2-the-door-closes", "text": "The door closes", "level": "h3"}], [{"id": "e3-how-one-unresolved-choice-becomes-an-information-architecture", "text": "How one unresolved choice becomes an information architecture", "level": "h2"}, {"id": "e3-the-portable-patient", "text": "The portable patient", "level": "h3"}, {"id": "e3-the-expertise-problem-changes-shape", "text": "The expertise problem changes shape", "level": "h3"}, {"id": "e3-procyclidine-the-body-begins-answering", "text": "Procyclidine: the body begins answering", "level": "h3"}, {"id": "e3-the-dechallenge", "text": "The dechallenge", "level": "h3"}, {"id": "e3-podiatry-a-second-archive-of-the-same-body", "text": "Podiatry: a second archive of the same body", "level": "h3"}, {"id": "e3-2019-the-gp-casually-rebuilds-the-bridge", "text": "2019: the GP casually rebuilds the bridge", "level": "h3"}, {"id": "e3-the-dinosaur-disappears-without-leaving-galway", "text": "The dinosaur disappears without leaving Galway", "level": "h3"}, {"id": "e3-the-life-must-stay-in-frame", "text": "The life must stay in frame", "level": "h3"}, {"id": "e3-what-was-lost-scientifically", "text": "What was lost scientifically", "level": "h3"}, {"id": "e3-leave-it-at-that-as-an-epistemic-ratchet", "text": "“Leave it at that” as an epistemic ratchet", "level": "h3"}], [{"id": "e4-when-the-body-has-spent-eight-years-answering", "text": "When the body has spent eight years answering", "level": "h2"}, {"id": "e4-levodopa-and-the-return-of-ordinary-life", "text": "Levodopa and the return of ordinary life", "level": "h3"}, {"id": "e4-2023-the-unresolved-problem-becomes-a-safety-event", "text": "2023: the unresolved problem becomes a safety event", "level": "h3"}, {"id": "e4-the-facade", "text": "The facade", "level": "h3"}, {"id": "e4-neurology-begins-to-cross-the-old-boundary", "text": "Neurology begins to cross the old boundary", "level": "h3"}, {"id": "e4-2024-a-life-lived-within-his-boundaries", "text": "2024: a life lived “within his boundaries”", "level": "h3"}, {"id": "e4-2025-the-body-supplies-another-answer", "text": "2025: the body supplies another answer", "level": "h3"}, {"id": "e4-the-complaint-becomes-the-protest-again", "text": "The complaint becomes the Protest again", "level": "h3"}, {"id": "e4-documentary-self-inheritance", "text": "Documentary self-inheritance", "level": "h3"}, {"id": "e4-a-reviewer-can-see-it-in-the-notes", "text": "“A reviewer can see it in the notes”", "level": "h3"}, {"id": "e4-2017-and-2025-as-the-same-event-at-different-scales", "text": "2017 and 2025 as the same event at different scales", "level": "h3"}, {"id": "e4-the-present-day-university-coda", "text": "The present-day university coda", "level": "h3"}, {"id": "e4-the-final-return", "text": "The final return", "level": "h3"}], [{"id":"e5-a-brief-tour-of-the-department","text":"A brief tour of the department","level":"h2"},{"id":"e5-rare-disease-common-floor","text":"Rare disease, common floor","level":"h3"},{"id":"e5-the-great-nct-consultation","text":"The Great NCT consultation","level":"h3"},{"id":"e5-not-clear-a-masterclass","text":"“Not clear”: a masterclass","level":"h3"},{"id":"e5-the-body-submits-revisions","text":"The body submits revisions","level":"h3"},{"id":"e5-the-fragmentation-service","text":"The fragmentation service","level":"h3"},{"id":"e5-where-the-joke-stops","text":"Where the joke stops","level":"h3"},{"id":"e5-the-reviewer-arrives","text":"And finally, the reviewer arrives","level":"h3"},{"id":"e5-the-cheapest-conclusion","text":"The cheapest conclusion in the building","level":"h3"}]];
+const essayTitles = ["THE DINOSAUR WALKS IN", "THE LAST OPEN DOOR", "THE PATIENT LEAVES; THE SYNTHESIS STAYS", "THE SECOND CLOSURE", "THE DEPARTMENT OF EXTREMELY ADVANCED THINGS"];
+let readerEssay = 0, pageIndex = 0, pageCount = 1, fontSize = 20, pageMap = {};
+const reader = document.getElementById('reader');
+const track = document.getElementById('reader-track');
+const stage = document.getElementById('reader-stage');
+const measure = document.getElementById('measure-page');
+const rc = document.getElementById('reader-contents');
+const flash = document.getElementById('reader-flash');
+
+function openDrawer(){document.querySelector('.drawer').classList.add('open');document.querySelector('.drawer-backdrop').classList.add('open')}
+function closeDrawer(){document.querySelector('.drawer').classList.remove('open');document.querySelector('.drawer-backdrop').classList.remove('open')}
+document.querySelectorAll('[data-open-drawer]').forEach(b=>b.addEventListener('click',openDrawer));
+document.querySelectorAll('[data-close-drawer]').forEach(b=>b.addEventListener('click',closeDrawer));
+
+function cleanClone(node){
+  const c=node.cloneNode(true);
+  if(c.id){c.dataset.sourceId=c.id;c.removeAttribute('id')}
+  c.querySelectorAll('[id]').forEach(el=>{el.dataset.sourceId=el.id;el.removeAttribute('id')});
+  return c;
+}
+function buildPages(essayNo){
+  const source=document.querySelector(`[data-essay-body="${essayNo}"]`);
+  const blocks=[...source.children].map(cleanClone);
+  const usableH=stage.clientHeight - Math.max(48, stage.clientHeight*0.075) - 28;
+  const usableW=Math.min(860, stage.clientWidth - Math.max(44, stage.clientWidth*0.14));
+  measure.style.width=usableW+'px';measure.style.height=usableH+'px';measure.style.fontSize=fontSize+'px';measure.innerHTML='';
+  const pages=[]; let current=[];
+  function fits(nodes){measure.innerHTML='';nodes.forEach(n=>measure.appendChild(n.cloneNode(true)));return measure.scrollHeight<=usableH+2}
+  for(const block of blocks){
+    const trial=current.concat([block]);
+    if(current.length && !fits(trial)){
+      pages.push(current); current=[block];
+      if(!fits(current) && (block.tagName==='UL'||block.tagName==='OL')){
+        current=[]; const shell=block.cloneNode(false); let lis=[];
+        [...block.children].forEach(li=>{
+          const trialShell=shell.cloneNode(false); lis.concat([li]).forEach(x=>trialShell.appendChild(x.cloneNode(true)));
+          if(lis.length && !fits([trialShell])){ const done=shell.cloneNode(false); lis.forEach(x=>done.appendChild(x.cloneNode(true))); pages.push([done]); lis=[li]; }
+          else lis.push(li);
+        });
+        if(lis.length){const done=shell.cloneNode(false);lis.forEach(x=>done.appendChild(x.cloneNode(true)));current=[done]}
+      }
+    } else current=trial;
+  }
+  if(current.length)pages.push(current);
+  track.innerHTML='';pageMap={};
+  pages.forEach((nodes,idx)=>{
+    const p=document.createElement('section');p.className='reader-page';
+    const inner=document.createElement('article');inner.className='reader-page-inner prose';
+    nodes.forEach(n=>inner.appendChild(n));
+    inner.querySelectorAll('[data-source-id]').forEach(el=>{pageMap[el.dataset.sourceId]=idx});
+    p.appendChild(inner);track.appendChild(p);
+  });
+  pageCount=Math.max(1,pages.length);document.getElementById('page-total').textContent=pageCount;
+  pageIndex=Math.min(pageIndex,pageCount-1);goPage(pageIndex,false);
+}
+function goPage(n,animate=true){
+  pageIndex=Math.max(0,Math.min(pageCount-1,n));
+  if(!animate)track.style.transition='none';
+  track.style.transform=`translate3d(${-pageIndex*100}vw,0,0)`;
+  if(!animate)requestAnimationFrame(()=>track.style.transition='');
+  document.getElementById('page-now').textContent=pageIndex+1;
+  document.getElementById('prev-page').disabled=pageIndex===0;document.getElementById('next-page').disabled=pageIndex===pageCount-1;
+  localStorage.setItem('liat-reader-pos-'+readerEssay,String(pageIndex));
+}
+function buildReaderContents(essayNo){
+  const box=document.getElementById('reader-contents-links');box.innerHTML='';
+  essayTocs[essayNo-1].forEach(item=>{
+    const b=document.createElement('button');b.textContent=item.text;b.className=item.level==='h3'?'sub':'';
+    b.onclick=()=>{const p=pageMap[item.id]; if(Number.isInteger(p))goPage(p);rc.classList.remove('open')};box.appendChild(b);
+  });
+}
+function openReader(essayNo){
+  readerEssay=essayNo; pageIndex=parseInt(localStorage.getItem('liat-reader-pos-'+essayNo)||'0',10)||0;
+  document.getElementById('reader-kicker').textContent=essayNo===5?'Satirical coda · five-minute read':'Installment '+['I','II','III','IV'][essayNo-1];
+  document.getElementById('reader-name').textContent=essayTitles[essayNo-1];
+  reader.classList.add('active');document.body.classList.add('reader-open');
+  requestAnimationFrame(()=>{buildPages(essayNo);buildReaderContents(essayNo)});
+}
+function closeReader(){reader.classList.remove('active');rc.classList.remove('open');document.body.classList.remove('reader-open')}
+document.querySelectorAll('[data-open-reader]').forEach(b=>b.addEventListener('click',()=>openReader(parseInt(b.dataset.openReader,10))));
+document.getElementById('reader-close').onclick=closeReader;
+document.getElementById('reader-toc').onclick=()=>rc.classList.toggle('open');
+document.getElementById('prev-page').onclick=()=>goPage(pageIndex-1);document.getElementById('next-page').onclick=()=>goPage(pageIndex+1);
+function resizeFont(delta){fontSize=Math.max(16,Math.min(27,fontSize+delta));localStorage.setItem('liat-font',String(fontSize));buildPages(readerEssay);buildReaderContents(readerEssay);showFlash(fontSize+' px')}
+fontSize=parseInt(localStorage.getItem('liat-font')||'20',10);document.getElementById('font-down').onclick=()=>resizeFont(-1);document.getElementById('font-up').onclick=()=>resizeFont(1);
+function showFlash(t){flash.textContent=t;flash.classList.add('show');setTimeout(()=>flash.classList.remove('show'),800)}
+let sx=0,sy=0,st=0;
+stage.addEventListener('touchstart',e=>{if(e.touches.length!==1)return;sx=e.touches[0].clientX;sy=e.touches[0].clientY;st=Date.now()},{passive:true});
+stage.addEventListener('touchend',e=>{if(!sx)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy,dt=Date.now()-st;sx=0;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.25&&dt<700){dx<0?goPage(pageIndex+1):goPage(pageIndex-1)}},{passive:true});
+document.addEventListener('keydown',e=>{if(!reader.classList.contains('active'))return;if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();goPage(pageIndex+1)}else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();goPage(pageIndex-1)}else if(e.key==='Escape')closeReader()});
+let resizeTimer;window.addEventListener('resize',()=>{if(!reader.classList.contains('active'))return;clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{buildPages(readerEssay);buildReaderContents(readerEssay)},180)});
+// When linking to an essay, open its dropdown tastefully.
+document.querySelectorAll('a[href^="#essay-"]').forEach(a=>a.addEventListener('click',()=>{const el=document.querySelector(a.getAttribute('href'));if(el)el.open=true}));
+</script>
+</body>
+</html>
