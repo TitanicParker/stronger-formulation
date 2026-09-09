@@ -2,7 +2,7 @@
 
 **Purpose:** Give the expert the factual sequence in ordinary language and ask the clinical questions needed for duty, breach, harm and causation across the three-argument architecture.
 
-**Important:** `SRC_COMPLETE_RECORD_FORENSIC.md` controls the facts. `ARGUMENT_ARCHITECTURE.md` controls the argument structure. `CASE_REGISTER.md` separates quotations, facts, patient evidence, propositions, arguments and expert questions.
+**Important:** `SRC_COMPLETE_RECORD_FORENSIC.md` controls the facts. `ARGUMENT_ARCHITECTURE.md` controls the argument structure and the information-state mechanism. `CASE_REGISTER.md` separates quotations, facts, patient evidence, propositions, arguments and expert questions.
 
 The expert is not asked to adopt the claimant's theory. The expert is asked to test it.
 
@@ -10,13 +10,36 @@ The expert is not asked to adopt the claimant's theory. The expert is asked to t
 
 # 1. The case in plain language
 
-> **The patient had disabling foot pain. Neurology found a very abnormal neurological gait and a lower limb that looked dystonic rather than weak. The source of the pain remained unresolved, yet the specialist record allowed the feet to sit as a possibly separate problem. Later neurological medication changed what happened in the feet. If the 2017 Protest is established, the patient expressly told the service before discharge that the feet had not been dealt with. By 2023, without relying on the Protest, the pain had generated direct life-tolerability language, an urgent GP “death wish” warning, nursing documentation of “no quality of life”, and an explicit neurological record of explanatory misalignment. The expert questions are what reasonable care required at each point and what difference better care probably would have made.**
+> **The patient had disabling foot pain. Neurology found a very abnormal neurological gait and a lower limb that looked dystonic rather than weak. The source of the pain remained unresolved, yet the specialist record allowed the feet to sit as a possibly separate problem. That synthesis may then have changed the information state inherited by later clinicians: instead of receiving an open question about the relationship between painful feet and neurological motor state, they may have received an already-organised uncertainty — Parkinsonism established, feet possibly separate, cause not clear. Later neurological treatment repeatedly crossed that separation. If the 2017 Protest is established, the patient expressly challenged the completeness of that state before discharge. By 2023, without relying on the Protest, the pain had generated direct life-tolerability language, an urgent GP “death wish” warning, nursing documentation of “no quality of life”, and an explicit neurological record of explanatory misalignment. The expert questions are whether the founding information state was clinically earned, whether later evidence required global reconstruction rather than local updating, what reasonable care required at each point, and what difference better care probably would have made.**
 
 The expert is **not** being asked to prove that every foot lesion was neurological, that all pain was dystonia, that the 2017 Protest occurred, or that later psychological crisis was caused by one mechanism.
 
 ---
 
-# 2. The three modules
+# 2. The controlling information-state question
+
+Please address this proposition directly:
+
+> **Did the 2017 specialist synthesis merely record uncertainty, or did it create an information state that could reasonably lead later clinicians to assume that the relationship between the neurological disorder and the painful feet had already been adequately considered?**
+
+Please distinguish between these two possible messages to downstream clinicians:
+
+1. **Open relationship:** “We have not established how the neurological disorder and painful feet relate.”
+2. **Organised uncertainty:** “Parkinsonism is established; the foot problem may be separate; the cause is not clear.”
+
+Please answer:
+
+1. Would those two formulations ordinarily lead a later clinician to understand the case differently?
+2. If the relationship-directed examination was incomplete, could “possibly separate / neuropathy / Not clear” reasonably transmit investigative incompleteness as if it were specialist uncertainty after adequate assessment?
+3. What wording or handover would ordinary competent care use if the causal relationship remained genuinely unresolved and still required future integration?
+4. Who should retain ownership of an unresolved relationship spanning Neurology, Podiatry, gait, loading, structure and pain?
+5. At what point does repeated local reinterpretation cease to be enough and require **global reconstruction** of the original problem?
+
+This information-state question sits above the three modules below.
+
+---
+
+# 3. The three modules
 
 Please keep the three modules separate.
 
@@ -26,7 +49,7 @@ This survives without the Protest.
 
 Question:
 
-> **What work earned the separation?**
+> **What work earned the separation, and what information state did that separation create for later clinicians?**
 
 ## Module B — The Protest Fork
 
@@ -34,7 +57,7 @@ This is conditional on the Protest being established as evidence.
 
 Question:
 
-> **What should reasonable Neurology have done once the patient said the painful feet had not been dealt with?**
+> **What should reasonable Neurology have done once the patient said the painful feet had not been dealt with, and should that objection have changed the information state transmitted downstream?**
 
 ## Module C — The Second Fork: Safety and Misalignment, 2023–2025
 
@@ -46,7 +69,7 @@ Question:
 
 ---
 
-# 3. Module A — what Neurology received in 2017
+# 4. Module A — what Neurology received in 2017
 
 Primary care sent a patient with:
 
@@ -75,7 +98,7 @@ Please address:
 
 ---
 
-# 4. Module A — possible founding breach
+# 5. Module A — possible founding breach
 
 > **Was enough done in July 2017 to work out whether the neurological disorder was contributing to the painful feet?**
 
@@ -89,9 +112,13 @@ The issue is:
 
 Please identify the positive examination or reasoning that would normally support complete separation.
 
+Then answer:
+
+> **If the clinical work did not earn separation, did the wording of the synthesis create a misleading information state for downstream care?**
+
 ---
 
-# 5. Module A — possible peripheral-neuropathy breach
+# 6. Module A — possible peripheral-neuropathy breach
 
 Peripheral neuropathy was raised as another explanation.
 
@@ -107,7 +134,7 @@ Please identify which examinations, or equivalent work, were actually required.
 
 ---
 
-# 6. Module A — Podiatry and ownership
+# 7. Module A — Podiatry and ownership
 
 Podiatry was appropriate for genuine structural foot disease.
 
@@ -127,9 +154,11 @@ Please address whether reasonable care required:
 - retained neurological ownership of the causal relationship;
 - or another form of integration.
 
+Please also address whether a destination transfer can itself create a risk that **ownership of the relationship** disappears even when each service properly manages its own component.
+
 ---
 
-# 7. Module A — medication crossing and later reopening
+# 8. Module A — medication crossing and later reopening
 
 The foot pain existed before neurological treatment. Neurology did not create the original pain.
 
@@ -148,11 +177,13 @@ Please answer:
 1. What clinical significance should have been attached to the October 2017 deterioration?
 2. By April 2018, what significance should have been attached to the treating neurologist's own record of a rapid focal foot change during withdrawal?
 3. Did these facts require the original foot–neurology question to be looked at again, even if July 2017 care had initially been reasonable?
-4. At what later point, if any, did the accumulated evidence of OFF phenomena, foot movement, toe curling, gait change and medication-related pain relief require a global reconstruction of the original problem?
+4. At what later point, if any, did the accumulated evidence of OFF phenomena, foot movement, toe curling, gait change and medication-related pain relief require a **global reconstruction** of the original problem?
+5. Is it clinically reasonable to explain each later crossing locally without revisiting the founding relationship indefinitely?
+6. If not, identify the point at which local updating should have yielded to global reconstruction.
 
 ---
 
-# 8. Module B — the Protest, if established
+# 9. Module B — the Protest, if established
 
 The patient says that before discharge he said, in substance:
 
@@ -174,12 +205,13 @@ Please answer:
 8. Should a specific return review have been arranged?
 9. If the clinician disagreed with the patient, should that disagreement have been documented?
 10. Even if no further clinical work was required that day, was the patient's objection clinically material information that should have been preserved in the portable account?
+11. If the Protest was clinically material, would omission of it cause downstream clinicians to inherit a materially different information state from the one that actually existed at discharge?
 
 Please do not assume that one particular response was mandatory. Identify the range of responses ordinary competent care would have permitted.
 
 ---
 
-# 9. Module B — the legal/clinical significance of choice after notice
+# 10. Module B — the legal/clinical significance of choice after notice
 
 Please distinguish:
 
@@ -193,13 +225,13 @@ If the Protest occurred, please answer:
 
 And:
 
-> **Would a reasonable GP reading the later specialist account understand that the foot–neurology relationship had been adequately investigated, or merely that it remained uncertain after adequate specialist consideration?**
+> **Would a reasonable GP reading the later specialist account understand that the foot–neurology relationship had already been adequately investigated, or merely that it remained uncertain after adequate specialist consideration?**
 
 If that understanding would be wrong, could the wording of the specialist account have delayed later reconsideration?
 
 ---
 
-# 10. Module C — 1 February 2023 direct patient notice
+# 11. Module C — 1 February 2023 direct patient notice
 
 On 1 February 2023 the patient sent an email to Thomas Monaghan, Patrick Browne and Aaron Brennan.
 
@@ -226,7 +258,7 @@ Please answer:
 
 ---
 
-# 11. Module C — 26 March 2023 urgent GP escalation
+# 12. Module C — 26 March 2023 urgent GP escalation
 
 The GP sent an urgent Neurology referral reporting severe bilateral burning pain and wrote:
 
@@ -252,7 +284,7 @@ Please answer:
 
 ---
 
-# 12. Module C — 28 March 2023 nursing corroboration
+# 13. Module C — 28 March 2023 nursing corroboration
 
 The Parkinson's nurse subsequently recorded:
 
@@ -270,7 +302,7 @@ Please answer:
 
 ---
 
-# 13. Module C — later 2023 explanatory misalignment
+# 14. Module C — later 2023 explanatory misalignment
 
 A later Neurology note records a **“misalignment”** and says it would be a fair characterisation of the patient's view that the clinician held a:
 
@@ -290,10 +322,12 @@ Please answer instead:
 2. Does recognition that the patient's concerns are “reasonable and justifiable” require a particular form of reassessment?
 3. In a patient whose pain has simultaneously generated a life-safety warning, does acknowledged diagnostic/explanatory disagreement alter the standard of follow-up or reassessment?
 4. What should reasonable care do to resolve or safely manage a material doctor–patient disagreement about the explanation of the principal disabling symptom?
+5. Does this note provide evidence that the inherited explanatory model itself had become a clinically visible object of disagreement?
+6. If so, did reasonable care at that point require **global reconstruction** of the feet–gait–movement–pain relationship rather than another local explanation alone?
 
 ---
 
-# 14. Module C — 2025 renewed life-tolerability language
+# 15. Module C — 2025 renewed life-tolerability language
 
 A 2025 Neurology note records:
 
@@ -315,7 +349,7 @@ Please answer:
 
 ---
 
-# 15. Module C — the safeguarding bridge
+# 16. Module C — the safeguarding bridge
 
 The current corpus shows substantial neurological and pain management after the 2023 warnings.
 
@@ -339,7 +373,7 @@ If no, explain why ordinary neurological / primary-care management alone was suf
 
 ---
 
-# 16. Constructive and distributed knowledge
+# 17. Constructive and distributed knowledge
 
 Different people and services held different pieces of the problem.
 
@@ -360,7 +394,7 @@ If relevant, please comment on whether an integrated Neurology–Podiatry model,
 
 ---
 
-# 17. Later diagnoses and genetics
+# 18. Later diagnoses and genetics
 
 In 2017 the record used descriptions such as **“dystonic posture”** and **“dystonically unusual”** for the gait.
 
@@ -374,7 +408,7 @@ Do not infer that all earlier foot pain was dystonia.
 
 ---
 
-# 18. Harm
+# 19. Harm
 
 The relevant harm is not wording on paper by itself.
 
@@ -392,7 +426,7 @@ Please separate harm caused by breach from harm that would have happened anyway 
 
 ---
 
-# 19. Causation — separate every date
+# 20. Causation — separate every date
 
 For every breach you find, please answer:
 
@@ -414,14 +448,16 @@ Do not allow the strength of notice evidence to substitute for causation.
 
 ---
 
-# 20. Required answer format
+# 21. Required answer format
 
 For every breach found, please state:
 
 - module / argument;
 - date;
 - information available then;
+- inherited information state, if relevant;
 - what reasonable care required;
+- whether local updating was sufficient or global reconstruction was required;
 - what was not done;
 - why that fell below standard;
 - what should have happened instead;
@@ -434,6 +470,6 @@ If you find no breach at a date, say so explicitly and explain why.
 
 ---
 
-# 21. Final instruction
+# 22. Final instruction
 
-> **Do not let technical language hide the factual sequence. The patient had disabling foot pain. Neurology found a very abnormal neurological gait. The record does not clearly show what work earned separation. If the Protest occurred, it disclosed an earlier choice after notice. By 2023 the pain had generated direct life-tolerability language, an urgent GP “death wish” warning, “no quality of life” and an acknowledged explanatory misalignment. Decide what reasonable care required at each fork and what difference better care would probably have made.**
+> **Do not let technical language hide the factual sequence. The patient had disabling foot pain. Neurology found a very abnormal neurological gait. The specialist synthesis may have changed the information state inherited by every later clinician. Neurological treatment then repeatedly crossed the separation. By 2023 the pain had become safety-relevant while the explanatory model itself was expressly contested. Decide whether ordinary competent care could continue to update the problem locally, or whether the original feet–gait–movement–pain relationship had to be reconstructed, and what difference better care probably would have made.**
