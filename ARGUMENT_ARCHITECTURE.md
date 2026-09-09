@@ -2,7 +2,7 @@
 
 **Status:** CONTROLLING ARGUMENT MAP
 
-**Purpose:** Give the repository one gravitational centre and three separate argument tracks. Every medical record, letter, email, expert opinion and governance document must be tested against this architecture before it is allowed to alter the case.
+**Purpose:** Give the repository one gravitational centre, three separate argument tracks, and a democratic way to test whether the case can be understood before legal doctrine is applied.
 
 **Controlling factual source:** `SRC_COMPLETE_RECORD_FORENSIC.md`
 
@@ -19,7 +19,7 @@ The centre is:
 
 Then the record keeps returning to the same territory.
 
-The feet change with neurological treatment. The GP later puts feet, gait and tone back together. Neurology later considers OFF dystonia and OFF-related pain. By 2023 the pain has become so severe that the patient says he does not think he can live with it anymore, the GP writes “death wish” and “I am worried about him”, the Parkinson’s nurse records “no quality of life”, and Neurology itself records a significant explanatory “misalignment”.
+The feet change with neurological treatment. The GP later puts feet, gait and tone back together. Neurology later considers OFF dystonia and OFF-related pain. By 2023 the pain has become so severe that the patient says he does not think he can live with it anymore, the GP writes “death wish” and “I am worried about him”, the Parkinson’s nurse records “no quality of life”, and Neurology itself records an explanatory “misalignment”.
 
 The case therefore has **three arguments**.
 
@@ -32,6 +32,10 @@ Argument 1 survives if the Protest is rejected.
 Argument 2 is what Argument 1 becomes if the Protest is established.
 
 Argument 3 is independently documentary and changes the longitudinal meaning of both.
+
+The master question is:
+
+> **What happened each time the patient, the GP, treatment response or the clinical record itself showed that the existing explanation was no longer enough for the problem the patient was actually living with?**
 
 ---
 
@@ -58,6 +62,8 @@ This is the strongest case without the Protest.
 It asks:
 
 > **They saw the abnormal neurological walk. They knew the feet hurt. Where is the work showing why the two were separate?**
+
+This argument can stand even if the Protest is rejected completely.
 
 ---
 
@@ -100,7 +106,9 @@ The point is not that one particular response was automatically mandatory.
 
 The point is that **many clinically and documentarily responsible futures were still available**.
 
-The Protest is therefore the widest point in the future.
+The Protest is therefore:
+
+> **the widest point in the future.**
 
 Everything after it is loss of optionality.
 
@@ -110,7 +118,9 @@ If the Protest occurred and did not travel in the specialist account, its omissi
 
 The later reader sees the outcome — possibly separate / neuropathy / Not clear / Podiatry — without seeing that closure had been contested while another course was still available.
 
-That is the spotlight under Irish law: not motive, not secret intention, but **information available → options available → course actually followed → professional standard → consequence**.
+That is the spotlight under Irish law: not motive, not secret intention, but:
+
+> **information available → options available → course actually followed → professional standard → consequence.**
 
 ---
 
@@ -210,8 +220,6 @@ and:
 
 > **“I won’t live with it.”**
 
-By then the record contains two safety bookmarks with a direct patient warning and a GP warning before them.
-
 The question is no longer whether the pain was visible.
 
 The question is:
@@ -256,7 +264,117 @@ The 2023 documents make the mechanism harder to deny.
 
 ---
 
-# 6. The record-absorption rule
+# 6. The democratic case-selection test
+
+The project should keep one question deliberately outside the legal language:
+
+> **What case do the people who know the patient best think this is?**
+
+That means family and friends.
+
+Their view is **not evidence of breach**. It does not replace expert evidence. It does not decide causation. It does not prove the Protest. It does not establish the legal case.
+
+Its value is different.
+
+It is a comprehension and case-selection test.
+
+The case has become technically dense over many years. Neurology, Podiatry, Parkinsonism, dystonia, neuropathy, treatment response, governance, safety and genetics can all pull the reader toward specialist detail.
+
+Family and friends can be asked a simpler democratic question:
+
+> **When you hear the case told accurately, what do you think the case is actually about?**
+
+Give them three versions without telling them which one is preferred.
+
+### Version A — the document-only founding case
+
+> **He went to Neurology with disabling painful feet inside a gait-and-stiffness problem. Neurology found a very abnormal neurological leg but the record does not clearly show what work established that the feet could be treated as separate.**
+
+Ask:
+
+> **Is that already the case?**
+
+### Version B — the same case with the Protest
+
+Add:
+
+> **Before discharge he says he told them they had not dealt with his feet, while they still had the opportunity to examine, explain, reassure, retain the problem or document the disagreement.**
+
+Ask:
+
+> **Does that change what you think the case is about?**
+
+### Version C — the later documented second fork
+
+Add the 2023 sequence:
+
+> **By 2023 he had directly written that the foot pain was perfect torture and that he did not think he could live with it anymore; the GP then urgently wrote that the pain was causing a death wish and that he was worried; Neurology recorded no quality of life; and later the neurologist recorded that doctor and patient were misaligned about the explanation.**
+
+Ask:
+
+> **Does this make the case mainly about the original foot examination, about what happened after notice, about safety, or about all three as one longitudinal problem?**
+
+This is not a poll to decide litigation.
+
+It is a way to test whether the architecture communicates the truth of the record without requiring the listener to become a neurologist or lawyer.
+
+If family and friends repeatedly understand the same gravitational centre, that is useful drafting feedback.
+
+If they consistently misunderstand the case, the drafting has failed.
+
+If they divide between the no-Protest and with-Protest versions, that is useful too. It shows where the evidential hinge actually sits.
+
+The democratic test should therefore be preserved as a live question:
+
+> **Which case would an ordinary person take after hearing each version fairly, and why?**
+
+The answer is not binding.
+
+The reasoning is valuable.
+
+---
+
+# 7. Teach the case through the choice
+
+The case should be teachable in five minutes.
+
+Do not begin with PRKN, Dunne, HIQA, neuropathy or the 50-item examination audit.
+
+Teach it in this order:
+
+### Lesson 1 — what entered the hospital
+
+> **Painful feet + abnormal gait + stiffness/tone + movement difficulty.**
+
+### Lesson 2 — what Neurology found
+
+> **A profound movement disorder and a lower limb that looked dystonic rather than weak.**
+
+### Lesson 3 — what happened to the pain question
+
+> **The source remained unresolved, but the feet were allowed to become possibly separate / neuropathic / Not clear.**
+
+### Lesson 4 — what changes if the Protest is true
+
+> **The patient pointed at the unfinished problem before discharge and the service still had multiple responsible futures available.**
+
+### Lesson 5 — what 2023 proves independently
+
+> **Years later the same pain had become a safety problem, and the explanatory disagreement was now explicitly visible inside Neurology.**
+
+Then ask the listener:
+
+> **What do you think the case is?**
+
+Only after they answer should the legal framework be introduced.
+
+This is the teaching principle:
+
+> **If the case cannot be understood before the law is named, the law will not save it.**
+
+---
+
+# 8. The record-absorption rule
 
 Every new record must be forced through this architecture.
 
@@ -281,7 +399,7 @@ A new label does not become a new case simply by accumulating in the record.
 
 ---
 
-# 7. What lives inside the case
+# 9. What lives inside the case
 
 These facts matter because they bear on the gravitational questions:
 
@@ -310,7 +428,7 @@ These facts matter because they bear on the gravitational questions:
 
 ---
 
-# 8. What dies outside the case
+# 10. What dies outside the case
 
 Unless new evidence establishes them, do not use:
 
@@ -334,7 +452,7 @@ The case is stronger without these claims.
 
 ---
 
-# 9. Irish-law spotlight
+# 11. Irish-law spotlight
 
 The law comes last.
 
@@ -356,7 +474,7 @@ It is to compare:
 
 ---
 
-# 10. Repository hierarchy
+# 12. Repository hierarchy
 
 The repository should now be read in this order:
 
@@ -365,13 +483,14 @@ The repository should now be read in this order:
 3. `ARGUMENT_1_FOUNDING_SEPARATION.md` — strongest document-only founding case.
 4. `ARGUMENT_2_PROTEST_FORK.md` — conditional 2017 decision-after-notice case.
 5. `ARGUMENT_3_SAFETY_MISALIGNMENT.md` — autonomous 2023–2025 second-fork case.
-6. `EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md` — expert questions, to be revised around the three modules.
-7. `CENTRAL_ORGANISING_ARCHITECTURE.md` and `FACTUAL_SPINE.md` — legacy central files to be conformed to this architecture.
-8. Narrative essays, including `LEAVE_IT_AT_THAT_READER.html` — interpretive documents that must not outrun the hierarchy above.
+6. `CENTRAL_ORGANISING_ARCHITECTURE.md` — conformed central summary.
+7. `FACTUAL_SPINE.md` — chronology conformed to the three arguments.
+8. `EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md` — expert questions organised by the three arguments.
+9. Narrative essays, including `LEAVE_IT_AT_THAT_READER.html` — interpretive documents that must not outrun the hierarchy above.
 
 ---
 
-# 11. The four-line case
+# 13. The four-line case
 
 > **They saw the abnormal neurological walk. They knew the feet hurt. The record does not clearly show what work earned the separation.**
 
