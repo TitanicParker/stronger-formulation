@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stronger Formulation — Reader</title>
+<meta name="description" content="Aligned HTML reader for the Stronger Formulation case architecture and canonical record.">
+<style>
+:root{--bg:#f5f1e8;--ink:#171717;--muted:#6b655d;--rule:#cfc7bb;--accent:#8b2f24;--max:920px;--code:#ebe5da}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif}main{max-width:var(--max);margin:auto;padding:36px 24px 96px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:0 0 28px;border-bottom:1px solid var(--rule);font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}.topbar a{color:var(--accent);text-decoration:none}.topbar .source{font-weight:600;letter-spacing:0;text-transform:none;color:var(--muted)}header{padding:52px 0 42px;border-bottom:1px solid var(--rule)}.kicker{font:700 12px/1.3 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(42px,7vw,76px);line-height:.96;letter-spacing:-.035em;margin:16px 0 20px;font-weight:600}.deck{font:16px/1.65 system-ui,sans-serif;color:var(--muted);max-width:760px;margin:0}.status{font:13px/1.5 system-ui,sans-serif;color:var(--muted);padding:28px 0}.document{padding-top:36px}.document h1{font-size:42px;line-height:1.05;margin:1.3em 0 .55em}.document h2{font-size:32px;line-height:1.1;margin:1.7em 0 .6em;border-top:1px solid var(--rule);padding-top:32px}.document h3{font-size:24px;line-height:1.2;margin:1.5em 0 .55em}.document h4{font-size:19px;line-height:1.3;margin:1.4em 0 .45em}.document p,.document li{font-size:18px;line-height:1.67}.document p{margin:0 0 1em}.document ul,.document ol{padding-left:28px;margin:0 0 1.2em}.document li{margin:.35em 0}.document blockquote{margin:28px 0;padding:18px 0 18px 24px;border-left:4px solid var(--accent);font-size:22px}.document blockquote p{font-size:22px;line-height:1.45;margin:.2em 0}.document hr{border:0;border-top:1px solid var(--rule);margin:44px 0}.document a{color:var(--accent);text-underline-offset:3px}.document code{font:14px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--code);padding:.15em .35em;border-radius:4px}.document pre{overflow:auto;background:var(--code);padding:18px;border-radius:8px;margin:22px 0}.document pre code{background:none;padding:0}.document table{border-collapse:collapse;width:100%;display:block;overflow:auto;margin:24px 0;font:14px/1.45 system-ui,sans-serif}.document th,.document td{border:1px solid var(--rule);padding:9px 11px;text-align:left;vertical-align:top}.document strong{font-weight:700}.error{padding:30px 0;font:16px/1.6 system-ui,sans-serif;color:var(--accent)}footer{margin-top:64px;padding-top:28px;border-top:1px solid var(--rule);font:13px/1.6 system-ui,sans-serif;color:var(--muted)}@media(max-width:640px){.topbar{align-items:flex-start;flex-direction:column}.document p,.document li{font-size:17px}.document blockquote p{font-size:20px}}@media(prefers-color-scheme:dark){:root{--bg:#181715;--ink:#eee8df;--muted:#aaa198;--rule:#3d3934;--accent:#e18474;--code:#24211e}}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+<main>
+<nav class="topbar"><a href="index.html">← Stronger Formulation</a><a class="source" id="sourceLink" href="#">Open source Markdown</a></nav>
+<header>
+<div class="kicker" id="kicker">Case document</div>
+<h1 id="pageTitle">Loading…</h1>
+<p class="deck" id="deck">The document is being loaded from the canonical repository source.</p>
+</header>
+<div class="status" id="status">Loading source…</div>
+<article class="document" id="document"></article>
+<footer>Rendered directly from the repository Markdown. The Markdown source remains controlling; this page is a presentation layer only.</footer>
+</main>
+<script>
+const docs={
+  '01_COMPLETE_RECORD_FORENSIC_EXPANDED_UPDATED.md':{title:'Canonical record',kicker:'Canonical factual backstop',deck:'Expanded forensic record, current through 10 September 2026. This source controls factual conflicts across the case architecture.'},
+  'ARGUMENT_ARCHITECTURE.md':{title:'Argument architecture',kicker:'Controlling argument map',deck:'One longitudinal case, one controlling information mechanism, three nested arguments and two decision forks.'},
+  'ARGUMENT_1_FOUNDING_SEPARATION.md':{title:'Argument 1 — Founding Separation',kicker:'Document-only case',deck:'Tests whether the founding information state was clinically earned. This argument does not depend on the Protest.'},
+  'ARGUMENT_2_PROTEST_FORK.md':{title:'Argument 2 — Protest Fork',kicker:'Conditional decision-after-notice case',deck:'Tests what changes if the patient’s pre-discharge Protest is established as evidence.'},
+  'ARGUMENT_3_SAFETY_MISALIGNMENT.md':{title:'Argument 3 — Safety and Misalignment',kicker:'Autonomous documentary case',deck:'Tests the 2023–2025 safety question when severe pain, life-tolerability language and explanatory misalignment coexist.'},
+  'FACTUAL_SPINE.md':{title:'Factual spine',kicker:'Core factual foundation',deck:'The chronology stripped of advocacy, preserving the argument structure while keeping fact separate from inference.'},
+  'CASE_REGISTER.md':{title:'Case register',kicker:'Evidential discipline',deck:'Quote, fact, proposition, argument, expert opinion and law kept in their proper order.'},
+  'EXPERT_BRIEF_DUTY_BREACH_CAUSATION.md':{title:'Expert brief',kicker:'Duty · breach · harm · causation',deck:'The factual sequence and threshold-specific questions for independent clinical experts.'},
+  'WHY_THIS_IS_THE_CASE_WE_ARE_TAKING.md':{title:'Why this is the case we are taking',kicker:'Plain-language teaching guide',deck:'A comprehension and case-selection test for family, friends, lawyers and experts.'}
+};
+const params=new URLSearchParams(location.search);
+const requested=params.get('doc')||'ARGUMENT_ARCHITECTURE.md';
+const meta=docs[requested];
+const status=document.getElementById('status');
+const article=document.getElementById('document');
+if(!meta){
+  document.getElementById('pageTitle').textContent='Document not available';
+  document.getElementById('deck').textContent='This reader only opens the controlled case documents.';
+  status.textContent='';
+  article.innerHTML='<p class="error">Return to the front page and choose a listed document.</p>';
+  document.getElementById('sourceLink').style.display='none';
+}else{
+  document.title='Stronger Formulation — '+meta.title;
+  document.getElementById('pageTitle').textContent=meta.title;
+  document.getElementById('kicker').textContent=meta.kicker;
+  document.getElementById('deck').textContent=meta.deck;
+  document.getElementById('sourceLink').href=requested;
+  fetch(requested,{cache:'no-cache'})
+    .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text();})
+    .then(md=>{
+      marked.setOptions({gfm:true,breaks:false,headerIds:true,mangle:false});
+      article.innerHTML=marked.parse(md);
+      status.textContent='Rendered from '+requested;
+    })
+    .catch(err=>{
+      status.textContent='';
+      article.innerHTML='<p class="error">Unable to load this document here. Use “Open source Markdown” above. ('+String(err.message).replace(/[<>]/g,'')+')</p>';
+    });
+}
+</script>
+</body>
+</html>
