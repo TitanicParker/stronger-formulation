@@ -2,6 +2,14 @@
 
 This repository is not an archive. It is a working case architecture.
 
+## Canonical factual source
+
+The current factual backstop is **`01_COMPLETE_RECORD_FORENSIC_EXPANDED_UPDATED.md`**. It supersedes the former `SRC_COMPLETE_RECORD_FORENSIC.md` corpus and extends the record through **Document 82 — Genetic Report — PRKN / PARK2 — 2026**, with a current cut-off of **10 September 2026**.
+
+`SRC_COMPLETE_RECORD_FORENSIC.md` now exists only as a compatibility pointer so older analytical links do not break. It is not a second evidential source.
+
+If any summary, argument, chronology or quotation index conflicts with `01_COMPLETE_RECORD_FORENSIC_EXPANDED_UPDATED.md`, the expanded source record controls.
+
 ## The controlling mechanism
 
 > **The founding synthesis did not merely record uncertainty. It organised the uncertainty.**
@@ -39,7 +47,7 @@ Then, by 2023:
 
 ## Read in this order
 
-1. **`SRC_COMPLETE_RECORD_FORENSIC.md`** — canonical factual backstop. If any summary conflicts with it, the source record controls.
+1. **`01_COMPLETE_RECORD_FORENSIC_EXPANDED_UPDATED.md`** — canonical factual backstop. If any summary conflicts with it, the source record controls.
 2. **`ARGUMENT_ARCHITECTURE.md`** — the controlling mechanism and master map: one longitudinal case, three nested arguments, two decision forks.
 3. **`ARGUMENT_1_FOUNDING_SEPARATION.md`** — asks whether the founding information state was clinically earned.
 4. **`ARGUMENT_2_PROTEST_FORK.md`** — asks what changes if that information state was expressly challenged before discharge.
